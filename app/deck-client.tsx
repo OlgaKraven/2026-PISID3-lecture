@@ -50,7 +50,7 @@ function TopicCatalog({ course, onOpen, teacher, onTeacherChange }: { course: Co
             <div className="teacher-fields">
               <Input aria-label="ФИО преподавателя" value={teacher.fullName} onChange={(event) => onTeacherChange({ ...teacher, fullName: event.target.value })} placeholder="ФИО преподавателя" />
               <Input aria-label="Должность преподавателя" value={teacher.position} onChange={(event) => onTeacherChange({ ...teacher, position: event.target.value })} placeholder="Должность" />
-              <Input aria-label="Кафедра преподавателя" value={teacher.department} onChange={(event) => onTeacherChange({ ...teacher, department: event.target.value })} placeholder="Кафедра" />
+              <Input aria-label="Кафедра или лаборатория преподавателя" value={teacher.department} onChange={(event) => onTeacherChange({ ...teacher, department: event.target.value })} placeholder="Кафедра / лаборатория" />
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export function DeckClient({ course }: { course: Course }) {
             <DialogTrigger render={<Button variant="outline" size="sm" />}><BarChart3 /> Результат</DialogTrigger>
             <DialogContent className="result-dialog">
               <DialogHeader><DialogTitle>Результат по теме</DialogTitle><DialogDescription>{topic.title}</DialogDescription></DialogHeader>
-              <div className="score-grid"><div><b>{submitted.length}</b><span>выполнено из {quizSlides.length}</span></div><div><b>{correct.length}</b><span>верных автопроверок</span></div><div><b>{errors.length}</b><span>ошибок к разбору</span></div></div>
+              <div className="score-grid"><div><b>{submitted.length}</b><span>выполнено из {quizSlides.length}</span></div><div><b>{correct.length}</b><span>верных автоматических проверок</span></div><div><b>{errors.length}</b><span>ошибок к разбору</span></div></div>
               {errors.length > 0 && <div className="error-review"><h3>Разобрать ошибки</h3>{errors.map((slide) => <button key={slide.id} onClick={() => { go(slides.indexOf(slide)); setResultOpen(false); }}>{slides.indexOf(slide) + 1}. {slide.title}</button>)}</div>}
               <div className="source-links"><h3>Источники темы</h3>{topic.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}</a>)}</div>
               <Button variant="outline" onClick={() => setState((value) => ({ ...value, answers: {} }))}><RotateCcw /> Пройти тесты заново</Button>

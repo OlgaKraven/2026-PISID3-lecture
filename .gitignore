@@ -37,4 +37,5 @@ next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
+/tmp/
 /work/

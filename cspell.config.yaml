@@ -1,0 +1,24 @@
+version: "0.2"
+language: ru,en
+import:
+  - "@cspell/dict-ru_ru/cspell-ext.json"
+useGitignore: true
+dictionaryDefinitions:
+  - name: project-terms
+    path: ./config/cspell-project-words.txt
+    addWords: true
+dictionaries:
+  - ru-ru
+  - en_us
+  - softwareTerms
+  - project-terms
+ignorePaths:
+  - node_modules/**
+  - dist/**
+  - outputs/**
+  - public/**
+  - components/**
+  - package-lock.json
+ignoreRegExpList:
+  - /https?:\/\/[^\s"'`)]+/g
+

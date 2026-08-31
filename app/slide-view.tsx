@@ -10,6 +10,12 @@ import { QuizCard, type SavedAnswer } from './quiz-card';
 
 const toneClass = { red: 'tone-red', yellow: 'tone-yellow', green: 'tone-green', blue: 'tone-blue' };
 
+function LinkedText({ text }: { text: string }) {
+  const match = text.match(/https?:\/\/\S+$/);
+  if (!match || match.index === undefined) return text;
+  return <>{text.slice(0, match.index)}<a href={match[0]} target="_blank" rel="noreferrer">{match[0]}</a></>;
+}
+
 export function SlideView({ course, topic, slide, index, total, active = false, animation = true, saved, onAnswer, teacher, onTeacherChange, printMode }: {
   course: Course;
   topic: Topic;
@@ -42,7 +48,7 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
 
         {slide.cards && <div className="bento-grid">{slide.cards.map((card) => <div className={`bento-card ${toneClass[card.tone ?? 'red']}`} key={`${card.label}-${card.value}`}><span>{card.label}</span><strong>{card.value}</strong></div>)}</div>}
         {slide.steps && <div className="step-grid">{slide.steps.map((step) => <div className="step-card" key={`${step.title}-${step.text}`}><strong>{step.title}</strong><span>{step.text}</span></div>)}</div>}
-        {slide.bullets && <ul className="bullet-list">{slide.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
+        {slide.bullets && <ul className="bullet-list">{slide.bullets.map((item) => <li key={item}><LinkedText text={item} /></li>)}</ul>}
         {slide.compare && <div className="compare-grid"><section className="compare-left"><h2>{slide.compare.leftTitle}</h2><ul>{slide.compare.left.map((item) => <li key={item}>{item}</li>)}</ul></section><section className="compare-right"><h2>{slide.compare.rightTitle}</h2><ul>{slide.compare.right.map((item) => <li key={item}>{item}</li>)}</ul></section></div>}
         {slide.code && <pre className="code-card"><code>{slide.code}</code></pre>}
         {slide.quote && <blockquote>{slide.quote}</blockquote>}
@@ -52,7 +58,7 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
             <div className="qr-frame">
               <img className="qr-code" src={assetUrl(`/qr/${course.id}-materials.svg`)} alt={`QR-код материалов ${course.shortTitle}`} />
               <img className="qr-mark" src={assetUrl('/brand/brand-mark.webp')} alt="" />
-              <strong>Просканируй меня</strong>
+              <strong>Отсканируйте меня</strong>
             </div>
             <div className="material-link"><span>Ссылка на материалы</span><a href={slide.materialUrl} target="_blank" rel="noreferrer">{slide.materialUrl}</a></div>
           </div>
@@ -62,11 +68,11 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
             <strong>Данные преподавателя</strong>
             <Input aria-label="ФИО преподавателя на титульном листе" value={teacher.fullName} onChange={(event) => onTeacherChange({ ...teacher, fullName: event.target.value })} placeholder="ФИО преподавателя" />
             <Input aria-label="Должность преподавателя на титульном листе" value={teacher.position} onChange={(event) => onTeacherChange({ ...teacher, position: event.target.value })} placeholder="Должность" />
-            <Input aria-label="Кафедра преподавателя на титульном листе" value={teacher.department} onChange={(event) => onTeacherChange({ ...teacher, department: event.target.value })} placeholder="Кафедра" />
+            <Input aria-label="Кафедра или лаборатория преподавателя на титульном листе" value={teacher.department} onChange={(event) => onTeacherChange({ ...teacher, department: event.target.value })} placeholder="Кафедра / лаборатория" />
           </div>
         )}
         {showTeacherFooter && (teacher.fullName || teacher.position || teacher.department) && (
-          <div className="teacher-footer"><span aria-hidden="true">↗</span><p><strong>{teacher.fullName || 'ФИО преподавателя'}</strong>{teacher.position && <><br />{teacher.position}</>}{teacher.department && <><br />кафедра {teacher.department.replace(/^кафедра\s+/i, '')}</>}</p></div>
+          <div className="teacher-footer"><span aria-hidden="true">↗</span><p><strong>{teacher.fullName || 'ФИО преподавателя'}</strong>{teacher.position && <><br />{teacher.position}</>}{teacher.department && <><br />{teacher.department}</>}</p></div>
         )}
         {slide.image && <img className={`rhino rhino-${slide.image}`} src={assetUrl('/brand/rhino-designer.webp')} alt="Фирменный носорог-проектировщик" />}
         {slide.type === 'divider' && <img className="topic-arrow" src={assetUrl('/brand/topic-arrow.webp')} alt="" />}

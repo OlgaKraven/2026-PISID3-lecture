@@ -24,6 +24,10 @@ jobs:
           node-version: 22.13.0
           cache: npm
       - run: npm ci
+      - name: Check Russian text
+        run: npm run spellcheck
+      - name: Lint source files
+        run: npm run lint
       - name: Build static site
         run: npm run build:pages
         env:
