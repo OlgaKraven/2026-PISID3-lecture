@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
-    "build:pages": "vinext build",
+    "build:pages": "vinext build && node scripts/prepare-pages.mjs",
     "export:pdf": "node scripts/export-pdf.mjs",
     "generate:qr": "node scripts/generate-qr.mjs",
     "test:smoke": "node scripts/smoke.mjs",
