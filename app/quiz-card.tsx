@@ -13,6 +13,23 @@ function normalize(value: string) {
   return value.trim().replace(/\s+/g, ' ').toLocaleLowerCase('ru');
 }
 
+function stableHash(value: string) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function criterion(quiz: Quiz) {
+  if (quiz.kind === 'selfReview' && Array.isArray(quiz.answer)) return quiz.answer.join(' · ');
+  if (quiz.kind === 'ordering') return 'Все элементы указаны в верной последовательности без пропусков.';
+  if (quiz.kind === 'multi' || quiz.kind === 'matching') return 'Выбраны все верные варианты и ни одного лишнего.';
+  if (quiz.kind === 'short') return 'Формулировка по смыслу совпадает с ожидаемым результатом.';
+  return 'Выбран один верный вариант.';
+}
+
 export function isQuizCorrect(value: string | string[], quiz: Quiz) {
   const answer = quiz.answer;
   if (Array.isArray(answer)) {
@@ -34,21 +51,23 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
   const submitted = Boolean(saved?.submitted);
   const correct = isQuizCorrect(value, quiz);
   const options = useMemo(() => {
-    if (!quiz.options || quiz.kind === 'ordering') return quiz.options;
-    return [...quiz.options].sort(() => Math.random() - 0.5);
-  }, [quiz]);
+    if (!quiz.options) return quiz.options;
+    return [...quiz.options].sort((left, right) => stableHash(`${quiz.prompt}|${left}`) - stableHash(`${quiz.prompt}|${right}`));
+  }, [quiz.options, quiz.prompt]);
   const letters = ['А', 'Б', 'В', 'Г'];
+  const fieldId = `quiz-${stableHash(quiz.prompt)}`;
 
   if (printMode) {
     return (
       <section className="quiz-card print-quiz">
         <p className="quiz-prompt">{quiz.prompt}</p>
-        {quiz.options && <ol>{quiz.options.map((option) => <li key={option}>{option}</li>)}</ol>}
+        {options && <ol>{options.map((option) => <li key={option}>{option}</li>)}</ol>}
         {!quiz.options && <div className="answer-lines" aria-hidden="true" />}
         {printMode === 'teacher' && (
           <div className="teacher-answer">
-            <strong>Ответ:</strong> {Array.isArray(quiz.answer) ? quiz.answer.join(' · ') : quiz.answer}
-            <p>{quiz.explanation}</p>
+            <strong>Правильный ответ</strong><p>{Array.isArray(quiz.answer) ? quiz.answer.join(' · ') : quiz.answer}</p>
+            <strong>Пояснение</strong><p>{quiz.explanation}</p>
+            <strong>Критерий проверки</strong><p>{criterion(quiz)}</p>
           </div>
         )}
       </section>
@@ -74,7 +93,7 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
       {['single', 'trueFalse', 'diagram'].includes(quiz.kind) && (
         <div className="quiz-options">
           {options?.map((option, optionIndex) => (
-            <button className={value === option ? 'is-selected' : ''} key={option} onClick={() => setValue(option)}>
+            <button type="button" aria-pressed={value === option} className={value === option ? 'is-selected' : ''} key={option} onClick={() => setValue(option)}>
               <span className="option-letter">{letters[optionIndex]}</span><span className="option-marker" />{option}
             </button>
           ))}
@@ -85,7 +104,7 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
         <div className="quiz-options">
           {options?.map((option, optionIndex) => {
             const selected = Array.isArray(value) && value.includes(option);
-            return <button className={selected ? 'is-selected' : ''} key={option} onClick={() => toggle(option)}><span className="option-letter">{letters[optionIndex]}</span><span className="check-marker">{selected && <Check />}</span>{option}</button>;
+            return <button type="button" aria-pressed={selected} className={selected ? 'is-selected' : ''} key={option} onClick={() => toggle(option)}><span className="option-letter">{letters[optionIndex]}</span><span className="check-marker">{selected && <Check />}</span>{option}</button>;
           })}
         </div>
       )}
@@ -93,27 +112,24 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
       {quiz.kind === 'ordering' && (
         <div className="order-board">
           <div className="order-sequence">
-            {(Array.isArray(value) ? value : []).map((option, index) => <button key={option} onClick={() => chooseOrder(option)}><b>{index + 1}</b>{option}</button>)}
+            {(Array.isArray(value) ? value : []).map((option, index) => <button type="button" key={option} onClick={() => chooseOrder(option)} aria-label={`Убрать шаг ${index + 1}: ${option}`}><b>{index + 1}</b>{option}</button>)}
           </div>
           <div className="order-bank">
-            {quiz.options?.filter((option) => !Array.isArray(value) || !value.includes(option)).map((option) => <button key={option} onClick={() => chooseOrder(option)}><GripVertical />{option}</button>)}
+            {options?.filter((option) => !Array.isArray(value) || !value.includes(option)).map((option) => <button type="button" key={option} onClick={() => chooseOrder(option)} aria-label={`Добавить следующий шаг: ${option}`}><GripVertical />{option}</button>)}
           </div>
         </div>
       )}
 
-      {quiz.kind === 'short' && <Input value={String(value)} onChange={(event) => setValue(event.target.value)} placeholder="Введите краткий ответ" />}
-      {quiz.kind === 'selfReview' && <Textarea value={String(value)} onChange={(event) => setValue(event.target.value)} placeholder="Запишите рассуждение…" />}
+      {quiz.kind === 'short' && <label className="quiz-text-answer" htmlFor={fieldId}><span>Краткий ответ</span><Input id={fieldId} value={String(value)} onChange={(event) => setValue(event.target.value)} placeholder="Введите краткий ответ" /></label>}
+      {quiz.kind === 'selfReview' && <label className="quiz-text-answer" htmlFor={fieldId}><span>Ваше рассуждение</span><Textarea id={fieldId} value={String(value)} onChange={(event) => setValue(event.target.value)} placeholder="Запишите рассуждение…" /></label>}
 
       <div className="quiz-actions">
         <Button onClick={() => onChange?.({ value, submitted: true })} disabled={(Array.isArray(value) ? value.length === 0 : !value.trim())}>Проверить</Button>
         {submitted && <p className={quiz.kind === 'selfReview' || correct ? 'is-correct' : 'is-wrong'}>{quiz.kind === 'selfReview' ? <Check /> : correct ? <Check /> : <CircleAlert />}{quiz.kind === 'selfReview' ? 'Сверьте с критериями' : correct ? 'Правильно' : 'Есть ошибка'} </p>}
       </div>
-      {submitted && (
-        <div className="quiz-feedback">
-          {quiz.kind === 'selfReview' && Array.isArray(quiz.answer) && <ul>{quiz.answer.map((item) => <li key={item}>{item}</li>)}</ul>}
-          <p>{quiz.explanation}</p>
-        </div>
-      )}
+      {submitted && <output className="quiz-feedback">
+        {quiz.kind === 'selfReview' && Array.isArray(quiz.answer) ? <ul>{quiz.answer.map((item) => <li key={item}>{item}</li>)}</ul> : <p>{correct ? quiz.explanation : 'Проверьте выбранный ответ и попробуйте ещё раз. Точный разбор доступен в разделе «Результат».'}</p>}
+      </output>}
     </section>
   );
 }

@@ -10,7 +10,6 @@ const sources = new Map([
   ['main-literature-2.svg', 'https://www.iprbookshop.ru/144814.html'],
   ['additional-literature-1.svg', 'https://www.iprbookshop.ru/152882.html'],
   ['additional-literature-2.svg', 'https://www.iprbookshop.ru/123442.html'],
-  ['additional-literature-3.svg', 'https://www.iprbookshop.ru/152769.html'],
 ]);
 
 const browser = await launchBrowser();

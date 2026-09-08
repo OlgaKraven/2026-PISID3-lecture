@@ -13,7 +13,6 @@ const sources = [
   ['main-literature-2', 'https://www.iprbookshop.ru/144814.html'],
   ['additional-literature-1', 'https://www.iprbookshop.ru/152882.html'],
   ['additional-literature-2', 'https://www.iprbookshop.ru/123442.html'],
-  ['additional-literature-3', 'https://www.iprbookshop.ru/152769.html'],
 ];
 
 await mkdir('public/qr', { recursive: true });

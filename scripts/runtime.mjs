@@ -6,8 +6,13 @@ import { chromium } from 'playwright';
 const npmPath = process.platform === 'win32' ? 'C:\\PROGRA~1\\nodejs\\npm.cmd' : 'npm';
 
 export async function startServer(port) {
-  const command = `${npmPath} run dev -- --host 127.0.0.1 --port ${port}`;
-  const child = spawn(process.env.ComSpec ?? 'cmd.exe', ['/d', '/s', '/c', command], {
+  const isWindows = process.platform === 'win32';
+  const host = 'localhost';
+  const command = isWindows ? (process.env.ComSpec ?? 'cmd.exe') : npmPath;
+  const args = isWindows
+    ? ['/d', '/s', '/c', `${npmPath} run dev -- --host ${host} --port ${port}`]
+    : ['run', 'dev', '--', '--host', host, '--port', String(port)];
+  const child = spawn(command, args, {
     cwd: process.cwd(),
     env: { ...process.env, BROWSER: 'none' },
     stdio: ['ignore', 'pipe', 'pipe'],
@@ -15,9 +20,15 @@ export async function startServer(port) {
   });
   child.stdout.on('data', (chunk) => process.stdout.write(chunk));
   child.stderr.on('data', (chunk) => process.stderr.write(chunk));
-  const url = `http://127.0.0.1:${port}`;
+  let spawnError;
+  child.once('error', (error) => { spawnError = error; });
+  const url = `http://${host}:${port}`;
   const deadline = Date.now() + 60_000;
   while (Date.now() < deadline) {
+    if (spawnError) throw spawnError;
+    if (child.exitCode !== null || child.signalCode !== null) {
+      throw new Error(`Dev server exited before it became ready at ${url}`);
+    }
     try {
       const response = await fetch(url);
       if (response.ok) return { child, url };

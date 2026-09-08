@@ -16,6 +16,7 @@ try {
   await catalog.goto(url, { waitUntil: 'networkidle' });
   const topics = await catalog.locator('[data-topic-id]').evaluateAll((cards) => cards.map((card) => ({
     id: card.getAttribute('data-topic-id'),
+    number: Number(card.querySelector('.topic-index')?.textContent?.trim()),
     title: card.querySelector('h2')?.textContent?.trim() ?? 'topic',
   })));
   await catalog.close();
@@ -30,7 +31,7 @@ try {
       const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
       await page.goto(`${url}/print?topic=${encodeURIComponent(topic.id)}&mode=${mode}`, { waitUntil: 'networkidle', timeout: 120_000 });
       await page.waitForFunction(() => window.__DECK_READY__ === true, null, { timeout: 120_000 });
-      const fileName = `${String(topicIndex + 1).padStart(2, '0')}-${topic.id}.pdf`;
+      const fileName = `${String(topic.number).padStart(2, '0')}-${topic.id}.pdf`;
       const outputPath = path.join(process.cwd(), 'outputs', 'pdf', mode, fileName);
       await page.pdf({ path: outputPath, printBackground: true, preferCSSPageSize: true, tagged: true, outline: true });
       await page.close();

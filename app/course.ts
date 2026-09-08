@@ -12,11 +12,13 @@ export type Source = { label: string; url: string };
 export type TeacherProfile = { fullName: string; position: string; department: string };
 export type Concept = {
   name: string;
+  definition: string;
   principle: string;
   example: string;
   decision?: string;
   pitfall?: string;
   check?: string;
+  distractors?: [string, string];
 };
 
 export type Topic = {
@@ -31,6 +33,7 @@ export type Topic = {
   deliverable: string;
   caseName: string;
   caseContext: string;
+  artifactTemplate?: string[];
   concepts: Concept[];
   sources: Source[];
   tags: string[];
@@ -52,8 +55,8 @@ export type Slide = {
   title: string;
   subtitle?: string;
   bullets?: string[];
-  cards?: { label: string; value: string; tone?: 'red' | 'yellow' | 'green' | 'blue' }[];
-  steps?: { title: string; text: string }[];
+  cards?: { label: string; value: string; tone?: 'red' | 'green' | 'blue' }[];
+  steps?: { title: string; text?: string }[];
   compare?: { leftTitle: string; left: string[]; rightTitle: string; right: string[] };
   code?: string;
   quote?: string;
@@ -75,7 +78,7 @@ export type Course = {
   topics: Topic[];
 };
 
-const tones = ['red', 'blue', 'yellow', 'green'] as const;
+const tones = ['red', 'blue', 'green', 'green'] as const;
 const mainLiterature = [
   'Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — URL: https://www.iprbookshop.ru/144813.html',
   'Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — URL: https://www.iprbookshop.ru/144814.html',
@@ -83,103 +86,21 @@ const mainLiterature = [
 const additionalLiterature = [
   'Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — URL: https://www.iprbookshop.ru/152882.html',
   'Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN 978-5-93026-166-10. — URL: https://www.iprbookshop.ru/123442.html',
-  'Цехановский, В. В., Водяхо, А. И. Проектирование информационных систем. — Саратов : Профобразование, 2025. — 256 с. — ISBN 978-5-4488-2577-4. — URL: https://www.iprbookshop.ru/152769.html',
 ];
 
-type LectureLens = 'decision' | 'requirements' | 'data' | 'ux' | 'access';
-
-function lectureLens(topic: Topic): LectureLens {
-  if (topic.number >= 25) return 'access';
-  if (topic.number >= 20) return 'ux';
-  if (topic.number >= 10 && topic.number <= 15) return 'data';
-  if (topic.number >= 4 && topic.number <= 9) return 'requirements';
-  return 'decision';
-}
-
 function conceptCriterion(topic: Topic, concept: Concept): string {
-  switch (lectureLens(topic)) {
-    case 'requirements':
-      return `В результате «${topic.deliverable}» понятие «${concept.name}» связано с источником, условием и способом приёмки.`;
-    case 'data':
-      return `В результате «${topic.deliverable}» смысл понятия «${concept.name}» выражен сущностью, атрибутом, связью или ограничением и подтверждён фактом из кейса.`;
-    case 'ux':
-      return `В сценарии «${topic.caseName}» для понятия «${concept.name}» видны цель пользователя, состояние интерфейса и обратная связь.`;
-    case 'access':
-      return `Для понятия «${concept.name}» указаны субъект, операция, область данных и результат независимой серверной проверки.`;
-    default:
-      return `В результате «${topic.deliverable}» выбор по понятию «${concept.name}» связан с ограничением и подтверждён ситуацией из кейса.`;
-  }
+  if (!concept.check) throw new Error(`Тема ${topic.id}, «${concept.name}»: не задан предметный критерий`);
+  return concept.check;
 }
 
 function conceptMisuse(topic: Topic, concept: Concept): string {
-  switch (lectureLens(topic)) {
-    case 'requirements':
-      return `Записать «${concept.name}» без источника, условия и приёмочного примера, хотя в кейсе наблюдается: ${concept.example}`;
-    case 'data':
-      return `Оставить «${concept.name}» подписью в модели, не выразив правило данными и ограничениями: ${concept.principle}`;
-    case 'ux':
-      return `Показать «${concept.name}» статичным экраном и не проверить пользовательскую ситуацию: ${concept.example}`;
-    case 'access':
-      return `Ограничить «${concept.name}» только скрытой кнопкой и не проверить право на сервере в ситуации: ${concept.example}`;
-    default:
-      return `Выбрать вариант для понятия «${concept.name}» без сравнения последствий, хотя кейс требует учесть ситуацию: ${concept.example}`;
-  }
+  if (!concept.pitfall) throw new Error(`Тема ${topic.id}, «${concept.name}»: не задана предметная ошибка`);
+  return concept.pitfall;
 }
 
 function conceptAction(topic: Topic, concept: Concept): string {
-  switch (lectureLens(topic)) {
-    case 'requirements':
-      return `Связать «${concept.name}» с источником, формулировкой, примером и критерием в результате «${topic.deliverable}».`;
-    case 'data':
-      return `Выразить «${concept.name}» в модели и проверить на факте из кейса: ${concept.example}`;
-    case 'ux':
-      return `Провести ситуацию «${concept.example}» через макет, состояние ошибки и обратную связь.`;
-    case 'access':
-      return `Зафиксировать для «${concept.name}» субъект, операцию, область данных и серверную проверку на примере: ${concept.example}`;
-    default:
-      return `Сравнить варианты для «${concept.name}» и записать выбор в результате «${topic.deliverable}» с опорой на пример: ${concept.example}`;
-  }
-}
-
-function mechanismSteps(topic: Topic, concept: Concept): Slide['steps'] {
-  const criterion = conceptCriterion(topic, concept);
-  switch (lectureLens(topic)) {
-    case 'requirements':
-      return [
-        { title: 'Источник', text: topic.caseContext },
-        { title: 'Формулировка', text: concept.principle },
-        { title: 'Приёмочный пример', text: concept.example },
-        { title: 'Контроль', text: criterion },
-      ];
-    case 'data':
-      return [
-        { title: 'Факт предметной области', text: topic.caseContext },
-        { title: 'Семантика модели', text: concept.principle },
-        { title: 'Проверочный экземпляр', text: concept.example },
-        { title: 'Ограничение', text: criterion },
-      ];
-    case 'ux':
-      return [
-        { title: 'Цель пользователя', text: topic.caseContext },
-        { title: 'Принцип взаимодействия', text: concept.principle },
-        { title: 'Состояние интерфейса', text: concept.example },
-        { title: 'Проверка сценария', text: criterion },
-      ];
-    case 'access':
-      return [
-        { title: 'Субъект и риск', text: topic.caseContext },
-        { title: 'Правило доступа', text: concept.principle },
-        { title: 'Операция', text: concept.example },
-        { title: 'Серверный контроль', text: criterion },
-      ];
-    default:
-      return [
-        { title: 'Контекст решения', text: topic.caseContext },
-        { title: 'Основание', text: concept.principle },
-        { title: 'Вариант в кейсе', text: concept.example },
-        { title: 'Критерий выбора', text: criterion },
-      ];
-  }
+  if (!concept.decision) throw new Error(`Тема ${topic.id}, «${concept.name}»: не задано предметное решение`);
+  return concept.decision;
 }
 
 function conceptSlides(topic: Topic, concept: Concept, index: number, primaryTopic?: Topic): Slide[] {
@@ -188,7 +109,8 @@ function conceptSlides(topic: Topic, concept: Concept, index: number, primaryTop
   const criterion = conceptCriterion(topic, concept);
   const misuse = conceptMisuse(topic, concept);
   const action = conceptAction(topic, concept);
-  const contextualName = primaryTopic ? `${concept.name} в теме «${topic.shortTitle}»` : concept.name;
+  const distractors = concept.distractors ?? [];
+  const contextualName = primaryTopic ? `${concept.name}: новое применение` : concept.name;
   return [
     {
       id: `c${n}-divider`, section: `Концепт ${n}`, type: 'divider',
@@ -199,82 +121,53 @@ function conceptSlides(topic: Topic, concept: Concept, index: number, primaryTop
     },
     {
       id: `c${n}-definition`, section: `Концепт ${n}`, type: 'definition',
-      eyebrow: primaryTopic ? 'КРАТКОЕ НАПОМИНАНИЕ И НОВАЯ ГРАНИЦА' : 'ОПРЕДЕЛЕНИЕ И ГРАНИЦА', title: `${contextualName}: рабочее определение`,
-      quote: concept.principle,
-      cards: [
-        { label: 'Тема', value: topic.shortTitle, tone: 'red' },
-        { label: 'Учебная задача', value: topic.objective, tone: 'blue' },
-        { label: 'Источник', value: source.label, tone: 'green' },
-      ],
+      eyebrow: primaryTopic ? 'ТЕОРИЯ · КРАТКОЕ НАПОМИНАНИЕ' : 'ТЕОРИЯ', title: concept.name,
+      quote: concept.definition,
       citation: source,
-    },
-    {
-      id: `c${n}-mechanism`, section: `Концепт ${n}`, type: n % 2 ? 'process' : 'architecture',
-      eyebrow: 'МЕХАНИЗМ', title: `${contextualName} в проектной работе`,
-      steps: mechanismSteps(topic, concept),
     },
     {
       id: `c${n}-case`, section: `Концепт ${n}`, type: 'case',
-      eyebrow: `КЕЙС · ${topic.caseName.toUpperCase()}`, title: concept.example,
-      subtitle: topic.caseContext,
-      cards: [
-        { label: 'Предмет анализа', value: concept.name, tone: 'blue' },
-        { label: 'Наблюдаемое проявление', value: concept.example, tone: 'red' },
-      ],
+      eyebrow: `ПРИМЕР · ${topic.caseName.toUpperCase()}`, title: `Пример: ${concept.name}`,
+      subtitle: concept.example,
     },
     {
       id: `c${n}-decision`, section: `Концепт ${n}`, type: 'comparison',
-      eyebrow: 'РАЗБОР РЕШЕНИЯ', title: `${contextualName}: ошибка и корректное действие`,
+      eyebrow: 'РАЗБОР ПРИМЕРА', title: `${contextualName}: ошибка и решение`,
       compare: {
         leftTitle: 'Ошибка',
-        left: [misuse, `В результате «${topic.deliverable}» нельзя проверить применение понятия.`],
-        rightTitle: 'Корректное действие',
-        right: [action, criterion],
+        left: [misuse],
+        rightTitle: 'Проектное решение',
+        right: [action],
       },
-    },
-    {
-      id: `c${n}-mistake`, section: `Концепт ${n}`, type: 'mistake',
-      eyebrow: 'ДИАГНОСТИКА ОШИБКИ', title: `Как обнаружить ошибку в понятии «${contextualName}»`,
-      subtitle: misuse,
-      cards: [
-        { label: 'След в кейсе', value: concept.example, tone: 'yellow' },
-        { label: 'Что проверить', value: criterion, tone: 'red' },
-        { label: 'Ожидаемый результат', value: topic.deliverable, tone: 'green' },
-      ],
-    },
-    {
-      id: `c${n}-notes`, section: `Концепт ${n}`, type: 'cheatsheet',
-      eyebrow: 'В РАБОЧУЮ ТЕТРАДЬ', title: `Краткая запись: ${contextualName}`,
-      bullets: [concept.principle, `Пример: ${concept.example}`, `Проверка результата: ${criterion}`],
-      citation: source,
+      quote: `Критерий проверки: ${criterion}`,
     },
     {
       id: `c${n}-check-choice`, section: `Концепт ${n}`, type: 'quiz',
-      eyebrow: 'САМОПРОВЕРКА · 1 / 4', title: `${contextualName}: выбор проектного действия`,
+      eyebrow: 'САМОПРОВЕРКА · 1 / 4', title: `${concept.name}: выберите действие`,
       quiz: {
         kind: 'single',
-        prompt: `Какое действие корректно раскрывает понятие «${concept.name}» в теме «${topic.shortTitle}»?`,
-        options: [action, misuse, `Записать только определение «${concept.name}» без разбора кейса «${topic.caseName}»`, `Перенести решение из другой лекции в результат «${topic.deliverable}» без проверки условий кейса`],
+        prompt: `Какое действие корректно раскрывает понятие «${concept.name}»?`,
+        options: [action, misuse, ...distractors],
         answer: action,
         explanation: criterion,
       },
     },
     {
       id: `c${n}-check-word`, section: `Концепт ${n}`, type: 'quiz',
-      eyebrow: 'САМОПРОВЕРКА · 2 / 4', title: `${contextualName}: восстановление термина`,
+      eyebrow: 'САМОПРОВЕРКА · 2 / 4', title: `${concept.name}: восстановите термин`,
       quiz: {
         kind: 'short',
-        prompt: `Введите понятие, которому соответствует определение: «${concept.principle}»`,
+        prompt: `Введите понятие, которому соответствует определение: «${concept.definition}»`,
         answer: concept.name,
-        explanation: `В теме «${topic.shortTitle}» определение относится к понятию «${concept.name}».`,
+        explanation: `Это определение понятия «${concept.name}».`,
       },
     },
     {
       id: `c${n}-check-match`, section: `Концепт ${n}`, type: 'quiz',
-      eyebrow: 'САМОПРОВЕРКА · 3 / 4', title: `${contextualName}: соответствия`,
+      eyebrow: 'САМОПРОВЕРКА · 3 / 4', title: `${concept.name}: свяжите с примером`,
       quiz: {
         kind: 'matching',
-        prompt: `Отметьте три соответствия для понятия «${concept.name}» в результате «${topic.deliverable}».`,
+        prompt: `Отметьте три корректных соответствия для понятия «${concept.name}».`,
         options: [`Понятие: ${concept.name}`, `Пример: ${concept.example}`, `Критерий: ${criterion}`, `Ошибка: ${misuse}`],
         answer: [`Понятие: ${concept.name}`, `Пример: ${concept.example}`, `Критерий: ${criterion}`],
         explanation: `Лишний вариант описывает ошибку: ${misuse}`,
@@ -282,12 +175,14 @@ function conceptSlides(topic: Topic, concept: Concept, index: number, primaryTop
     },
     {
       id: `c${n}-check-judgement`, section: `Концепт ${n}`, type: 'quiz',
-      eyebrow: 'САМОПРОВЕРКА · 4 / 4', title: `${contextualName}: оценка ошибки`,
+      eyebrow: 'САМОПРОВЕРКА · 4 / 4', title: `${concept.name}: оцените утверждение`,
       quiz: {
         kind: 'trueFalse',
-        prompt: `Утверждение «${misuse}» описывает корректное проектное действие.`,
+        prompt: index % 2 === 0
+          ? `Утверждение «${action}» описывает корректное проектное действие.`
+          : `Утверждение «${misuse}» описывает корректное проектное действие.`,
         options: ['Верно', 'Неверно'],
-        answer: 'Неверно',
+        answer: index % 2 === 0 ? 'Верно' : 'Неверно',
         explanation: criterion,
       },
     },
@@ -297,6 +192,11 @@ function conceptSlides(topic: Topic, concept: Concept, index: number, primaryTop
 export function buildDeck(topic: Topic, course: Course): Slide[] {
   if (!course) throw new Error(`Тема ${topic.id}: данные курса не переданы в генератор презентации`);
   if (topic.concepts.length !== 8) throw new Error(`Тема ${topic.id}: требуется ровно 8 концептов`);
+  if (!topic.artifactTemplate?.length) throw new Error(`Тема ${topic.id}: не задан предметный шаблон артефакта`);
+  topic.concepts.forEach((concept) => {
+    if (!concept.decision || !concept.pitfall || !concept.check) throw new Error(`Тема ${topic.id}, «${concept.name}»: не задан предметный разбор`);
+    if (!concept.distractors || concept.distractors.length !== 2) throw new Error(`Тема ${topic.id}, «${concept.name}»: нужны два предметных дистрактора`);
+  });
   const primaryTopics = topic.concepts.map((concept) =>
     course.topics.find((candidate) =>
       candidate.number < topic.number && candidate.concepts.some((item) => item.name === concept.name),
@@ -327,46 +227,39 @@ export function buildDeck(topic: Topic, course: Course): Slide[] {
     },
     {
       id: 'why', section: 'Старт', type: 'thesis', eyebrow: 'ЗАЧЕМ ЭТО ПРОЕКТИРОВЩИКУ',
-      title: topic.objective, quote: `Сильный проект связывает исходный факт, принятое решение и способ проверки. Сегодня создаём: ${topic.deliverable}.`,
+      title: `${topic.shortTitle}: от теории к проверяемому решению`,
       cards: topic.tags.slice(0, 4).map((tag, index) => ({ label: `Фокус ${index + 1}`, value: tag, tone: tones[index] })),
-    },
-    {
-      id: 'case', section: 'Старт', type: 'case', eyebrow: 'СКВОЗНОЙ РЕАЛИСТИЧНЫЙ КЕЙС',
-      title: `${topic.caseName}: ${topic.shortTitle}`, subtitle: topic.caseContext,
-      cards: [
-        { label: 'Задача', value: topic.description, tone: 'red' },
-        { label: 'Результат', value: topic.deliverable, tone: 'green' },
-      ], image: 'tablet',
     },
     {
       id: 'route', section: 'Старт', type: 'map', eyebrow: 'КАРТА ТЕМЫ',
       title: `${topic.shortTitle}: восемь вопросов лекции`,
-      steps: topic.concepts.map((concept, index) => ({ title: `${String(index + 1).padStart(2, '0')} · ${concept.name}`, text: conceptCriterion(topic, concept) })),
+      steps: topic.concepts.map((concept, index) => ({ title: `${String(index + 1).padStart(2, '0')} · ${concept.name}` })),
     },
     {
       id: 'start-model', section: 'Старт', type: 'definition', eyebrow: 'РАБОЧАЯ МОДЕЛЬ',
-      title: `Как будет построена работа по теме «${topic.shortTitle}»`,
-      steps: [
-        { title: 'Контекст', text: topic.caseContext },
-        { title: 'Решение', text: topic.objective },
-        { title: 'Артефакт', text: topic.deliverable },
-        { title: 'Проверка', text: conceptCriterion(topic, topic.concepts[7]) },
-      ],
-    },
-    {
-      id: 'outcomes', section: 'Старт', type: 'bento', eyebrow: 'РЕЗУЛЬТАТЫ ОБУЧЕНИЯ',
-      title: `Результаты темы «${topic.shortTitle}»`,
-      cards: [
-        { label: 'Объяснить', value: topic.concepts[0].principle, tone: 'red' },
-        { label: 'Применить', value: topic.concepts[2].example, tone: 'blue' },
-        { label: 'Проверить', value: conceptCriterion(topic, topic.concepts[5]), tone: 'yellow' },
-        { label: 'Защитить', value: topic.objective, tone: 'green' },
-      ],
+      title: topic.number === 1 ? 'От факта к результату стадии' : `Как будет построена работа по теме «${topic.shortTitle}»`,
+      steps: topic.number === 1
+        ? [
+          { title: 'Факт', text: 'Подтверждённое исходное сведение' },
+          { title: 'Проектное решение', text: 'Обоснованный выбор с учётом ограничений' },
+          { title: 'Реализация', text: 'Воплощение решения в выбранной технологии' },
+          { title: 'Результат стадии', text: 'Артефакт, который можно проверить и передать' },
+        ]
+        : [
+          { title: 'Теория', text: 'Определение ключевого понятия' },
+          { title: 'Принцип', text: 'Правило, граница и критерий' },
+          { title: 'Пример', text: `Применение в ситуации «${topic.caseName}»` },
+          { title: 'Проверка', text: `Связь с результатом «${topic.deliverable}»` },
+        ],
     },
     {
       id: 'artifact-path', section: 'Старт', type: 'interactive', eyebrow: 'АРТЕФАКТ ЗАНЯТИЯ',
       title: topic.deliverable, subtitle: `Рабочий результат лекции «${topic.shortTitle}»`,
       bullets: topic.concepts.slice(0, 4).map((concept) => `${concept.name}: ${conceptCriterion(topic, concept)}`),
+    },
+    {
+      id: 'case', section: 'Старт', type: 'case', eyebrow: 'СКВОЗНОЙ ПРИМЕР',
+      title: topic.caseName, subtitle: topic.caseContext, image: 'tablet',
     },
     {
       id: 'diagnostic', section: 'Старт', type: 'quiz', eyebrow: 'ВХОДНАЯ ДИАГНОСТИКА',
@@ -383,29 +276,26 @@ export function buildDeck(topic: Topic, course: Course): Slide[] {
       id: 'practice-scenario', section: 'Практика', type: 'case', eyebrow: 'СИТУАЦИОННАЯ ЗАДАЧА',
       title: `${topic.shortTitle}: запрос заказчика «сделать удобно и быстро»`,
       subtitle: `Разберите просьбу с опорой на вопросы темы «${topic.shortTitle}».`,
-      bullets: topic.concepts.slice(0, 4).map((concept) => `${concept.name}: ${conceptCriterion(topic, concept)}`), image: 'desk',
+      bullets: [
+        `Найдите в ситуации признак понятия «${topic.concepts[0].name}» и назовите подтверждающий факт.`,
+        `Сформулируйте спорный выбор через понятие «${topic.concepts[2].name}».`,
+        `Покажите, какое ограничение выявляет понятие «${topic.concepts[5].name}».`,
+        `Подготовьте вопрос заказчику о понятии «${topic.concepts[7].name}».`,
+      ], image: 'desk',
     },
     {
       id: 'practice-artifact', section: 'Практика', type: 'terminal', eyebrow: 'ШАБЛОН АРТЕФАКТА',
       title: `Черновик: ${topic.deliverable}`,
-      code: ['ID: DEC-01', `Контекст: ${topic.caseContext}`, 'Источник: документ / интервью / наблюдение', 'Решение: …', 'Обоснование: …', 'Критерий проверки: …'].join('\n'),
-    },
-    {
-      id: 'practice-compare', section: 'Практика', type: 'comparison', eyebrow: 'САМОПРОВЕРКА',
-      title: `${topic.shortTitle}: описание и проверяемый результат`,
-      compare: {
-        leftTitle: 'Непроверенное описание', left: [conceptMisuse(topic, topic.concepts[1]), conceptMisuse(topic, topic.concepts[4])],
-        rightTitle: topic.deliverable, right: [conceptAction(topic, topic.concepts[1]), conceptAction(topic, topic.concepts[4])],
-      },
+      code: topic.artifactTemplate.join('\n'),
     },
     {
       id: 'practice-process', section: 'Практика', type: 'process', eyebrow: 'МИНИ-ЛАБОРАТОРНАЯ',
       title: `Практическая сборка результата «${topic.deliverable}»`,
       steps: [
-        { title: '1 · Выберите', text: topic.concepts[1].name },
-        { title: '2 · Найдите факт', text: topic.concepts[1].example },
-        { title: '3 · Разберите пример', text: topic.concepts[1].example },
-        { title: '4 · Проверьте', text: conceptCriterion(topic, topic.concepts[1]) },
+        { title: '1 · Выберите', text: `Укажите элемент результата, связанный с понятием «${topic.concepts[1].name}»` },
+        { title: '2 · Обоснуйте', text: `Найдите в кейсе «${topic.caseName}» свидетельство для «${topic.concepts[1].name}»` },
+        { title: '3 · Зафиксируйте', text: `Запишите собственное решение через понятие «${topic.concepts[4].name}»` },
+        { title: '4 · Проверьте', text: `Предложите наблюдаемый признак качества через «${topic.concepts[7].name}»` },
       ],
     },
     {
