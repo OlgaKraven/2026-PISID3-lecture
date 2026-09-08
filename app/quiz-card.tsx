@@ -1,5 +1,6 @@
 'use client';
 
+import { useMemo } from 'react';
 import { Check, CircleAlert, GripVertical } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -8,13 +9,19 @@ import type { Quiz } from './course';
 
 export type SavedAnswer = { value: string | string[]; submitted: boolean };
 
-function sameAnswer(value: string | string[], answer: string | string[]) {
+function normalize(value: string) {
+  return value.trim().replace(/\s+/g, ' ').toLocaleLowerCase('ru');
+}
+
+export function isQuizCorrect(value: string | string[], quiz: Quiz) {
+  const answer = quiz.answer;
   if (Array.isArray(answer)) {
     if (!Array.isArray(value) || value.length !== answer.length) return false;
-    return answer.every((item, index) => value[index] === item);
+    if (quiz.kind === 'ordering') return answer.every((item, index) => value[index] === item);
+    return answer.every((item) => value.includes(item));
   }
   if (Array.isArray(value)) return false;
-  return value.trim().toLocaleLowerCase('ru').includes(answer.trim().toLocaleLowerCase('ru'));
+  return normalize(value) === normalize(answer);
 }
 
 export function QuizCard({ quiz, saved, onChange, printMode }: {
@@ -25,7 +32,12 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
 }) {
   const value = saved?.value ?? (['multi', 'matching', 'ordering'].includes(quiz.kind) ? [] : '');
   const submitted = Boolean(saved?.submitted);
-  const correct = sameAnswer(value, quiz.answer);
+  const correct = isQuizCorrect(value, quiz);
+  const options = useMemo(() => {
+    if (!quiz.options || quiz.kind === 'ordering') return quiz.options;
+    return [...quiz.options].sort(() => Math.random() - 0.5);
+  }, [quiz]);
+  const letters = ['А', 'Б', 'В', 'Г'];
 
   if (printMode) {
     return (
@@ -61,9 +73,9 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
 
       {['single', 'trueFalse', 'diagram'].includes(quiz.kind) && (
         <div className="quiz-options">
-          {quiz.options?.map((option) => (
+          {options?.map((option, optionIndex) => (
             <button className={value === option ? 'is-selected' : ''} key={option} onClick={() => setValue(option)}>
-              <span className="option-marker" />{option}
+              <span className="option-letter">{letters[optionIndex]}</span><span className="option-marker" />{option}
             </button>
           ))}
         </div>
@@ -71,9 +83,9 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
 
       {['multi', 'matching'].includes(quiz.kind) && (
         <div className="quiz-options">
-          {quiz.options?.map((option) => {
+          {options?.map((option, optionIndex) => {
             const selected = Array.isArray(value) && value.includes(option);
-            return <button className={selected ? 'is-selected' : ''} key={option} onClick={() => toggle(option)}><span className="check-marker">{selected && <Check />}</span>{option}</button>;
+            return <button className={selected ? 'is-selected' : ''} key={option} onClick={() => toggle(option)}><span className="option-letter">{letters[optionIndex]}</span><span className="check-marker">{selected && <Check />}</span>{option}</button>;
           })}
         </div>
       )}
@@ -94,7 +106,7 @@ export function QuizCard({ quiz, saved, onChange, printMode }: {
 
       <div className="quiz-actions">
         <Button onClick={() => onChange?.({ value, submitted: true })} disabled={(Array.isArray(value) ? value.length === 0 : !value.trim())}>Проверить</Button>
-        {submitted && <p className={quiz.kind === 'selfReview' || correct ? 'is-correct' : 'is-wrong'}>{quiz.kind === 'selfReview' ? <Check /> : correct ? <Check /> : <CircleAlert />}{quiz.kind === 'selfReview' ? 'Сверьте с критериями' : correct ? 'Верно' : 'Нужно пересмотреть'} </p>}
+        {submitted && <p className={quiz.kind === 'selfReview' || correct ? 'is-correct' : 'is-wrong'}>{quiz.kind === 'selfReview' ? <Check /> : correct ? <Check /> : <CircleAlert />}{quiz.kind === 'selfReview' ? 'Сверьте с критериями' : correct ? 'Правильно' : 'Есть ошибка'} </p>}
       </div>
       {submitted && (
         <div className="quiz-feedback">

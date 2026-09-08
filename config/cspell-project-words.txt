@@ -63,3 +63,4 @@ WCAG
 workflow
 Отсканируйте
 pisid
+autoprint

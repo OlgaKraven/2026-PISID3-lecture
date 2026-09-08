@@ -3,7 +3,6 @@
 
 import { motion } from 'motion/react';
 import { ExternalLink } from 'lucide-react';
-import { Input } from '@/components/ui/input';
 import type { Course, Slide, TeacherProfile, Topic } from './course';
 import { assetUrl } from './assets';
 import { QuizCard, type SavedAnswer } from './quiz-card';
@@ -16,7 +15,7 @@ function LinkedText({ text }: { text: string }) {
   return <>{text.slice(0, match.index)}<a href={match[0]} target="_blank" rel="noreferrer">{match[0]}</a></>;
 }
 
-export function SlideView({ course, topic, slide, index, total, active = false, animation = true, saved, onAnswer, teacher, onTeacherChange, printMode }: {
+export function SlideView({ course, topic, slide, index, total, active = false, animation = true, saved, onAnswer, teacher, printMode, revealStep = 99, onReveal }: {
   course: Course;
   topic: Topic;
   slide: Slide;
@@ -29,9 +28,12 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
   teacher: TeacherProfile;
   onTeacherChange?: (teacher: TeacherProfile) => void;
   printMode?: 'student' | 'teacher';
+  revealStep?: number;
+  onReveal?: () => void;
 }) {
   const showTeacherFooter = ['course-theme', 'divider', 'questions'].includes(slide.type) || (slide.type === 'title' && Boolean(printMode));
   const showSideOrnament = ['course-theme', 'divider', 'literature', 'materials', 'questions'].includes(slide.type);
+  const revealCount = Math.max(slide.cards?.length ?? 0, slide.steps?.length ?? 0, slide.bullets?.length ?? 0) - 1;
   const content = (
     <article className={`slide slide-${slide.type} ${active ? 'is-active' : ''}`} aria-label={`Экран ${index + 1}: ${slide.title}`} data-slide-id={slide.id}>
       <div className="slide-chrome">
@@ -46,9 +48,10 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
           {slide.subtitle && <p className="subtitle">{slide.subtitle}</p>}
         </header>
 
-        {slide.cards && <div className="bento-grid">{slide.cards.map((card) => <div className={`bento-card ${toneClass[card.tone ?? 'red']}`} key={`${card.label}-${card.value}`}><span>{card.label}</span><strong>{card.value}</strong></div>)}</div>}
-        {slide.steps && <div className="step-grid">{slide.steps.map((step) => <div className="step-card" key={`${step.title}-${step.text}`}><strong>{step.title}</strong><span>{step.text}</span></div>)}</div>}
-        {slide.bullets && <ul className="bullet-list">{slide.bullets.map((item) => <li key={item}><LinkedText text={item} /></li>)}</ul>}
+        {slide.cards && <div className="bento-grid">{slide.cards.map((card, itemIndex) => <div className={`bento-card reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''} ${toneClass[card.tone ?? 'red']}`} key={`${card.label}-${card.value}`}><span>{card.label}</span><strong>{card.value}</strong></div>)}</div>}
+        {slide.steps && <div className="step-grid">{slide.steps.map((step, itemIndex) => <div className={`step-card reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''}`} key={`${step.title}-${step.text}`}><strong>{step.title}</strong><span>{step.text}</span></div>)}</div>}
+        {slide.bullets && <ul className="bullet-list">{slide.bullets.map((item, itemIndex) => <li className={`reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''}`} key={item}><LinkedText text={item} /></li>)}</ul>}
+        {slide.type === 'literature' && slide.bullets && <div className="literature-qr-row">{slide.bullets.map((item, itemIndex) => { const url = item.match(/https?:\/\/\S+$/)?.[0] ?? ''; const label = item.split('.')[0]; return <a href={url} target="_blank" rel="noreferrer" key={url}><span className="literature-qr"><img src={assetUrl(`/qr/${slide.id}-${itemIndex + 1}.svg`)} alt={`QR-код: ${label}`} /><img className="qr-mark" src={assetUrl('/brand/brand-mark.webp')} alt="" /></span><strong>{label}</strong><span>Открыть источник</span></a>; })}</div>}
         {slide.compare && <div className="compare-grid"><section className="compare-left"><h2>{slide.compare.leftTitle}</h2><ul>{slide.compare.left.map((item) => <li key={item}>{item}</li>)}</ul></section><section className="compare-right"><h2>{slide.compare.rightTitle}</h2><ul>{slide.compare.right.map((item) => <li key={item}>{item}</li>)}</ul></section></div>}
         {slide.code && <pre className="code-card"><code>{slide.code}</code></pre>}
         {slide.quote && <blockquote>{slide.quote}</blockquote>}
@@ -63,21 +66,17 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
             <div className="material-link"><span>Ссылка на материалы</span><a href={slide.materialUrl} target="_blank" rel="noreferrer">{slide.materialUrl}</a></div>
           </div>
         )}
-        {slide.type === 'title' && !printMode && onTeacherChange && (
-          <div className="teacher-editor">
-            <strong>Данные преподавателя</strong>
-            <Input aria-label="ФИО преподавателя на титульном листе" value={teacher.fullName} onChange={(event) => onTeacherChange({ ...teacher, fullName: event.target.value })} placeholder="ФИО преподавателя" />
-            <Input aria-label="Должность преподавателя на титульном листе" value={teacher.position} onChange={(event) => onTeacherChange({ ...teacher, position: event.target.value })} placeholder="Должность" />
-            <Input aria-label="Кафедра или лаборатория преподавателя на титульном листе" value={teacher.department} onChange={(event) => onTeacherChange({ ...teacher, department: event.target.value })} placeholder="Кафедра / лаборатория" />
-          </div>
+        {slide.type === 'title' && (
+          <div className="title-teacher-profile"><strong>{teacher.fullName || 'ФИО преподавателя'}</strong><span>{teacher.position || 'Должность преподавателя'}</span><span>{teacher.department || 'Кафедра или лаборатория'}</span></div>
         )}
         {showTeacherFooter && (teacher.fullName || teacher.position || teacher.department) && (
           <div className="teacher-footer"><span aria-hidden="true">↗</span><p><strong>{teacher.fullName || 'ФИО преподавателя'}</strong>{teacher.position && <><br />{teacher.position}</>}{teacher.department && <><br />{teacher.department}</>}</p></div>
         )}
-        {slide.image && <img className={`rhino rhino-${slide.image}`} src={assetUrl('/brand/rhino-designer.webp')} alt="Фирменный носорог-проектировщик" />}
+        {slide.type === 'title' && slide.image && <img className={`rhino rhino-${slide.image}`} src={assetUrl('/brand/rhino-wms.png')} alt="Фирменный носорог-проектировщик WMS" />}
         {slide.type === 'divider' && <img className="topic-arrow" src={assetUrl('/brand/topic-arrow.webp')} alt="" />}
         {showSideOrnament && <img className="side-ornament" src={assetUrl('/brand/side-ornament.webp')} alt="" />}
         {slide.citation && <a className="citation" href={slide.citation.url} target="_blank" rel="noreferrer"><ExternalLink />{slide.citation.label}</a>}
+        {!printMode && onReveal && revealStep < revealCount && <button className="reveal-control" onClick={onReveal}>Показать следующий фрагмент</button>}
       </div>
     </article>
   );

@@ -31,13 +31,13 @@ try {
     }));
     if (metrics.overflow > 1) throw new Error(`Horizontal overflow ${metrics.overflow}px at ${viewport.width}x${viewport.height}`);
     if (metrics.activeSlides !== 1) throw new Error(`Expected one active slide, got ${metrics.activeSlides}`);
-    if (!metrics.progress.includes('1 / 85')) throw new Error(`Unexpected progress label: ${metrics.progress}`);
+    if (!metrics.progress.includes('1 / 117')) throw new Error(`Unexpected progress label: ${metrics.progress}`);
     if (metrics.layers < 2) throw new Error('Neighbor slide was not kept in the DOM');
     console.log(`OK ${viewport.width}x${viewport.height}`);
   }
   await page.getByRole('button', { name: 'Следующий экран' }).click();
-  await page.locator('.progress-block > span').filter({ hasText: '2 / 85' }).waitFor();
-  console.log(`OK topics=${topicCount}; keyboard/buttons/direct links/85-slide counter`);
+  await page.locator('.progress-block > span').filter({ hasText: '2 / 117' }).waitFor();
+  console.log(`OK topics=${topicCount}; keyboard/buttons/direct links/117-slide counter`);
   await page.close();
 } finally {
   if (browser) await browser.close();
