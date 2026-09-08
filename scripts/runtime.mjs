@@ -17,6 +17,7 @@ export async function startServer(port) {
     env: { ...process.env, BROWSER: 'none' },
     stdio: ['ignore', 'pipe', 'pipe'],
     shell: false,
+    detached: !isWindows,
   });
   child.stdout.on('data', (chunk) => process.stdout.write(chunk));
   child.stderr.on('data', (chunk) => process.stderr.write(chunk));
@@ -40,11 +41,15 @@ export async function startServer(port) {
 }
 
 export function stopServer(child) {
-  if (!child || child.exitCode !== null) return;
+  if (!child) return;
   if (process.platform === 'win32' && child.pid) {
     spawnSync('taskkill', ['/pid', String(child.pid), '/t', '/f'], { stdio: 'ignore' });
-  } else {
-    child.kill('SIGTERM');
+  } else if (child.pid) {
+    try {
+      process.kill(-child.pid, 'SIGTERM');
+    } catch {
+      if (child.exitCode === null) child.kill('SIGTERM');
+    }
   }
 }
 

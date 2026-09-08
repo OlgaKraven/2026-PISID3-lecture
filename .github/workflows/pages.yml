@@ -36,6 +36,7 @@ jobs:
         run: npm run audit:content
       - name: Check responsive lecture screens
         run: npm run test:smoke
+        timeout-minutes: 5
       - name: Build static site
         run: npm run build:pages
         env:
