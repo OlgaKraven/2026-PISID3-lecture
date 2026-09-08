@@ -60,7 +60,7 @@ a { color: inherit; }
 /* Course catalog */
 .catalog-shell { min-height: 100dvh; background: var(--background); }
 .catalog-header { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 10px clamp(18px, 4vw, 64px); border-bottom: 1px solid var(--border); background: var(--card); }
-.catalog-header > img { width: 104px; }
+.catalog-header > img { width: 42px; height: 42px; object-fit: contain; }
 .catalog-header > div, .theme-switch, .print-actions { display: flex; align-items: center; gap: 12px; }
 .theme-switch span { font-size: 13px; color: var(--muted-foreground); }
 .teacher-dialog { max-width: min(720px, calc(100vw - 24px)); }
@@ -69,7 +69,6 @@ a { color: inherit; }
 .print-actions { align-items: stretch; flex-direction: column; }
 .catalog-hero { position: relative; min-height: 560px; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 38%); align-items: end; padding: 44px clamp(22px, 6vw, 92px) 38px; background: #1c1c1c; color: #fff; border-bottom: 12px solid #ed131c; }
 .catalog-copy { position: relative; z-index: 2; max-width: 980px; }
-.catalog-copy > img { width: 120px; margin-bottom: 50px; filter: brightness(0) invert(1); }
 .catalog-copy h1 { max-width: 880px; margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: .93; letter-spacing: -.055em; font-weight: 850; text-wrap: balance; }
 .catalog-copy > p:not(.eyebrow) { margin: 18px 0 0; font-size: clamp(20px, 2vw, 30px); color: #e0e1e5; }
 .catalog-rhino { position: absolute; right: 2%; bottom: 0; width: min(39%, 560px); max-height: 94%; object-fit: contain; object-position: right bottom; }
@@ -107,7 +106,7 @@ a { color: inherit; }
 .deck-progress span { display: block; height: 100%; background: #ed131c; transition: width .2s ease; }
 .deck-id { border: 0; background: transparent; color: var(--foreground); cursor: pointer; }
 .deck-id, .toolbar-actions, .toggle-label { display: flex; align-items: center; gap: 10px; }
-.deck-id img { width: 92px; height: auto; }
+.deck-id img { width: 38px; height: 38px; object-fit: contain; }
 .deck-id span { font-size: 13px; font-weight: 750; color: var(--muted-foreground); }
 .toggle-label svg { width: 17px; }
 .stage-wrap { min-height: 0; display: grid; place-items: center; padding: clamp(10px, 2vw, 26px); }
@@ -119,7 +118,7 @@ a { color: inherit; }
 .slide-divider, .slide-course-theme, .slide-questions { --card: #fff; --foreground: #1c1c1c; --muted-foreground: #55565c; --border: #e0e1e5; background: #fff; color: #1c1c1c; }
 .slide::after { content: ''; position: absolute; width: 38%; height: 12px; left: 0; bottom: 0; background: #ed131c; }
 .slide-chrome { position: absolute; inset: 20px 26px auto; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 18px; font-size: clamp(9px, .8vw, 13px); font-weight: 750; color: var(--muted-foreground); z-index: 5; }
-.slide-chrome .brand-logo { width: clamp(70px, 7vw, 112px); }
+.slide-chrome .brand-logo { width: clamp(30px, 2.7vw, 44px); height: clamp(29px, 2.6vw, 42px); object-fit: contain; }
 .slide-grid { position: relative; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: auto 1fr auto; gap: clamp(10px, 1.5vw, 24px); width: 100%; height: 100%; padding: clamp(64px, 6.4vw, 98px) clamp(28px, 4.2vw, 70px) clamp(30px, 3.4vw, 56px); }
 .slide-heading { grid-column: 1 / span 9; align-self: end; z-index: 3; }
 .eyebrow { margin: 0 0 9px; font-size: clamp(10px, .82vw, 14px); font-weight: 850; letter-spacing: .11em; color: #ed131c; }
@@ -216,7 +215,6 @@ blockquote { grid-column: 2 / span 10; margin: 0; border-left: 7px solid #ed131c
 .literature-qr-row > a { min-width: 0; display: grid; grid-template-columns: 74px minmax(0, 1fr); grid-template-rows: auto auto; align-items: center; gap: 3px 10px; border-top: 2px solid #ed131c; padding-top: 9px; text-decoration: none; }
 .literature-qr { position: relative; grid-row: 1 / span 2; width: 74px; height: 74px; padding: 4px; background: #fff; }
 .literature-qr > img:first-child { width: 100%; height: 100%; }
-.literature-qr .qr-mark { top: 50%; width: 22px; height: 22px; border-width: 3px; }
 .literature-qr-row strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: clamp(10px, .8vw, 13px); }
 .literature-qr-row > a > span:last-child { color: #ed131c; font-size: clamp(9px, .72vw, 12px); font-weight: 800; }
 .slide-course-theme blockquote { grid-column: 1 / span 8; align-self: start; }
@@ -239,13 +237,9 @@ blockquote { grid-column: 2 / span 10; margin: 0; border-left: 7px solid #ed131c
 .title-teacher-profile { grid-column: 1 / span 7; align-self: end; z-index: 5; display: grid; gap: 4px; border-top: 2px solid #ed131c; padding-top: 12px; }
 .title-teacher-profile strong { font-size: clamp(18px, 1.8vw, 30px); line-height: 1.1; }
 .title-teacher-profile span { font-size: clamp(12px, 1vw, 17px); line-height: 1.25; }
-.teacher-footer { position: absolute; left: clamp(28px, 4.2vw, 70px); right: 47%; bottom: clamp(20px, 3vw, 44px); z-index: 7; display: grid; grid-template-columns: auto 1fr; align-items: start; gap: 13px; border-top: 2px solid #ed131c; padding-top: 11px; }
-.teacher-footer > span { color: #ed131c; font-size: clamp(28px, 3.2vw, 52px); font-weight: 850; line-height: .8; }
-.teacher-footer p { margin: 0; font-size: clamp(11px, 1.05vw, 18px); line-height: 1.35; }
 .materials-panel { grid-column: 1 / span 10; display: grid; grid-template-columns: minmax(220px, 330px) minmax(0, 1fr); align-items: center; gap: clamp(24px, 4vw, 64px); z-index: 4; }
 .qr-frame { position: relative; overflow: hidden; display: grid; place-items: center; border: 12px solid #ed131c; border-radius: 22px; padding: 12px 12px 56px; background: #fff; }
 .qr-code { width: 100%; aspect-ratio: 1; }
-.qr-mark { position: absolute; left: 50%; top: calc(50% - 21px); width: 58px; height: 58px; border: 7px solid #fff; object-fit: cover; transform: translate(-50%, -50%); }
 .qr-frame > strong { position: absolute; inset: auto 0 0; display: grid; place-items: center; height: 52px; background: #ed131c; color: #fff; font-size: clamp(15px, 1.4vw, 23px); }
 .material-link { display: grid; gap: 10px; border-left: 7px solid #ed131c; padding: 17px 22px; }
 .material-link span { color: var(--muted-foreground); font-size: clamp(11px, .9vw, 15px); font-weight: 800; text-transform: uppercase; }
@@ -276,7 +270,6 @@ blockquote { grid-column: 2 / span 10; margin: 0; border-left: 7px solid #ed131c
 
 @media (max-width: 780px) {
   .catalog-hero { min-height: 790px; grid-template-columns: 1fr; align-items: start; padding: 30px 22px 0; }
-  .catalog-copy > img { width: 95px; margin-bottom: 38px; }
   .catalog-copy h1 { font-size: clamp(42px, 13vw, 66px); }
   .catalog-copy > p:not(.eyebrow) { font-size: 20px; }
   .catalog-rhino { width: 82%; max-height: 44%; right: -10%; }
@@ -293,7 +286,7 @@ blockquote { grid-column: 2 / span 10; margin: 0; border-left: 7px solid #ed131c
 
   .deck-toolbar { min-height: 56px; }
   .deck-id span, .toggle-label, .toolbar-actions > button:nth-of-type(2), .toolbar-actions > button:nth-of-type(3), .toolbar-actions > button:nth-of-type(4) { display: none; }
-  .deck-id img { width: 76px; }
+  .deck-id img { width: 34px; height: 34px; }
   .toolbar-actions [data-slot='button'] { padding-inline: 8px; }
   .stage-wrap { padding: 8px; }
   .stage { width: 100%; height: calc(100dvh - 138px); max-height: none; aspect-ratio: auto; }
@@ -317,8 +310,6 @@ blockquote { grid-column: 2 / span 10; margin: 0; border-left: 7px solid #ed131c
   .slide-title .slide-heading, .slide-course-theme .slide-heading, .slide-divider .slide-heading, .slide-questions .slide-heading, .slide-literature .slide-heading, .slide-materials .slide-heading { grid-column: 1 / -1; }
   .teacher-editor { grid-column: 1 / -1; grid-template-columns: 1fr; }
   .teacher-editor input { height: 46px; font-size: 18px; }
-  .teacher-footer { position: static; grid-column: 1 / -1; align-self: end; font-size: 18px; }
-  .teacher-footer p { font-size: 18px; }
   .materials-panel { grid-column: 1 / -1; grid-template-columns: 1fr; }
   .qr-frame { width: min(280px, 100%); justify-self: center; }
   .material-link a { font-size: 18px; }

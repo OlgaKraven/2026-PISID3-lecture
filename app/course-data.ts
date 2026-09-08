@@ -18,14 +18,7 @@ type TopicSeed = Omit<Topic, 'concepts'> & { concepts: [string, string, string][
 function seededTopic(seed: TopicSeed): Topic {
   return {
     ...seed,
-    concepts: seed.concepts.map(([name, principle, example]) => ({
-      name,
-      principle,
-      example,
-      decision: `Для понятия «${name}» принять решение на основе ситуации: ${example}`,
-      pitfall: `Использовать термин «${name}» без объяснения правила и связи с примером`,
-      check: `На примере из кейса можно объяснить, как работает понятие «${name}»`,
-    })),
+    concepts: seed.concepts.map(([name, principle, example]) => ({ name, principle, example })),
   };
 }
 

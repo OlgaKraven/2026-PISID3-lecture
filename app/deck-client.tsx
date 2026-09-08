@@ -35,7 +35,7 @@ function TopicCatalog({ course, onOpen, teacher, onTeacherChange, dark, onDarkCh
   return (
     <main className="catalog-shell">
       <header className="catalog-header">
-        <img src={assetUrl('/brand/synergy-logo.webp')} alt="Университет Синергия" />
+        <img src={assetUrl('/favicon.png')} alt="Университет Синергия" />
         <div>
           <Dialog>
             <DialogTrigger render={<Button variant="outline" />}>Данные преподавателя</DialogTrigger>
@@ -57,7 +57,6 @@ function TopicCatalog({ course, onOpen, teacher, onTeacherChange, dark, onDarkCh
       </header>
       <header className="catalog-hero">
         <div className="catalog-copy">
-          <img src={assetUrl('/brand/synergy-logo.webp')} alt="Университет Синергия" />
           <p className="eyebrow">{course.audience}</p>
           <h1>{course.title}</h1>
           <p>{course.subtitle}</p>
@@ -183,7 +182,7 @@ export function DeckClient({ course }: { course: Course }) {
     <main className="deck-shell">
       <header className="deck-toolbar">
         <button className="deck-id" onClick={closeTopic} title="Вернуться в каталог">
-          <img src={assetUrl('/brand/synergy-logo.webp')} alt="" /><span>{course.shortTitle} · Лекция {topic.number}</span>
+          <img src={assetUrl('/favicon.png')} alt="" /><span>{course.shortTitle} · Лекция {topic.number}</span>
         </button>
         <div className="toolbar-actions">
           <div className="toggle-label" title="Анимация"><Sparkles aria-hidden="true" /><Switch checked={state.animation} onCheckedChange={(animation) => setState((value) => ({ ...value, animation }))} aria-label="Включить анимацию" /></div>
@@ -217,7 +216,7 @@ export function DeckClient({ course }: { course: Course }) {
           {neighbors.map((index) => {
             const slide = slides[index];
             const active = index === state.current;
-            return <div className={`stage-layer ${active ? 'is-current' : 'is-neighbor'}`} aria-hidden={!active} key={active ? `${slide.id}-${replay}` : slide.id}><SlideView course={course} topic={topic} slide={slide} index={index} total={slides.length} active={active} animation={active && state.animation} saved={state.answers[slide.id]} onAnswer={(answer) => setState((value) => ({ ...value, answers: { ...value.answers, [slide.id]: answer } }))} teacher={teacher} onTeacherChange={setTeacher} revealStep={active ? revealStep : 99} onReveal={() => setRevealStep((value) => value + 1)} /></div>;
+            return <div className={`stage-layer ${active ? 'is-current' : 'is-neighbor'}`} aria-hidden={!active} key={active ? `${slide.id}-${replay}` : slide.id}><SlideView course={course} topic={topic} slide={slide} index={index} total={slides.length} active={active} animation={active && state.animation} saved={state.answers[slide.id]} onAnswer={(answer) => setState((value) => ({ ...value, answers: { ...value.answers, [slide.id]: answer } }))} teacher={teacher} revealStep={active ? revealStep : 99} onReveal={() => setRevealStep((value) => value + 1)} /></div>;
           })}
         </div>
       </div>

@@ -28,6 +28,8 @@ jobs:
         run: npm run spellcheck
       - name: Lint source files
         run: npm run lint
+      - name: Audit lecture structure and repeated content
+        run: npm run audit:content
       - name: Build static site
         run: npm run build:pages
         env:

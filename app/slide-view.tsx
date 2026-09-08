@@ -26,18 +26,16 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
   saved?: SavedAnswer;
   onAnswer?: (answer: SavedAnswer) => void;
   teacher: TeacherProfile;
-  onTeacherChange?: (teacher: TeacherProfile) => void;
   printMode?: 'student' | 'teacher';
   revealStep?: number;
   onReveal?: () => void;
 }) {
-  const showTeacherFooter = ['course-theme', 'divider', 'questions'].includes(slide.type) || (slide.type === 'title' && Boolean(printMode));
   const showSideOrnament = ['course-theme', 'divider', 'literature', 'materials', 'questions'].includes(slide.type);
   const revealCount = Math.max(slide.cards?.length ?? 0, slide.steps?.length ?? 0, slide.bullets?.length ?? 0) - 1;
   const content = (
     <article className={`slide slide-${slide.type} ${active ? 'is-active' : ''}`} aria-label={`Экран ${index + 1}: ${slide.title}`} data-slide-id={slide.id}>
       <div className="slide-chrome">
-        <img className="brand-logo" src={assetUrl('/brand/synergy-logo.webp')} alt="Университет Синергия" />
+        <img className="brand-logo" src={assetUrl('/favicon.png')} alt="Университет Синергия" />
         <span>{course.shortTitle} · Лекция {topic.number}</span>
         <span>{String(index + 1).padStart(2, '0')} / {total}</span>
       </div>
@@ -51,7 +49,7 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
         {slide.cards && <div className="bento-grid">{slide.cards.map((card, itemIndex) => <div className={`bento-card reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''} ${toneClass[card.tone ?? 'red']}`} key={`${card.label}-${card.value}`}><span>{card.label}</span><strong>{card.value}</strong></div>)}</div>}
         {slide.steps && <div className="step-grid">{slide.steps.map((step, itemIndex) => <div className={`step-card reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''}`} key={`${step.title}-${step.text}`}><strong>{step.title}</strong><span>{step.text}</span></div>)}</div>}
         {slide.bullets && <ul className="bullet-list">{slide.bullets.map((item, itemIndex) => <li className={`reveal-item ${itemIndex <= revealStep || printMode ? 'is-revealed' : ''}`} key={item}><LinkedText text={item} /></li>)}</ul>}
-        {slide.type === 'literature' && slide.bullets && <div className="literature-qr-row">{slide.bullets.map((item, itemIndex) => { const url = item.match(/https?:\/\/\S+$/)?.[0] ?? ''; const label = item.split('.')[0]; return <a href={url} target="_blank" rel="noreferrer" key={url}><span className="literature-qr"><img src={assetUrl(`/qr/${slide.id}-${itemIndex + 1}.svg`)} alt={`QR-код: ${label}`} /><img className="qr-mark" src={assetUrl('/brand/brand-mark.webp')} alt="" /></span><strong>{label}</strong><span>Открыть источник</span></a>; })}</div>}
+        {slide.type === 'literature' && slide.bullets && <div className="literature-qr-row">{slide.bullets.map((item, itemIndex) => { const url = item.match(/https?:\/\/\S+$/)?.[0] ?? ''; const label = item.split('.')[0]; return <a href={url} target="_blank" rel="noreferrer" key={url}><span className="literature-qr"><img src={assetUrl(`/qr/${slide.id}-${itemIndex + 1}.svg`)} alt={`QR-код: ${label}`} /></span><strong>{label}</strong><span>Открыть источник</span></a>; })}</div>}
         {slide.compare && <div className="compare-grid"><section className="compare-left"><h2>{slide.compare.leftTitle}</h2><ul>{slide.compare.left.map((item) => <li key={item}>{item}</li>)}</ul></section><section className="compare-right"><h2>{slide.compare.rightTitle}</h2><ul>{slide.compare.right.map((item) => <li key={item}>{item}</li>)}</ul></section></div>}
         {slide.code && <pre className="code-card"><code>{slide.code}</code></pre>}
         {slide.quote && <blockquote>{slide.quote}</blockquote>}
@@ -60,7 +58,6 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
           <div className="materials-panel">
             <div className="qr-frame">
               <img className="qr-code" src={assetUrl(`/qr/${course.id}-materials.svg`)} alt={`QR-код материалов ${course.shortTitle}`} />
-              <img className="qr-mark" src={assetUrl('/brand/brand-mark.webp')} alt="" />
               <strong>Отсканируйте меня</strong>
             </div>
             <div className="material-link"><span>Ссылка на материалы</span><a href={slide.materialUrl} target="_blank" rel="noreferrer">{slide.materialUrl}</a></div>
@@ -68,9 +65,6 @@ export function SlideView({ course, topic, slide, index, total, active = false, 
         )}
         {slide.type === 'title' && (
           <div className="title-teacher-profile"><strong>{teacher.fullName || 'ФИО преподавателя'}</strong><span>{teacher.position || 'Должность преподавателя'}</span><span>{teacher.department || 'Кафедра или лаборатория'}</span></div>
-        )}
-        {showTeacherFooter && (teacher.fullName || teacher.position || teacher.department) && (
-          <div className="teacher-footer"><span aria-hidden="true">↗</span><p><strong>{teacher.fullName || 'ФИО преподавателя'}</strong>{teacher.position && <><br />{teacher.position}</>}{teacher.department && <><br />{teacher.department}</>}</p></div>
         )}
         {slide.type === 'title' && slide.image && <img className={`rhino rhino-${slide.image}`} src={assetUrl('/brand/rhino-wms.png')} alt="Фирменный носорог-проектировщик WMS" />}
         {slide.type === 'divider' && <img className="topic-arrow" src={assetUrl('/brand/topic-arrow.webp')} alt="" />}

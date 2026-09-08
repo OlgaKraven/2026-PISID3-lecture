@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-09-08T04:49:15.444Z",
+  "totals": {
+    "lectures": 26,
+    "slides": 3042,
+    "concepts": 208,
+    "selfChecks": 832
+  },
+  "failures": [],
+  "repeatedTitles": [],
+  "repeatedPhrases": [],
+  "lectures": [
+    {
+      "lecture": 1,
+      "title": "Что такое проектирование ИС и чем оно не является",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 2,
+      "title": "Роли и точки зрения на систему",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 3,
+      "title": "Карта артефактов проекта и зависимости между ними",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 4,
+      "title": "Источники требований и чтение выгрузки заказчика",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 5,
+      "title": "Техника интервью и протокол встречи",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 6,
+      "title": "Классификация требований: функции, качества, ограничения и правила",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 7,
+      "title": "Атомарность, проверяемость и недвусмысленность требования",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 8,
+      "title": "User story и критерии приёмки",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 9,
+      "title": "Допущения, открытые вопросы и трассируемость",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 10,
+      "title": "От документов заказчика к перечню сущностей",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 11,
+      "title": "Глоссарий проекта и цена разночтений",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 12,
+      "title": "Бизнес-правила предметной области",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 13,
+      "title": "Атрибутный состав сущности",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 14,
+      "title": "Историчность данных и изменяемые значения",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 15,
+      "title": "Ревизия модели по документам заказчика",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 16,
+      "title": "Варианты решения и взвешенная матрица выбора",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 17,
+      "title": "Запись проектного решения ADR",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 18,
+      "title": "Как нефункциональные требования меняют решение",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 19,
+      "title": "Защита проектного решения перед заказчиком",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 20,
+      "title": "Дизайн ИС: цели, задачи, сценарии и цена ошибки",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 21,
+      "title": "Информационная архитектура и навигация",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 22,
+      "title": "Wireframe и прототип: уровни детализации",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 23,
+      "title": "Формы, валидация, сообщения и состояния экрана",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 24,
+      "title": "Дизайн-система проекта и основы доступности",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 25,
+      "title": "Ролевая модель и матрица прав доступа",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    },
+    {
+      "lecture": 26,
+      "title": "Сценарий входа, блокировка и разблокировка",
+      "concepts": 8,
+      "slides": 117,
+      "selfChecks": 32
+    }
+  ]
+}
