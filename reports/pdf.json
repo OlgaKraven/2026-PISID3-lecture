@@ -1,0 +1,236 @@
+[
+  {
+    "lectureId": "01-project-decisions",
+    "path": "outputs\\pdf\\student\\01-project-decisions.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "02-roles-views",
+    "path": "outputs\\pdf\\student\\02-roles-views.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "path": "outputs\\pdf\\student\\03-artifact-map.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "path": "outputs\\pdf\\student\\04-requirement-sources.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "path": "outputs\\pdf\\student\\05-interview-technique.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "path": "outputs\\pdf\\student\\06-requirement-classes.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "path": "outputs\\pdf\\student\\07-requirement-quality.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "path": "outputs\\pdf\\student\\08-user-story-acceptance.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "path": "outputs\\pdf\\student\\09-assumptions-traceability.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "path": "outputs\\pdf\\student\\10-entity-candidates.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "path": "outputs\\pdf\\student\\11-project-glossary.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "12-business-rules",
+    "path": "outputs\\pdf\\student\\12-business-rules.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "path": "outputs\\pdf\\student\\13-attribute-composition.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "14-data-history",
+    "path": "outputs\\pdf\\student\\14-data-history.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "15-model-revision",
+    "path": "outputs\\pdf\\student\\15-model-revision.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "path": "outputs\\pdf\\student\\16-decision-matrix.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "17-adr",
+    "path": "outputs\\pdf\\student\\17-adr.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "path": "outputs\\pdf\\student\\18-nfr-impact.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "19-defense",
+    "path": "outputs\\pdf\\student\\19-defense.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "path": "outputs\\pdf\\student\\20-ux-goals.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "path": "outputs\\pdf\\student\\21-information-architecture.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "path": "outputs\\pdf\\student\\22-wireframe-prototype.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "path": "outputs\\pdf\\student\\23-forms-validation-states.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "path": "outputs\\pdf\\student\\24-design-system-accessibility.pdf",
+    "pages": 88,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "25-rbac",
+    "path": "outputs\\pdf\\student\\25-rbac.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "path": "outputs\\pdf\\student\\26-auth-lockout.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  }
+]

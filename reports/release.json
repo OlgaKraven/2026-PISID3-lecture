@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-13",
+  "contentVersion": "pisid3-2026.09-template02-v1",
+  "lectures": 26,
+  "slides": 2299,
+  "teacherNotes": 2299,
+  "tasks": 416,
+  "visuals": 728,
+  "workedCases": 104,
+  "originalSlidesMapped": 2366,
+  "pdfPages": 2299,
+  "pdfFiles": 26,
+  "qrCodes": 193,
+  "printOverflow": 0,
+  "status": "passed",
+  "reports": [
+    "browser.json",
+    "geometry-print.json",
+    "notes-import.json",
+    "pdf-review.json",
+    "resources.json"
+  ]
+}

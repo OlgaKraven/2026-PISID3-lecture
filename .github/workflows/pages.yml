@@ -1,19 +1,16 @@
 name: Deploy GitHub Pages
-
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,35 +18,23 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.22.0
+          node-version: 24
           cache: npm
       - run: npm ci
-      - name: Install browser for UI checks
-        run: npx playwright install --with-deps chromium
-      - name: Check Russian text
-        run: npm run spellcheck
-      - name: Lint source files
-        run: npm run lint
-      - name: Check TypeScript
-        run: npx tsc --noEmit --incremental false
-      - name: Audit lecture structure and repeated content
-        run: npm run audit:content
-      - name: Check responsive lecture screens
-        run: npm run test:smoke
-        timeout-minutes: 5
-      - name: Build static site
-        run: npm run build:pages
+      - run: npm run lint
+      - run: npm run validate:content
+      - run: node scripts/check-methodology.mjs
+      - run: npm run check:readiness -- --strict
+      - run: npm run build:pages
         env:
-          GITHUB_PAGES: 'true'
-          NEXT_PUBLIC_BASE_PATH: /2026-PISID3-lecture
-      - name: Validate QR codes
-        run: npm run validate:qr
+          BASE_PATH: /2026-PISID3-lecture/
+      - run: npm run check:privacy
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/client
-
+          path: dist
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -1,0 +1,158 @@
+[
+  {
+    "lectureId": "01-project-decisions",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "02-roles-views",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "12-business-rules",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "14-data-history",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "15-model-revision",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "17-adr",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "19-defense",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "pages": 88,
+    "missingTitles": [],
+    "renderedPages": 88
+  },
+  {
+    "lectureId": "25-rbac",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "pages": 89,
+    "missingTitles": [],
+    "renderedPages": 89
+  }
+]

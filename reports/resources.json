@@ -1,0 +1,980 @@
+{
+  "qr": [
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=240532",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+      "decoded": true
+    },
+    {
+      "lectureId": "01-project-decisions",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=240532",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+      "decoded": true
+    },
+    {
+      "lectureId": "02-roles-views",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "03-artifact-map",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "05-interview-technique",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "06-requirement-classes",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "07-requirement-quality",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories",
+      "decoded": true
+    },
+    {
+      "lectureId": "08-user-story-acceptance",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "09-assumptions-traceability",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "10-entity-candidates",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "11-project-glossary",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "12-business-rules",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "13-attribute-composition",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+      "decoded": true
+    },
+    {
+      "lectureId": "14-data-history",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "decoded": true
+    },
+    {
+      "lectureId": "15-model-revision",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "16-decision-matrix",
+      "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+      "decoded": true
+    },
+    {
+      "lectureId": "17-adr",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+      "decoded": true
+    },
+    {
+      "lectureId": "19-defense",
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "decoded": true
+    },
+    {
+      "lectureId": "20-ux-goals",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "decoded": true
+    },
+    {
+      "lectureId": "21-information-architecture",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "decoded": true
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "decoded": true
+    },
+    {
+      "lectureId": "23-forms-validation-states",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "24-design-system-accessibility",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://csrc.nist.gov/glossary/term/role_based_access_control",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "25-rbac",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://csrc.nist.gov/glossary/term/role_based_access_control",
+      "decoded": true
+    },
+    {
+      "lectureId": "26-auth-lockout",
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    }
+  ],
+  "editor": "login, edit, persist across reload, restore: passed",
+  "offline": {
+    "status": "passed",
+    "cachedFiles": 34
+  },
+  "fonts": [
+    {
+      "family": "Raleway",
+      "status": "loaded"
+    }
+  ]
+}
