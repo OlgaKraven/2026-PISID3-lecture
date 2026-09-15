@@ -1,4 +1,5 @@
-import {validateTeacherPack, type Course, type Note} from '@olgakraven/lecture-engine';
+import {validateTeacherPack, type Course} from '@olgakraven/lecture-engine';
+import {notesStorage, registerNotes} from './notes-storage';
 
 // The repository pack supplies defaults; locally edited notes always take precedence.
 export async function loadStartupNotes(course: Course, base: string) {
@@ -8,8 +9,7 @@ export async function loadStartupNotes(course: Course, base: string) {
   const pack = await response.json();
   validateTeacherPack(pack, course);
   const key = `lecture:${base}:${course.id}:private:${course.contentVersion}`;
-  const raw = localStorage.getItem(key);
-  const saved: Record<string, Note> = raw ? JSON.parse(raw) : {};
-  if (!saved || typeof saved !== 'object' || Array.isArray(saved)) throw Error('Неверный формат сохранённых заметок. Сохраните резервную копию данных браузера.');
-  localStorage.setItem(key, JSON.stringify({...pack.notes, ...saved}));
+  registerNotes(key, pack.notes);
+  // Validate existing data, but do not require any storage write to open a course.
+  notesStorage.getItem(key);
 }

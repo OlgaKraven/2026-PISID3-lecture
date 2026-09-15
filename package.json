@@ -18,7 +18,8 @@
     "build:pages": "npm run build",
     "check:privacy": "node scripts/check-privacy.mjs",
     "export:pdf": "node scripts/export-pdf.mjs",
-    "test:smoke": "node scripts/smoke.mjs"
+    "test:smoke": "node scripts/smoke.mjs",
+    "test:notes": "node scripts/check-notes-storage.mjs"
   },
   "dependencies": {
     "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0.tgz",
