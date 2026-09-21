@@ -19,7 +19,12 @@
     "check:privacy": "node scripts/check-privacy.mjs",
     "export:pdf": "node scripts/export-pdf.mjs",
     "test:smoke": "node scripts/smoke.mjs",
-    "test:notes": "node scripts/check-notes-storage.mjs"
+    "test:notes": "node scripts/check-notes-storage.mjs",
+    "audit:content": "node scripts/review-content.mjs",
+    "check:methodology": "node scripts/check-methodology.mjs",
+    "check:generated": "node scripts/check-generated.mjs",
+    "test:tour": "node scripts/check-tour.mjs",
+    "test:visuals": "node scripts/check-visuals.mjs"
   },
   "dependencies": {
     "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0.tgz",

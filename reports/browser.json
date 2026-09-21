@@ -1,16 +1,8 @@
 {
   "viewports": [
     {
-      "width": 1920,
-      "slides": 2299
-    },
-    {
-      "width": 1366,
-      "slides": 2299
-    },
-    {
       "width": 390,
-      "slides": 2299
+      "slides": 1883
     }
   ],
   "assessment": [

@@ -65,16 +65,6 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -91,16 +81,6 @@
   },
   {
     "id": "01-project-decisions-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -160,16 +140,6 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -186,16 +156,6 @@
   },
   {
     "id": "01-project-decisions-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -255,16 +215,6 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -281,16 +231,6 @@
   },
   {
     "id": "01-project-decisions-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -350,16 +290,6 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -376,16 +306,6 @@
   },
   {
     "id": "01-project-decisions-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -510,16 +430,6 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -536,16 +446,6 @@
   },
   {
     "id": "02-roles-views-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -605,16 +505,6 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -631,16 +521,6 @@
   },
   {
     "id": "02-roles-views-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -700,16 +580,6 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -726,16 +596,6 @@
   },
   {
     "id": "02-roles-views-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -795,16 +655,6 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -821,16 +671,6 @@
   },
   {
     "id": "02-roles-views-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -955,16 +795,6 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -981,16 +811,6 @@
   },
   {
     "id": "03-artifact-map-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1050,16 +870,6 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1076,16 +886,6 @@
   },
   {
     "id": "03-artifact-map-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1145,16 +945,6 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1171,16 +961,6 @@
   },
   {
     "id": "03-artifact-map-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1240,16 +1020,6 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1266,16 +1036,6 @@
   },
   {
     "id": "03-artifact-map-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1395,16 +1155,6 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1421,16 +1171,6 @@
   },
   {
     "id": "04-requirement-sources-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1490,16 +1230,6 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1516,16 +1246,6 @@
   },
   {
     "id": "04-requirement-sources-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1585,16 +1305,6 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1611,16 +1321,6 @@
   },
   {
     "id": "04-requirement-sources-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1680,16 +1380,6 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1706,16 +1396,6 @@
   },
   {
     "id": "04-requirement-sources-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1835,16 +1515,6 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1861,16 +1531,6 @@
   },
   {
     "id": "05-interview-technique-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -1930,16 +1590,6 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -1956,16 +1606,6 @@
   },
   {
     "id": "05-interview-technique-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2025,16 +1665,6 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2051,16 +1681,6 @@
   },
   {
     "id": "05-interview-technique-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2120,16 +1740,6 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2146,16 +1756,6 @@
   },
   {
     "id": "05-interview-technique-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2275,16 +1875,6 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2301,16 +1891,6 @@
   },
   {
     "id": "06-requirement-classes-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2370,16 +1950,6 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2396,16 +1966,6 @@
   },
   {
     "id": "06-requirement-classes-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2465,16 +2025,6 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2491,16 +2041,6 @@
   },
   {
     "id": "06-requirement-classes-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2560,16 +2100,6 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2586,16 +2116,6 @@
   },
   {
     "id": "06-requirement-classes-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2715,16 +2235,6 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2741,16 +2251,6 @@
   },
   {
     "id": "07-requirement-quality-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2810,16 +2310,6 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2836,16 +2326,6 @@
   },
   {
     "id": "07-requirement-quality-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -2905,16 +2385,6 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -2931,16 +2401,6 @@
   },
   {
     "id": "07-requirement-quality-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3000,16 +2460,6 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3026,16 +2476,6 @@
   },
   {
     "id": "07-requirement-quality-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3155,16 +2595,6 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3181,16 +2611,6 @@
   },
   {
     "id": "08-user-story-acceptance-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3250,16 +2670,6 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3276,16 +2686,6 @@
   },
   {
     "id": "08-user-story-acceptance-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3345,16 +2745,6 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3371,16 +2761,6 @@
   },
   {
     "id": "08-user-story-acceptance-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3440,16 +2820,6 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3466,16 +2836,6 @@
   },
   {
     "id": "08-user-story-acceptance-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3595,16 +2955,6 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3621,16 +2971,6 @@
   },
   {
     "id": "09-assumptions-traceability-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3690,16 +3030,6 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3716,16 +3046,6 @@
   },
   {
     "id": "09-assumptions-traceability-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3785,16 +3105,6 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3811,16 +3121,6 @@
   },
   {
     "id": "09-assumptions-traceability-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -3880,16 +3180,6 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -3906,16 +3196,6 @@
   },
   {
     "id": "09-assumptions-traceability-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4040,16 +3320,6 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4066,16 +3336,6 @@
   },
   {
     "id": "10-entity-candidates-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4135,16 +3395,6 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4161,16 +3411,6 @@
   },
   {
     "id": "10-entity-candidates-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4230,16 +3470,6 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4256,16 +3486,6 @@
   },
   {
     "id": "10-entity-candidates-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4325,16 +3545,6 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4351,16 +3561,6 @@
   },
   {
     "id": "10-entity-candidates-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4485,16 +3685,6 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4511,16 +3701,6 @@
   },
   {
     "id": "11-project-glossary-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4580,16 +3760,6 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4606,16 +3776,6 @@
   },
   {
     "id": "11-project-glossary-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4675,16 +3835,6 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4701,16 +3851,6 @@
   },
   {
     "id": "11-project-glossary-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4770,16 +3910,6 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4796,16 +3926,6 @@
   },
   {
     "id": "11-project-glossary-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -4930,16 +4050,6 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -4956,16 +4066,6 @@
   },
   {
     "id": "12-business-rules-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5025,16 +4125,6 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5051,16 +4141,6 @@
   },
   {
     "id": "12-business-rules-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5120,16 +4200,6 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5146,16 +4216,6 @@
   },
   {
     "id": "12-business-rules-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5215,16 +4275,6 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5241,16 +4291,6 @@
   },
   {
     "id": "12-business-rules-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5375,16 +4415,6 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5401,16 +4431,6 @@
   },
   {
     "id": "13-attribute-composition-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5470,16 +4490,6 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5496,16 +4506,6 @@
   },
   {
     "id": "13-attribute-composition-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5565,16 +4565,6 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5591,16 +4581,6 @@
   },
   {
     "id": "13-attribute-composition-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5660,16 +4640,6 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5686,16 +4656,6 @@
   },
   {
     "id": "13-attribute-composition-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5820,16 +4780,6 @@
     "out": []
   },
   {
-    "id": "14-data-history-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5846,16 +4796,6 @@
   },
   {
     "id": "14-data-history-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -5915,16 +4855,6 @@
     "out": []
   },
   {
-    "id": "14-data-history-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -5941,16 +4871,6 @@
   },
   {
     "id": "14-data-history-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6010,16 +4930,6 @@
     "out": []
   },
   {
-    "id": "14-data-history-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6036,16 +4946,6 @@
   },
   {
     "id": "14-data-history-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6105,16 +5005,6 @@
     "out": []
   },
   {
-    "id": "14-data-history-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6131,16 +5021,6 @@
   },
   {
     "id": "14-data-history-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6265,16 +5145,6 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6291,16 +5161,6 @@
   },
   {
     "id": "15-model-revision-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6360,16 +5220,6 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6386,16 +5236,6 @@
   },
   {
     "id": "15-model-revision-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6455,16 +5295,6 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6481,16 +5311,6 @@
   },
   {
     "id": "15-model-revision-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6550,16 +5370,6 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6576,16 +5386,6 @@
   },
   {
     "id": "15-model-revision-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6705,16 +5505,6 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6731,16 +5521,6 @@
   },
   {
     "id": "16-decision-matrix-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6800,16 +5580,6 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6826,16 +5596,6 @@
   },
   {
     "id": "16-decision-matrix-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6895,16 +5655,6 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -6921,16 +5671,6 @@
   },
   {
     "id": "16-decision-matrix-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -6990,16 +5730,6 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7016,16 +5746,6 @@
   },
   {
     "id": "16-decision-matrix-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7145,16 +5865,6 @@
     "out": []
   },
   {
-    "id": "17-adr-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7171,16 +5881,6 @@
   },
   {
     "id": "17-adr-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7240,16 +5940,6 @@
     "out": []
   },
   {
-    "id": "17-adr-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7266,16 +5956,6 @@
   },
   {
     "id": "17-adr-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7335,16 +6015,6 @@
     "out": []
   },
   {
-    "id": "17-adr-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7361,16 +6031,6 @@
   },
   {
     "id": "17-adr-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7430,16 +6090,6 @@
     "out": []
   },
   {
-    "id": "17-adr-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7456,16 +6106,6 @@
   },
   {
     "id": "17-adr-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7585,16 +6225,6 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7611,16 +6241,6 @@
   },
   {
     "id": "18-nfr-impact-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7680,16 +6300,6 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7706,16 +6316,6 @@
   },
   {
     "id": "18-nfr-impact-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7775,16 +6375,6 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7801,16 +6391,6 @@
   },
   {
     "id": "18-nfr-impact-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -7870,16 +6450,6 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -7896,16 +6466,6 @@
   },
   {
     "id": "18-nfr-impact-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8025,16 +6585,6 @@
     "out": []
   },
   {
-    "id": "19-defense-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8051,16 +6601,6 @@
   },
   {
     "id": "19-defense-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8120,16 +6660,6 @@
     "out": []
   },
   {
-    "id": "19-defense-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8146,16 +6676,6 @@
   },
   {
     "id": "19-defense-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8215,16 +6735,6 @@
     "out": []
   },
   {
-    "id": "19-defense-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8241,16 +6751,6 @@
   },
   {
     "id": "19-defense-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8310,16 +6810,6 @@
     "out": []
   },
   {
-    "id": "19-defense-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8336,16 +6826,6 @@
   },
   {
     "id": "19-defense-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8465,16 +6945,6 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8491,16 +6961,6 @@
   },
   {
     "id": "20-ux-goals-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8560,16 +7020,6 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8586,16 +7036,6 @@
   },
   {
     "id": "20-ux-goals-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8655,16 +7095,6 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8681,16 +7111,6 @@
   },
   {
     "id": "20-ux-goals-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8750,16 +7170,6 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8776,16 +7186,6 @@
   },
   {
     "id": "20-ux-goals-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -8905,16 +7305,6 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -8931,16 +7321,6 @@
   },
   {
     "id": "21-information-architecture-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9000,16 +7380,6 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9026,16 +7396,6 @@
   },
   {
     "id": "21-information-architecture-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9095,16 +7455,6 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9121,16 +7471,6 @@
   },
   {
     "id": "21-information-architecture-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9190,16 +7530,6 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9216,16 +7546,6 @@
   },
   {
     "id": "21-information-architecture-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9345,16 +7665,6 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9371,16 +7681,6 @@
   },
   {
     "id": "22-wireframe-prototype-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9440,16 +7740,6 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9466,16 +7756,6 @@
   },
   {
     "id": "22-wireframe-prototype-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9535,16 +7815,6 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9561,16 +7831,6 @@
   },
   {
     "id": "22-wireframe-prototype-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9630,16 +7890,6 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9656,16 +7906,6 @@
   },
   {
     "id": "22-wireframe-prototype-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9785,16 +8025,6 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9811,16 +8041,6 @@
   },
   {
     "id": "23-forms-validation-states-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9880,16 +8100,6 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -9906,16 +8116,6 @@
   },
   {
     "id": "23-forms-validation-states-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -9975,16 +8175,6 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10001,16 +8191,6 @@
   },
   {
     "id": "23-forms-validation-states-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10070,16 +8250,6 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10096,16 +8266,6 @@
   },
   {
     "id": "23-forms-validation-states-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10225,16 +8385,6 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10251,16 +8401,6 @@
   },
   {
     "id": "24-design-system-accessibility-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10320,16 +8460,6 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10346,16 +8476,6 @@
   },
   {
     "id": "24-design-system-accessibility-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10415,16 +8535,6 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10441,16 +8551,6 @@
   },
   {
     "id": "24-design-system-accessibility-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10510,16 +8610,6 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10536,16 +8626,6 @@
   },
   {
     "id": "24-design-system-accessibility-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10670,16 +8750,6 @@
     "out": []
   },
   {
-    "id": "25-rbac-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10696,16 +8766,6 @@
   },
   {
     "id": "25-rbac-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10765,16 +8825,6 @@
     "out": []
   },
   {
-    "id": "25-rbac-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10791,16 +8841,6 @@
   },
   {
     "id": "25-rbac-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10860,16 +8900,6 @@
     "out": []
   },
   {
-    "id": "25-rbac-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10886,16 +8916,6 @@
   },
   {
     "id": "25-rbac-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -10955,16 +8975,6 @@
     "out": []
   },
   {
-    "id": "25-rbac-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -10981,16 +8991,6 @@
   },
   {
     "id": "25-rbac-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -11115,16 +9115,6 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c1-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c1-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c1-notebook",
     "copyOverflow": 0,
     "out": []
@@ -11141,16 +9131,6 @@
   },
   {
     "id": "26-auth-lockout-c2-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c2-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c2-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -11210,16 +9190,6 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c3-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c3-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c3-notebook",
     "copyOverflow": 0,
     "out": []
@@ -11236,16 +9206,6 @@
   },
   {
     "id": "26-auth-lockout-c4-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c4-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c4-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -11305,16 +9265,6 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c5-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c5-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c5-notebook",
     "copyOverflow": 0,
     "out": []
@@ -11331,16 +9281,6 @@
   },
   {
     "id": "26-auth-lockout-c6-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c6-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c6-mistake",
     "copyOverflow": 0,
     "out": []
   },
@@ -11400,16 +9340,6 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c7-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c7-mistake",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c7-notebook",
     "copyOverflow": 0,
     "out": []
@@ -11426,16 +9356,6 @@
   },
   {
     "id": "26-auth-lockout-c8-decision",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c8-mechanism",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-c8-mistake",
     "copyOverflow": 0,
     "out": []
   },

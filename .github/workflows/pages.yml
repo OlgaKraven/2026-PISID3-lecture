@@ -23,9 +23,11 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run test:notes
+      - run: npm run check:generated
+      - run: npm run audit:content
       - run: npm run validate:content
       - run: node scripts/check-methodology.mjs
-      - run: npm run check:readiness -- --strict
+      - run: npm run check:readiness -- --strict --teacher=public/teacher-pack.json
       - run: npm run build:pages
         env:
           BASE_PATH: /2026-PISID3-lecture/

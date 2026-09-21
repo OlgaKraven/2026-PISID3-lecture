@@ -1,0 +1,24 @@
+{
+  "version": "pisid3-2026.09.21-visuals-v3",
+  "caseDiagrams": 104,
+  "types": [
+    "network",
+    "decision",
+    "matrix",
+    "process",
+    "tree",
+    "timeline"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "diagrams": 104
+    },
+    {
+      "width": 390,
+      "diagrams": 104
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

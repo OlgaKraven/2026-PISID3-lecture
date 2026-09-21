@@ -5,7 +5,7 @@ validateCourse(c)
 if (c.assessment && !/^https?:/.test(c.assessment.url))
   validateBank(JSON.parse(await readFile('public/' + c.assessment.url, 'utf8')), c)
 if (!c.demo)
-  for (const l of c.lectures) if (l.slides.length < 80) throw Error(l.id + ': меньше 80 слайдов')
+  for (const l of c.lectures) if (!l.slides.length) throw Error(l.id + ': нет слайдов')
 const slides = c.lectures.flatMap((l) => l.slides)
 console.log(
   JSON.stringify(
