@@ -24,7 +24,7 @@ const steps: Record<Exclude<Screen, 'hidden'>, Step[]> = {
     {title: 'Откройте лекцию', text: 'Нажмите кнопку ниже — откроется первая видимая лекция, и тур продолжится уже на её кнопках. Позже так можно открыть любую тему в каталоге.', target: () => button('Открыть'), action: 'Открыть лекцию и продолжить', nextScreen: 'lecture'},
   ],
   lecture: [
-    {title: 'Перелистывайте слайды', text: 'Кнопки «Назад» и «Вперёд» находятся под слайдом. После завершения тура также работают стрелки клавиатуры. Счётчик показывает текущую страницу и общее число слайдов.', target: () => find('.deck-controls')},
+    {title: 'Перелистывайте слайды', text: 'Стрелки под слайдом переключают страницы. После завершения тура работают ← и → на клавиатуре и свайпы: влево — следующий слайд, вправо — предыдущий. Счётчик открывает содержание.', target: () => find('.deck-controls')},
     {title: 'Перейдите сразу к нужному вопросу', text: 'Кнопка «Открыть содержание» показывает список слайдов и поиск по лекции. Такой же список открывается нажатием на счётчик под слайдом.', target: () => button('Открыть содержание')},
     {title: 'Разверните лекцию на весь экран', text: 'Эта кнопка включает полноэкранный режим текущего окна. Для выхода используйте Escape. В режиме двух окон полный экран для аудитории включается в самом окне аудитории.', target: () => button('Полноэкранный режим')},
     {title: 'Скачайте текущую лекцию', text: '«Скачать лекцию» открывает варианты сохранения. Для PDF откроется печатное представление; проверьте страницы перед сохранением.', target: () => button('Скачать лекцию')},
@@ -34,10 +34,9 @@ const steps: Record<Exclude<Screen, 'hidden'>, Step[]> = {
     {title: 'Подключите окно аудитории', text: '«Открыть аудиторию» повторно открывает окно показа, если оно закрыто или было заблокировано. На проектор переносите именно его: заметки остаются в панели преподавателя.', target: () => button('Открыть аудиторию')},
     {title: 'Читайте сценарий к текущему слайду', text: 'Здесь уже загружены заметки курса. Вкладки «Подготовка», «Запись», «Вопросы» и «Ответы» показывают соответствующие части сценария. Переключение вкладок не меняет слайд аудитории.', target: () => find('[aria-label="Разделы заметок"]')},
     {title: 'Настройте размер заметок', text: 'Ползунок меняет только размер текста сценария в вашей панели. Текст на проекторе остаётся прежним.', target: () => find('.note-font')},
-    {title: 'Дополните сценарий', text: 'Нажмите «Редактировать», чтобы изменить заметку выбранного слайда. Правки сохраняются в этом браузере. Они не публикуются на сайте и не переносятся на другой компьютер автоматически.', target: () => button('Редактировать') || button('Читать')},
     {title: 'Сохраните свои заметки', text: '«Сохранить заметки» скачивает резервную копию в JSON. «Загрузить заметки» позволяет перенести совместимый файл. Перед импортом сохраните текущие правки. Файл должен соответствовать версии курса.', target: () => find('.notes-files')},
     {title: 'Сделайте паузу в показе', text: '«Чёрный экран» скрывает слайд у аудитории, сохраняя вашу панель. Нажмите «Вернуть слайд», чтобы продолжить показ.', target: () => button('Чёрный экран') || button('Вернуть слайд')},
-    {title: 'Завершите занятие', text: 'Кнопка «Завершить» выходит из панели преподавателя. Тур можно повторить в любой момент кнопкой «Тур по кнопкам». Сейчас нажмите «Готово» и попробуйте управление самостоятельно.', target: () => button('Завершить')},
+    {title: 'Завершите занятие', text: 'Кнопка «Завершить» выходит из панели преподавателя. Тур можно повторить кнопкой «Тур по кнопкам» в каталоге. Сейчас нажмите «Готово» и попробуйте управление самостоятельно.', target: () => button('Завершить')},
   ],
 };
 
@@ -149,9 +148,9 @@ export function GuidedTour() {
   const cardTop = Math.max(12, Math.min(innerHeight - cardHeight - 12, below + cardHeight < innerHeight - 12 ? below : rect.top - cardHeight - 18));
   const cardLeft = Math.max(12, Math.min(rect.left, innerWidth - cardWidth - 12));
 
-  if (!active && current === 'hidden') return null;
+  if (!active && current !== 'catalog') return null;
   return createPortal(<div className="guided-tour">
-    {!active && <button className="tour-launch" onClick={start}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></svg>Тур по кнопкам</button>}
+    {!active && <button className="tour-launch" onClick={start} aria-label="Тур по кнопкам"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></svg>Тур по кнопкам</button>}
     {active && <>
       <div className="tour-shield" aria-hidden="true" />
       {!missing && !waiting && step && <div className="tour-spotlight" aria-hidden="true" style={{top: rect.top - 5, left: rect.left - 5, width: rect.width + 10, height: rect.height + 10}} />}
@@ -164,7 +163,7 @@ export function GuidedTour() {
         {missing && !waiting && <p className="tour-error">Этот элемент сейчас не виден. Можно пропустить пояснение или закрыть тур и изменить поиск.</p>}
         {error && <p role="alert" className="tour-error">{error}</p>}
         <div className="tour-actions"><button disabled={index === 0 || waiting} onClick={() => {setError(''); setIndex(index - 1);}}>Назад</button><button className="tour-next" disabled={waiting || !step || (missing && Boolean(step.action))} onClick={next}>{step?.action || (index + 1 === list.length ? 'Готово' : 'Далее')}</button></div>
-        <p className="tour-hint">Esc — закрыть. Повторный запуск — «Тур по кнопкам».</p>
+        <p className="tour-hint">Esc — закрыть. Повторный запуск — в каталоге.</p>
       </div>
     </>}
   </div>, document.body);

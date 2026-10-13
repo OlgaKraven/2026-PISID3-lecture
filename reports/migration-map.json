@@ -22,7 +22,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "01-project-decisions-main-literature"
+      "01-project-decisions-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -31,7 +31,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "01-project-decisions-additional-literature"
+      "01-project-decisions-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -40,7 +40,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "01-project-decisions-materials"
+      "01-project-decisions-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -121,7 +121,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Проектирование",
     "newSlideIds": [
-      "01-project-decisions-c1-case"
+      "01-project-decisions-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -193,7 +193,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Исходный факт",
     "newSlideIds": [
-      "01-project-decisions-c2-case"
+      "01-project-decisions-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -265,7 +265,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Вариант решения",
     "newSlideIds": [
-      "01-project-decisions-c3-case"
+      "01-project-decisions-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -337,7 +337,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Стадия создания ИС",
     "newSlideIds": [
-      "01-project-decisions-c4-case"
+      "01-project-decisions-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -409,7 +409,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Артефакт",
     "newSlideIds": [
-      "01-project-decisions-c5-case"
+      "01-project-decisions-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -481,7 +481,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Трассировка",
     "newSlideIds": [
-      "01-project-decisions-c6-case"
+      "01-project-decisions-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -553,7 +553,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Ответственность проектировщика",
     "newSlideIds": [
-      "01-project-decisions-c7-case"
+      "01-project-decisions-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -625,7 +625,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Граница проектирования и кода",
     "newSlideIds": [
-      "01-project-decisions-c8-case"
+      "01-project-decisions-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -841,7 +841,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "02-roles-views-main-literature"
+      "02-roles-views-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -850,7 +850,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "02-roles-views-additional-literature"
+      "02-roles-views-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -859,7 +859,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "02-roles-views-materials"
+      "02-roles-views-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -940,7 +940,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Заказчик",
     "newSlideIds": [
-      "02-roles-views-c1-case"
+      "02-roles-views-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1012,7 +1012,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Пользователь",
     "newSlideIds": [
-      "02-roles-views-c2-case"
+      "02-roles-views-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1084,7 +1084,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Аналитик",
     "newSlideIds": [
-      "02-roles-views-c3-case"
+      "02-roles-views-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1156,7 +1156,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Проектировщик",
     "newSlideIds": [
-      "02-roles-views-c4-case"
+      "02-roles-views-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1228,7 +1228,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Разработчик",
     "newSlideIds": [
-      "02-roles-views-c5-case"
+      "02-roles-views-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1300,7 +1300,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Точка зрения",
     "newSlideIds": [
-      "02-roles-views-c6-case"
+      "02-roles-views-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1372,7 +1372,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Конфликт интересов",
     "newSlideIds": [
-      "02-roles-views-c7-case"
+      "02-roles-views-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1444,7 +1444,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Право решения",
     "newSlideIds": [
-      "02-roles-views-c8-case"
+      "02-roles-views-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1660,7 +1660,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "03-artifact-map-main-literature"
+      "03-artifact-map-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1669,7 +1669,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "03-artifact-map-additional-literature"
+      "03-artifact-map-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1678,7 +1678,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "03-artifact-map-materials"
+      "03-artifact-map-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1759,7 +1759,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Брифинг",
     "newSlideIds": [
-      "03-artifact-map-c1-case"
+      "03-artifact-map-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1831,7 +1831,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Реестр требований",
     "newSlideIds": [
-      "03-artifact-map-c2-case"
+      "03-artifact-map-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1903,7 +1903,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Глоссарий",
     "newSlideIds": [
-      "03-artifact-map-c3-case"
+      "03-artifact-map-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -1975,7 +1975,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Концептуальная модель",
     "newSlideIds": [
-      "03-artifact-map-c4-case"
+      "03-artifact-map-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2047,7 +2047,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Макет",
     "newSlideIds": [
-      "03-artifact-map-c5-case"
+      "03-artifact-map-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2119,7 +2119,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Проектная спецификация",
     "newSlideIds": [
-      "03-artifact-map-c6-case"
+      "03-artifact-map-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2191,7 +2191,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Зависимость артефактов",
     "newSlideIds": [
-      "03-artifact-map-c7-case"
+      "03-artifact-map-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2263,7 +2263,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Разрыв трассировки",
     "newSlideIds": [
-      "03-artifact-map-c8-case"
+      "03-artifact-map-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2479,7 +2479,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "04-requirement-sources-main-literature"
+      "04-requirement-sources-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2488,7 +2488,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "04-requirement-sources-additional-literature"
+      "04-requirement-sources-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2497,7 +2497,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "04-requirement-sources-materials"
+      "04-requirement-sources-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2578,7 +2578,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Брифинг как источник",
     "newSlideIds": [
-      "04-requirement-sources-c1-case"
+      "04-requirement-sources-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2650,7 +2650,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Интервью как источник",
     "newSlideIds": [
-      "04-requirement-sources-c2-case"
+      "04-requirement-sources-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2722,7 +2722,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Действующая форма",
     "newSlideIds": [
-      "04-requirement-sources-c3-case"
+      "04-requirement-sources-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2794,7 +2794,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Отчёт",
     "newSlideIds": [
-      "04-requirement-sources-c4-case"
+      "04-requirement-sources-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2866,7 +2866,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Наблюдение",
     "newSlideIds": [
-      "04-requirement-sources-c5-case"
+      "04-requirement-sources-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -2938,7 +2938,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Структура Excel",
     "newSlideIds": [
-      "04-requirement-sources-c6-case"
+      "04-requirement-sources-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3010,7 +3010,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Качество выгрузки",
     "newSlideIds": [
-      "04-requirement-sources-c7-case"
+      "04-requirement-sources-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3082,7 +3082,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Триангуляция",
     "newSlideIds": [
-      "04-requirement-sources-c8-case"
+      "04-requirement-sources-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3298,7 +3298,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "05-interview-technique-main-literature"
+      "05-interview-technique-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3307,7 +3307,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "05-interview-technique-additional-literature"
+      "05-interview-technique-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3316,7 +3316,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "05-interview-technique-materials"
+      "05-interview-technique-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3397,7 +3397,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Цель интервью",
     "newSlideIds": [
-      "05-interview-technique-c1-case"
+      "05-interview-technique-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3469,7 +3469,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Открытый вопрос",
     "newSlideIds": [
-      "05-interview-technique-c2-case"
+      "05-interview-technique-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3541,7 +3541,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Закрытый вопрос",
     "newSlideIds": [
-      "05-interview-technique-c3-case"
+      "05-interview-technique-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3613,7 +3613,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Уточняющий вопрос",
     "newSlideIds": [
-      "05-interview-technique-c4-case"
+      "05-interview-technique-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3685,7 +3685,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Воронка вопросов",
     "newSlideIds": [
-      "05-interview-technique-c5-case"
+      "05-interview-technique-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3757,7 +3757,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Активное слушание",
     "newSlideIds": [
-      "05-interview-technique-c6-case"
+      "05-interview-technique-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3829,7 +3829,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Протокол встречи",
     "newSlideIds": [
-      "05-interview-technique-c7-case"
+      "05-interview-technique-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -3901,7 +3901,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Работа с неопределённостью",
     "newSlideIds": [
-      "05-interview-technique-c8-case"
+      "05-interview-technique-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4117,7 +4117,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "06-requirement-classes-main-literature"
+      "06-requirement-classes-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4126,7 +4126,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "06-requirement-classes-additional-literature"
+      "06-requirement-classes-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4135,7 +4135,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "06-requirement-classes-materials"
+      "06-requirement-classes-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4216,7 +4216,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Функциональное требование",
     "newSlideIds": [
-      "06-requirement-classes-c1-case"
+      "06-requirement-classes-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4288,7 +4288,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Нефункциональное требование",
     "newSlideIds": [
-      "06-requirement-classes-c2-case"
+      "06-requirement-classes-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4360,7 +4360,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Ограничение",
     "newSlideIds": [
-      "06-requirement-classes-c3-case"
+      "06-requirement-classes-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4432,7 +4432,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Бизнес-правило",
     "newSlideIds": [
-      "06-requirement-classes-c4-case"
+      "06-requirement-classes-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4504,7 +4504,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Пользовательская потребность",
     "newSlideIds": [
-      "06-requirement-classes-c5-case"
+      "06-requirement-classes-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4576,7 +4576,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Системное требование",
     "newSlideIds": [
-      "06-requirement-classes-c6-case"
+      "06-requirement-classes-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4648,7 +4648,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Смешанное требование",
     "newSlideIds": [
-      "06-requirement-classes-c7-case"
+      "06-requirement-classes-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4720,7 +4720,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Способ проверки класса",
     "newSlideIds": [
-      "06-requirement-classes-c8-case"
+      "06-requirement-classes-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4936,7 +4936,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "07-requirement-quality-main-literature"
+      "07-requirement-quality-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4945,7 +4945,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "07-requirement-quality-additional-literature"
+      "07-requirement-quality-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -4954,7 +4954,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "07-requirement-quality-materials"
+      "07-requirement-quality-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5035,7 +5035,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Атомарность",
     "newSlideIds": [
-      "07-requirement-quality-c1-case"
+      "07-requirement-quality-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5107,7 +5107,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Проверяемость",
     "newSlideIds": [
-      "07-requirement-quality-c2-case"
+      "07-requirement-quality-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5179,7 +5179,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Недвусмысленность",
     "newSlideIds": [
-      "07-requirement-quality-c3-case"
+      "07-requirement-quality-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5251,7 +5251,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Полнота",
     "newSlideIds": [
-      "07-requirement-quality-c4-case"
+      "07-requirement-quality-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5323,7 +5323,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Необходимость",
     "newSlideIds": [
-      "07-requirement-quality-c5-case"
+      "07-requirement-quality-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5395,7 +5395,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Согласованность",
     "newSlideIds": [
-      "07-requirement-quality-c6-case"
+      "07-requirement-quality-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5467,7 +5467,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Антипаттерн «удобно»",
     "newSlideIds": [
-      "07-requirement-quality-c7-case"
+      "07-requirement-quality-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5539,7 +5539,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Антипаттерн «и так далее»",
     "newSlideIds": [
-      "07-requirement-quality-c8-case"
+      "07-requirement-quality-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5755,7 +5755,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "08-user-story-acceptance-main-literature"
+      "08-user-story-acceptance-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5764,7 +5764,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "08-user-story-acceptance-additional-literature"
+      "08-user-story-acceptance-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5773,7 +5773,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "08-user-story-acceptance-materials"
+      "08-user-story-acceptance-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5854,7 +5854,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Роль истории",
     "newSlideIds": [
-      "08-user-story-acceptance-c1-case"
+      "08-user-story-acceptance-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5926,7 +5926,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Цель",
     "newSlideIds": [
-      "08-user-story-acceptance-c2-case"
+      "08-user-story-acceptance-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -5998,7 +5998,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Ценность",
     "newSlideIds": [
-      "08-user-story-acceptance-c3-case"
+      "08-user-story-acceptance-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6070,7 +6070,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Критерий Given–When–Then",
     "newSlideIds": [
-      "08-user-story-acceptance-c4-case"
+      "08-user-story-acceptance-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6142,7 +6142,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Позитивный сценарий",
     "newSlideIds": [
-      "08-user-story-acceptance-c5-case"
+      "08-user-story-acceptance-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6214,7 +6214,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Негативный сценарий",
     "newSlideIds": [
-      "08-user-story-acceptance-c6-case"
+      "08-user-story-acceptance-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6286,7 +6286,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Граница истории",
     "newSlideIds": [
-      "08-user-story-acceptance-c7-case"
+      "08-user-story-acceptance-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6358,7 +6358,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Готовность истории",
     "newSlideIds": [
-      "08-user-story-acceptance-c8-case"
+      "08-user-story-acceptance-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6574,7 +6574,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "09-assumptions-traceability-main-literature"
+      "09-assumptions-traceability-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6583,7 +6583,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "09-assumptions-traceability-additional-literature"
+      "09-assumptions-traceability-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6592,7 +6592,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "09-assumptions-traceability-materials"
+      "09-assumptions-traceability-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6673,7 +6673,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Допущение",
     "newSlideIds": [
-      "09-assumptions-traceability-c1-case"
+      "09-assumptions-traceability-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6745,7 +6745,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Открытый вопрос",
     "newSlideIds": [
-      "09-assumptions-traceability-c2-case"
+      "09-assumptions-traceability-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6817,7 +6817,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Владелец вопроса",
     "newSlideIds": [
-      "09-assumptions-traceability-c3-case"
+      "09-assumptions-traceability-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6889,7 +6889,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Идентификатор требования",
     "newSlideIds": [
-      "09-assumptions-traceability-c4-case"
+      "09-assumptions-traceability-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -6961,7 +6961,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Прямая трассировка",
     "newSlideIds": [
-      "09-assumptions-traceability-c5-case"
+      "09-assumptions-traceability-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7033,7 +7033,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Обратная трассировка",
     "newSlideIds": [
-      "09-assumptions-traceability-c6-case"
+      "09-assumptions-traceability-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7105,7 +7105,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Анализ влияния",
     "newSlideIds": [
-      "09-assumptions-traceability-c7-case"
+      "09-assumptions-traceability-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7177,7 +7177,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Покрытие",
     "newSlideIds": [
-      "09-assumptions-traceability-c8-case"
+      "09-assumptions-traceability-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7393,7 +7393,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "10-entity-candidates-main-literature"
+      "10-entity-candidates-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7402,7 +7402,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "10-entity-candidates-additional-literature"
+      "10-entity-candidates-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7411,7 +7411,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "10-entity-candidates-materials"
+      "10-entity-candidates-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7492,7 +7492,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Сущность-кандидат",
     "newSlideIds": [
-      "10-entity-candidates-c1-case"
+      "10-entity-candidates-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7564,7 +7564,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Справочник",
     "newSlideIds": [
-      "10-entity-candidates-c2-case"
+      "10-entity-candidates-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7636,7 +7636,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Операция",
     "newSlideIds": [
-      "10-entity-candidates-c3-case"
+      "10-entity-candidates-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7708,7 +7708,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Событие",
     "newSlideIds": [
-      "10-entity-candidates-c4-case"
+      "10-entity-candidates-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7780,7 +7780,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Документ как сущность",
     "newSlideIds": [
-      "10-entity-candidates-c5-case"
+      "10-entity-candidates-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7852,7 +7852,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Скрытая сущность",
     "newSlideIds": [
-      "10-entity-candidates-c6-case"
+      "10-entity-candidates-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7924,7 +7924,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Ложная сущность",
     "newSlideIds": [
-      "10-entity-candidates-c7-case"
+      "10-entity-candidates-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -7996,7 +7996,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Обоснование отсева",
     "newSlideIds": [
-      "10-entity-candidates-c8-case"
+      "10-entity-candidates-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8212,7 +8212,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "11-project-glossary-main-literature"
+      "11-project-glossary-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8221,7 +8221,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "11-project-glossary-additional-literature"
+      "11-project-glossary-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8230,7 +8230,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "11-project-glossary-materials"
+      "11-project-glossary-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8311,7 +8311,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Термин",
     "newSlideIds": [
-      "11-project-glossary-c1-case"
+      "11-project-glossary-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8383,7 +8383,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Определение",
     "newSlideIds": [
-      "11-project-glossary-c2-case"
+      "11-project-glossary-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8455,7 +8455,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Синоним",
     "newSlideIds": [
-      "11-project-glossary-c3-case"
+      "11-project-glossary-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8527,7 +8527,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Омоним",
     "newSlideIds": [
-      "11-project-glossary-c4-case"
+      "11-project-glossary-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8599,7 +8599,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Недопустимая формулировка",
     "newSlideIds": [
-      "11-project-glossary-c5-case"
+      "11-project-glossary-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8671,7 +8671,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Источник термина",
     "newSlideIds": [
-      "11-project-glossary-c6-case"
+      "11-project-glossary-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8743,7 +8743,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Владелец определения",
     "newSlideIds": [
-      "11-project-glossary-c7-case"
+      "11-project-glossary-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -8815,7 +8815,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Версионирование",
     "newSlideIds": [
-      "11-project-glossary-c8-case"
+      "11-project-glossary-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9031,7 +9031,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "12-business-rules-main-literature"
+      "12-business-rules-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9040,7 +9040,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "12-business-rules-additional-literature"
+      "12-business-rules-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9049,7 +9049,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "12-business-rules-materials"
+      "12-business-rules-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9130,7 +9130,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Декларативное правило",
     "newSlideIds": [
-      "12-business-rules-c1-case"
+      "12-business-rules-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9202,7 +9202,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Условие правила",
     "newSlideIds": [
-      "12-business-rules-c2-case"
+      "12-business-rules-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9274,7 +9274,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Действие или запрет",
     "newSlideIds": [
-      "12-business-rules-c3-case"
+      "12-business-rules-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9346,7 +9346,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Исключение",
     "newSlideIds": [
-      "12-business-rules-c4-case"
+      "12-business-rules-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9418,7 +9418,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Источник правила",
     "newSlideIds": [
-      "12-business-rules-c5-case"
+      "12-business-rules-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9490,7 +9490,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Приоритет правил",
     "newSlideIds": [
-      "12-business-rules-c6-case"
+      "12-business-rules-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9562,7 +9562,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Таблица решений",
     "newSlideIds": [
-      "12-business-rules-c7-case"
+      "12-business-rules-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9634,7 +9634,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Граничная проверка",
     "newSlideIds": [
-      "12-business-rules-c8-case"
+      "12-business-rules-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9850,7 +9850,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "13-attribute-composition-main-literature"
+      "13-attribute-composition-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9859,7 +9859,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "13-attribute-composition-additional-literature"
+      "13-attribute-composition-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9868,7 +9868,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "13-attribute-composition-materials"
+      "13-attribute-composition-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -9949,7 +9949,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Атрибут из документа",
     "newSlideIds": [
-      "13-attribute-composition-c1-case"
+      "13-attribute-composition-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10021,7 +10021,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Обязательность",
     "newSlideIds": [
-      "13-attribute-composition-c2-case"
+      "13-attribute-composition-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10093,7 +10093,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Тип и формат",
     "newSlideIds": [
-      "13-attribute-composition-c3-case"
+      "13-attribute-composition-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10165,7 +10165,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Служебный атрибут",
     "newSlideIds": [
-      "13-attribute-composition-c4-case"
+      "13-attribute-composition-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10237,7 +10237,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Статус",
     "newSlideIds": [
-      "13-attribute-composition-c5-case"
+      "13-attribute-composition-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10309,7 +10309,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Хранимое значение",
     "newSlideIds": [
-      "13-attribute-composition-c6-case"
+      "13-attribute-composition-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10381,7 +10381,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Вычисляемое значение",
     "newSlideIds": [
-      "13-attribute-composition-c7-case"
+      "13-attribute-composition-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10453,7 +10453,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Происхождение данных",
     "newSlideIds": [
-      "13-attribute-composition-c8-case"
+      "13-attribute-composition-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10669,7 +10669,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "14-data-history-main-literature"
+      "14-data-history-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10678,7 +10678,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "14-data-history-additional-literature"
+      "14-data-history-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10687,7 +10687,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "14-data-history-materials"
+      "14-data-history-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10768,7 +10768,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Текущее значение",
     "newSlideIds": [
-      "14-data-history-c1-case"
+      "14-data-history-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10840,7 +10840,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Исторический факт",
     "newSlideIds": [
-      "14-data-history-c2-case"
+      "14-data-history-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10912,7 +10912,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Период действия",
     "newSlideIds": [
-      "14-data-history-c3-case"
+      "14-data-history-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -10984,7 +10984,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Версия записи",
     "newSlideIds": [
-      "14-data-history-c4-case"
+      "14-data-history-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11056,7 +11056,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Снимок в документе",
     "newSlideIds": [
-      "14-data-history-c5-case"
+      "14-data-history-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11128,7 +11128,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Журнал событий",
     "newSlideIds": [
-      "14-data-history-c6-case"
+      "14-data-history-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11200,7 +11200,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Архивная запись",
     "newSlideIds": [
-      "14-data-history-c7-case"
+      "14-data-history-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11272,7 +11272,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Исправление ошибки",
     "newSlideIds": [
-      "14-data-history-c8-case"
+      "14-data-history-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11488,7 +11488,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "15-model-revision-main-literature"
+      "15-model-revision-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11497,7 +11497,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "15-model-revision-additional-literature"
+      "15-model-revision-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11506,7 +11506,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "15-model-revision-materials"
+      "15-model-revision-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11587,7 +11587,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Вход ревизии",
     "newSlideIds": [
-      "15-model-revision-c1-case"
+      "15-model-revision-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11659,7 +11659,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Проверка полноты",
     "newSlideIds": [
-      "15-model-revision-c2-case"
+      "15-model-revision-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11731,7 +11731,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Трассировка требования",
     "newSlideIds": [
-      "15-model-revision-c3-case"
+      "15-model-revision-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11803,7 +11803,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Непокрытое требование",
     "newSlideIds": [
-      "15-model-revision-c4-case"
+      "15-model-revision-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11875,7 +11875,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Лишняя сущность",
     "newSlideIds": [
-      "15-model-revision-c5-case"
+      "15-model-revision-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -11947,7 +11947,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Лишний атрибут",
     "newSlideIds": [
-      "15-model-revision-c6-case"
+      "15-model-revision-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12019,7 +12019,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Перекрёстная проверка",
     "newSlideIds": [
-      "15-model-revision-c7-case"
+      "15-model-revision-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12091,7 +12091,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Заключение ревизии",
     "newSlideIds": [
-      "15-model-revision-c8-case"
+      "15-model-revision-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12307,7 +12307,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "16-decision-matrix-main-literature"
+      "16-decision-matrix-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12316,7 +12316,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "16-decision-matrix-additional-literature"
+      "16-decision-matrix-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12325,7 +12325,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "16-decision-matrix-materials"
+      "16-decision-matrix-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12406,7 +12406,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Допустимый вариант",
     "newSlideIds": [
-      "16-decision-matrix-c1-case"
+      "16-decision-matrix-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12478,7 +12478,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Критерий",
     "newSlideIds": [
-      "16-decision-matrix-c2-case"
+      "16-decision-matrix-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12550,7 +12550,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Вес критерия",
     "newSlideIds": [
-      "16-decision-matrix-c3-case"
+      "16-decision-matrix-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12622,7 +12622,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Шкала оценки",
     "newSlideIds": [
-      "16-decision-matrix-c4-case"
+      "16-decision-matrix-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12694,7 +12694,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Расчёт результата",
     "newSlideIds": [
-      "16-decision-matrix-c5-case"
+      "16-decision-matrix-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12766,7 +12766,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Критический порог",
     "newSlideIds": [
-      "16-decision-matrix-c6-case"
+      "16-decision-matrix-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12838,7 +12838,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Анализ чувствительности",
     "newSlideIds": [
-      "16-decision-matrix-c7-case"
+      "16-decision-matrix-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -12910,7 +12910,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Протокол выбора",
     "newSlideIds": [
-      "16-decision-matrix-c8-case"
+      "16-decision-matrix-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13126,7 +13126,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "17-adr-main-literature"
+      "17-adr-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13135,7 +13135,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "17-adr-additional-literature"
+      "17-adr-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13144,7 +13144,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "17-adr-materials"
+      "17-adr-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13225,7 +13225,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Название ADR",
     "newSlideIds": [
-      "17-adr-c1-case"
+      "17-adr-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13297,7 +13297,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Контекст",
     "newSlideIds": [
-      "17-adr-c2-case"
+      "17-adr-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13369,7 +13369,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Рассмотренные варианты",
     "newSlideIds": [
-      "17-adr-c3-case"
+      "17-adr-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13441,7 +13441,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Решение",
     "newSlideIds": [
-      "17-adr-c4-case"
+      "17-adr-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13513,7 +13513,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Положительное последствие",
     "newSlideIds": [
-      "17-adr-c5-case"
+      "17-adr-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13585,7 +13585,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Отрицательное последствие",
     "newSlideIds": [
-      "17-adr-c6-case"
+      "17-adr-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13657,7 +13657,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Статус ADR",
     "newSlideIds": [
-      "17-adr-c7-case"
+      "17-adr-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13729,7 +13729,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Связь ADR",
     "newSlideIds": [
-      "17-adr-c8-case"
+      "17-adr-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13945,7 +13945,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "18-nfr-impact-main-literature"
+      "18-nfr-impact-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13954,7 +13954,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "18-nfr-impact-additional-literature"
+      "18-nfr-impact-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -13963,7 +13963,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "18-nfr-impact-materials"
+      "18-nfr-impact-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14044,7 +14044,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Объём данных",
     "newSlideIds": [
-      "18-nfr-impact-c1-case"
+      "18-nfr-impact-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14116,7 +14116,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Одновременные пользователи",
     "newSlideIds": [
-      "18-nfr-impact-c2-case"
+      "18-nfr-impact-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14188,7 +14188,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Режим 24×7",
     "newSlideIds": [
-      "18-nfr-impact-c3-case"
+      "18-nfr-impact-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14260,7 +14260,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Офлайн-режим",
     "newSlideIds": [
-      "18-nfr-impact-c4-case"
+      "18-nfr-impact-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14332,7 +14332,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Время отклика",
     "newSlideIds": [
-      "18-nfr-impact-c5-case"
+      "18-nfr-impact-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14404,7 +14404,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Разграничение доступа",
     "newSlideIds": [
-      "18-nfr-impact-c6-case"
+      "18-nfr-impact-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14476,7 +14476,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Аудит",
     "newSlideIds": [
-      "18-nfr-impact-c7-case"
+      "18-nfr-impact-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14548,7 +14548,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Компромисс NFR",
     "newSlideIds": [
-      "18-nfr-impact-c8-case"
+      "18-nfr-impact-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14764,7 +14764,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "19-defense-main-literature"
+      "19-defense-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14773,7 +14773,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "19-defense-additional-literature"
+      "19-defense-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14782,7 +14782,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "19-defense-materials"
+      "19-defense-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14863,7 +14863,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Тезис защиты",
     "newSlideIds": [
-      "19-defense-c1-case"
+      "19-defense-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -14935,7 +14935,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Язык аудитории",
     "newSlideIds": [
-      "19-defense-c2-case"
+      "19-defense-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15007,7 +15007,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Исходный факт",
     "newSlideIds": [
-      "19-defense-c3-case"
+      "19-defense-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15079,7 +15079,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Сравнение вариантов",
     "newSlideIds": [
-      "19-defense-c4-case"
+      "19-defense-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15151,7 +15151,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Критерий выбора",
     "newSlideIds": [
-      "19-defense-c5-case"
+      "19-defense-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15223,7 +15223,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Последствия",
     "newSlideIds": [
-      "19-defense-c6-case"
+      "19-defense-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15295,7 +15295,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Демонстрация",
     "newSlideIds": [
-      "19-defense-c7-case"
+      "19-defense-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15367,7 +15367,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Ответ на возражение",
     "newSlideIds": [
-      "19-defense-c8-case"
+      "19-defense-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15583,7 +15583,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "20-ux-goals-main-literature"
+      "20-ux-goals-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15592,7 +15592,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "20-ux-goals-additional-literature"
+      "20-ux-goals-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15601,7 +15601,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "20-ux-goals-materials"
+      "20-ux-goals-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15682,7 +15682,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Цель пользователя",
     "newSlideIds": [
-      "20-ux-goals-c1-case"
+      "20-ux-goals-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15754,7 +15754,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Задача",
     "newSlideIds": [
-      "20-ux-goals-c2-case"
+      "20-ux-goals-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15826,7 +15826,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Сценарий",
     "newSlideIds": [
-      "20-ux-goals-c3-case"
+      "20-ux-goals-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15898,7 +15898,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Точка решения",
     "newSlideIds": [
-      "20-ux-goals-c4-case"
+      "20-ux-goals-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -15970,7 +15970,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Цена ошибки",
     "newSlideIds": [
-      "20-ux-goals-c5-case"
+      "20-ux-goals-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16042,7 +16042,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Частота действия",
     "newSlideIds": [
-      "20-ux-goals-c6-case"
+      "20-ux-goals-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16114,7 +16114,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Контекст рабочего места",
     "newSlideIds": [
-      "20-ux-goals-c7-case"
+      "20-ux-goals-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16186,7 +16186,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Критерий успеха сценария",
     "newSlideIds": [
-      "20-ux-goals-c8-case"
+      "20-ux-goals-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16402,7 +16402,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "21-information-architecture-main-literature"
+      "21-information-architecture-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16411,7 +16411,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "21-information-architecture-additional-literature"
+      "21-information-architecture-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16420,7 +16420,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "21-information-architecture-materials"
+      "21-information-architecture-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16501,7 +16501,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Ментальная модель",
     "newSlideIds": [
-      "21-information-architecture-c1-case"
+      "21-information-architecture-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16573,7 +16573,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Группировка",
     "newSlideIds": [
-      "21-information-architecture-c2-case"
+      "21-information-architecture-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16645,7 +16645,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Иерархия",
     "newSlideIds": [
-      "21-information-architecture-c3-case"
+      "21-information-architecture-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16717,7 +16717,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Приоритет",
     "newSlideIds": [
-      "21-information-architecture-c4-case"
+      "21-information-architecture-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16789,7 +16789,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Глобальная навигация",
     "newSlideIds": [
-      "21-information-architecture-c5-case"
+      "21-information-architecture-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16861,7 +16861,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Контекстная навигация",
     "newSlideIds": [
-      "21-information-architecture-c6-case"
+      "21-information-architecture-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -16933,7 +16933,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Поиск и фильтр",
     "newSlideIds": [
-      "21-information-architecture-c7-case"
+      "21-information-architecture-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17005,7 +17005,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Ролевое рабочее место",
     "newSlideIds": [
-      "21-information-architecture-c8-case"
+      "21-information-architecture-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17221,7 +17221,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "22-wireframe-prototype-main-literature"
+      "22-wireframe-prototype-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17230,7 +17230,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "22-wireframe-prototype-additional-literature"
+      "22-wireframe-prototype-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17239,7 +17239,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "22-wireframe-prototype-materials"
+      "22-wireframe-prototype-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17320,7 +17320,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Вопрос прототипа",
     "newSlideIds": [
-      "22-wireframe-prototype-c1-case"
+      "22-wireframe-prototype-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17392,7 +17392,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Low-fidelity wireframe",
     "newSlideIds": [
-      "22-wireframe-prototype-c2-case"
+      "22-wireframe-prototype-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17464,7 +17464,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Medium-fidelity",
     "newSlideIds": [
-      "22-wireframe-prototype-c3-case"
+      "22-wireframe-prototype-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17536,7 +17536,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: High-fidelity",
     "newSlideIds": [
-      "22-wireframe-prototype-c4-case"
+      "22-wireframe-prototype-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17608,7 +17608,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Кликабельный маршрут",
     "newSlideIds": [
-      "22-wireframe-prototype-c5-case"
+      "22-wireframe-prototype-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17680,7 +17680,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Реалистичные данные",
     "newSlideIds": [
-      "22-wireframe-prototype-c6-case"
+      "22-wireframe-prototype-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17752,7 +17752,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Аннотация поведения",
     "newSlideIds": [
-      "22-wireframe-prototype-c7-case"
+      "22-wireframe-prototype-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -17824,7 +17824,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Передача разработчику",
     "newSlideIds": [
-      "22-wireframe-prototype-c8-case"
+      "22-wireframe-prototype-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18040,7 +18040,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "23-forms-validation-states-main-literature"
+      "23-forms-validation-states-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18049,7 +18049,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "23-forms-validation-states-additional-literature"
+      "23-forms-validation-states-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18058,7 +18058,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "23-forms-validation-states-materials"
+      "23-forms-validation-states-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18139,7 +18139,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Подпись поля",
     "newSlideIds": [
-      "23-forms-validation-states-c1-case"
+      "23-forms-validation-states-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18211,7 +18211,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Обязательность",
     "newSlideIds": [
-      "23-forms-validation-states-c2-case"
+      "23-forms-validation-states-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18283,7 +18283,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Формат и маска",
     "newSlideIds": [
-      "23-forms-validation-states-c3-case"
+      "23-forms-validation-states-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18355,7 +18355,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Валидация на клиенте",
     "newSlideIds": [
-      "23-forms-validation-states-c4-case"
+      "23-forms-validation-states-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18427,7 +18427,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Серверная ошибка",
     "newSlideIds": [
-      "23-forms-validation-states-c5-case"
+      "23-forms-validation-states-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18499,7 +18499,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Пустое состояние",
     "newSlideIds": [
-      "23-forms-validation-states-c6-case"
+      "23-forms-validation-states-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18571,7 +18571,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Загрузка",
     "newSlideIds": [
-      "23-forms-validation-states-c7-case"
+      "23-forms-validation-states-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18643,7 +18643,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Успех и восстановление",
     "newSlideIds": [
-      "23-forms-validation-states-c8-case"
+      "23-forms-validation-states-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18859,7 +18859,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "24-design-system-accessibility-main-literature"
+      "24-design-system-accessibility-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18868,7 +18868,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "24-design-system-accessibility-additional-literature"
+      "24-design-system-accessibility-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18877,7 +18877,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "24-design-system-accessibility-materials"
+      "24-design-system-accessibility-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -18958,7 +18958,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Сетка",
     "newSlideIds": [
-      "24-design-system-accessibility-c1-case"
+      "24-design-system-accessibility-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19030,7 +19030,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Типографика",
     "newSlideIds": [
-      "24-design-system-accessibility-c2-case"
+      "24-design-system-accessibility-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19102,7 +19102,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Дизайн-токен",
     "newSlideIds": [
-      "24-design-system-accessibility-c3-case"
+      "24-design-system-accessibility-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19174,7 +19174,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Компонент",
     "newSlideIds": [
-      "24-design-system-accessibility-c4-case"
+      "24-design-system-accessibility-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19246,7 +19246,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Состояние компонента",
     "newSlideIds": [
-      "24-design-system-accessibility-c5-case"
+      "24-design-system-accessibility-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19318,7 +19318,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Контраст и цвет",
     "newSlideIds": [
-      "24-design-system-accessibility-c6-case"
+      "24-design-system-accessibility-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19390,7 +19390,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Клавиатура и фокус",
     "newSlideIds": [
-      "24-design-system-accessibility-c7-case"
+      "24-design-system-accessibility-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19462,7 +19462,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Текстовая альтернатива",
     "newSlideIds": [
-      "24-design-system-accessibility-c8-case"
+      "24-design-system-accessibility-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19678,7 +19678,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "25-rbac-main-literature"
+      "25-rbac-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19687,7 +19687,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "25-rbac-additional-literature"
+      "25-rbac-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19696,7 +19696,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "25-rbac-materials"
+      "25-rbac-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19777,7 +19777,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Роль",
     "newSlideIds": [
-      "25-rbac-c1-case"
+      "25-rbac-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19849,7 +19849,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Объект доступа",
     "newSlideIds": [
-      "25-rbac-c2-case"
+      "25-rbac-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19921,7 +19921,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Операция",
     "newSlideIds": [
-      "25-rbac-c3-case"
+      "25-rbac-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -19993,7 +19993,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Область данных",
     "newSlideIds": [
-      "25-rbac-c4-case"
+      "25-rbac-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20065,7 +20065,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Матрица доступа",
     "newSlideIds": [
-      "25-rbac-c5-case"
+      "25-rbac-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20137,7 +20137,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Минимальные привилегии",
     "newSlideIds": [
-      "25-rbac-c6-case"
+      "25-rbac-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20209,7 +20209,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Разделение обязанностей",
     "newSlideIds": [
-      "25-rbac-c7-case"
+      "25-rbac-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20281,7 +20281,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Проверка доступа",
     "newSlideIds": [
-      "25-rbac-c8-case"
+      "25-rbac-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20497,7 +20497,7 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "26-auth-lockout-main-literature"
+      "26-auth-lockout-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20506,7 +20506,7 @@
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "26-auth-lockout-additional-literature"
+      "26-auth-lockout-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20515,7 +20515,7 @@
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "26-auth-lockout-materials"
+      "26-auth-lockout-sources"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20596,7 +20596,7 @@
     "oldSlideId": "c1-case",
     "oldTitle": "Пример: Идентификация",
     "newSlideIds": [
-      "26-auth-lockout-c1-case"
+      "26-auth-lockout-c1-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20668,7 +20668,7 @@
     "oldSlideId": "c2-case",
     "oldTitle": "Пример: Аутентификация",
     "newSlideIds": [
-      "26-auth-lockout-c2-case"
+      "26-auth-lockout-c2-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20740,7 +20740,7 @@
     "oldSlideId": "c3-case",
     "oldTitle": "Пример: Единое сообщение ошибки",
     "newSlideIds": [
-      "26-auth-lockout-c3-case"
+      "26-auth-lockout-c3-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20812,7 +20812,7 @@
     "oldSlideId": "c4-case",
     "oldTitle": "Пример: Счётчик попыток",
     "newSlideIds": [
-      "26-auth-lockout-c4-case"
+      "26-auth-lockout-c4-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20884,7 +20884,7 @@
     "oldSlideId": "c5-case",
     "oldTitle": "Пример: Блокировка",
     "newSlideIds": [
-      "26-auth-lockout-c5-case"
+      "26-auth-lockout-c5-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -20956,7 +20956,7 @@
     "oldSlideId": "c6-case",
     "oldTitle": "Пример: Разблокировка администратором",
     "newSlideIds": [
-      "26-auth-lockout-c6-case"
+      "26-auth-lockout-c6-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -21028,7 +21028,7 @@
     "oldSlideId": "c7-case",
     "oldTitle": "Пример: Дополнительная проверка человека",
     "newSlideIds": [
-      "26-auth-lockout-c7-case"
+      "26-auth-lockout-c7-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },
@@ -21100,7 +21100,7 @@
     "oldSlideId": "c8-case",
     "oldTitle": "Пример: Состояния сценария",
     "newSlideIds": [
-      "26-auth-lockout-c8-case"
+      "26-auth-lockout-c8-decision"
     ],
     "change": "Сохранён предметный смысл; адаптирован общий макет."
   },

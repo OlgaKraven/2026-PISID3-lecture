@@ -1,8 +1,17 @@
 {
+  "version": "pisid3-2026.10.13-teaching-v5",
   "viewports": [
     {
+      "width": 1920,
+      "slides": 2195
+    },
+    {
+      "width": 1366,
+      "slides": 2195
+    },
+    {
       "width": 390,
-      "slides": 1883
+      "slides": 2195
     }
   ],
   "assessment": [

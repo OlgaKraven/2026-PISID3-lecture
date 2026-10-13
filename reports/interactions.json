@@ -1,0 +1,282 @@
+{
+  "version": "pisid3-2026.10.13-teaching-v5",
+  "lectures": [
+    {
+      "id": "01-project-decisions",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "02-roles-views",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "03-artifact-map",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "04-requirement-sources",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "05-interview-technique",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "06-requirement-classes",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "07-requirement-quality",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "10-entity-candidates",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "11-project-glossary",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "12-business-rules",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "13-attribute-composition",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "14-data-history",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "15-model-revision",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "16-decision-matrix",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "17-adr",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "18-nfr-impact",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "19-defense",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "20-ux-goals",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "21-information-architecture",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "23-forms-validation-states",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "slides": 84,
+      "notes": 84
+    },
+    {
+      "id": "25-rbac",
+      "slides": 85,
+      "notes": 85
+    },
+    {
+      "id": "26-auth-lockout",
+      "slides": 85,
+      "notes": 85
+    }
+  ],
+  "laboratories": [
+    {
+      "id": "01-project-decisions",
+      "kind": "studio"
+    },
+    {
+      "id": "02-roles-views",
+      "kind": "studio"
+    },
+    {
+      "id": "03-artifact-map",
+      "kind": "studio"
+    },
+    {
+      "id": "04-requirement-sources",
+      "kind": "studio"
+    },
+    {
+      "id": "05-interview-technique",
+      "kind": "studio"
+    },
+    {
+      "id": "06-requirement-classes",
+      "kind": "studio"
+    },
+    {
+      "id": "07-requirement-quality",
+      "kind": "studio"
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "kind": "studio"
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "kind": "studio"
+    },
+    {
+      "id": "10-entity-candidates",
+      "kind": "studio"
+    },
+    {
+      "id": "11-project-glossary",
+      "kind": "studio"
+    },
+    {
+      "id": "12-business-rules",
+      "kind": "rules"
+    },
+    {
+      "id": "13-attribute-composition",
+      "kind": "studio"
+    },
+    {
+      "id": "14-data-history",
+      "kind": "history"
+    },
+    {
+      "id": "15-model-revision",
+      "kind": "coverage"
+    },
+    {
+      "id": "16-decision-matrix",
+      "kind": "weights"
+    },
+    {
+      "id": "17-adr",
+      "kind": "studio"
+    },
+    {
+      "id": "18-nfr-impact",
+      "kind": "offline"
+    },
+    {
+      "id": "19-defense",
+      "kind": "studio"
+    },
+    {
+      "id": "20-ux-goals",
+      "kind": "cost"
+    },
+    {
+      "id": "21-information-architecture",
+      "kind": "search"
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "kind": "prototype"
+    },
+    {
+      "id": "23-forms-validation-states",
+      "kind": "form"
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "kind": "contrast"
+    },
+    {
+      "id": "25-rbac",
+      "kind": "access"
+    },
+    {
+      "id": "26-auth-lockout",
+      "kind": "auth"
+    }
+  ],
+  "mobileLaboratories": [
+    "01-project-decisions",
+    "02-roles-views",
+    "03-artifact-map",
+    "04-requirement-sources",
+    "05-interview-technique",
+    "06-requirement-classes",
+    "07-requirement-quality",
+    "08-user-story-acceptance",
+    "09-assumptions-traceability",
+    "10-entity-candidates",
+    "11-project-glossary",
+    "12-business-rules",
+    "13-attribute-composition",
+    "14-data-history",
+    "15-model-revision",
+    "16-decision-matrix",
+    "17-adr",
+    "18-nfr-impact",
+    "19-defense",
+    "20-ux-goals",
+    "21-information-architecture",
+    "22-wireframe-prototype",
+    "23-forms-validation-states",
+    "24-design-system-accessibility",
+    "25-rbac",
+    "26-auth-lockout"
+  ],
+  "choices": 208,
+  "matching": [
+    "selected pairs visible",
+    "left reorder",
+    "both lists shuffle",
+    "scroll position",
+    "audience reload"
+  ],
+  "notes": [
+    "fresh published v5 scenario shown in presenter"
+  ],
+  "errors": [],
+  "status": "passed"
+}

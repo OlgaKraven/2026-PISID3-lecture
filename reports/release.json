@@ -1,23 +1,54 @@
 {
-  "date": "2026-09-13",
-  "contentVersion": "pisid3-2026.09-template02-v1",
+  "date": "2026-10-13",
+  "baseline": "69d6ed1c360c208d03cd5c864f13e10697009f04",
+  "contentVersion": "pisid3-2026.10.13-teaching-v5",
   "lectures": 26,
-  "slides": 2299,
-  "teacherNotes": 2299,
+  "slides": 2195,
+  "teacherNotes": 2195,
+  "minimumNoteCharacters": 600,
+  "averageNoteCharacters": 1000,
+  "concepts": 208,
+  "questions": 104,
   "tasks": 416,
-  "visuals": 728,
-  "workedCases": 104,
+  "taskTypes": {
+    "single": 104,
+    "multiple": 104,
+    "short": 104,
+    "matching": 104
+  },
+  "multipleCorrectCounts": [
+    2,
+    3,
+    4
+  ],
+  "matchingPairCounts": [
+    6,
+    8
+  ],
+  "visuals": 572,
+  "explicitDiagrams": 338,
+  "stepDiagrams": 234,
+  "workedCases": 130,
+  "conceptWalkthroughs": 208,
+  "interactiveChoices": 208,
+  "experiments": 26,
   "originalSlidesMapped": 2366,
-  "pdfPages": 2299,
-  "pdfFiles": 26,
-  "qrCodes": 193,
+  "mergedSlideAliases": 624,
+  "qrCodes": 63,
   "printOverflow": 0,
-  "status": "passed",
+  "offlineFiles": 37,
+  "pdfExport": "not regenerated; current print representation verified",
+  "published": false,
+  "status": "passed-locally",
   "reports": [
     "browser.json",
+    "teaching-v5.json",
+    "interactions.json",
+    "editorial-review.json",
     "geometry-print.json",
-    "notes-import.json",
-    "pdf-review.json",
-    "resources.json"
+    "release-ui.json",
+    "resources.json",
+    "visual-review.json",
+    "semantic-corrections.json"
   ]
 }

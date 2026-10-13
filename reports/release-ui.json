@@ -1,0 +1,21 @@
+{
+  "version": "pisid3-2026.10.13-teaching-v5",
+  "touch": [
+    "native Chromium touch left",
+    "native Chromium touch right"
+  ],
+  "wheel": [
+    "horizontal right",
+    "horizontal left",
+    "vertical scroll preserved"
+  ],
+  "aliases": [
+    "01-project-decisions-c1-case",
+    "01-project-decisions-c1-notebook",
+    "01-project-decisions-Q01-connection",
+    "01-project-decisions-c1-mechanism"
+  ],
+  "printExperiments": 26,
+  "errors": [],
+  "status": "passed"
+}

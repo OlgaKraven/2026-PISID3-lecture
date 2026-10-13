@@ -6,6 +6,8 @@ const chain=(pairs,caption,type='process')=>({type,items:pairs.map(([title,text]
 const network=(labels,links,caption)=>({type:'network',nodes:labels.map(([title,text],i)=>({id:String(i),title,text})),edges:links.map(([from,to,label])=>({from:String(from),to:String(to),label})),caption});
 const tree=(root,branches,caption)=>({type:'tree',root,branches:branches.map(([title,...items])=>({title,items})),caption});
 export function describeVisual(v){
+ if(v.type==='bars')return v.items.map(item=>`${item.label}: ${item.value} ${v.unit}.`).join(' ')+(v.threshold!==undefined?` Порог: ${v.threshold} ${v.unit}.`:'');
+ if(v.type==='states')return `Состояния: ${v.states.join(' → ')}. Допустимость перехода зависит от события; последовательность названий не разрешает обход блокировки.`;
  if(v.type==='matrix')return v.rows.map(row=>row.map((value,i)=>`${v.columns[i]}: ${value}`).join('; ')+'.').join(' ');
  if(v.type==='network')return v.edges.map(edge=>`${v.nodes.find(n=>n.id===edge.from).title} → ${v.nodes.find(n=>n.id===edge.to).title}: ${edge.label}.`).join(' ');
  if(v.type==='decision')return `${v.start}. Вопрос: ${v.question} Ветвь «Да»: ${v.yes}. Ветвь «Нет»: ${v.no}.`;

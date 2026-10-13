@@ -5,21 +5,6 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "01-project-decisions-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-route",
     "copyOverflow": 0,
     "out": []
@@ -35,7 +20,12 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-entry",
+    "id": "01-project-decisions-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -55,7 +45,12 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c1-case",
+    "id": "01-project-decisions-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -65,17 +60,17 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-c2-case",
+    "id": "01-project-decisions-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -85,17 +80,22 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c2-notebook",
+    "id": "01-project-decisions-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-Q01-connection",
+    "id": "01-project-decisions-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "01-project-decisions-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -130,7 +130,12 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c3-case",
+    "id": "01-project-decisions-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -140,17 +145,17 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-c4-case",
+    "id": "01-project-decisions-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -160,17 +165,22 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c4-notebook",
+    "id": "01-project-decisions-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-Q02-connection",
+    "id": "01-project-decisions-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "01-project-decisions-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -205,7 +215,12 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c5-case",
+    "id": "01-project-decisions-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -215,17 +230,17 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-c6-case",
+    "id": "01-project-decisions-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -235,17 +250,22 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c6-notebook",
+    "id": "01-project-decisions-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-Q03-connection",
+    "id": "01-project-decisions-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "01-project-decisions-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -280,7 +300,12 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c7-case",
+    "id": "01-project-decisions-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -290,17 +315,17 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "01-project-decisions-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-c8-case",
+    "id": "01-project-decisions-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -310,17 +335,22 @@
     "out": []
   },
   {
-    "id": "01-project-decisions-c8-notebook",
+    "id": "01-project-decisions-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "01-project-decisions-Q04-connection",
+    "id": "01-project-decisions-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "01-project-decisions-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -341,6 +371,36 @@
   },
   {
     "id": "01-project-decisions-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-project-decisions-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -370,21 +430,6 @@
     "out": []
   },
   {
-    "id": "02-roles-views-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "02-roles-views-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-route",
     "copyOverflow": 0,
     "out": []
@@ -400,7 +445,12 @@
     "out": []
   },
   {
-    "id": "02-roles-views-entry",
+    "id": "02-roles-views-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -420,7 +470,12 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c1-case",
+    "id": "02-roles-views-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -430,17 +485,17 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-c2-case",
+    "id": "02-roles-views-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -450,17 +505,22 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c2-notebook",
+    "id": "02-roles-views-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-Q01-connection",
+    "id": "02-roles-views-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "02-roles-views-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -495,7 +555,12 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c3-case",
+    "id": "02-roles-views-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -505,17 +570,17 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-c4-case",
+    "id": "02-roles-views-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -525,17 +590,22 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c4-notebook",
+    "id": "02-roles-views-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-Q02-connection",
+    "id": "02-roles-views-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "02-roles-views-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -570,7 +640,12 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c5-case",
+    "id": "02-roles-views-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -580,17 +655,17 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-c6-case",
+    "id": "02-roles-views-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -600,17 +675,22 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c6-notebook",
+    "id": "02-roles-views-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-Q03-connection",
+    "id": "02-roles-views-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "02-roles-views-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -645,7 +725,12 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c7-case",
+    "id": "02-roles-views-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -655,17 +740,17 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "02-roles-views-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-c8-case",
+    "id": "02-roles-views-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -675,17 +760,22 @@
     "out": []
   },
   {
-    "id": "02-roles-views-c8-notebook",
+    "id": "02-roles-views-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "02-roles-views-Q04-connection",
+    "id": "02-roles-views-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "02-roles-views-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -706,6 +796,36 @@
   },
   {
     "id": "02-roles-views-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-roles-views-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -735,21 +855,6 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "03-artifact-map-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-route",
     "copyOverflow": 0,
     "out": []
@@ -765,7 +870,12 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-entry",
+    "id": "03-artifact-map-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -785,7 +895,12 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c1-case",
+    "id": "03-artifact-map-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -795,17 +910,17 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-c2-case",
+    "id": "03-artifact-map-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -815,17 +930,22 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c2-notebook",
+    "id": "03-artifact-map-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-Q01-connection",
+    "id": "03-artifact-map-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "03-artifact-map-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -860,7 +980,12 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c3-case",
+    "id": "03-artifact-map-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -870,17 +995,17 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-c4-case",
+    "id": "03-artifact-map-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -890,17 +1015,22 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c4-notebook",
+    "id": "03-artifact-map-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-Q02-connection",
+    "id": "03-artifact-map-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "03-artifact-map-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -935,7 +1065,12 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c5-case",
+    "id": "03-artifact-map-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -945,17 +1080,17 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-c6-case",
+    "id": "03-artifact-map-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -965,17 +1100,22 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c6-notebook",
+    "id": "03-artifact-map-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-Q03-connection",
+    "id": "03-artifact-map-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "03-artifact-map-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1010,7 +1150,12 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c7-case",
+    "id": "03-artifact-map-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1020,17 +1165,17 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "03-artifact-map-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-c8-case",
+    "id": "03-artifact-map-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1040,17 +1185,22 @@
     "out": []
   },
   {
-    "id": "03-artifact-map-c8-notebook",
+    "id": "03-artifact-map-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "03-artifact-map-Q04-connection",
+    "id": "03-artifact-map-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "03-artifact-map-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1071,6 +1221,36 @@
   },
   {
     "id": "03-artifact-map-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-artifact-map-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -1100,21 +1280,6 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "04-requirement-sources-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-route",
     "copyOverflow": 0,
     "out": []
@@ -1130,7 +1295,12 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-entry",
+    "id": "04-requirement-sources-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -1145,7 +1315,12 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c1-case",
+    "id": "04-requirement-sources-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1155,17 +1330,17 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-c2-case",
+    "id": "04-requirement-sources-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1175,17 +1350,22 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c2-notebook",
+    "id": "04-requirement-sources-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-Q01-connection",
+    "id": "04-requirement-sources-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "04-requirement-sources-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1220,7 +1400,12 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c3-case",
+    "id": "04-requirement-sources-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1230,17 +1415,17 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-c4-case",
+    "id": "04-requirement-sources-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1250,17 +1435,22 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c4-notebook",
+    "id": "04-requirement-sources-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-Q02-connection",
+    "id": "04-requirement-sources-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "04-requirement-sources-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1295,7 +1485,12 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c5-case",
+    "id": "04-requirement-sources-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1305,17 +1500,17 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-c6-case",
+    "id": "04-requirement-sources-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1325,17 +1520,22 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c6-notebook",
+    "id": "04-requirement-sources-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-Q03-connection",
+    "id": "04-requirement-sources-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "04-requirement-sources-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1370,7 +1570,12 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c7-case",
+    "id": "04-requirement-sources-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1380,17 +1585,17 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "04-requirement-sources-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-c8-case",
+    "id": "04-requirement-sources-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1400,17 +1605,22 @@
     "out": []
   },
   {
-    "id": "04-requirement-sources-c8-notebook",
+    "id": "04-requirement-sources-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "04-requirement-sources-Q04-connection",
+    "id": "04-requirement-sources-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "04-requirement-sources-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1431,6 +1641,36 @@
   },
   {
     "id": "04-requirement-sources-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-requirement-sources-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -1460,21 +1700,6 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "05-interview-technique-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-route",
     "copyOverflow": 0,
     "out": []
@@ -1490,7 +1715,12 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-entry",
+    "id": "05-interview-technique-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -1505,7 +1735,12 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c1-case",
+    "id": "05-interview-technique-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1515,17 +1750,17 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-c2-case",
+    "id": "05-interview-technique-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1535,17 +1770,22 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c2-notebook",
+    "id": "05-interview-technique-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-Q01-connection",
+    "id": "05-interview-technique-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "05-interview-technique-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1580,7 +1820,12 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c3-case",
+    "id": "05-interview-technique-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1590,17 +1835,17 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-c4-case",
+    "id": "05-interview-technique-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1610,17 +1855,22 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c4-notebook",
+    "id": "05-interview-technique-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-Q02-connection",
+    "id": "05-interview-technique-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "05-interview-technique-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1655,7 +1905,12 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c5-case",
+    "id": "05-interview-technique-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1665,17 +1920,17 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-c6-case",
+    "id": "05-interview-technique-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1685,17 +1940,22 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c6-notebook",
+    "id": "05-interview-technique-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-Q03-connection",
+    "id": "05-interview-technique-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "05-interview-technique-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1730,7 +1990,12 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c7-case",
+    "id": "05-interview-technique-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1740,17 +2005,17 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "05-interview-technique-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-c8-case",
+    "id": "05-interview-technique-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1760,17 +2025,22 @@
     "out": []
   },
   {
-    "id": "05-interview-technique-c8-notebook",
+    "id": "05-interview-technique-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "05-interview-technique-Q04-connection",
+    "id": "05-interview-technique-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "05-interview-technique-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1791,6 +2061,36 @@
   },
   {
     "id": "05-interview-technique-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-interview-technique-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -1820,21 +2120,6 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "06-requirement-classes-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-route",
     "copyOverflow": 0,
     "out": []
@@ -1850,7 +2135,12 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-entry",
+    "id": "06-requirement-classes-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -1865,7 +2155,12 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c1-case",
+    "id": "06-requirement-classes-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1875,17 +2170,17 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-c2-case",
+    "id": "06-requirement-classes-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1895,17 +2190,22 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c2-notebook",
+    "id": "06-requirement-classes-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-Q01-connection",
+    "id": "06-requirement-classes-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "06-requirement-classes-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -1940,7 +2240,12 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c3-case",
+    "id": "06-requirement-classes-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1950,17 +2255,17 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-c4-case",
+    "id": "06-requirement-classes-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -1970,17 +2275,22 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c4-notebook",
+    "id": "06-requirement-classes-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-Q02-connection",
+    "id": "06-requirement-classes-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "06-requirement-classes-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2015,7 +2325,12 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c5-case",
+    "id": "06-requirement-classes-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2025,17 +2340,17 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-c6-case",
+    "id": "06-requirement-classes-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2045,17 +2360,22 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c6-notebook",
+    "id": "06-requirement-classes-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-Q03-connection",
+    "id": "06-requirement-classes-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "06-requirement-classes-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2090,7 +2410,12 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c7-case",
+    "id": "06-requirement-classes-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2100,17 +2425,17 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "06-requirement-classes-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-c8-case",
+    "id": "06-requirement-classes-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2120,17 +2445,22 @@
     "out": []
   },
   {
-    "id": "06-requirement-classes-c8-notebook",
+    "id": "06-requirement-classes-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "06-requirement-classes-Q04-connection",
+    "id": "06-requirement-classes-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "06-requirement-classes-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2151,6 +2481,36 @@
   },
   {
     "id": "06-requirement-classes-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "06-requirement-classes-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -2180,21 +2540,6 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "07-requirement-quality-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-route",
     "copyOverflow": 0,
     "out": []
@@ -2210,7 +2555,12 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-entry",
+    "id": "07-requirement-quality-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -2225,7 +2575,12 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c1-case",
+    "id": "07-requirement-quality-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2235,17 +2590,17 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-c2-case",
+    "id": "07-requirement-quality-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2255,17 +2610,22 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c2-notebook",
+    "id": "07-requirement-quality-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-Q01-connection",
+    "id": "07-requirement-quality-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "07-requirement-quality-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2300,7 +2660,12 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c3-case",
+    "id": "07-requirement-quality-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2310,17 +2675,17 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-c4-case",
+    "id": "07-requirement-quality-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2330,17 +2695,22 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c4-notebook",
+    "id": "07-requirement-quality-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-Q02-connection",
+    "id": "07-requirement-quality-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "07-requirement-quality-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2375,7 +2745,12 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c5-case",
+    "id": "07-requirement-quality-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2385,17 +2760,17 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-c6-case",
+    "id": "07-requirement-quality-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2405,17 +2780,22 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c6-notebook",
+    "id": "07-requirement-quality-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-Q03-connection",
+    "id": "07-requirement-quality-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "07-requirement-quality-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2450,7 +2830,12 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c7-case",
+    "id": "07-requirement-quality-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2460,17 +2845,17 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "07-requirement-quality-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-c8-case",
+    "id": "07-requirement-quality-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2480,17 +2865,22 @@
     "out": []
   },
   {
-    "id": "07-requirement-quality-c8-notebook",
+    "id": "07-requirement-quality-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "07-requirement-quality-Q04-connection",
+    "id": "07-requirement-quality-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "07-requirement-quality-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2511,6 +2901,36 @@
   },
   {
     "id": "07-requirement-quality-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "07-requirement-quality-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -2540,21 +2960,6 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "08-user-story-acceptance-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-route",
     "copyOverflow": 0,
     "out": []
@@ -2570,7 +2975,12 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-entry",
+    "id": "08-user-story-acceptance-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -2585,7 +2995,12 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c1-case",
+    "id": "08-user-story-acceptance-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2595,17 +3010,17 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c2-case",
+    "id": "08-user-story-acceptance-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2615,17 +3030,22 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c2-notebook",
+    "id": "08-user-story-acceptance-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-Q01-connection",
+    "id": "08-user-story-acceptance-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "08-user-story-acceptance-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2660,7 +3080,12 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c3-case",
+    "id": "08-user-story-acceptance-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2670,17 +3095,17 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c4-case",
+    "id": "08-user-story-acceptance-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2690,17 +3115,22 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c4-notebook",
+    "id": "08-user-story-acceptance-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-Q02-connection",
+    "id": "08-user-story-acceptance-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "08-user-story-acceptance-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2735,7 +3165,12 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c5-case",
+    "id": "08-user-story-acceptance-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2745,17 +3180,17 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c6-case",
+    "id": "08-user-story-acceptance-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2765,17 +3200,22 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c6-notebook",
+    "id": "08-user-story-acceptance-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-Q03-connection",
+    "id": "08-user-story-acceptance-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "08-user-story-acceptance-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2810,7 +3250,12 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c7-case",
+    "id": "08-user-story-acceptance-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2820,17 +3265,17 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "08-user-story-acceptance-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c8-case",
+    "id": "08-user-story-acceptance-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2840,17 +3285,22 @@
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-c8-notebook",
+    "id": "08-user-story-acceptance-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "08-user-story-acceptance-Q04-connection",
+    "id": "08-user-story-acceptance-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "08-user-story-acceptance-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -2871,6 +3321,36 @@
   },
   {
     "id": "08-user-story-acceptance-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "08-user-story-acceptance-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -2900,21 +3380,6 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "09-assumptions-traceability-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-route",
     "copyOverflow": 0,
     "out": []
@@ -2930,7 +3395,12 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-entry",
+    "id": "09-assumptions-traceability-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -2945,7 +3415,12 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c1-case",
+    "id": "09-assumptions-traceability-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2955,17 +3430,17 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c2-case",
+    "id": "09-assumptions-traceability-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -2975,17 +3450,22 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c2-notebook",
+    "id": "09-assumptions-traceability-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-Q01-connection",
+    "id": "09-assumptions-traceability-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "09-assumptions-traceability-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3020,7 +3500,12 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c3-case",
+    "id": "09-assumptions-traceability-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3030,17 +3515,17 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c4-case",
+    "id": "09-assumptions-traceability-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3050,17 +3535,22 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c4-notebook",
+    "id": "09-assumptions-traceability-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-Q02-connection",
+    "id": "09-assumptions-traceability-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "09-assumptions-traceability-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3095,7 +3585,12 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c5-case",
+    "id": "09-assumptions-traceability-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3105,17 +3600,17 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c6-case",
+    "id": "09-assumptions-traceability-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3125,17 +3620,22 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c6-notebook",
+    "id": "09-assumptions-traceability-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-Q03-connection",
+    "id": "09-assumptions-traceability-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "09-assumptions-traceability-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3170,7 +3670,12 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c7-case",
+    "id": "09-assumptions-traceability-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3180,17 +3685,17 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "09-assumptions-traceability-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c8-case",
+    "id": "09-assumptions-traceability-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3200,17 +3705,22 @@
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-c8-notebook",
+    "id": "09-assumptions-traceability-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "09-assumptions-traceability-Q04-connection",
+    "id": "09-assumptions-traceability-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "09-assumptions-traceability-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3231,6 +3741,36 @@
   },
   {
     "id": "09-assumptions-traceability-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "09-assumptions-traceability-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -3260,21 +3800,6 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "10-entity-candidates-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-route",
     "copyOverflow": 0,
     "out": []
@@ -3290,7 +3815,12 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-entry",
+    "id": "10-entity-candidates-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -3310,7 +3840,12 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c1-case",
+    "id": "10-entity-candidates-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3320,17 +3855,17 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-c2-case",
+    "id": "10-entity-candidates-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3340,17 +3875,22 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c2-notebook",
+    "id": "10-entity-candidates-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-Q01-connection",
+    "id": "10-entity-candidates-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "10-entity-candidates-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3385,7 +3925,12 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c3-case",
+    "id": "10-entity-candidates-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3395,17 +3940,17 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-c4-case",
+    "id": "10-entity-candidates-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3415,17 +3960,22 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c4-notebook",
+    "id": "10-entity-candidates-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-Q02-connection",
+    "id": "10-entity-candidates-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "10-entity-candidates-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3460,7 +4010,12 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c5-case",
+    "id": "10-entity-candidates-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3470,17 +4025,17 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-c6-case",
+    "id": "10-entity-candidates-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3490,17 +4045,22 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c6-notebook",
+    "id": "10-entity-candidates-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-Q03-connection",
+    "id": "10-entity-candidates-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "10-entity-candidates-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3535,7 +4095,12 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c7-case",
+    "id": "10-entity-candidates-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3545,17 +4110,17 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "10-entity-candidates-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-c8-case",
+    "id": "10-entity-candidates-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3565,17 +4130,22 @@
     "out": []
   },
   {
-    "id": "10-entity-candidates-c8-notebook",
+    "id": "10-entity-candidates-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "10-entity-candidates-Q04-connection",
+    "id": "10-entity-candidates-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "10-entity-candidates-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3596,6 +4166,36 @@
   },
   {
     "id": "10-entity-candidates-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "10-entity-candidates-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -3625,21 +4225,6 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "11-project-glossary-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-route",
     "copyOverflow": 0,
     "out": []
@@ -3655,7 +4240,12 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-entry",
+    "id": "11-project-glossary-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -3675,7 +4265,12 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c1-case",
+    "id": "11-project-glossary-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3685,17 +4280,17 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-c2-case",
+    "id": "11-project-glossary-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3705,17 +4300,22 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c2-notebook",
+    "id": "11-project-glossary-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-Q01-connection",
+    "id": "11-project-glossary-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "11-project-glossary-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3750,7 +4350,12 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c3-case",
+    "id": "11-project-glossary-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3760,17 +4365,17 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-c4-case",
+    "id": "11-project-glossary-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3780,17 +4385,22 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c4-notebook",
+    "id": "11-project-glossary-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-Q02-connection",
+    "id": "11-project-glossary-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "11-project-glossary-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3825,7 +4435,12 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c5-case",
+    "id": "11-project-glossary-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3835,17 +4450,17 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-c6-case",
+    "id": "11-project-glossary-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3855,17 +4470,22 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c6-notebook",
+    "id": "11-project-glossary-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-Q03-connection",
+    "id": "11-project-glossary-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "11-project-glossary-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3900,7 +4520,12 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c7-case",
+    "id": "11-project-glossary-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3910,17 +4535,17 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "11-project-glossary-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-c8-case",
+    "id": "11-project-glossary-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -3930,17 +4555,22 @@
     "out": []
   },
   {
-    "id": "11-project-glossary-c8-notebook",
+    "id": "11-project-glossary-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "11-project-glossary-Q04-connection",
+    "id": "11-project-glossary-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "11-project-glossary-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -3961,6 +4591,36 @@
   },
   {
     "id": "11-project-glossary-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "11-project-glossary-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -3990,21 +4650,6 @@
     "out": []
   },
   {
-    "id": "12-business-rules-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "12-business-rules-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-route",
     "copyOverflow": 0,
     "out": []
@@ -4020,7 +4665,12 @@
     "out": []
   },
   {
-    "id": "12-business-rules-entry",
+    "id": "12-business-rules-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -4040,7 +4690,12 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c1-case",
+    "id": "12-business-rules-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4050,17 +4705,17 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-c2-case",
+    "id": "12-business-rules-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4070,17 +4725,22 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c2-notebook",
+    "id": "12-business-rules-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-Q01-connection",
+    "id": "12-business-rules-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "12-business-rules-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4115,7 +4775,12 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c3-case",
+    "id": "12-business-rules-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4125,17 +4790,17 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-c4-case",
+    "id": "12-business-rules-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4145,17 +4810,22 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c4-notebook",
+    "id": "12-business-rules-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-Q02-connection",
+    "id": "12-business-rules-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "12-business-rules-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4190,7 +4860,12 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c5-case",
+    "id": "12-business-rules-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4200,17 +4875,17 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-c6-case",
+    "id": "12-business-rules-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4220,17 +4895,22 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c6-notebook",
+    "id": "12-business-rules-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-Q03-connection",
+    "id": "12-business-rules-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "12-business-rules-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4265,7 +4945,12 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c7-case",
+    "id": "12-business-rules-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4275,17 +4960,17 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "12-business-rules-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-c8-case",
+    "id": "12-business-rules-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4295,17 +4980,22 @@
     "out": []
   },
   {
-    "id": "12-business-rules-c8-notebook",
+    "id": "12-business-rules-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "12-business-rules-Q04-connection",
+    "id": "12-business-rules-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "12-business-rules-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4326,6 +5016,36 @@
   },
   {
     "id": "12-business-rules-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "12-business-rules-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -4355,21 +5075,6 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "13-attribute-composition-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-route",
     "copyOverflow": 0,
     "out": []
@@ -4385,7 +5090,12 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-entry",
+    "id": "13-attribute-composition-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -4405,7 +5115,12 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c1-case",
+    "id": "13-attribute-composition-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4415,17 +5130,17 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-c2-case",
+    "id": "13-attribute-composition-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4435,17 +5150,22 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c2-notebook",
+    "id": "13-attribute-composition-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-Q01-connection",
+    "id": "13-attribute-composition-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "13-attribute-composition-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4480,7 +5200,12 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c3-case",
+    "id": "13-attribute-composition-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4490,17 +5215,17 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-c4-case",
+    "id": "13-attribute-composition-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4510,17 +5235,22 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c4-notebook",
+    "id": "13-attribute-composition-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-Q02-connection",
+    "id": "13-attribute-composition-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "13-attribute-composition-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4555,7 +5285,12 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c5-case",
+    "id": "13-attribute-composition-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4565,17 +5300,17 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-c6-case",
+    "id": "13-attribute-composition-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4585,17 +5320,22 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c6-notebook",
+    "id": "13-attribute-composition-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-Q03-connection",
+    "id": "13-attribute-composition-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "13-attribute-composition-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4630,7 +5370,12 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c7-case",
+    "id": "13-attribute-composition-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4640,17 +5385,17 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "13-attribute-composition-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-c8-case",
+    "id": "13-attribute-composition-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4660,17 +5405,22 @@
     "out": []
   },
   {
-    "id": "13-attribute-composition-c8-notebook",
+    "id": "13-attribute-composition-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "13-attribute-composition-Q04-connection",
+    "id": "13-attribute-composition-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "13-attribute-composition-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4691,6 +5441,36 @@
   },
   {
     "id": "13-attribute-composition-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "13-attribute-composition-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -4720,21 +5500,6 @@
     "out": []
   },
   {
-    "id": "14-data-history-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "14-data-history-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-route",
     "copyOverflow": 0,
     "out": []
@@ -4750,7 +5515,12 @@
     "out": []
   },
   {
-    "id": "14-data-history-entry",
+    "id": "14-data-history-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -4770,7 +5540,12 @@
     "out": []
   },
   {
-    "id": "14-data-history-c1-case",
+    "id": "14-data-history-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4780,17 +5555,17 @@
     "out": []
   },
   {
-    "id": "14-data-history-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-c2-case",
+    "id": "14-data-history-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4800,17 +5575,22 @@
     "out": []
   },
   {
-    "id": "14-data-history-c2-notebook",
+    "id": "14-data-history-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-Q01-connection",
+    "id": "14-data-history-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "14-data-history-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4845,7 +5625,12 @@
     "out": []
   },
   {
-    "id": "14-data-history-c3-case",
+    "id": "14-data-history-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4855,17 +5640,17 @@
     "out": []
   },
   {
-    "id": "14-data-history-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-c4-case",
+    "id": "14-data-history-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4875,17 +5660,22 @@
     "out": []
   },
   {
-    "id": "14-data-history-c4-notebook",
+    "id": "14-data-history-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-Q02-connection",
+    "id": "14-data-history-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "14-data-history-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4920,7 +5710,12 @@
     "out": []
   },
   {
-    "id": "14-data-history-c5-case",
+    "id": "14-data-history-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4930,17 +5725,17 @@
     "out": []
   },
   {
-    "id": "14-data-history-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-c6-case",
+    "id": "14-data-history-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -4950,17 +5745,22 @@
     "out": []
   },
   {
-    "id": "14-data-history-c6-notebook",
+    "id": "14-data-history-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-Q03-connection",
+    "id": "14-data-history-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "14-data-history-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -4995,7 +5795,12 @@
     "out": []
   },
   {
-    "id": "14-data-history-c7-case",
+    "id": "14-data-history-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5005,17 +5810,17 @@
     "out": []
   },
   {
-    "id": "14-data-history-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "14-data-history-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-c8-case",
+    "id": "14-data-history-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5025,17 +5830,22 @@
     "out": []
   },
   {
-    "id": "14-data-history-c8-notebook",
+    "id": "14-data-history-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "14-data-history-Q04-connection",
+    "id": "14-data-history-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "14-data-history-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5056,6 +5866,36 @@
   },
   {
     "id": "14-data-history-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "14-data-history-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -5085,21 +5925,6 @@
     "out": []
   },
   {
-    "id": "15-model-revision-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "15-model-revision-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-route",
     "copyOverflow": 0,
     "out": []
@@ -5115,7 +5940,12 @@
     "out": []
   },
   {
-    "id": "15-model-revision-entry",
+    "id": "15-model-revision-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -5135,7 +5965,12 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c1-case",
+    "id": "15-model-revision-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5145,17 +5980,17 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-c2-case",
+    "id": "15-model-revision-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5165,17 +6000,22 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c2-notebook",
+    "id": "15-model-revision-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-Q01-connection",
+    "id": "15-model-revision-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "15-model-revision-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5210,7 +6050,12 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c3-case",
+    "id": "15-model-revision-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5220,17 +6065,17 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-c4-case",
+    "id": "15-model-revision-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5240,17 +6085,22 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c4-notebook",
+    "id": "15-model-revision-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-Q02-connection",
+    "id": "15-model-revision-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "15-model-revision-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5285,7 +6135,12 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c5-case",
+    "id": "15-model-revision-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5295,17 +6150,17 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-c6-case",
+    "id": "15-model-revision-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5315,17 +6170,22 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c6-notebook",
+    "id": "15-model-revision-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-Q03-connection",
+    "id": "15-model-revision-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "15-model-revision-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5360,7 +6220,12 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c7-case",
+    "id": "15-model-revision-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5370,17 +6235,17 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "15-model-revision-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-c8-case",
+    "id": "15-model-revision-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5390,17 +6255,22 @@
     "out": []
   },
   {
-    "id": "15-model-revision-c8-notebook",
+    "id": "15-model-revision-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "15-model-revision-Q04-connection",
+    "id": "15-model-revision-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "15-model-revision-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5421,6 +6291,36 @@
   },
   {
     "id": "15-model-revision-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "15-model-revision-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -5450,21 +6350,6 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "16-decision-matrix-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-route",
     "copyOverflow": 0,
     "out": []
@@ -5480,7 +6365,12 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-entry",
+    "id": "16-decision-matrix-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -5495,7 +6385,12 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c1-case",
+    "id": "16-decision-matrix-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5505,17 +6400,17 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-c2-case",
+    "id": "16-decision-matrix-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5525,17 +6420,22 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c2-notebook",
+    "id": "16-decision-matrix-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-Q01-connection",
+    "id": "16-decision-matrix-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "16-decision-matrix-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5570,7 +6470,12 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c3-case",
+    "id": "16-decision-matrix-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5580,17 +6485,17 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-c4-case",
+    "id": "16-decision-matrix-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5600,17 +6505,22 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c4-notebook",
+    "id": "16-decision-matrix-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-Q02-connection",
+    "id": "16-decision-matrix-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "16-decision-matrix-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5645,7 +6555,12 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c5-case",
+    "id": "16-decision-matrix-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5655,17 +6570,17 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-c6-case",
+    "id": "16-decision-matrix-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5675,17 +6590,22 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c6-notebook",
+    "id": "16-decision-matrix-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-Q03-connection",
+    "id": "16-decision-matrix-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "16-decision-matrix-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5720,7 +6640,12 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c7-case",
+    "id": "16-decision-matrix-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5730,17 +6655,17 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "16-decision-matrix-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-c8-case",
+    "id": "16-decision-matrix-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5750,17 +6675,22 @@
     "out": []
   },
   {
-    "id": "16-decision-matrix-c8-notebook",
+    "id": "16-decision-matrix-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "16-decision-matrix-Q04-connection",
+    "id": "16-decision-matrix-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "16-decision-matrix-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5781,6 +6711,36 @@
   },
   {
     "id": "16-decision-matrix-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "16-decision-matrix-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -5810,21 +6770,6 @@
     "out": []
   },
   {
-    "id": "17-adr-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "17-adr-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-route",
     "copyOverflow": 0,
     "out": []
@@ -5840,7 +6785,12 @@
     "out": []
   },
   {
-    "id": "17-adr-entry",
+    "id": "17-adr-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -5855,7 +6805,12 @@
     "out": []
   },
   {
-    "id": "17-adr-c1-case",
+    "id": "17-adr-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5865,17 +6820,17 @@
     "out": []
   },
   {
-    "id": "17-adr-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-c2-case",
+    "id": "17-adr-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5885,17 +6840,22 @@
     "out": []
   },
   {
-    "id": "17-adr-c2-notebook",
+    "id": "17-adr-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-Q01-connection",
+    "id": "17-adr-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "17-adr-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -5930,7 +6890,12 @@
     "out": []
   },
   {
-    "id": "17-adr-c3-case",
+    "id": "17-adr-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5940,17 +6905,17 @@
     "out": []
   },
   {
-    "id": "17-adr-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-c4-case",
+    "id": "17-adr-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -5960,17 +6925,22 @@
     "out": []
   },
   {
-    "id": "17-adr-c4-notebook",
+    "id": "17-adr-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-Q02-connection",
+    "id": "17-adr-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "17-adr-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6005,7 +6975,12 @@
     "out": []
   },
   {
-    "id": "17-adr-c5-case",
+    "id": "17-adr-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6015,17 +6990,17 @@
     "out": []
   },
   {
-    "id": "17-adr-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-c6-case",
+    "id": "17-adr-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6035,17 +7010,22 @@
     "out": []
   },
   {
-    "id": "17-adr-c6-notebook",
+    "id": "17-adr-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-Q03-connection",
+    "id": "17-adr-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "17-adr-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6080,7 +7060,12 @@
     "out": []
   },
   {
-    "id": "17-adr-c7-case",
+    "id": "17-adr-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6090,17 +7075,17 @@
     "out": []
   },
   {
-    "id": "17-adr-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "17-adr-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-c8-case",
+    "id": "17-adr-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6110,17 +7095,22 @@
     "out": []
   },
   {
-    "id": "17-adr-c8-notebook",
+    "id": "17-adr-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "17-adr-Q04-connection",
+    "id": "17-adr-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "17-adr-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6141,6 +7131,36 @@
   },
   {
     "id": "17-adr-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "17-adr-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -6170,21 +7190,6 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "18-nfr-impact-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-route",
     "copyOverflow": 0,
     "out": []
@@ -6200,7 +7205,12 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-entry",
+    "id": "18-nfr-impact-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -6215,7 +7225,12 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c1-case",
+    "id": "18-nfr-impact-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6225,17 +7240,17 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-c2-case",
+    "id": "18-nfr-impact-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6245,17 +7260,22 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c2-notebook",
+    "id": "18-nfr-impact-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-Q01-connection",
+    "id": "18-nfr-impact-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "18-nfr-impact-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6290,7 +7310,12 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c3-case",
+    "id": "18-nfr-impact-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6300,17 +7325,17 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-c4-case",
+    "id": "18-nfr-impact-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6320,17 +7345,22 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c4-notebook",
+    "id": "18-nfr-impact-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-Q02-connection",
+    "id": "18-nfr-impact-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "18-nfr-impact-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6365,7 +7395,12 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c5-case",
+    "id": "18-nfr-impact-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6375,17 +7410,17 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-c6-case",
+    "id": "18-nfr-impact-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6395,17 +7430,22 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c6-notebook",
+    "id": "18-nfr-impact-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-Q03-connection",
+    "id": "18-nfr-impact-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "18-nfr-impact-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6440,7 +7480,12 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c7-case",
+    "id": "18-nfr-impact-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6450,17 +7495,17 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "18-nfr-impact-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-c8-case",
+    "id": "18-nfr-impact-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6470,17 +7515,22 @@
     "out": []
   },
   {
-    "id": "18-nfr-impact-c8-notebook",
+    "id": "18-nfr-impact-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "18-nfr-impact-Q04-connection",
+    "id": "18-nfr-impact-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "18-nfr-impact-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6501,6 +7551,36 @@
   },
   {
     "id": "18-nfr-impact-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "18-nfr-impact-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -6530,21 +7610,6 @@
     "out": []
   },
   {
-    "id": "19-defense-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "19-defense-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-route",
     "copyOverflow": 0,
     "out": []
@@ -6560,7 +7625,12 @@
     "out": []
   },
   {
-    "id": "19-defense-entry",
+    "id": "19-defense-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -6575,7 +7645,12 @@
     "out": []
   },
   {
-    "id": "19-defense-c1-case",
+    "id": "19-defense-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6585,17 +7660,17 @@
     "out": []
   },
   {
-    "id": "19-defense-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-c2-case",
+    "id": "19-defense-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6605,17 +7680,22 @@
     "out": []
   },
   {
-    "id": "19-defense-c2-notebook",
+    "id": "19-defense-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-Q01-connection",
+    "id": "19-defense-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "19-defense-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6650,7 +7730,12 @@
     "out": []
   },
   {
-    "id": "19-defense-c3-case",
+    "id": "19-defense-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6660,17 +7745,17 @@
     "out": []
   },
   {
-    "id": "19-defense-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-c4-case",
+    "id": "19-defense-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6680,17 +7765,22 @@
     "out": []
   },
   {
-    "id": "19-defense-c4-notebook",
+    "id": "19-defense-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-Q02-connection",
+    "id": "19-defense-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "19-defense-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6725,7 +7815,12 @@
     "out": []
   },
   {
-    "id": "19-defense-c5-case",
+    "id": "19-defense-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6735,17 +7830,17 @@
     "out": []
   },
   {
-    "id": "19-defense-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-c6-case",
+    "id": "19-defense-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6755,17 +7850,22 @@
     "out": []
   },
   {
-    "id": "19-defense-c6-notebook",
+    "id": "19-defense-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-Q03-connection",
+    "id": "19-defense-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "19-defense-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6800,7 +7900,12 @@
     "out": []
   },
   {
-    "id": "19-defense-c7-case",
+    "id": "19-defense-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6810,17 +7915,17 @@
     "out": []
   },
   {
-    "id": "19-defense-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "19-defense-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-c8-case",
+    "id": "19-defense-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6830,17 +7935,22 @@
     "out": []
   },
   {
-    "id": "19-defense-c8-notebook",
+    "id": "19-defense-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "19-defense-Q04-connection",
+    "id": "19-defense-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "19-defense-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -6861,6 +7971,36 @@
   },
   {
     "id": "19-defense-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "19-defense-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -6890,21 +8030,6 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "20-ux-goals-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-route",
     "copyOverflow": 0,
     "out": []
@@ -6920,7 +8045,12 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-entry",
+    "id": "20-ux-goals-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -6935,7 +8065,12 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c1-case",
+    "id": "20-ux-goals-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6945,17 +8080,17 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-c2-case",
+    "id": "20-ux-goals-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -6965,17 +8100,22 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c2-notebook",
+    "id": "20-ux-goals-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-Q01-connection",
+    "id": "20-ux-goals-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "20-ux-goals-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7010,7 +8150,12 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c3-case",
+    "id": "20-ux-goals-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7020,17 +8165,17 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-c4-case",
+    "id": "20-ux-goals-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7040,17 +8185,22 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c4-notebook",
+    "id": "20-ux-goals-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-Q02-connection",
+    "id": "20-ux-goals-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "20-ux-goals-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7085,7 +8235,12 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c5-case",
+    "id": "20-ux-goals-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7095,17 +8250,17 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-c6-case",
+    "id": "20-ux-goals-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7115,17 +8270,22 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c6-notebook",
+    "id": "20-ux-goals-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-Q03-connection",
+    "id": "20-ux-goals-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "20-ux-goals-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7160,7 +8320,12 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c7-case",
+    "id": "20-ux-goals-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7170,17 +8335,17 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "20-ux-goals-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-c8-case",
+    "id": "20-ux-goals-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7190,17 +8355,22 @@
     "out": []
   },
   {
-    "id": "20-ux-goals-c8-notebook",
+    "id": "20-ux-goals-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "20-ux-goals-Q04-connection",
+    "id": "20-ux-goals-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "20-ux-goals-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7221,6 +8391,36 @@
   },
   {
     "id": "20-ux-goals-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "20-ux-goals-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -7250,21 +8450,6 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "21-information-architecture-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-route",
     "copyOverflow": 0,
     "out": []
@@ -7280,7 +8465,12 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-entry",
+    "id": "21-information-architecture-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -7295,7 +8485,12 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c1-case",
+    "id": "21-information-architecture-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7305,17 +8500,17 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-c2-case",
+    "id": "21-information-architecture-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7325,17 +8520,22 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c2-notebook",
+    "id": "21-information-architecture-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-Q01-connection",
+    "id": "21-information-architecture-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "21-information-architecture-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7370,7 +8570,12 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c3-case",
+    "id": "21-information-architecture-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7380,17 +8585,17 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-c4-case",
+    "id": "21-information-architecture-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7400,17 +8605,22 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c4-notebook",
+    "id": "21-information-architecture-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-Q02-connection",
+    "id": "21-information-architecture-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "21-information-architecture-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7445,7 +8655,12 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c5-case",
+    "id": "21-information-architecture-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7455,17 +8670,17 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-c6-case",
+    "id": "21-information-architecture-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7475,17 +8690,22 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c6-notebook",
+    "id": "21-information-architecture-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-Q03-connection",
+    "id": "21-information-architecture-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "21-information-architecture-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7520,7 +8740,12 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c7-case",
+    "id": "21-information-architecture-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7530,17 +8755,17 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "21-information-architecture-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-c8-case",
+    "id": "21-information-architecture-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7550,17 +8775,22 @@
     "out": []
   },
   {
-    "id": "21-information-architecture-c8-notebook",
+    "id": "21-information-architecture-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "21-information-architecture-Q04-connection",
+    "id": "21-information-architecture-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "21-information-architecture-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7581,6 +8811,36 @@
   },
   {
     "id": "21-information-architecture-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "21-information-architecture-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -7610,21 +8870,6 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "22-wireframe-prototype-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-route",
     "copyOverflow": 0,
     "out": []
@@ -7640,7 +8885,12 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-entry",
+    "id": "22-wireframe-prototype-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -7655,7 +8905,12 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c1-case",
+    "id": "22-wireframe-prototype-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7665,17 +8920,17 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c2-case",
+    "id": "22-wireframe-prototype-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7685,17 +8940,22 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c2-notebook",
+    "id": "22-wireframe-prototype-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-Q01-connection",
+    "id": "22-wireframe-prototype-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "22-wireframe-prototype-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7730,7 +8990,12 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c3-case",
+    "id": "22-wireframe-prototype-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7740,17 +9005,17 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c4-case",
+    "id": "22-wireframe-prototype-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7760,17 +9025,22 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c4-notebook",
+    "id": "22-wireframe-prototype-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-Q02-connection",
+    "id": "22-wireframe-prototype-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "22-wireframe-prototype-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7805,7 +9075,12 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c5-case",
+    "id": "22-wireframe-prototype-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7815,17 +9090,17 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c6-case",
+    "id": "22-wireframe-prototype-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7835,17 +9110,22 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c6-notebook",
+    "id": "22-wireframe-prototype-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-Q03-connection",
+    "id": "22-wireframe-prototype-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "22-wireframe-prototype-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7880,7 +9160,12 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c7-case",
+    "id": "22-wireframe-prototype-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7890,17 +9175,17 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "22-wireframe-prototype-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c8-case",
+    "id": "22-wireframe-prototype-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -7910,17 +9195,22 @@
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-c8-notebook",
+    "id": "22-wireframe-prototype-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "22-wireframe-prototype-Q04-connection",
+    "id": "22-wireframe-prototype-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "22-wireframe-prototype-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -7941,6 +9231,36 @@
   },
   {
     "id": "22-wireframe-prototype-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "22-wireframe-prototype-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -7970,21 +9290,6 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "23-forms-validation-states-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-route",
     "copyOverflow": 0,
     "out": []
@@ -8000,7 +9305,12 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-entry",
+    "id": "23-forms-validation-states-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -8015,7 +9325,12 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c1-case",
+    "id": "23-forms-validation-states-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8025,17 +9340,17 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c2-case",
+    "id": "23-forms-validation-states-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8045,17 +9360,22 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c2-notebook",
+    "id": "23-forms-validation-states-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-Q01-connection",
+    "id": "23-forms-validation-states-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "23-forms-validation-states-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8090,7 +9410,12 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c3-case",
+    "id": "23-forms-validation-states-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8100,17 +9425,17 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c4-case",
+    "id": "23-forms-validation-states-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8120,17 +9445,22 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c4-notebook",
+    "id": "23-forms-validation-states-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-Q02-connection",
+    "id": "23-forms-validation-states-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "23-forms-validation-states-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8165,7 +9495,12 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c5-case",
+    "id": "23-forms-validation-states-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8175,17 +9510,17 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c6-case",
+    "id": "23-forms-validation-states-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8195,17 +9530,22 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c6-notebook",
+    "id": "23-forms-validation-states-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-Q03-connection",
+    "id": "23-forms-validation-states-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "23-forms-validation-states-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8240,7 +9580,12 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c7-case",
+    "id": "23-forms-validation-states-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8250,17 +9595,17 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "23-forms-validation-states-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c8-case",
+    "id": "23-forms-validation-states-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8270,17 +9615,22 @@
     "out": []
   },
   {
-    "id": "23-forms-validation-states-c8-notebook",
+    "id": "23-forms-validation-states-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "23-forms-validation-states-Q04-connection",
+    "id": "23-forms-validation-states-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "23-forms-validation-states-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8301,6 +9651,36 @@
   },
   {
     "id": "23-forms-validation-states-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "23-forms-validation-states-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -8330,21 +9710,6 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "24-design-system-accessibility-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-route",
     "copyOverflow": 0,
     "out": []
@@ -8360,7 +9725,12 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-entry",
+    "id": "24-design-system-accessibility-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -8375,7 +9745,12 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c1-case",
+    "id": "24-design-system-accessibility-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8385,17 +9760,17 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c2-case",
+    "id": "24-design-system-accessibility-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8405,17 +9780,22 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c2-notebook",
+    "id": "24-design-system-accessibility-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-Q01-connection",
+    "id": "24-design-system-accessibility-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "24-design-system-accessibility-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8450,7 +9830,12 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c3-case",
+    "id": "24-design-system-accessibility-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8460,17 +9845,17 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c4-case",
+    "id": "24-design-system-accessibility-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8480,17 +9865,22 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c4-notebook",
+    "id": "24-design-system-accessibility-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-Q02-connection",
+    "id": "24-design-system-accessibility-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "24-design-system-accessibility-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8525,7 +9915,12 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c5-case",
+    "id": "24-design-system-accessibility-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8535,17 +9930,17 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c6-case",
+    "id": "24-design-system-accessibility-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8555,17 +9950,22 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c6-notebook",
+    "id": "24-design-system-accessibility-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-Q03-connection",
+    "id": "24-design-system-accessibility-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "24-design-system-accessibility-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8600,7 +10000,12 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c7-case",
+    "id": "24-design-system-accessibility-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8610,17 +10015,17 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "24-design-system-accessibility-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c8-case",
+    "id": "24-design-system-accessibility-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8630,17 +10035,22 @@
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-c8-notebook",
+    "id": "24-design-system-accessibility-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "24-design-system-accessibility-Q04-connection",
+    "id": "24-design-system-accessibility-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "24-design-system-accessibility-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8661,6 +10071,36 @@
   },
   {
     "id": "24-design-system-accessibility-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "24-design-system-accessibility-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -8690,21 +10130,6 @@
     "out": []
   },
   {
-    "id": "25-rbac-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "25-rbac-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-route",
     "copyOverflow": 0,
     "out": []
@@ -8720,7 +10145,12 @@
     "out": []
   },
   {
-    "id": "25-rbac-entry",
+    "id": "25-rbac-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -8740,7 +10170,12 @@
     "out": []
   },
   {
-    "id": "25-rbac-c1-case",
+    "id": "25-rbac-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8750,17 +10185,17 @@
     "out": []
   },
   {
-    "id": "25-rbac-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-c2-case",
+    "id": "25-rbac-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8770,17 +10205,22 @@
     "out": []
   },
   {
-    "id": "25-rbac-c2-notebook",
+    "id": "25-rbac-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-Q01-connection",
+    "id": "25-rbac-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "25-rbac-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8815,7 +10255,12 @@
     "out": []
   },
   {
-    "id": "25-rbac-c3-case",
+    "id": "25-rbac-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8825,17 +10270,17 @@
     "out": []
   },
   {
-    "id": "25-rbac-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-c4-case",
+    "id": "25-rbac-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8845,17 +10290,22 @@
     "out": []
   },
   {
-    "id": "25-rbac-c4-notebook",
+    "id": "25-rbac-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-Q02-connection",
+    "id": "25-rbac-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "25-rbac-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8890,7 +10340,12 @@
     "out": []
   },
   {
-    "id": "25-rbac-c5-case",
+    "id": "25-rbac-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8900,17 +10355,17 @@
     "out": []
   },
   {
-    "id": "25-rbac-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-c6-case",
+    "id": "25-rbac-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8920,17 +10375,22 @@
     "out": []
   },
   {
-    "id": "25-rbac-c6-notebook",
+    "id": "25-rbac-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-Q03-connection",
+    "id": "25-rbac-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "25-rbac-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -8965,7 +10425,12 @@
     "out": []
   },
   {
-    "id": "25-rbac-c7-case",
+    "id": "25-rbac-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8975,17 +10440,17 @@
     "out": []
   },
   {
-    "id": "25-rbac-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "25-rbac-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-c8-case",
+    "id": "25-rbac-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -8995,17 +10460,22 @@
     "out": []
   },
   {
-    "id": "25-rbac-c8-notebook",
+    "id": "25-rbac-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "25-rbac-Q04-connection",
+    "id": "25-rbac-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "25-rbac-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -9026,6 +10496,36 @@
   },
   {
     "id": "25-rbac-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "25-rbac-experiment-review",
     "copyOverflow": 0,
     "out": []
   },
@@ -9055,21 +10555,6 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-main-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-additional-literature",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
-    "id": "26-auth-lockout-materials",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-route",
     "copyOverflow": 0,
     "out": []
@@ -9085,7 +10570,12 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-entry",
+    "id": "26-auth-lockout-prerequisites",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-explanation",
     "copyOverflow": 0,
     "out": []
   },
@@ -9105,7 +10595,12 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c1-case",
+    "id": "26-auth-lockout-c1-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c1-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9115,17 +10610,17 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c1-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c2-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-c2-case",
+    "id": "26-auth-lockout-c2-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c2-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9135,17 +10630,22 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c2-notebook",
+    "id": "26-auth-lockout-Q01-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-Q01-connection",
+    "id": "26-auth-lockout-Q01-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "26-auth-lockout-Q01-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-Q01-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -9180,7 +10680,12 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c3-case",
+    "id": "26-auth-lockout-c3-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c3-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9190,17 +10695,17 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c3-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c4-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-c4-case",
+    "id": "26-auth-lockout-c4-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c4-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9210,17 +10715,22 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c4-notebook",
+    "id": "26-auth-lockout-Q02-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-Q02-connection",
+    "id": "26-auth-lockout-Q02-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "26-auth-lockout-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-Q02-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -9255,7 +10765,12 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c5-case",
+    "id": "26-auth-lockout-c5-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c5-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9265,17 +10780,17 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c5-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c6-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-c6-case",
+    "id": "26-auth-lockout-c6-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c6-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9285,17 +10800,22 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c6-notebook",
+    "id": "26-auth-lockout-Q03-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-Q03-connection",
+    "id": "26-auth-lockout-Q03-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "26-auth-lockout-Q03-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-Q03-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -9330,7 +10850,12 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c7-case",
+    "id": "26-auth-lockout-c7-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c7-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9340,17 +10865,17 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c7-notebook",
-    "copyOverflow": 0,
-    "out": []
-  },
-  {
     "id": "26-auth-lockout-c8-definition",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-c8-case",
+    "id": "26-auth-lockout-c8-explanation",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-c8-walkthrough",
     "copyOverflow": 0,
     "out": []
   },
@@ -9360,17 +10885,22 @@
     "out": []
   },
   {
-    "id": "26-auth-lockout-c8-notebook",
+    "id": "26-auth-lockout-Q04-mechanism",
     "copyOverflow": 0,
     "out": []
   },
   {
-    "id": "26-auth-lockout-Q04-connection",
+    "id": "26-auth-lockout-Q04-input",
     "copyOverflow": 0,
     "out": []
   },
   {
     "id": "26-auth-lockout-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-Q04-boundary",
     "copyOverflow": 0,
     "out": []
   },
@@ -9391,6 +10921,36 @@
   },
   {
     "id": "26-auth-lockout-Q04-T04",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-additional-case-input",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-additional-case-solution",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-additional-case-boundary",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-experiment-start",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-experiment",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "26-auth-lockout-experiment-review",
     "copyOverflow": 0,
     "out": []
   },

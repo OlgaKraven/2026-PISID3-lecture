@@ -30,9 +30,11 @@ try {
     return Math.abs(target.left-spot.left-5)<2 && card.bottom<=innerHeight;
   });
   await page.screenshot({path:'output/playwright/tour-notes.png'});
-  for(let i=0;i<5;i++)await page.getByRole('button',{name:'Далее',exact:true}).click();
+  for(let i=0;i<4;i++)await page.getByRole('button',{name:'Далее',exact:true}).click();
   await page.getByRole('button',{name:'Готово',exact:true}).click();
   assert.equal(await page.locator('#root').evaluate(el=>el.inert),false);
+  assert.equal(await page.getByRole('button',{name:'Тур по кнопкам',exact:false}).count(),0);
+  await page.goto(siteUrl);
   await page.getByRole('button',{name:'Тур по кнопкам',exact:false}).click();
   await page.keyboard.press('Escape');
   assert.equal(await page.locator('.tour-card').count(),0);

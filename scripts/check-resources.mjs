@@ -31,13 +31,10 @@ try{
  await page.goto(siteUrl+'?lecture='+course.lectures[15].id+'&slide='+course.lectures[15].slides.find(s=>s.id.endsWith('Q03-worked')).id,{waitUntil:'networkidle'});
  await page.screenshot({path:'output/playwright/mobile.png',fullPage:true});
  await page.setViewportSize({width:1440,height:1000});await page.goto(siteUrl,{waitUntil:'networkidle'});
- const credentials=JSON.parse(await fs.readFile('private/editor-access.json','utf8'));
- const login=async()=>{await page.getByRole('button',{name:'Вход',exact:true}).click();await page.getByLabel('Логин',{exact:true}).fill(credentials.username);await page.getByLabel('Пароль',{exact:true}).fill(credentials.password);await page.getByRole('button',{name:'Войти',exact:true}).click();await page.getByRole('heading',{name:'Редактор курса',exact:true}).waitFor();};
- await login();const field=page.getByLabel('Название лекции',{exact:true}),title=await field.inputValue();
- await field.fill(title+' · проверка черновика');await page.getByRole('status').filter({hasText:'Черновик сохранён на устройстве'}).waitFor();
- await page.reload();await login();assert.equal(await page.getByLabel('Название лекции',{exact:true}).inputValue(),title+' · проверка черновика');
- await page.getByLabel('Название лекции',{exact:true}).fill(title);await page.getByRole('status').filter({hasText:'Черновик сохранён на устройстве'}).waitFor();report.editor='login, edit, persist across reload, restore: passed';
- await page.getByRole('button',{name:'Закрыть редактор',exact:true}).click();
+ assert.equal(await page.getByRole('button',{name:'Вход',exact:true}).count(),0);
+ const assets=await fs.readdir('dist/assets');assert.ok(!assets.some(name=>name.includes('CourseEditor')));
+ await assert.rejects(fs.access('dist/editor-access.json'));
+ report.editor='removed: no entry, no login and no editor chunk';
  const prepared=await page.evaluate(async()=>{
   await navigator.serviceWorker.register('sw.js');const registration=await navigator.serviceWorker.ready;
   return new Promise((resolve,reject)=>{const ch=new MessageChannel();const timer=setTimeout(()=>reject(Error('prepare timeout')),30000);ch.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data);};registration.active.postMessage({type:'PREPARE'},[ch.port2]);});

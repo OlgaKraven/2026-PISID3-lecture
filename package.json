@@ -24,10 +24,11 @@
     "check:methodology": "node scripts/check-methodology.mjs",
     "check:generated": "node scripts/check-generated.mjs",
     "test:tour": "node scripts/check-tour.mjs",
-    "test:visuals": "node scripts/check-visuals.mjs"
+    "test:visuals": "node scripts/check-visuals.mjs",
+    "test:interactions": "node scripts/check-interactions.mjs"
   },
   "dependencies": {
-    "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0.tgz",
+    "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

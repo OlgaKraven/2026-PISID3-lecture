@@ -1,6 +1,6 @@
 {
   "static": {
-    "directory": "dist/client"
+    "directory": "dist"
   },
   "d1": null,
   "r2": null

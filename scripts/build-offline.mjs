@@ -35,8 +35,19 @@ self.addEventListener('message',event=>{const port=event.ports[0];if(!port)retur
  else if(event.data.type==='REMOVE'){if(preparing)throw Error('Дождитесь завершения скачивания');for(const name of await caches.keys())if(name.startsWith('lecture-offline:'+ROOT))await caches.delete(name);port.postMessage({ready:false,count:0})}
  }catch(error){port.postMessage({error:String(error)})}
 })())});
-self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(event.request.mode==='navigate'&&url.origin===new URL(ROOT).origin&&url.pathname.startsWith(new URL(ROOT).pathname)){event.respondWith((async()=>{const c=await caches.open(CACHE);if(await c.match(READY)){const r=await c.match(new URL('index.html',ROOT).href);if(r)return new Response(await r.text(),{headers:{'Content-Type':'text/html; charset=utf-8'}})}return fetch(event.request)})());return}
- if(urls.includes(url.href))event.respondWith((async()=>{const c=await caches.open(CACHE);if(await c.match(READY)){const r=await c.match(url.href,{ignoreVary:true});if(r)return r}return fetch(event.request)})());
+self.addEventListener('fetch',event=>{
+ if(event.request.method!=='GET')return;
+ const url=new URL(event.request.url),navigation=event.request.mode==='navigate'&&url.origin===new URL(ROOT).origin&&url.pathname.startsWith(new URL(ROOT).pathname);
+ if(!navigation&&!urls.includes(url.href))return;
+ event.respondWith((async()=>{
+  const cache=await caches.open(CACHE),ready=await cache.match(READY);
+  const cacheUrl=navigation?new URL('index.html',ROOT).href:url.href;
+  // Course and scripts must update while online; the prepared copy is fallback.
+  try{const fresh=await fetch(event.request);if(fresh.ok)return fresh;if(!ready)return fresh;}catch(error){if(!ready)throw error;}
+  const saved=await cache.match(cacheUrl,{ignoreVary:true});
+  if(saved)return navigation?new Response(await saved.text(),{headers:{'Content-Type':'text/html; charset=utf-8'}}):saved;
+  return fetch(event.request);
+ })());
 });
 `,
 )
