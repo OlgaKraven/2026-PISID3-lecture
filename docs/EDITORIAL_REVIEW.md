@@ -1,6 +1,6 @@
 # Аудит лекций · 12–13 октября 2026
 
-Курс проверен и исправлен локально. Исходный коммит: `69d6ed1c360c208d03cd5c864f13e10697009f04`. Редакция: `pisid3-2026.10.13-teaching-v5`. GitHub и опубликованный сайт пока не обновлены.
+Курс исправлен, проверен и опубликован. Исходный коммит: `69d6ed1c360c208d03cd5c864f13e10697009f04`. Редакция: `pisid3-2026.10.13-teaching-v5`. [Опубликованный курс](https://olgakraven.github.io/2026-PISID3-lecture/); изменения курса — [97742d0](https://github.com/OlgaKraven/2026-PISID3-lecture/commit/97742d052bc9be5adb16096ca4d31d1df19c3416).
 
 ## Результат
 
@@ -105,6 +105,8 @@
 - Исправлены две уязвимости высокой серьёзности в зависимостях сборки; npm audit показывает 0 уязвимостей.
 
 Машинные отчёты: [browser](../reports/browser.json), [teaching-v5](../reports/teaching-v5.json), [interactions](../reports/interactions.json), [release-ui](../reports/release-ui.json), [geometry-print](../reports/geometry-print.json), [visual-review](../reports/visual-review.json), [resources](../reports/resources.json), [editorial-review](../reports/editorial-review.json), [release](../reports/release.json).
+
+Публикация подтверждена 13 октября 2026: [сборка и развёртывание Pages](https://github.com/OlgaKraven/2026-PISID3-lecture/actions/runs/38342583398) прошли успешно. На опубликованном сайте курс, задания, заметки и конфигурация лабораторий совпали с проверенными авторскими результатами. В браузере проверены видимые кнопки 26 лабораторий, переход из каталога, текущий сценарий преподавателя, выбранная пара соответствия в аудитории, раскрытие лаборатории, анимация и сохранённый запуск на обоих экранах. Доказательство — [publication](../reports/publication.json).
 
 ## Границы вывода
 

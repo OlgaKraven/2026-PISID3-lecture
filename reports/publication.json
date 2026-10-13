@@ -1,0 +1,25 @@
+{
+  "version": "pisid3-2026.10.13-teaching-v5",
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "contentCommit": "97742d052bc9be5adb16096ca4d31d1df19c3416",
+  "workflowRun": 38342583398,
+  "verifiedDate": "2026-10-13",
+  "files": [
+    "course.json",
+    "assessment.json",
+    "teacher-pack.json",
+    "laboratories.json"
+  ],
+  "checks": [
+    "26 visible laboratory entries; login removed",
+    "catalogue to laboratory",
+    "current teacher scenario loaded",
+    "matching pair visible on audience screen",
+    "expanded laboratory, animated operation and saved run synchronized"
+  ],
+  "errors": [],
+  "lectures": 26,
+  "slides": 2195,
+  "teacherNotes": 2195,
+  "status": "passed"
+}
