@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "23-forms-validation-states"
   ],
@@ -106,7 +106,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c1-walkthrough",
       "displayNumber": 10,
-      "title": "Подпись поля: пример по шагам",
+      "title": "Подпись поля: разбор примера",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -146,7 +146,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c2-walkthrough",
       "displayNumber": 14,
-      "title": "Обязательность: пример по шагам",
+      "title": "Обязательность: разбор примера",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -286,7 +286,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c3-walkthrough",
       "displayNumber": 28,
-      "title": "Формат и маска: пример по шагам",
+      "title": "Формат и маска: разбор примера",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -326,7 +326,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c4-walkthrough",
       "displayNumber": 32,
-      "title": "Валидация на клиенте: пример по шагам",
+      "title": "Валидация на клиенте: разбор примера",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -466,7 +466,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c5-walkthrough",
       "displayNumber": 46,
-      "title": "Серверная ошибка: пример по шагам",
+      "title": "Серверная ошибка: разбор примера",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -506,7 +506,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c6-walkthrough",
       "displayNumber": 50,
-      "title": "Пустое состояние: пример по шагам",
+      "title": "Пустое состояние: разбор примера",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -646,7 +646,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c7-walkthrough",
       "displayNumber": 64,
-      "title": "Загрузка: пример по шагам",
+      "title": "Загрузка: разбор примера",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -686,7 +686,7 @@
       "lectureId": "23-forms-validation-states",
       "slideId": "23-forms-validation-states-c8-walkthrough",
       "displayNumber": 68,
-      "title": "Успех и восстановление: пример по шагам",
+      "title": "Успех и восстановление: разбор примера",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"

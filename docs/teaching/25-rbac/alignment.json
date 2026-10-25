@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "25-rbac"
   ],
@@ -116,7 +116,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c1-walkthrough",
       "displayNumber": 11,
-      "title": "Роль: пример по шагам",
+      "title": "Роль: разбор примера",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -156,7 +156,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c2-walkthrough",
       "displayNumber": 15,
-      "title": "Объект доступа: пример по шагам",
+      "title": "Объект доступа: разбор примера",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -296,7 +296,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c3-walkthrough",
       "displayNumber": 29,
-      "title": "Операция: пример по шагам",
+      "title": "Операция: разбор примера",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -336,7 +336,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c4-walkthrough",
       "displayNumber": 33,
-      "title": "Область данных: пример по шагам",
+      "title": "Область данных: разбор примера",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -476,7 +476,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c5-walkthrough",
       "displayNumber": 47,
-      "title": "Матрица доступа: пример по шагам",
+      "title": "Матрица доступа: разбор примера",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -516,7 +516,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c6-walkthrough",
       "displayNumber": 51,
-      "title": "Минимальные привилегии: пример по шагам",
+      "title": "Минимальные привилегии: разбор примера",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -656,7 +656,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c7-walkthrough",
       "displayNumber": 65,
-      "title": "Разделение обязанностей: пример по шагам",
+      "title": "Разделение обязанностей: разбор примера",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -696,7 +696,7 @@
       "lectureId": "25-rbac",
       "slideId": "25-rbac-c8-walkthrough",
       "displayNumber": 69,
-      "title": "Проверка доступа: пример по шагам",
+      "title": "Проверка доступа: разбор примера",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"

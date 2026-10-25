@@ -1,5 +1,7 @@
 import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
+import artifacts from './concept-artifacts.mjs';
+import additional from './additional-artifacts.mjs';
 
 const vocabulary=[
  'Партия — товар одного выпуска; ячейка — место хранения. Карантин запрещает отгрузку до разрешения качества.',
@@ -32,6 +34,16 @@ const vocabulary=[
 
 export function studentSlide(slide,topic,index,worked){
  const suffix=slide.id.slice(topic.id.length+1),qi=Number(suffix.match(/^Q0(\d)/)?.[1]||0)-1;
+ const concept=Number(suffix.match(/^c(\d+)-walkthrough$/)?.[1]||0)-1;
+ if(concept>=0&&artifacts[index]?.[concept]){
+  const example=artifacts[index][concept];delete slide.steps;
+  Object.assign(slide,{title:topic.concepts[concept].name+': разбор примера',body:example.input,visual:example.visual,kicker:'Учебный пример'});
+ }
+ if(suffix==='additional-case-input')slide.body=additional[index].input;
+ if(suffix==='additional-case-solution'){
+  const example=additional[index];delete slide.steps;
+  Object.assign(slide,{body:example.input,visual:example.visual,notebook:example.why});
+ }
  if(suffix==='prerequisites')slide.bullets=[
   'WMS — система управления складом; ТСД — терминал сбора данных; ERP — система планирования ресурсов предприятия.',
   vocabulary[index],

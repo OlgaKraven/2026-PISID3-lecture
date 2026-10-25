@@ -9,7 +9,7 @@ export function experimentVisual(lab) {
     case 'coverage': return {type:'network',nodes:[{id:'r',title:'REQ-14',text:'Запрет карантина'},{id:'m',title:'Статус',text:'Модель данных'},{id:'p',title:'Доступ',text:'Проверка запроса'},{id:'t',title:'Тест',text:'Отказ без движения'}],edges:[{from:'r',to:'m',label:'представлен'},{from:'r',to:'p',label:'контролируется'},{from:'r',to:'t',label:'проверяется'}],caption};
     case 'weights': return {type:'bars',items:[{label:'A: 5 × 0,5 + 2 × 0,5',value:3.5},{label:'B: 3 × 0,5 + 5 × 0,5',value:4}],max:5,unit:'балла',caption};
     case 'offline': return process([['Клиент','OP-1, +10 единиц'],['Сеть','Повтор той же операции'],['Сервер','По ID возвращает прежний результат']]);
-    case 'cost': return {type:'bars',items:[{label:'100 операций × 2 с',value:200},{label:'100 операций × 5 с',value:500}],max:500,unit:'с/день',caption};
+    case 'cost': return {type:'bars',items:[{label:'100 операций × 3 с',value:300},{label:'100 операций × 5 с',value:500}],max:500,unit:'с/день',caption};
     case 'search': return {type:'tree',root:'Партии склада',branches:[{title:'Доступные',items:['P-18, A-01','P-19, A-02']},{title:'Карантин',items:['P-17, A-01']}],caption};
     case 'prototype': return process([['Сканирование','Партия и количество'],['Проверка','Возврат с сохранением данных'],['Подтверждение','Приёмка зарегистрирована']]);
     case 'form': return {type:'decision',start:'Партия и количество',question:'Формат допустим?',yes:'Проверить правило на сервере',no:'Назвать ошибку у поля',caption};

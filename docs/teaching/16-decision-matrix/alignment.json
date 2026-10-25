@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "16-decision-matrix"
   ],
@@ -106,7 +106,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c1-walkthrough",
       "displayNumber": 10,
-      "title": "Допустимый вариант: пример по шагам",
+      "title": "Допустимый вариант: разбор примера",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -146,7 +146,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c2-walkthrough",
       "displayNumber": 14,
-      "title": "Критерий: пример по шагам",
+      "title": "Критерий: разбор примера",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -286,7 +286,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c3-walkthrough",
       "displayNumber": 28,
-      "title": "Вес критерия: пример по шагам",
+      "title": "Вес критерия: разбор примера",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -326,7 +326,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c4-walkthrough",
       "displayNumber": 32,
-      "title": "Шкала оценки: пример по шагам",
+      "title": "Шкала оценки: разбор примера",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -466,7 +466,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c5-walkthrough",
       "displayNumber": 46,
-      "title": "Расчёт результата: пример по шагам",
+      "title": "Расчёт результата: разбор примера",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -506,7 +506,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c6-walkthrough",
       "displayNumber": 50,
-      "title": "Критический порог: пример по шагам",
+      "title": "Критический порог: разбор примера",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -646,7 +646,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c7-walkthrough",
       "displayNumber": 64,
-      "title": "Анализ чувствительности: пример по шагам",
+      "title": "Анализ чувствительности: разбор примера",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -686,7 +686,7 @@
       "lectureId": "16-decision-matrix",
       "slideId": "16-decision-matrix-c8-walkthrough",
       "displayNumber": 68,
-      "title": "Протокол выбора: пример по шагам",
+      "title": "Протокол выбора: разбор примера",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"

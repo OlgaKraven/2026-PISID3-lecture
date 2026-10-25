@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "02-roles-views"
   ],
@@ -116,7 +116,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c1-walkthrough",
       "displayNumber": 11,
-      "title": "Заказчик: пример по шагам",
+      "title": "Заказчик: разбор примера",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -156,7 +156,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c2-walkthrough",
       "displayNumber": 15,
-      "title": "Пользователь: пример по шагам",
+      "title": "Пользователь: разбор примера",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -296,7 +296,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c3-walkthrough",
       "displayNumber": 29,
-      "title": "Аналитик: пример по шагам",
+      "title": "Аналитик: разбор примера",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -336,7 +336,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c4-walkthrough",
       "displayNumber": 33,
-      "title": "Проектировщик: пример по шагам",
+      "title": "Проектировщик: разбор примера",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -476,7 +476,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c5-walkthrough",
       "displayNumber": 47,
-      "title": "Разработчик: пример по шагам",
+      "title": "Разработчик: разбор примера",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -516,7 +516,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c6-walkthrough",
       "displayNumber": 51,
-      "title": "Точка зрения: пример по шагам",
+      "title": "Точка зрения: разбор примера",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -656,7 +656,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c7-walkthrough",
       "displayNumber": 65,
-      "title": "Конфликт интересов: пример по шагам",
+      "title": "Конфликт интересов: разбор примера",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -696,7 +696,7 @@
       "lectureId": "02-roles-views",
       "slideId": "02-roles-views-c8-walkthrough",
       "displayNumber": 69,
-      "title": "Право решения: пример по шагам",
+      "title": "Право решения: разбор примера",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"

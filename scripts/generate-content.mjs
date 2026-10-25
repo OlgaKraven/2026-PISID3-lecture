@@ -11,7 +11,7 @@ import {buildLaboratories} from '../authoring/laboratory-config.mjs';
 import {addTeachingIntroduction,addConceptExplanation,addQuestionExplanation,addBoundaryExample,addAdditionalCase} from '../authoring/expanded-blocks.mjs';
 const experiments=JSON.parse(fs.readFileSync('authoring/experiments.json','utf8'));
 const original=JSON.parse(fs.readFileSync('authoring/original-course.json','utf8'));
-const version='pisid3-2026.10.25-student';
+const version='pisid3-2026.10.25-third';
 const practiceCases=buildPracticeCases(original.topics);
 const laboratories=buildLaboratories(experiments,guidance);
 const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'Проектирование и дизайн',heroAccent:'информационных систем',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-pisid-design.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
@@ -36,7 +36,7 @@ for(const [li,t] of original.topics.entries()){
    let note=comment.note||{script:comment.script,preparation:comment.preparation||'Учебный пример WMS; значения условные. '+t.caseContext,notebook:s.notebook||'Отдельная запись не требуется.',questions:comment.questions||'',answer:comment.answer||'',estimatedSeconds:comment.seconds||75};
    if(!note.script)throw Error('Не написана заметка '+s.id);
    if(prior?.slides[s.id]){if(prior.slides[s.id].contentHash!==digest(s))throw Error('Согласуйте заметку изменённого слайда: '+s.id);note=prior.slides[s.id].note;}
-   note=refineNote({slide:s,topic:t,index:li,cases:cases[li],guidance:guidance[li],note,practiceCases,laboratory:laboratories[li]});
+   note=refineNote({slide:s,topic:t,index:li,cases:cases[li],guidance:guidance[li],note,practiceCases,laboratory:laboratories[li],assessment:bank.keys[s.task?.id]});
    note=cleanText(note);teacher.notes[s.id]=note;source.slides[s.id]={contentHash:digest(s),note};
   }
   return s.id;
@@ -74,7 +74,7 @@ for(const [li,t] of original.topics.entries()){
   make(2,'multiple',`Выберите ${correctCount} корректных действий или проверок для текущей ситуации.`,rotate(allChoices,(li+qi)%allChoices.length),{choose:correctCount},{type:'multiple',correct:positives.map((_,i)=>'m'+i),explanation:`Обоснованы: ${positives.join(' ')} Для каждого вывода назовите исходное условие и наблюдаемый признак результата.`,optionExplanations:Object.fromEntries(allChoices.map((o,i)=>[o.id,i<correctCount?'Соответствует: '+o.text:'Ошибка не обеспечивает критерии '+a.name+' и '+b.name]))});
   make(3,'short',`Назовите понятие: «${explanationOf(b)}». Используйте точное название со слайдов; регистр не важен.`,null,{}, {type:'short',accepted:[b.name],explanation:`Ответ: ${b.name}. ${b.definition} Это название понятия, а не пример его применения.`});
   const matchingRows=[[a.name,a.principle],[b.name,b.principle],['Ошибка: '+a.name,a.pitfall],['Ошибка: '+b.name,b.pitfall],['Действие: '+a.name,a.decision],['Действие: '+b.name,b.decision],...((li+qi)%2?[['Проверка: '+a.name,a.check],['Проверка: '+b.name,b.check]]:[])];
-  make(4,'matching','Сопоставьте понятия, действия, ошибки и проверки. Каждая характеристика используется один раз.',rotate(matchingRows.map((row,i)=>({id:'r'+i,text:row[1]})),2+(li%3)),{items:matchingRows.map((row,i)=>({id:'i'+i,text:row[0]}))},{type:'matching',pairs:Object.fromEntries(matchingRows.map((_,i)=>['i'+i,'r'+i])),explanation:matchingRows.map(row=>row[0]+' → '+row[1]).join('\n')});
+  make(4,'matching','Сопоставьте понятия, действия, ошибки и проверки. Каждая характеристика используется один раз.',rotate(matchingRows.map((row,i)=>({id:'r'+i,text:row[1]})),2+(li%3)),{items:matchingRows.map((row,i)=>({id:'i'+i,text:row[0]}))},{type:'matching',pairs:Object.fromEntries(matchingRows.map((_,i)=>['i'+i,'r'+i])),explanation:`В паре «${a.name}» и «${b.name}» определение отвечает, что означает понятие; действие — что нужно сделать; проверка — чем подтвердить результат; ошибка — какое условие нарушено. ${a.check}. ${b.check}. В разобранном случае: ${w[2]} ${w[3]}`});
   questions.push({lectureId:l.id,questionId:`L${li+1}-${prefix}`,title,sourceConcepts:pair.map(x=>x.name),slideIds:l.slides.slice(start).map(s=>s.id),taskIds,evidence,outcome:w[2],source:'authoring/original-course.json; authoring/worked-cases.mjs',officialHours:null});
   c.curriculum.push({topic:title,outcome:w[2],source:'Авторская группировка исходных тем; РПД не предоставлена.',slideIds:evidence,taskIds});
  }
@@ -111,7 +111,7 @@ write('public/question-experiments.json',buildQuestionExperiments(original.topic
 write('reports/visual-plan.json',practiceCases.map(c=>({lectureId:c.lectureId,question:c.question,slideId:c.returnSlide,goal:c.title,notation:c.notation,shows:c.fields.map(f=>f.label)})));
 write('public/course.json',c);write('public/assessment.json',bank);write('authoring/questions.json',questions);write('reports/registry.json',registry);
 const previousNotes=JSON.parse(fs.readFileSync('authoring/previous-note-hashes.json','utf8'));
-teacher.previousNoteRevisions=[{contentVersion:previousNotes.contentVersion,hashes:previousNotes.hashes},previousNotes.recent];
+teacher.previousNoteRevisions=[{contentVersion:previousNotes.contentVersion,hashes:previousNotes.hashes},...(previousNotes.history||[]),previousNotes.recent];
 teacher.previousContentVersion=previousNotes.contentVersion;teacher.previousNoteHashes=previousNotes.hashes;
 write('public/teacher-pack.json',teacher);
 if(process.argv.includes('--teacher')){write('private/teacher-pack.json',teacher);write('private/teacher-source.json',source);for(const l of c.lectures){const notes=Object.fromEntries(l.slides.map(s=>[s.id,teacher.notes[s.id]]));write('private/lectures/'+l.id+'.json',{...teacher,notes});fs.writeFileSync('private/lectures/'+l.id+'.md','# '+l.title+'\n\n'+l.slides.map(s=>{const n=notes[s.id];return `## ${s.id} · ${s.title}\n\n${n.script}\n\nПодготовка: ${n.preparation}\n\nКонспект: ${n.notebook}\n\n${n.questions}\n\n${n.answer}\n\nОценка: ${n.estimatedSeconds} с.\n`;}).join('\n'));}write('private/preparation-cards.json',c.lectures.map((l,i)=>({lectureId:l.id,logic:questions.filter(q=>q.lectureId===l.id).map(q=>q.title),prerequisites:i?'Предшествующие темы курса; факт, решение, проверка.':'Понятие ИС и описание рабочей задачи.',uncertainties:['РПД и официальные часы не предоставлены.','Учебные данные WMS условны.'],estimatedMinutes:registry[i].estimatedMinutes})));}

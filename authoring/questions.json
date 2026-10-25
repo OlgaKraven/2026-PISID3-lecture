@@ -2274,7 +2274,7 @@
       "11-project-glossary-Q03-boundary",
       "11-project-glossary-Q03-practice"
     ],
-    "outcome": "Определение опирается на доступное свидетельство.",
+    "outcome": "До подтверждения источника и признаков определение остаётся открытым вопросом.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },

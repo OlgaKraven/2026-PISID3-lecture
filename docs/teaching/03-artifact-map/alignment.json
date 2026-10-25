@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "03-artifact-map"
   ],
@@ -116,7 +116,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c1-walkthrough",
       "displayNumber": 11,
-      "title": "Брифинг: пример по шагам",
+      "title": "Брифинг: разбор примера",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -156,7 +156,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c2-walkthrough",
       "displayNumber": 15,
-      "title": "Реестр требований: пример по шагам",
+      "title": "Реестр требований: разбор примера",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -296,7 +296,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c3-walkthrough",
       "displayNumber": 29,
-      "title": "Глоссарий: пример по шагам",
+      "title": "Глоссарий: разбор примера",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -336,7 +336,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c4-walkthrough",
       "displayNumber": 33,
-      "title": "Концептуальная модель: пример по шагам",
+      "title": "Концептуальная модель: разбор примера",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -476,7 +476,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c5-walkthrough",
       "displayNumber": 47,
-      "title": "Макет: пример по шагам",
+      "title": "Макет: разбор примера",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -516,7 +516,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c6-walkthrough",
       "displayNumber": 51,
-      "title": "Проектная спецификация: пример по шагам",
+      "title": "Проектная спецификация: разбор примера",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -656,7 +656,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c7-walkthrough",
       "displayNumber": 65,
-      "title": "Зависимость артефактов: пример по шагам",
+      "title": "Зависимость артефактов: разбор примера",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -696,7 +696,7 @@
       "lectureId": "03-artifact-map",
       "slideId": "03-artifact-map-c8-walkthrough",
       "displayNumber": 69,
-      "title": "Разрыв трассировки: пример по шагам",
+      "title": "Разрыв трассировки: разбор примера",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "08-user-story-acceptance"
   ],
@@ -106,7 +106,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c1-walkthrough",
       "displayNumber": 10,
-      "title": "Роль истории: пример по шагам",
+      "title": "Роль истории: разбор примера",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -146,7 +146,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c2-walkthrough",
       "displayNumber": 14,
-      "title": "Цель: пример по шагам",
+      "title": "Цель: разбор примера",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -286,7 +286,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c3-walkthrough",
       "displayNumber": 28,
-      "title": "Ценность: пример по шагам",
+      "title": "Ценность: разбор примера",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -326,7 +326,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c4-walkthrough",
       "displayNumber": 32,
-      "title": "Критерий Given–When–Then: пример по шагам",
+      "title": "Критерий Given–When–Then: разбор примера",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -466,7 +466,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c5-walkthrough",
       "displayNumber": 46,
-      "title": "Позитивный сценарий: пример по шагам",
+      "title": "Позитивный сценарий: разбор примера",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -506,7 +506,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c6-walkthrough",
       "displayNumber": 50,
-      "title": "Негативный сценарий: пример по шагам",
+      "title": "Негативный сценарий: разбор примера",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -646,7 +646,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c7-walkthrough",
       "displayNumber": 64,
-      "title": "Граница истории: пример по шагам",
+      "title": "Граница истории: разбор примера",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -686,7 +686,7 @@
       "lectureId": "08-user-story-acceptance",
       "slideId": "08-user-story-acceptance-c8-walkthrough",
       "displayNumber": 68,
-      "title": "Готовность истории: пример по шагам",
+      "title": "Готовность истории: разбор примера",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"

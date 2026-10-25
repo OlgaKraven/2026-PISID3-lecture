@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-student",
+  "contentVersion": "pisid3-2026.10.25-third",
   "sourceKind": "local",
-  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+  "sourceSha256": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
   "lectureIds": [
     "10-entity-candidates"
   ],
@@ -116,7 +116,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c1-walkthrough",
       "displayNumber": 11,
-      "title": "Сущность-кандидат: пример по шагам",
+      "title": "Сущность-кандидат: разбор примера",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -156,7 +156,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c2-walkthrough",
       "displayNumber": 15,
-      "title": "Справочник: пример по шагам",
+      "title": "Справочник: разбор примера",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -296,7 +296,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c3-walkthrough",
       "displayNumber": 29,
-      "title": "Операция: пример по шагам",
+      "title": "Операция: разбор примера",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -336,7 +336,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c4-walkthrough",
       "displayNumber": 33,
-      "title": "Событие: пример по шагам",
+      "title": "Событие: разбор примера",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -476,7 +476,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c5-walkthrough",
       "displayNumber": 47,
-      "title": "Документ как сущность: пример по шагам",
+      "title": "Документ как сущность: разбор примера",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -516,7 +516,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c6-walkthrough",
       "displayNumber": 51,
-      "title": "Скрытая сущность: пример по шагам",
+      "title": "Скрытая сущность: разбор примера",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -656,7 +656,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c7-walkthrough",
       "displayNumber": 65,
-      "title": "Ложная сущность: пример по шагам",
+      "title": "Ложная сущность: разбор примера",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -696,7 +696,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-c8-walkthrough",
       "displayNumber": 69,
-      "title": "Обоснование отсева: пример по шагам",
+      "title": "Обоснование отсева: разбор примера",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"

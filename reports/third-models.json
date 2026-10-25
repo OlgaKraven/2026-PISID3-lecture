@@ -1,0 +1,43 @@
+{
+  "version": "pisid3-2026.10.25-third",
+  "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
+  "models": 234,
+  "mobile": [
+    {
+      "theme": "light",
+      "models": 234
+    },
+    {
+      "theme": "dark",
+      "models": 234
+    }
+  ],
+  "samples": [
+    {
+      "id": "06-requirement-classes-c5-walkthrough",
+      "type": "matrix"
+    },
+    {
+      "id": "01-project-decisions-c6-walkthrough",
+      "type": "network"
+    },
+    {
+      "id": "26-auth-lockout-c8-walkthrough",
+      "type": "process"
+    },
+    {
+      "id": "05-interview-technique-c3-walkthrough",
+      "type": "decision"
+    },
+    {
+      "id": "18-nfr-impact-c2-walkthrough",
+      "type": "bars"
+    },
+    {
+      "id": "24-design-system-accessibility-c1-walkthrough",
+      "type": "tree"
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}
