@@ -11,7 +11,7 @@ for(const lecture of course.lectures){
  for(const [index,s] of lecture.slides.entries()){
   const n=pack.notes[s.id],anchor='screen-'+String(index+1).padStart(3,'0');
   teacher.push(`<a id="${anchor}"></a>\n\n## Слайд ${index+1}. ${s.title}\n\n${n.script}`);
-  presenter.push(`<a id="${anchor}"></a>\n\n## Слайд ${index+1}. ${s.title}\n\n${n.script}\n\n**Подготовка:** ${n.preparation}\n\n**Запишите:** ${n.notebook}${n.questions?'\n\n**Вопросы:**\n\n'+n.questions:''}${n.answer?'\n\n**Разбор для преподавателя:**\n\n'+n.answer:''}`);
+  presenter.push(`<a id="${anchor}"></a>\n\n## Слайд ${index+1}. ${s.title}\n\n${n.script}\n\n**Подготовка:** ${n.preparation}${n.notebook?'\n\n**Запишите:** '+n.notebook:''}${n.questions?'\n\n**Вопросы:**\n\n'+n.questions:''}${n.answer?'\n\n**Разбор для преподавателя:**\n\n'+n.answer:''}`);
   slides.push({lectureId:lecture.id,slideId:s.id,displayNumber:index+1,title:s.title,anchors:{teacher:anchor,presenter:anchor}});
  }
  await fs.writeFile(path.join(dir,'lecture.teacher.md'),teacher.join('\n\n')+'\n');
