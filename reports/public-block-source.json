@@ -1,0 +1,301 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-blocks",
+  "courseSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "files": [
+    {
+      "path": "artifacts/08-user-story-acceptance-additional-case-solution.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c1-walkthrough.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c2-walkthrough.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c3-walkthrough.svg",
+      "sha256": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c4-walkthrough.svg",
+      "sha256": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c5-walkthrough.svg",
+      "sha256": "800013b4ca40755c3ad04e22626327f63721ef702f394d944188259c1e260103"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c6-walkthrough.svg",
+      "sha256": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c7-walkthrough.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-c8-walkthrough.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-Q01-worked.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-Q02-worked.svg",
+      "sha256": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-Q03-worked.svg",
+      "sha256": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+    },
+    {
+      "path": "artifacts/08-user-story-acceptance-Q04-worked.svg",
+      "sha256": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-additional-case-solution.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c1-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c2-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c3-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c4-walkthrough.svg",
+      "sha256": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c5-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c6-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c7-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-c8-walkthrough.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-Q01-worked.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-Q02-worked.svg",
+      "sha256": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-Q03-worked.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "artifacts/22-wireframe-prototype-Q04-worked.svg",
+      "sha256": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+    },
+    {
+      "path": "assessment.json",
+      "sha256": "67614695705b132a2dffd7bdeae3bee8bd1a12b065ee0825473bdbda5e3a190a"
+    },
+    {
+      "path": "assets/index-C9WDggIm.js",
+      "sha256": "ba3cd6c5cfb2b410a888dc27c5b84eb731a2852924f1bd1df2420c33c4340cae"
+    },
+    {
+      "path": "assets/index-CqkuNGht.css",
+      "sha256": "173c462cbe98a9895b21d31b8c56e9350f5224ce4922a3eabf05839597e625ef"
+    },
+    {
+      "path": "assets/interactive-examples-2Vf7Gyoz.css",
+      "sha256": "de0f768f62ca012dc7346f2568e36f05000be356b63c1558a9ee7669901b33d5"
+    },
+    {
+      "path": "assets/interactive-examples-DeaLhqqy.js",
+      "sha256": "8a3691d014e1de4e4f7d26e31f63f086c35a9414f652064ffc20a4849f8a577e"
+    },
+    {
+      "path": "assets/Teaching-DFPbXmGy-CXCBCL8U.js",
+      "sha256": "fc4ff472de60f1e70e27cb3669a8fdef003da94e71b7aa2d3e836ca022d30c10"
+    },
+    {
+      "path": "course.json",
+      "sha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b"
+    },
+    {
+      "path": "fonts/raleway-cyrillic.woff2",
+      "sha256": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd"
+    },
+    {
+      "path": "form-artifacts.json",
+      "sha256": "38ad98154eaf6838a81695df342a0f8d88b85e0c895976134cd30ce7c1b5097c"
+    },
+    {
+      "path": "laboratories.json",
+      "sha256": "38e2bcbf8084a9840ae3bbc09874401dde586b47b1f3b224b0a76d0a777a8dc7"
+    },
+    {
+      "path": "models/01-lifecycle.svg",
+      "sha256": "9ffb13dedc3f69057b3063aec67def9cca75f0a1e63d233340cf9de83be0c23d"
+    },
+    {
+      "path": "models/02-quality-state.svg",
+      "sha256": "22985b65a9c115589a3b5637274b2d14a4ba46ef07813f7bcebe5a29f57b8bbe"
+    },
+    {
+      "path": "models/03-form-states.svg",
+      "sha256": "d29942d09519c710486f2a739bfecc5055f22350873691ba23c8721900bdeca2"
+    },
+    {
+      "path": "models/10-placement-er.svg",
+      "sha256": "db5a65ce08169b1a264d48b9db302c21c6e0a5384e64095c2d0f07c69e18a33a"
+    },
+    {
+      "path": "models/10-receipt-document.svg",
+      "sha256": "1da3198b923e16e5b180c5ad84895c8865541945e556a36ded00c3fa0f8da9c4"
+    },
+    {
+      "path": "models/11-glossary-entry.svg",
+      "sha256": "f99f4771de5adc406d7832d1aebdf5907cfcf4f73c065896554eb480869f993d"
+    },
+    {
+      "path": "models/14-two-times.svg",
+      "sha256": "b13c402b48015690360d4b34ca6d3f846a1f6cb382efed9f478343967d4432af"
+    },
+    {
+      "path": "models/15-review-status.svg",
+      "sha256": "e9d8e317943cb79f7d326a20bd21fc2befa5cae5a88729be0c653e7d10921419"
+    },
+    {
+      "path": "models/15-review-term.svg",
+      "sha256": "9150d86b0275c02e0abde794d285518c3b6fe53c13f88f0cfc47be70009b3ed0"
+    },
+    {
+      "path": "models/17-adr07.svg",
+      "sha256": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
+    },
+    {
+      "path": "models/18-concurrent-confirmation.svg",
+      "sha256": "dd257fb1c419ed6473de0f0704548dfe8d9e191558bbfd6b376e8cc41d3120a1"
+    },
+    {
+      "path": "models/20-placement-error.svg",
+      "sha256": "d7d9848ccf1ccacb895cef77019f13bce167d45b14864274277e3a6d06347c03"
+    },
+    {
+      "path": "models/20-placement-result.svg",
+      "sha256": "b7576348e85a22c0c294a3199e658bea8666b4159367e0494cfcb02c9416319b"
+    },
+    {
+      "path": "models/21-context.svg",
+      "sha256": "7a26263c6c2e02db79db140fce6599309a3463d0dde5268b483d70383dd2b212"
+    },
+    {
+      "path": "models/21-home.svg",
+      "sha256": "22edc4ff2c81e9a568d6f594f68c2307746598248d7e91c56acecc6d641aab5c"
+    },
+    {
+      "path": "models/23-forms-validation-states-additional-case-solution.svg",
+      "sha256": "d9455af995ef754214606c6614866cf9049e94c14d7942e1c583d0c10fb3a697"
+    },
+    {
+      "path": "models/23-forms-validation-states-c1-walkthrough.svg",
+      "sha256": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a"
+    },
+    {
+      "path": "models/23-forms-validation-states-c2-walkthrough.svg",
+      "sha256": "ab2c825ad1611a4279d529f6f861db94cb889111bb47cfe8e5063afd345471d8"
+    },
+    {
+      "path": "models/23-forms-validation-states-c3-walkthrough.svg",
+      "sha256": "9f73e1f4b3b40be186d8a1c76bc93256ba468b02aaccf21102a6772b0412b23a"
+    },
+    {
+      "path": "models/23-forms-validation-states-c4-walkthrough.svg",
+      "sha256": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a"
+    },
+    {
+      "path": "models/23-forms-validation-states-c5-walkthrough.svg",
+      "sha256": "7482eec7038be7f75e74b4094f4d45345a35faf5f34d490d3852044d8b5e45a3"
+    },
+    {
+      "path": "models/23-forms-validation-states-c6-walkthrough.svg",
+      "sha256": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e"
+    },
+    {
+      "path": "models/23-forms-validation-states-c7-walkthrough.svg",
+      "sha256": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff"
+    },
+    {
+      "path": "models/23-forms-validation-states-c8-walkthrough.svg",
+      "sha256": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff"
+    },
+    {
+      "path": "models/23-forms-validation-states-Q01-worked.svg",
+      "sha256": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a"
+    },
+    {
+      "path": "models/23-forms-validation-states-Q02-worked.svg",
+      "sha256": "9f73e1f4b3b40be186d8a1c76bc93256ba468b02aaccf21102a6772b0412b23a"
+    },
+    {
+      "path": "models/23-forms-validation-states-Q03-worked.svg",
+      "sha256": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e"
+    },
+    {
+      "path": "models/23-forms-validation-states-Q04-worked.svg",
+      "sha256": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff"
+    },
+    {
+      "path": "models/24-component-states.svg",
+      "sha256": "7282e18557040fc44d898109019b55956c61fb09f379c28e19b540bb4e9624e4"
+    },
+    {
+      "path": "models/24-contrast-samples.svg",
+      "sha256": "b9408cacbf7dbe8cf2b6e9c445c98a9ece314c63c70c8a663a77ca7cd4a82ffd"
+    },
+    {
+      "path": "models/24-grid.svg",
+      "sha256": "b7f802e1a767998d9c7bed04748f6d8dad03d2c52991046f1c6c5e168c1b5af5"
+    },
+    {
+      "path": "models/24-keyboard.svg",
+      "sha256": "3b532723cc4288eddbcf811274b120f5c0eb98f9b4ccaf76b8071e66e5fa01be"
+    },
+    {
+      "path": "models/24-tokens.svg",
+      "sha256": "1311579a9da6fb390bdab22ecb75e497474f56f490bafa0d5c7a4c7842dd5866"
+    },
+    {
+      "path": "practice-cases.json",
+      "sha256": "85a07f564c3b09130b0a1ba28ec206a3e1e3e51ce6d14a2e99ee5693e4231ce8"
+    },
+    {
+      "path": "question-experiments.json",
+      "sha256": "42bd102c7fae91b2f77ccc2a58cfef9c59a954a4f5412766eddb7352a144efdb"
+    },
+    {
+      "path": "teacher-pack.json",
+      "sha256": "213fb0271a3e04d12fa0370ec1dfefdb4bd39df1c2141f6a9fb60624296845dc"
+    },
+    {
+      "path": "teaching-artifacts.json",
+      "sha256": "097b8c85a141621bcd7245d9db32f2bfbbf47aff1454a91f2ca5c9de6c804881"
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

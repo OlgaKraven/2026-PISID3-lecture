@@ -1,0 +1,2882 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "startedAt": "2026-10-25T20:47:06.321Z",
+  "lectures": [
+    "01-project-decisions",
+    "02-roles-views",
+    "03-artifact-map",
+    "04-requirement-sources",
+    "05-interview-technique",
+    "06-requirement-classes",
+    "07-requirement-quality",
+    "08-user-story-acceptance",
+    "09-assumptions-traceability",
+    "10-entity-candidates",
+    "11-project-glossary",
+    "12-business-rules",
+    "13-attribute-composition",
+    "14-data-history",
+    "15-model-revision",
+    "16-decision-matrix",
+    "17-adr",
+    "18-nfr-impact",
+    "19-defense",
+    "20-ux-goals",
+    "21-information-architecture",
+    "22-wireframe-prototype",
+    "23-forms-validation-states",
+    "24-design-system-accessibility",
+    "25-rbac",
+    "26-auth-lockout"
+  ],
+  "cases": [
+    {
+      "id": "01-project-decisions-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "01-project-decisions-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "01-project-decisions-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "01-project-decisions-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "02-roles-views-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "02-roles-views-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "02-roles-views-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "02-roles-views-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "03-artifact-map-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "03-artifact-map-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "03-artifact-map-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "03-artifact-map-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "04-requirement-sources-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "04-requirement-sources-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "04-requirement-sources-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "04-requirement-sources-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "05-interview-technique-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "05-interview-technique-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "05-interview-technique-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "05-interview-technique-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "06-requirement-classes-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "06-requirement-classes-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "06-requirement-classes-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "06-requirement-classes-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "07-requirement-quality-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "07-requirement-quality-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "07-requirement-quality-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "07-requirement-quality-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "10-entity-candidates-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "10-entity-candidates-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "10-entity-candidates-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "10-entity-candidates-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "11-project-glossary-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "11-project-glossary-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "11-project-glossary-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "11-project-glossary-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "12-business-rules-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "12-business-rules-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "12-business-rules-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "12-business-rules-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "13-attribute-composition-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "13-attribute-composition-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "13-attribute-composition-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "13-attribute-composition-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "14-data-history-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "14-data-history-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "14-data-history-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "14-data-history-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "15-model-revision-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "15-model-revision-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "15-model-revision-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "15-model-revision-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "16-decision-matrix-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "16-decision-matrix-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "16-decision-matrix-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "16-decision-matrix-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "17-adr-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "17-adr-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "17-adr-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "17-adr-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "18-nfr-impact-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "18-nfr-impact-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "18-nfr-impact-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "18-nfr-impact-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "19-defense-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "19-defense-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "19-defense-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "19-defense-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "20-ux-goals-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "20-ux-goals-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "20-ux-goals-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "20-ux-goals-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "21-information-architecture-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "21-information-architecture-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "21-information-architecture-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "21-information-architecture-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "25-rbac-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "25-rbac-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "25-rbac-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "25-rbac-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "26-auth-lockout-Q01",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "26-auth-lockout-Q02",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "26-auth-lockout-Q03",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    },
+    {
+      "id": "26-auth-lockout-Q04",
+      "openedThroughPassport": true,
+      "closedByButtonAndEscape": true,
+      "wrongAndCorrectAnswers": 4,
+      "dependentInvalidation": true,
+      "comparisonMirrored": true
+    }
+  ],
+  "matching": [
+    {
+      "id": "01-project-decisions-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i4",
+        "i0",
+        "i5",
+        "i1",
+        "i3"
+      ]
+    },
+    {
+      "id": "01-project-decisions-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i7",
+        "i2",
+        "i0",
+        "i4",
+        "i3",
+        "i6"
+      ]
+    },
+    {
+      "id": "01-project-decisions-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i5",
+        "i4",
+        "i1",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "01-project-decisions-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i7",
+        "i2",
+        "i3",
+        "i5",
+        "i1",
+        "i6",
+        "i0",
+        "i4"
+      ]
+    },
+    {
+      "id": "02-roles-views-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i5",
+        "i2",
+        "i3",
+        "i7",
+        "i4",
+        "i6"
+      ]
+    },
+    {
+      "id": "02-roles-views-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i1",
+        "i0",
+        "i3",
+        "i4",
+        "i5"
+      ]
+    },
+    {
+      "id": "02-roles-views-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i6",
+        "i2",
+        "i5",
+        "i1",
+        "i7",
+        "i3",
+        "i0"
+      ]
+    },
+    {
+      "id": "02-roles-views-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i3",
+        "i4",
+        "i1",
+        "i2",
+        "i5"
+      ]
+    },
+    {
+      "id": "03-artifact-map-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i4",
+        "i5",
+        "i3",
+        "i1"
+      ]
+    },
+    {
+      "id": "03-artifact-map-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i6",
+        "i3",
+        "i5",
+        "i0",
+        "i2",
+        "i7",
+        "i1",
+        "i4"
+      ]
+    },
+    {
+      "id": "03-artifact-map-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i5",
+        "i0",
+        "i4",
+        "i3",
+        "i1"
+      ]
+    },
+    {
+      "id": "03-artifact-map-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i4",
+        "i2",
+        "i7",
+        "i0",
+        "i5",
+        "i6"
+      ]
+    },
+    {
+      "id": "04-requirement-sources-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i3",
+        "i6",
+        "i7",
+        "i5",
+        "i2",
+        "i1",
+        "i0"
+      ]
+    },
+    {
+      "id": "04-requirement-sources-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i4",
+        "i1",
+        "i0",
+        "i5"
+      ]
+    },
+    {
+      "id": "04-requirement-sources-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i3",
+        "i2",
+        "i4",
+        "i0",
+        "i7",
+        "i6"
+      ]
+    },
+    {
+      "id": "04-requirement-sources-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i1",
+        "i4",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "05-interview-technique-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i5",
+        "i2",
+        "i3",
+        "i4",
+        "i1"
+      ]
+    },
+    {
+      "id": "05-interview-technique-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i0",
+        "i6",
+        "i7",
+        "i5",
+        "i4",
+        "i1",
+        "i2"
+      ]
+    },
+    {
+      "id": "05-interview-technique-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i0",
+        "i1",
+        "i4",
+        "i5"
+      ]
+    },
+    {
+      "id": "05-interview-technique-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i6",
+        "i3",
+        "i5",
+        "i7",
+        "i1",
+        "i2",
+        "i4",
+        "i0"
+      ]
+    },
+    {
+      "id": "06-requirement-classes-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i3",
+        "i6",
+        "i7",
+        "i0",
+        "i4",
+        "i2"
+      ]
+    },
+    {
+      "id": "06-requirement-classes-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i5",
+        "i2",
+        "i3",
+        "i0",
+        "i1"
+      ]
+    },
+    {
+      "id": "06-requirement-classes-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i7",
+        "i3",
+        "i6",
+        "i0",
+        "i5",
+        "i2",
+        "i1",
+        "i4"
+      ]
+    },
+    {
+      "id": "06-requirement-classes-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i5",
+        "i4",
+        "i1",
+        "i3"
+      ]
+    },
+    {
+      "id": "07-requirement-quality-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i3",
+        "i4",
+        "i1",
+        "i2",
+        "i5"
+      ]
+    },
+    {
+      "id": "07-requirement-quality-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i5",
+        "i7",
+        "i4",
+        "i2",
+        "i6",
+        "i0"
+      ]
+    },
+    {
+      "id": "07-requirement-quality-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i2",
+        "i1",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "07-requirement-quality-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i4",
+        "i1",
+        "i6",
+        "i5",
+        "i0",
+        "i7",
+        "i2"
+      ]
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i3",
+        "i0",
+        "i6",
+        "i7",
+        "i2",
+        "i4"
+      ]
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i2",
+        "i5",
+        "i1",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i6",
+        "i0",
+        "i3",
+        "i7",
+        "i1",
+        "i4",
+        "i5",
+        "i2"
+      ]
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i1",
+        "i5",
+        "i2",
+        "i3"
+      ]
+    },
+    {
+      "id": "09-assumptions-traceability-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i1",
+        "i4",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "09-assumptions-traceability-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i5",
+        "i4",
+        "i2",
+        "i7",
+        "i0",
+        "i1",
+        "i6"
+      ]
+    },
+    {
+      "id": "09-assumptions-traceability-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i3",
+        "i5",
+        "i4",
+        "i1"
+      ]
+    },
+    {
+      "id": "09-assumptions-traceability-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i5",
+        "i6",
+        "i1",
+        "i7",
+        "i0",
+        "i4"
+      ]
+    },
+    {
+      "id": "10-entity-candidates-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i6",
+        "i0",
+        "i4",
+        "i5",
+        "i3",
+        "i1",
+        "i7"
+      ]
+    },
+    {
+      "id": "10-entity-candidates-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i0",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    {
+      "id": "10-entity-candidates-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i6",
+        "i4",
+        "i0",
+        "i5",
+        "i3",
+        "i7",
+        "i2",
+        "i1"
+      ]
+    },
+    {
+      "id": "10-entity-candidates-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i5",
+        "i4",
+        "i0",
+        "i2"
+      ]
+    },
+    {
+      "id": "11-project-glossary-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i1",
+        "i0"
+      ]
+    },
+    {
+      "id": "11-project-glossary-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i7",
+        "i4",
+        "i1",
+        "i6",
+        "i3",
+        "i2",
+        "i5"
+      ]
+    },
+    {
+      "id": "11-project-glossary-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i5",
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    {
+      "id": "11-project-glossary-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i2",
+        "i6",
+        "i3",
+        "i0",
+        "i5",
+        "i1",
+        "i7"
+      ]
+    },
+    {
+      "id": "12-business-rules-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i2",
+        "i7",
+        "i6",
+        "i1",
+        "i3",
+        "i5"
+      ]
+    },
+    {
+      "id": "12-business-rules-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i4",
+        "i5",
+        "i2",
+        "i0"
+      ]
+    },
+    {
+      "id": "12-business-rules-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i1",
+        "i6",
+        "i4",
+        "i7",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "12-business-rules-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i5",
+        "i2",
+        "i4",
+        "i0"
+      ]
+    },
+    {
+      "id": "13-attribute-composition-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i3",
+        "i5",
+        "i2",
+        "i4"
+      ]
+    },
+    {
+      "id": "13-attribute-composition-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i6",
+        "i0",
+        "i5",
+        "i1",
+        "i3",
+        "i4",
+        "i7"
+      ]
+    },
+    {
+      "id": "13-attribute-composition-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i4",
+        "i5",
+        "i0",
+        "i3",
+        "i2"
+      ]
+    },
+    {
+      "id": "13-attribute-composition-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i7",
+        "i2",
+        "i1",
+        "i6",
+        "i3",
+        "i0",
+        "i5"
+      ]
+    },
+    {
+      "id": "14-data-history-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i1",
+        "i7",
+        "i4",
+        "i6",
+        "i5",
+        "i3"
+      ]
+    },
+    {
+      "id": "14-data-history-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i5",
+        "i3",
+        "i2",
+        "i1",
+        "i0"
+      ]
+    },
+    {
+      "id": "14-data-history-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i4",
+        "i0",
+        "i6",
+        "i7",
+        "i3",
+        "i1",
+        "i5"
+      ]
+    },
+    {
+      "id": "14-data-history-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i1",
+        "i5",
+        "i0",
+        "i4"
+      ]
+    },
+    {
+      "id": "15-model-revision-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i2",
+        "i5",
+        "i0",
+        "i4"
+      ]
+    },
+    {
+      "id": "15-model-revision-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i6",
+        "i5",
+        "i7",
+        "i4",
+        "i3",
+        "i2",
+        "i1"
+      ]
+    },
+    {
+      "id": "15-model-revision-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i5",
+        "i1",
+        "i2",
+        "i3",
+        "i0"
+      ]
+    },
+    {
+      "id": "15-model-revision-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i5",
+        "i0",
+        "i7",
+        "i6",
+        "i1",
+        "i4",
+        "i3"
+      ]
+    },
+    {
+      "id": "16-decision-matrix-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i5",
+        "i2",
+        "i4",
+        "i7",
+        "i3",
+        "i6",
+        "i1"
+      ]
+    },
+    {
+      "id": "16-decision-matrix-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i2",
+        "i4",
+        "i5",
+        "i3",
+        "i0"
+      ]
+    },
+    {
+      "id": "16-decision-matrix-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i1",
+        "i0",
+        "i3",
+        "i6",
+        "i5",
+        "i2",
+        "i7"
+      ]
+    },
+    {
+      "id": "16-decision-matrix-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i0",
+        "i1",
+        "i5",
+        "i3",
+        "i2"
+      ]
+    },
+    {
+      "id": "17-adr-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i0",
+        "i5",
+        "i2",
+        "i1",
+        "i4"
+      ]
+    },
+    {
+      "id": "17-adr-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i5",
+        "i7",
+        "i6",
+        "i1",
+        "i2",
+        "i3"
+      ]
+    },
+    {
+      "id": "17-adr-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i4",
+        "i5",
+        "i2",
+        "i0"
+      ]
+    },
+    {
+      "id": "17-adr-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i6",
+        "i3",
+        "i4",
+        "i5",
+        "i2",
+        "i7",
+        "i0",
+        "i1"
+      ]
+    },
+    {
+      "id": "18-nfr-impact-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i1",
+        "i6",
+        "i3",
+        "i2",
+        "i5",
+        "i0",
+        "i7"
+      ]
+    },
+    {
+      "id": "18-nfr-impact-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i3",
+        "i4",
+        "i5",
+        "i2"
+      ]
+    },
+    {
+      "id": "18-nfr-impact-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i3",
+        "i0",
+        "i7",
+        "i2",
+        "i5",
+        "i6",
+        "i1"
+      ]
+    },
+    {
+      "id": "18-nfr-impact-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i5",
+        "i0",
+        "i4",
+        "i2"
+      ]
+    },
+    {
+      "id": "19-defense-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i2",
+        "i3",
+        "i5",
+        "i0",
+        "i4"
+      ]
+    },
+    {
+      "id": "19-defense-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i3",
+        "i4",
+        "i6",
+        "i2",
+        "i7",
+        "i1",
+        "i5"
+      ]
+    },
+    {
+      "id": "19-defense-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i5",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    {
+      "id": "19-defense-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i4",
+        "i3",
+        "i5",
+        "i6",
+        "i1",
+        "i7"
+      ]
+    },
+    {
+      "id": "20-ux-goals-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i7",
+        "i5",
+        "i2",
+        "i4",
+        "i0",
+        "i3",
+        "i6"
+      ]
+    },
+    {
+      "id": "20-ux-goals-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i1",
+        "i2",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "20-ux-goals-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i4",
+        "i2",
+        "i6",
+        "i3",
+        "i7",
+        "i5",
+        "i0"
+      ]
+    },
+    {
+      "id": "20-ux-goals-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i2",
+        "i1",
+        "i5",
+        "i3"
+      ]
+    },
+    {
+      "id": "21-information-architecture-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i3",
+        "i2",
+        "i4",
+        "i5",
+        "i1"
+      ]
+    },
+    {
+      "id": "21-information-architecture-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i2",
+        "i0",
+        "i6",
+        "i7",
+        "i3",
+        "i4"
+      ]
+    },
+    {
+      "id": "21-information-architecture-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i1",
+        "i4",
+        "i3",
+        "i0",
+        "i5"
+      ]
+    },
+    {
+      "id": "21-information-architecture-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i5",
+        "i2",
+        "i3",
+        "i4",
+        "i7",
+        "i6"
+      ]
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i7",
+        "i6",
+        "i1",
+        "i0",
+        "i5",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i5",
+        "i1",
+        "i2",
+        "i3"
+      ]
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i0",
+        "i5",
+        "i7",
+        "i3",
+        "i6",
+        "i4",
+        "i2"
+      ]
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i1",
+        "i2",
+        "i5",
+        "i0",
+        "i3"
+      ]
+    },
+    {
+      "id": "23-forms-validation-states-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i2",
+        "i1",
+        "i3",
+        "i0",
+        "i5"
+      ]
+    },
+    {
+      "id": "23-forms-validation-states-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i5",
+        "i3",
+        "i4",
+        "i2",
+        "i0",
+        "i7",
+        "i6"
+      ]
+    },
+    {
+      "id": "23-forms-validation-states-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i0",
+        "i4",
+        "i1",
+        "i5"
+      ]
+    },
+    {
+      "id": "23-forms-validation-states-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i6",
+        "i5",
+        "i2",
+        "i0",
+        "i7",
+        "i4"
+      ]
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i0",
+        "i6",
+        "i7",
+        "i1",
+        "i4",
+        "i5",
+        "i2"
+      ]
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i5",
+        "i0",
+        "i3",
+        "i4",
+        "i1"
+      ]
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i6",
+        "i3",
+        "i0",
+        "i5",
+        "i7",
+        "i2",
+        "i4"
+      ]
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i1"
+      ]
+    },
+    {
+      "id": "25-rbac-Q01-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i4",
+        "i0",
+        "i1",
+        "i5",
+        "i3"
+      ]
+    },
+    {
+      "id": "25-rbac-Q02-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i2",
+        "i3",
+        "i1",
+        "i5",
+        "i6",
+        "i7",
+        "i4",
+        "i0"
+      ]
+    },
+    {
+      "id": "25-rbac-Q03-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i4",
+        "i2",
+        "i3",
+        "i5",
+        "i1"
+      ]
+    },
+    {
+      "id": "25-rbac-Q04-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i0",
+        "i6",
+        "i4",
+        "i5",
+        "i7",
+        "i1",
+        "i2"
+      ]
+    },
+    {
+      "id": "26-auth-lockout-Q01-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i1",
+        "i3",
+        "i4",
+        "i6",
+        "i5",
+        "i2",
+        "i7",
+        "i0"
+      ]
+    },
+    {
+      "id": "26-auth-lockout-Q02-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i4",
+        "i5",
+        "i0",
+        "i1",
+        "i2",
+        "i3"
+      ]
+    },
+    {
+      "id": "26-auth-lockout-Q03-T04",
+      "pairs": 8,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i3",
+        "i0",
+        "i1",
+        "i5",
+        "i4",
+        "i2",
+        "i7",
+        "i6"
+      ]
+    },
+    {
+      "id": "26-auth-lockout-Q04-T04",
+      "pairs": 6,
+      "mouse": true,
+      "keyboard": true,
+      "tabReachability": true,
+      "shuffleMirrored": true,
+      "reorderMirrored": true,
+      "answerMirrored": true,
+      "previousOrder": [
+        "i0",
+        "i2",
+        "i4",
+        "i3",
+        "i1",
+        "i5"
+      ]
+    }
+  ],
+  "labs": [
+    "01-project-decisions",
+    "02-roles-views",
+    "03-artifact-map",
+    "04-requirement-sources",
+    "05-interview-technique",
+    "06-requirement-classes",
+    "07-requirement-quality",
+    "08-user-story-acceptance",
+    "09-assumptions-traceability",
+    "10-entity-candidates",
+    "11-project-glossary",
+    "12-business-rules",
+    "13-attribute-composition",
+    "14-data-history",
+    "15-model-revision",
+    "16-decision-matrix",
+    "17-adr",
+    "18-nfr-impact",
+    "19-defense",
+    "20-ux-goals",
+    "21-information-architecture",
+    "22-wireframe-prototype",
+    "23-forms-validation-states",
+    "24-design-system-accessibility",
+    "25-rbac",
+    "26-auth-lockout"
+  ],
+  "errors": [],
+  "version": "pisid3-2026.10.25-blocks",
+  "courseSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "inventory": {
+    "lectures": 26,
+    "cases": 104,
+    "matching": 104
+  },
+  "status": "passed",
+  "finishedAt": "2026-10-25T20:56:15.423Z"
+}

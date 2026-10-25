@@ -1,0 +1,678 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "svg": [
+    "models/01-lifecycle.svg",
+    "models/02-quality-state.svg",
+    "models/03-form-states.svg",
+    "models/10-receipt-document.svg",
+    "models/10-placement-er.svg",
+    "models/11-glossary-entry.svg",
+    "models/14-two-times.svg",
+    "models/15-review-status.svg",
+    "models/15-review-term.svg",
+    "models/17-adr07.svg",
+    "models/18-concurrent-confirmation.svg",
+    "models/20-placement-error.svg",
+    "models/20-placement-result.svg",
+    "models/21-home.svg",
+    "models/21-context.svg",
+    "models/23-forms-validation-states-c1-walkthrough.svg",
+    "models/23-forms-validation-states-c2-walkthrough.svg",
+    "models/23-forms-validation-states-Q01-worked.svg",
+    "models/23-forms-validation-states-c3-walkthrough.svg",
+    "models/23-forms-validation-states-c4-walkthrough.svg",
+    "models/23-forms-validation-states-Q02-worked.svg",
+    "models/23-forms-validation-states-c5-walkthrough.svg",
+    "models/23-forms-validation-states-c6-walkthrough.svg",
+    "models/23-forms-validation-states-Q03-worked.svg",
+    "models/23-forms-validation-states-c7-walkthrough.svg",
+    "models/23-forms-validation-states-c8-walkthrough.svg",
+    "models/23-forms-validation-states-Q04-worked.svg",
+    "models/23-forms-validation-states-additional-case-solution.svg",
+    "models/24-grid.svg",
+    "models/24-tokens.svg",
+    "models/24-component-states.svg",
+    "models/24-contrast-samples.svg",
+    "models/24-keyboard.svg"
+  ],
+  "frames": [
+    {
+      "id": "01-project-decisions-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "02-roles-views-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "02-roles-views-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "03-artifact-map-c5-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "10-entity-candidates-c5-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "10-entity-candidates-c6-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "10-entity-candidates-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "11-project-glossary-c7-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "11-project-glossary-Q04-worked",
+      "width": 1280
+    },
+    {
+      "id": "13-attribute-composition-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "14-data-history-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "15-model-revision-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "15-model-revision-c8-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "15-model-revision-Q04-worked",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-c1-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-c2-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-Q01-worked",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "17-adr-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "18-nfr-impact-c2-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "20-ux-goals-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "20-ux-goals-Q04-worked",
+      "width": 1280
+    },
+    {
+      "id": "21-information-architecture-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "21-information-architecture-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "21-information-architecture-c6-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "21-information-architecture-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c1-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c2-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-Q01-worked",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c3-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c5-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c6-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c7-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-c8-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-Q04-worked",
+      "width": 1280
+    },
+    {
+      "id": "23-forms-validation-states-additional-case-solution",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c1-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c2-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-worked",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c3-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c4-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-worked",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c5-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c6-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-worked",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c7-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-c8-walkthrough",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-worked",
+      "width": 1280
+    },
+    {
+      "id": "24-design-system-accessibility-additional-case-solution",
+      "width": 1280
+    },
+    {
+      "id": "01-project-decisions-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "02-roles-views-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "02-roles-views-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "03-artifact-map-c5-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "10-entity-candidates-c5-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "10-entity-candidates-c6-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "10-entity-candidates-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "11-project-glossary-c7-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "11-project-glossary-Q04-worked",
+      "width": 1440
+    },
+    {
+      "id": "13-attribute-composition-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "14-data-history-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "15-model-revision-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "15-model-revision-c8-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "15-model-revision-Q04-worked",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-c1-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-c2-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-Q01-worked",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "17-adr-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "18-nfr-impact-c2-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "20-ux-goals-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "20-ux-goals-Q04-worked",
+      "width": 1440
+    },
+    {
+      "id": "21-information-architecture-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "21-information-architecture-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "21-information-architecture-c6-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "21-information-architecture-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c1-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c2-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-Q01-worked",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c3-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c5-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c6-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c7-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-c8-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-Q04-worked",
+      "width": 1440
+    },
+    {
+      "id": "23-forms-validation-states-additional-case-solution",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c1-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c2-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-worked",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c3-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c4-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-worked",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c5-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c6-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-worked",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c7-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-c8-walkthrough",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-worked",
+      "width": 1440
+    },
+    {
+      "id": "24-design-system-accessibility-additional-case-solution",
+      "width": 1440
+    },
+    {
+      "id": "01-project-decisions-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "02-roles-views-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "02-roles-views-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "03-artifact-map-c5-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "10-entity-candidates-c5-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "10-entity-candidates-c6-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "10-entity-candidates-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "11-project-glossary-c7-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "11-project-glossary-Q04-worked",
+      "width": 390
+    },
+    {
+      "id": "13-attribute-composition-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "14-data-history-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "15-model-revision-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "15-model-revision-c8-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "15-model-revision-Q04-worked",
+      "width": 390
+    },
+    {
+      "id": "17-adr-c1-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "17-adr-c2-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "17-adr-Q01-worked",
+      "width": 390
+    },
+    {
+      "id": "17-adr-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "17-adr-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "17-adr-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "18-nfr-impact-c2-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "20-ux-goals-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "20-ux-goals-Q04-worked",
+      "width": 390
+    },
+    {
+      "id": "21-information-architecture-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "21-information-architecture-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "21-information-architecture-c6-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "21-information-architecture-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c1-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c2-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-Q01-worked",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c3-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c5-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c6-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c7-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-c8-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-Q04-worked",
+      "width": 390
+    },
+    {
+      "id": "23-forms-validation-states-additional-case-solution",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c1-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c2-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-worked",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c3-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c4-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-worked",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c5-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c6-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-worked",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c7-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-c8-walkthrough",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-worked",
+      "width": 390
+    },
+    {
+      "id": "24-design-system-accessibility-additional-case-solution",
+      "width": 390
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

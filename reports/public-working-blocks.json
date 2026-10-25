@@ -1,0 +1,289 @@
+{
+  "mode": "full",
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-blocks",
+  "examples": [
+    {
+      "id": "08-user-story-acceptance-c1-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c2-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c3-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c4-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c5-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c6-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c7-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-c8-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-additional-case-solution",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c1-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c2-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c3-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c4-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c5-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c6-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c7-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-c8-walkthrough",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-worked",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-additional-case-solution",
+      "fullArtifact": true,
+      "positive": true,
+      "negative": true,
+      "returnPreservesInput": true,
+      "audience": true,
+      "focusRestored": true
+    }
+  ],
+  "static": [
+    "08-user-story-acceptance-c1-walkthrough",
+    "08-user-story-acceptance-c2-walkthrough",
+    "08-user-story-acceptance-c3-walkthrough",
+    "08-user-story-acceptance-c4-walkthrough",
+    "08-user-story-acceptance-c5-walkthrough",
+    "08-user-story-acceptance-c6-walkthrough",
+    "08-user-story-acceptance-c7-walkthrough",
+    "08-user-story-acceptance-c8-walkthrough",
+    "22-wireframe-prototype-c1-walkthrough",
+    "22-wireframe-prototype-c2-walkthrough",
+    "22-wireframe-prototype-c3-walkthrough",
+    "22-wireframe-prototype-c4-walkthrough",
+    "22-wireframe-prototype-c5-walkthrough",
+    "22-wireframe-prototype-c6-walkthrough",
+    "22-wireframe-prototype-c7-walkthrough",
+    "22-wireframe-prototype-c8-walkthrough",
+    "08-user-story-acceptance-Q01-worked",
+    "08-user-story-acceptance-Q02-worked",
+    "08-user-story-acceptance-Q03-worked",
+    "08-user-story-acceptance-Q04-worked",
+    "22-wireframe-prototype-Q01-worked",
+    "22-wireframe-prototype-Q02-worked",
+    "22-wireframe-prototype-Q03-worked",
+    "22-wireframe-prototype-Q04-worked",
+    "08-user-story-acceptance-additional-case-solution",
+    "22-wireframe-prototype-additional-case-solution"
+  ],
+  "mobile": [
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "theme": "light"
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "theme": "light"
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "theme": "dark"
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "theme": "dark"
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-blocks",
+  "theme": "light",
+  "cases": [
+    {
+      "question": 1,
+      "variant": 0,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 1,
+      "variant": 1,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 2,
+      "variant": 0,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 2,
+      "variant": 1,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 3,
+      "variant": 0,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 3,
+      "variant": 1,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 4,
+      "variant": 0,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    },
+    {
+      "question": 4,
+      "variant": 1,
+      "audience": true,
+      "actualComponent": true,
+      "repair": true
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}
