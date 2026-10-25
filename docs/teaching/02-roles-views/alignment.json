@@ -3,7 +3,7 @@
   "courseId": "pisid3",
   "contentVersion": "pisid3-2026.10.25-artifacts",
   "sourceKind": "local",
-  "sourceSha256": "74ca2df45c01c92701a9da59ffe96154cc69fa2855d13b602fa033c9e5c74544",
+  "sourceSha256": "1b3343695641a1a2958a8cd4dd297a0b23d1bc18c4e814f3cb7e9dfe6679603c",
   "lectureIds": [
     "02-roles-views"
   ],
