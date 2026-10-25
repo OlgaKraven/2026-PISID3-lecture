@@ -24,6 +24,7 @@ async function fill(task,key,wrong=false){
 async function reveal(){
  const opener=active().getByRole('button',{name:'Разбор ответа',exact:true});await opener.click();await pDialog().waitFor();await aDialog().waitFor();
  const expected=await pDialog().locator('.answer-dialog-content').innerText();
+ if(report.answers.length===3){await page.screenshot({path:'output/playwright/third-answer-presenter.png'});await audience.screenshot({path:'output/playwright/third-answer-audience.png'});}
  await audience.waitForFunction(text=>document.querySelector('.answer-dialog-content')?.innerText===text,expected);
  await audience.keyboard.press('Escape');assert.equal(await aDialog().isVisible(),true,'Audience cannot close a public answer independently');
  const content=pDialog().locator('.answer-dialog-content'),range=await content.evaluate(n=>n.scrollHeight-n.clientHeight);
