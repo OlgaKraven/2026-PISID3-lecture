@@ -25,15 +25,20 @@
     "check:generated": "node scripts/check-generated.mjs",
     "test:tour": "node scripts/check-tour.mjs",
     "test:visuals": "node scripts/check-visuals.mjs",
-    "test:interactions": "node scripts/check-interactions.mjs"
+    "test:interactions": "node scripts/review-release.mjs cases && node scripts/review-release.mjs tasks",
+    "export:teaching": "node scripts/export-teaching.mjs",
+    "test:design": "node scripts/check-infographic-style.mjs"
   },
   "dependencies": {
     "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",
+    "lucide-react": "^1.61.0",
+    "qrcode": "^1.5.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",

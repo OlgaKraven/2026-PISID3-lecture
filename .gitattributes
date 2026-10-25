@@ -1,0 +1,5 @@
+# Alignment maps refer to the exact published source bytes on every device.
+public/course.json -text
+public/teacher-pack.json -text
+docs/teaching/** -text
+reports/*.json -text

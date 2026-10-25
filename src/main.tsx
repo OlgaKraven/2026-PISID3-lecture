@@ -1,8 +1,12 @@
 import {SlideNavigation} from './navigation';
 import aliases from '../authoring/slide-aliases.json';
 import './lecture.css';
-import {GuidedTour} from './guided-tour';
 import {loadStartupNotes} from './startup-notes';
+import {installPresentation} from './presentation';
+import {PublicViewport} from './public-viewport';
+import {CaseTools} from './case-workshop';
+import './presentation-design.css';
+import './infographic-theme.css';
 import {createRoot} from 'react-dom/client';
 import {LectureSite,validateCourse} from '@olgakraven/lecture-engine';
 import '@olgakraven/lecture-engine/style.css';
@@ -19,7 +23,8 @@ async function load(){
       if(replacement!==previous&&c.lectures.some(l=>l.slides.some(s=>s.id===replacement))){url.searchParams.set('slide',replacement);history.replaceState(history.state,'',url);}
     }
     await loadStartupNotes(c,import.meta.env.BASE_URL);
-    root.render(<><LectureSite course={c} base={import.meta.env.BASE_URL}/><SlideNavigation/><GuidedTour/></>);
+    installPresentation(c,import.meta.env.BASE_URL);
+    root.render(<CaseTools version={c.contentVersion}><LectureSite course={c} base={import.meta.env.BASE_URL}/><SlideNavigation/><PublicViewport version={c.contentVersion}/></CaseTools>);
   }catch(e){root.render(<main><h1>Курс не загрузился</h1><p role="alert">{String(e)}</p><button onClick={()=>void load()}>Загрузить курс снова</button></main>);}
 }
 void load();

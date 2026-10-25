@@ -1,0 +1,24 @@
+{
+  "version": "pisid3-2026.10.25",
+  "themes": [
+    {
+      "theme": "light",
+      "figures": 572
+    },
+    {
+      "theme": "dark",
+      "figures": 572
+    }
+  ],
+  "expanded": [
+    "network",
+    "decision",
+    "matrix",
+    "process",
+    "tree",
+    "timeline"
+  ],
+  "laboratories": [],
+  "problems": [],
+  "status": "passed"
+}

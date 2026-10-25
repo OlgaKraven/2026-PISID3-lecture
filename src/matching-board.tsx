@@ -32,7 +32,7 @@ export function MatchingBoard({task,attempt,controller}:{task:Task;attempt?:Atte
    <div className="matching-list" ref={leftList} aria-label="Понятия и выбранные пары" onScroll={e=>{if(!controller.readonly)update({scrollLeft:e.currentTarget.scrollTop/Math.max(1,e.currentTarget.scrollHeight-e.currentTarget.clientHeight)});}}>
     {left.map((id,index)=>{const item=items.find(i=>i.id===id);if(!item)return null;const value=draft[id]||'',chosen=options.find(o=>o.id===value);return <div className={`matching-card ${layout.active===id?'matching-active':''}`} key={id} data-match-id={id}>
      <div className="matching-card-title">{controller.readonly?<strong>{item.text}</strong>:<button type="button" disabled={locked} aria-pressed={layout.active===id} onClick={()=>update({active:id})}>{index+1}. {item.text}</button>}{moves('left',id,index,left.length,'понятие '+item.text)}</div>
-     {!controller.readonly&&<label><span className="sr-only">Соответствие: {item.text}</span><select aria-label={`Соответствие: ${item.text}`} disabled={locked} value={value} onChange={e=>choose(id,e.target.value)}><option value="">Выберите соответствие</option>{right.map(optionId=>{const option=options.find(o=>o.id===optionId);return option&&<option key={option.id} value={option.id}>{option.text}</option>;})}</select></label>}
+
      <p className="matching-selected" data-match-value={value}>{chosen?chosen.text:'Пара пока не выбрана'}</p>
     </div>;})}
    </div>

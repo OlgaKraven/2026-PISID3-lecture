@@ -1,0 +1,1146 @@
+[
+  {
+    "lectureId": "01-project-decisions",
+    "question": 1,
+    "slideId": "01-project-decisions-Q01-practice",
+    "goal": "Факт и предложение",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник подтверждённого факта",
+      "Источник гипотезы решения"
+    ]
+  },
+  {
+    "lectureId": "01-project-decisions",
+    "question": 2,
+    "slideId": "01-project-decisions-Q02-practice",
+    "goal": "Отбор вариантов",
+    "notation": "TAB-01",
+    "shows": [
+      "Допустимый вариант",
+      "Минимальный запас, минут"
+    ]
+  },
+  {
+    "lectureId": "01-project-decisions",
+    "question": 3,
+    "slideId": "01-project-decisions-Q03-practice",
+    "goal": "Восстановление цепочки",
+    "notation": "TAB-01",
+    "shows": [
+      "Начало отсутствующей связи",
+      "Конец отсутствующей связи"
+    ]
+  },
+  {
+    "lectureId": "01-project-decisions",
+    "question": 4,
+    "slideId": "01-project-decisions-Q04-practice",
+    "goal": "Решение до реализации",
+    "notation": "TAB-01",
+    "shows": [
+      "Граничное событие",
+      "Технологическое значение состояния"
+    ]
+  },
+  {
+    "lectureId": "02-roles-views",
+    "question": 1,
+    "slideId": "02-roles-views-Q01-practice",
+    "goal": "Кто принимает результат",
+    "notation": "TAB-01",
+    "shows": [
+      "Кто принимает пилот",
+      "Кто проверяет сканирование"
+    ]
+  },
+  {
+    "lectureId": "02-roles-views",
+    "question": 2,
+    "slideId": "02-roles-views-Q02-practice",
+    "goal": "Кто уточняет и проектирует",
+    "notation": "TAB-01",
+    "shows": [
+      "Владелец выяснения правила",
+      "Владелец модели состояний"
+    ]
+  },
+  {
+    "lectureId": "02-roles-views",
+    "question": 3,
+    "slideId": "02-roles-views-Q03-practice",
+    "goal": "Разные свидетельства качества",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник технического измерения",
+      "Доля ошибок, процентов"
+    ]
+  },
+  {
+    "lectureId": "02-roles-views",
+    "question": 4,
+    "slideId": "02-roles-views-Q04-practice",
+    "goal": "Конфликт полномочий",
+    "notation": "TAB-01",
+    "shows": [
+      "Кто утверждает компромисс",
+      "Сколько конфликтующих позиций"
+    ]
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "question": 1,
+    "slideId": "03-artifact-map-Q01-practice",
+    "goal": "Из брифа в реестр",
+    "notation": "TAB-01",
+    "shows": [
+      "Общий источник",
+      "Количество требований из источника"
+    ]
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "question": 2,
+    "slideId": "03-artifact-map-Q02-practice",
+    "goal": "Словарь и модель",
+    "notation": "TAB-01",
+    "shows": [
+      "Артефакт определения",
+      "Артефакт связи"
+    ]
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "question": 3,
+    "slideId": "03-artifact-map-Q03-practice",
+    "goal": "Макет и поведение",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник правила поведения",
+      "Испытание отрицательного случая"
+    ]
+  },
+  {
+    "lectureId": "03-artifact-map",
+    "question": 4,
+    "slideId": "03-artifact-map-Q04-practice",
+    "goal": "Последствия изменения",
+    "notation": "TAB-01",
+    "shows": [
+      "Число зависимых элементов",
+      "Испытание пустой причины"
+    ]
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "question": 1,
+    "slideId": "04-requirement-sources-Q01-practice",
+    "goal": "Свидетельства интервью",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник нового исключения",
+      "Количество конфликтующих источников"
+    ]
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "question": 2,
+    "slideId": "04-requirement-sources-Q02-practice",
+    "goal": "Форма и отчёт",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник детализации движения",
+      "Источник агрегирования по зоне"
+    ]
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "question": 3,
+    "slideId": "04-requirement-sources-Q03-practice",
+    "goal": "Повторы в выгрузке",
+    "notation": "TAB-01",
+    "shows": [
+      "Число различных событий",
+      "Источник реального действия"
+    ]
+  },
+  {
+    "lectureId": "04-requirement-sources",
+    "question": 4,
+    "slideId": "04-requirement-sources-Q04-practice",
+    "goal": "Независимость источников",
+    "notation": "TAB-01",
+    "shows": [
+      "Число независимых линий свидетельств",
+      "Расхождение количества, единиц"
+    ]
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "question": 1,
+    "slideId": "05-interview-technique-Q01-practice",
+    "goal": "Вопрос для исключений",
+    "notation": "TAB-01",
+    "shows": [
+      "Вопрос, раскрывающий процесс",
+      "Существенное уточнение объекта"
+    ]
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "question": 2,
+    "slideId": "05-interview-technique-Q02-practice",
+    "goal": "Из слова в критерий",
+    "notation": "TAB-01",
+    "shows": [
+      "Порог времени, секунд",
+      "Одновременные операторы"
+    ]
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "question": 3,
+    "slideId": "05-interview-technique-Q03-practice",
+    "goal": "Перефразирование ответа",
+    "notation": "TAB-01",
+    "shows": [
+      "Сначала фиксируют операции где",
+      "Когда вводят в систему"
+    ]
+  },
+  {
+    "lectureId": "05-interview-technique",
+    "question": 4,
+    "slideId": "05-interview-technique-Q04-practice",
+    "goal": "Открытый вопрос в протоколе",
+    "notation": "TAB-01",
+    "shows": [
+      "Владелец уточнения",
+      "День срока уточнения"
+    ]
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "question": 1,
+    "slideId": "06-requirement-classes-Q01-practice",
+    "goal": "Разделение функции и качества",
+    "notation": "TAB-01",
+    "shows": [
+      "Требование к поведению",
+      "Требование к качеству"
+    ]
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "question": 2,
+    "slideId": "06-requirement-classes-Q02-practice",
+    "goal": "Ограничение и правило",
+    "notation": "TAB-01",
+    "shows": [
+      "Внешнее ограничение",
+      "Правило предметной области"
+    ]
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "question": 3,
+    "slideId": "06-requirement-classes-Q03-practice",
+    "goal": "От потребности к системе",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник потребности",
+      "Проверяемая обязанность системы"
+    ]
+  },
+  {
+    "lectureId": "06-requirement-classes",
+    "question": 4,
+    "slideId": "06-requirement-classes-Q04-practice",
+    "goal": "Сколько независимых проверок",
+    "notation": "TAB-01",
+    "shows": [
+      "Число выделяемых обязанностей",
+      "Нагрузка для временной проверки"
+    ]
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "question": 1,
+    "slideId": "07-requirement-quality-Q01-practice",
+    "goal": "Разделение составной строки",
+    "notation": "TAB-01",
+    "shows": [
+      "Число атомарных результатов",
+      "Отдельный результат после создания"
+    ]
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "question": 2,
+    "slideId": "07-requirement-quality-Q02-practice",
+    "goal": "Порог и момент измерения",
+    "notation": "TAB-01",
+    "shows": [
+      "Порог, секунд",
+      "Начальное событие"
+    ]
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "question": 3,
+    "slideId": "07-requirement-quality-Q03-practice",
+    "goal": "Проверка необходимости",
+    "notation": "TAB-01",
+    "shows": [
+      "Поле с подтверждённым основанием",
+      "Неподтверждённое поле"
+    ]
+  },
+  {
+    "lectureId": "07-requirement-quality",
+    "question": 4,
+    "slideId": "07-requirement-quality-Q04-practice",
+    "goal": "Закрытый перечень условий",
+    "notation": "TAB-01",
+    "shows": [
+      "Число обязательных проверок",
+      "Проверка состояния партии"
+    ]
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "question": 1,
+    "slideId": "08-user-story-acceptance-Q01-practice",
+    "goal": "Кому нужна история",
+    "notation": "TAB-01",
+    "shows": [
+      "Роль истории",
+      "Объект цели"
+    ]
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "question": 2,
+    "slideId": "08-user-story-acceptance-Q02-practice",
+    "goal": "Критерий приёмки",
+    "notation": "TAB-01",
+    "shows": [
+      "Остаток после отказа",
+      "Событие When"
+    ]
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "question": 3,
+    "slideId": "08-user-story-acceptance-Q03-practice",
+    "goal": "Успех и отказ",
+    "notation": "TAB-01",
+    "shows": [
+      "Остаток успешного испытания",
+      "Остаток отдельного испытания с карантином"
+    ]
+  },
+  {
+    "lectureId": "08-user-story-acceptance",
+    "question": 4,
+    "slideId": "08-user-story-acceptance-Q04-practice",
+    "goal": "Граница истории",
+    "notation": "TAB-01",
+    "shows": [
+      "Число историй вне H1",
+      "Недостающий сценарий H1"
+    ]
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "question": 1,
+    "slideId": "09-assumptions-traceability-Q01-practice",
+    "goal": "Допущение не правило",
+    "notation": "TAB-01",
+    "shows": [
+      "Открытый вопрос",
+      "Владелец ответа"
+    ]
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "question": 2,
+    "slideId": "09-assumptions-traceability-Q02-practice",
+    "goal": "Стабильный идентификатор",
+    "notation": "TAB-01",
+    "shows": [
+      "ID после переноса строки",
+      "Владелец уточнения"
+    ]
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "question": 3,
+    "slideId": "09-assumptions-traceability-Q03-practice",
+    "goal": "Два направления трассировки",
+    "notation": "TAB-01",
+    "shows": [
+      "Непрослеживаемый тест",
+      "Тест требования R7"
+    ]
+  },
+  {
+    "lectureId": "09-assumptions-traceability",
+    "question": 4,
+    "slideId": "09-assumptions-traceability-Q04-practice",
+    "goal": "Покрытие и результат",
+    "notation": "TAB-01",
+    "shows": [
+      "Покрытие связями, процентов",
+      "Подтверждённые успешные запуски"
+    ]
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "question": 1,
+    "slideId": "10-entity-candidates-Q01-practice",
+    "goal": "Выделение справочника",
+    "notation": "TAB-01",
+    "shows": [
+      "Число различных товаров",
+      "Код повторяющегося товара"
+    ]
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "question": 2,
+    "slideId": "10-entity-candidates-Q02-practice",
+    "goal": "Операция и событие",
+    "notation": "TAB-01",
+    "shows": [
+      "Число операций",
+      "Число событий"
+    ]
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "question": 3,
+    "slideId": "10-entity-candidates-Q03-practice",
+    "goal": "Скрытая строка документа",
+    "notation": "TAB-01",
+    "shows": [
+      "Число строк документа",
+      "Общее количество единиц"
+    ]
+  },
+  {
+    "lectureId": "10-entity-candidates",
+    "question": 4,
+    "slideId": "10-entity-candidates-Q04-practice",
+    "goal": "Ложная сущность",
+    "notation": "TAB-01",
+    "shows": [
+      "Объект с собственной идентичностью",
+      "Элемент действия интерфейса"
+    ]
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "question": 1,
+    "slideId": "11-project-glossary-Q01-practice",
+    "goal": "Граница определения",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник принятого определения",
+      "Единица адреса хранения"
+    ]
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "question": 2,
+    "slideId": "11-project-glossary-Q02-practice",
+    "goal": "Синоним или омоним",
+    "notation": "TAB-01",
+    "shows": [
+      "Число значений слова «партия»",
+      "Синоним «код товара»"
+    ]
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "question": 3,
+    "slideId": "11-project-glossary-Q03-practice",
+    "goal": "Проверка происхождения термина",
+    "notation": "TAB-01",
+    "shows": [
+      "Проверяемая формулировка",
+      "Источник определения"
+    ]
+  },
+  {
+    "lectureId": "11-project-glossary",
+    "question": 4,
+    "slideId": "11-project-glossary-Q04-practice",
+    "goal": "Версия словаря",
+    "notation": "TAB-01",
+    "shows": [
+      "Версия новых решений",
+      "Владелец изменения"
+    ]
+  },
+  {
+    "lectureId": "12-business-rules",
+    "question": 1,
+    "slideId": "12-business-rules-Q01-practice",
+    "goal": "Условие правила",
+    "notation": "TAB-01",
+    "shows": [
+      "Остаток после разрешённой отгрузки",
+      "Число необходимых условий"
+    ]
+  },
+  {
+    "lectureId": "12-business-rules",
+    "question": 2,
+    "slideId": "12-business-rules-Q02-practice",
+    "goal": "Исключение с полномочием",
+    "notation": "TAB-01",
+    "shows": [
+      "Разрешённая исключением операция",
+      "Подтверждающий участник"
+    ]
+  },
+  {
+    "lectureId": "12-business-rules",
+    "question": 3,
+    "slideId": "12-business-rules-Q03-practice",
+    "goal": "Приоритет правил",
+    "notation": "TAB-01",
+    "shows": [
+      "Применяемый запрет",
+      "Количество списанных единиц"
+    ]
+  },
+  {
+    "lectureId": "12-business-rules",
+    "question": 4,
+    "slideId": "12-business-rules-Q04-practice",
+    "goal": "Граница остатка",
+    "notation": "TAB-01",
+    "shows": [
+      "Максимальный допустимый заказ",
+      "Первое превышение"
+    ]
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "question": 1,
+    "slideId": "13-attribute-composition-Q01-practice",
+    "goal": "Обязательность по состоянию",
+    "notation": "TAB-01",
+    "shows": [
+      "Допустимое сохранение",
+      "Недостающее поле подтверждения"
+    ]
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "question": 2,
+    "slideId": "13-attribute-composition-Q02-practice",
+    "goal": "Тип и представление",
+    "notation": "TAB-01",
+    "shows": [
+      "Значение кода с ведущими нулями",
+      "Числовое количество, кг"
+    ]
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "question": 3,
+    "slideId": "13-attribute-composition-Q03-practice",
+    "goal": "Статус и сохранённый снимок",
+    "notation": "TAB-01",
+    "shows": [
+      "Цена для D5, рублей",
+      "Изменение текущей цены, рублей"
+    ]
+  },
+  {
+    "lectureId": "13-attribute-composition",
+    "question": 4,
+    "slideId": "13-attribute-composition-Q04-practice",
+    "goal": "Происхождение суммы",
+    "notation": "TAB-01",
+    "shows": [
+      "Сумма, рублей",
+      "Сумма при количестве 5, рублей"
+    ]
+  },
+  {
+    "lectureId": "14-data-history",
+    "question": 1,
+    "slideId": "14-data-history-Q01-practice",
+    "goal": "Текущее и история",
+    "notation": "TAB-01",
+    "shows": [
+      "Текущая ячейка",
+      "Число перемещений"
+    ]
+  },
+  {
+    "lectureId": "14-data-history",
+    "question": 2,
+    "slideId": "14-data-history-Q02-practice",
+    "goal": "Две шкалы времени",
+    "notation": "TAB-01",
+    "shows": [
+      "День начала действия",
+      "День ввода записи"
+    ]
+  },
+  {
+    "lectureId": "14-data-history",
+    "question": 3,
+    "slideId": "14-data-history-Q03-practice",
+    "goal": "Снимок и журнал",
+    "notation": "TAB-01",
+    "shows": [
+      "Цена закрытой накладной",
+      "Событие закрытия"
+    ]
+  },
+  {
+    "lectureId": "14-data-history",
+    "question": 4,
+    "slideId": "14-data-history-Q04-practice",
+    "goal": "Корректировки без стирания",
+    "notation": "TAB-01",
+    "shows": [
+      "Текущее количество",
+      "Изменение K2, единиц"
+    ]
+  },
+  {
+    "lectureId": "15-model-revision",
+    "question": 1,
+    "slideId": "15-model-revision-Q01-practice",
+    "goal": "Зафиксированный вход ревизии",
+    "notation": "TAB-01",
+    "shows": [
+      "Версия модели в протоколе",
+      "Версия реестра"
+    ]
+  },
+  {
+    "lectureId": "15-model-revision",
+    "question": 2,
+    "slideId": "15-model-revision-Q02-practice",
+    "goal": "Непокрытое требование",
+    "notation": "TAB-01",
+    "shows": [
+      "Непокрытое требование",
+      "Число покрытых из двух требований"
+    ]
+  },
+  {
+    "lectureId": "15-model-revision",
+    "question": 3,
+    "slideId": "15-model-revision-Q03-practice",
+    "goal": "Лишний атрибут",
+    "notation": "TAB-01",
+    "shows": [
+      "Атрибут с установленным потребителем",
+      "Атрибут для уточнения необходимости"
+    ]
+  },
+  {
+    "lectureId": "15-model-revision",
+    "question": 4,
+    "slideId": "15-model-revision-Q04-practice",
+    "goal": "Закрытие замечаний",
+    "notation": "TAB-01",
+    "shows": [
+      "Подтверждённо закрыто",
+      "Требуют дальнейшего действия"
+    ]
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "question": 1,
+    "slideId": "16-decision-matrix-Q01-practice",
+    "goal": "Сначала допустимость",
+    "notation": "TAB-01",
+    "shows": [
+      "Победитель среди допустимых",
+      "Число допустимых вариантов"
+    ]
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "question": 2,
+    "slideId": "16-decision-matrix-Q02-practice",
+    "goal": "Нормирование весов",
+    "notation": "TAB-01",
+    "shows": [
+      "Вес скорости",
+      "Вес стоимости"
+    ]
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "question": 3,
+    "slideId": "16-decision-matrix-Q03-practice",
+    "goal": "Итог и порог",
+    "notation": "TAB-01",
+    "shows": [
+      "Взвешенный итог A",
+      "Взвешенный итог B"
+    ]
+  },
+  {
+    "lectureId": "16-decision-matrix",
+    "question": 4,
+    "slideId": "16-decision-matrix-Q04-practice",
+    "goal": "Чувствительность выбора",
+    "notation": "TAB-01",
+    "shows": [
+      "Итог A при 0,7",
+      "Итог B при 0,7"
+    ]
+  },
+  {
+    "lectureId": "17-adr",
+    "question": 1,
+    "slideId": "17-adr-Q01-practice",
+    "goal": "Предмет ADR",
+    "notation": "TAB-01",
+    "shows": [
+      "ID решения",
+      "Предел перерыва, минут"
+    ]
+  },
+  {
+    "lectureId": "17-adr",
+    "question": 2,
+    "slideId": "17-adr-Q02-practice",
+    "goal": "Рассмотренные варианты",
+    "notation": "TAB-01",
+    "shows": [
+      "Выбранный вариант",
+      "Отклонённый вариант"
+    ]
+  },
+  {
+    "lectureId": "17-adr",
+    "question": 3,
+    "slideId": "17-adr-Q03-practice",
+    "goal": "Последствия решения",
+    "notation": "TAB-01",
+    "shows": [
+      "Положительное последствие, минут",
+      "Обрабатываемый риск"
+    ]
+  },
+  {
+    "lectureId": "17-adr",
+    "question": 4,
+    "slideId": "17-adr-Q04-practice",
+    "goal": "Пересмотр ADR",
+    "notation": "TAB-01",
+    "shows": [
+      "Действующее решение нового оборудования",
+      "Ссылка на предыдущее решение"
+    ]
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "question": 1,
+    "slideId": "18-nfr-impact-Q01-practice",
+    "goal": "Рост данных и нагрузки",
+    "notation": "TAB-01",
+    "shows": [
+      "Число движений за срок хранения",
+      "Одновременные операторы"
+    ]
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "question": 2,
+    "slideId": "18-nfr-impact-Q02-practice",
+    "goal": "Доступность и офлайн",
+    "notation": "TAB-01",
+    "shows": [
+      "Запас локальной очереди, минут",
+      "Часов работы склада за сутки"
+    ]
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "question": 3,
+    "slideId": "18-nfr-impact-Q03-practice",
+    "goal": "Отклик и полномочия",
+    "notation": "TAB-01",
+    "shows": [
+      "Предел отклика, секунд",
+      "Нагрузка испытания"
+    ]
+  },
+  {
+    "lectureId": "18-nfr-impact",
+    "question": 4,
+    "slideId": "18-nfr-impact-Q04-practice",
+    "goal": "Полнота аудита",
+    "notation": "TAB-01",
+    "shows": [
+      "Полных записей аудита",
+      "Неполных записей"
+    ]
+  },
+  {
+    "lectureId": "19-defense",
+    "question": 1,
+    "slideId": "19-defense-Q01-practice",
+    "goal": "Тезис для заказчика",
+    "notation": "TAB-01",
+    "shows": [
+      "Экономия на накладную, минут",
+      "Объём испытания"
+    ]
+  },
+  {
+    "lectureId": "19-defense",
+    "question": 2,
+    "slideId": "19-defense-Q02-practice",
+    "goal": "Факт и сравнение",
+    "notation": "TAB-01",
+    "shows": [
+      "Разница числа ошибок",
+      "Общий размер набора"
+    ]
+  },
+  {
+    "lectureId": "19-defense",
+    "question": 3,
+    "slideId": "19-defense-Q03-practice",
+    "goal": "Критерий и цена выбора",
+    "notation": "TAB-01",
+    "shows": [
+      "Допустимый по обучению вариант",
+      "Превышение B, часов"
+    ]
+  },
+  {
+    "lectureId": "19-defense",
+    "question": 4,
+    "slideId": "19-defense-Q04-practice",
+    "goal": "Демонстрация возражения",
+    "notation": "TAB-01",
+    "shows": [
+      "Длительность демонстрации, минут",
+      "Количество сверяемых операций"
+    ]
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "question": 1,
+    "slideId": "20-ux-goals-Q01-practice",
+    "goal": "Цель или средство",
+    "notation": "TAB-01",
+    "shows": [
+      "Цель проверки",
+      "Число ошибочных размещений"
+    ]
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "question": 2,
+    "slideId": "20-ux-goals-Q02-practice",
+    "goal": "Точка решения",
+    "notation": "TAB-01",
+    "shows": [
+      "Условие ветвления",
+      "Действие после выбора"
+    ]
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "question": 3,
+    "slideId": "20-ux-goals-Q03-practice",
+    "goal": "Частота и цена ошибки",
+    "notation": "TAB-01",
+    "shows": [
+      "Более частое действие",
+      "Стоимость одной ошибки B, минут"
+    ]
+  },
+  {
+    "lectureId": "20-ux-goals",
+    "question": 4,
+    "slideId": "20-ux-goals-Q04-practice",
+    "goal": "Контекст и критерий успеха",
+    "notation": "TAB-01",
+    "shows": [
+      "Успешные попытки",
+      "Неуспешные попытки"
+    ]
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "question": 1,
+    "slideId": "21-information-architecture-Q01-practice",
+    "goal": "Группировка по задаче",
+    "notation": "TAB-01",
+    "shows": [
+      "Группировка по рабочей задаче",
+      "Число рабочих групп"
+    ]
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "question": 2,
+    "slideId": "21-information-architecture-Q02-practice",
+    "goal": "Приоритет информации",
+    "notation": "TAB-01",
+    "shows": [
+      "Ключевой идентификатор",
+      "Подтверждаемое количество"
+    ]
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "question": 3,
+    "slideId": "21-information-architecture-Q03-practice",
+    "goal": "Глобальный и контекстный путь",
+    "notation": "TAB-01",
+    "shows": [
+      "Глобальный переход",
+      "Контекстный переход"
+    ]
+  },
+  {
+    "lectureId": "21-information-architecture",
+    "question": 4,
+    "slideId": "21-information-architecture-Q04-practice",
+    "goal": "Фильтр рабочего места",
+    "notation": "TAB-01",
+    "shows": [
+      "Заданий до фильтра срочности",
+      "Срочных заданий после фильтра"
+    ]
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "question": 1,
+    "slideId": "22-wireframe-prototype-Q01-practice",
+    "goal": "Вопрос раннего прототипа",
+    "notation": "TAB-01",
+    "shows": [
+      "Достаточный первый вариант",
+      "Проверяемое свойство"
+    ]
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "question": 2,
+    "slideId": "22-wireframe-prototype-Q02-practice",
+    "goal": "Когда нужна точность",
+    "notation": "TAB-01",
+    "shows": [
+      "Макет для данной проверки",
+      "Целевое устройство"
+    ]
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "question": 3,
+    "slideId": "22-wireframe-prototype-Q03-practice",
+    "goal": "Маршрут с реалистичными данными",
+    "notation": "TAB-01",
+    "shows": [
+      "Проблемный переход",
+      "Число переходов маршрута"
+    ]
+  },
+  {
+    "lectureId": "22-wireframe-prototype",
+    "question": 4,
+    "slideId": "22-wireframe-prototype-Q04-practice",
+    "goal": "Передача исключения",
+    "notation": "TAB-01",
+    "shows": [
+      "Источник поведения отказа",
+      "Что сохраняет идемпотентность повтора"
+    ]
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "question": 1,
+    "slideId": "23-forms-validation-states-Q01-practice",
+    "goal": "Подпись и условная обязательность",
+    "notation": "TAB-01",
+    "shows": [
+      "Когда причина обязательна",
+      "Элемент для постоянного имени поля"
+    ]
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "question": 2,
+    "slideId": "23-forms-validation-states-Q02-practice",
+    "goal": "Маска и проверка",
+    "notation": "TAB-01",
+    "shows": [
+      "Числовое значение ввода",
+      "Максимально допустимое значение"
+    ]
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "question": 3,
+    "slideId": "23-forms-validation-states-Q03-practice",
+    "goal": "Пусто или ошибка",
+    "notation": "TAB-01",
+    "shows": [
+      "Запрос для пустого состояния",
+      "Запрос для ошибки"
+    ]
+  },
+  {
+    "lectureId": "23-forms-validation-states",
+    "question": 4,
+    "slideId": "23-forms-validation-states-Q04-practice",
+    "goal": "Повтор после тайм-аута",
+    "notation": "TAB-01",
+    "shows": [
+      "ID безопасного повтора",
+      "ID, создающий новую операцию"
+    ]
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "question": 1,
+    "slideId": "24-design-system-accessibility-Q01-practice",
+    "goal": "Сетка и единый масштаб",
+    "notation": "TAB-01",
+    "shows": [
+      "Первый отступ в шагах",
+      "Второй отступ в шагах"
+    ]
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "question": 2,
+    "slideId": "24-design-system-accessibility-Q02-practice",
+    "goal": "Токен и компонент",
+    "notation": "TAB-01",
+    "shows": [
+      "Число потребителей токена",
+      "Состояние запрета действия"
+    ]
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "question": 3,
+    "slideId": "24-design-system-accessibility-Q03-practice",
+    "goal": "Контраст без цвета как единственного признака",
+    "notation": "TAB-01",
+    "shows": [
+      "Проходящий образец",
+      "Недостаточный образец"
+    ]
+  },
+  {
+    "lectureId": "24-design-system-accessibility",
+    "question": 4,
+    "slideId": "24-design-system-accessibility-Q04-practice",
+    "goal": "Фокус и альтернатива",
+    "notation": "TAB-01",
+    "shows": [
+      "Последний элемент маршрута",
+      "Доступное имя I1"
+    ]
+  },
+  {
+    "lectureId": "25-rbac",
+    "question": 1,
+    "slideId": "25-rbac-Q01-practice",
+    "goal": "Роль и объект",
+    "notation": "TAB-01",
+    "shows": [
+      "Применимая роль для запроса",
+      "Объект запроса"
+    ]
+  },
+  {
+    "lectureId": "25-rbac",
+    "question": 2,
+    "slideId": "25-rbac-Q02-practice",
+    "goal": "Операция и область",
+    "notation": "TAB-01",
+    "shows": [
+      "Разрешённая зона",
+      "Зона объекта запроса"
+    ]
+  },
+  {
+    "lectureId": "25-rbac",
+    "question": 3,
+    "slideId": "25-rbac-Q03-practice",
+    "goal": "Минимальные привилегии",
+    "notation": "TAB-01",
+    "shows": [
+      "Число лишних разрешений",
+      "Число необходимых разрешений"
+    ]
+  },
+  {
+    "lectureId": "25-rbac",
+    "question": 4,
+    "slideId": "25-rbac-Q04-practice",
+    "goal": "Разделение обязанностей",
+    "notation": "TAB-01",
+    "shows": [
+      "Допустимый подтверждающий",
+      "Запрещённый подтверждающий"
+    ]
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "question": 1,
+    "slideId": "26-auth-lockout-Q01-practice",
+    "goal": "Имя и доказательство",
+    "notation": "TAB-01",
+    "shows": [
+      "Данные идентификации",
+      "Средство данного доказательства"
+    ]
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "question": 2,
+    "slideId": "26-auth-lockout-Q02-practice",
+    "goal": "Счётчик без перечисления аккаунтов",
+    "notation": "TAB-01",
+    "shows": [
+      "Счётчик после второй неудачи",
+      "Оставшихся неудач до порога"
+    ]
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "question": 3,
+    "slideId": "26-auth-lockout-Q03-practice",
+    "goal": "Достижение порога",
+    "notation": "TAB-01",
+    "shows": [
+      "Счётчик после новой неудачи",
+      "Кто снимает блокировку"
+    ]
+  },
+  {
+    "lectureId": "26-auth-lockout",
+    "question": 4,
+    "slideId": "26-auth-lockout-Q04-practice",
+    "goal": "Проверка человека и состояние",
+    "notation": "TAB-01",
+    "shows": [
+      "Счётчик после двух событий",
+      "Число добавленных неудач"
+    ]
+  }
+]

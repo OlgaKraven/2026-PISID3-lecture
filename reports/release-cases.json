@@ -1,0 +1,531 @@
+{
+  "version": "pisid3-2026.10.25",
+  "mode": "cases",
+  "lectures": [],
+  "cases": [
+    {
+      "id": "01-project-decisions-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "01-project-decisions-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "01-project-decisions-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "01-project-decisions-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "02-roles-views-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "02-roles-views-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "02-roles-views-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "02-roles-views-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "03-artifact-map-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "03-artifact-map-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "03-artifact-map-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "03-artifact-map-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "04-requirement-sources-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "04-requirement-sources-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "04-requirement-sources-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "04-requirement-sources-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "05-interview-technique-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "05-interview-technique-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "05-interview-technique-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "05-interview-technique-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "06-requirement-classes-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "06-requirement-classes-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "06-requirement-classes-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "06-requirement-classes-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "07-requirement-quality-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "07-requirement-quality-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "07-requirement-quality-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "07-requirement-quality-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "10-entity-candidates-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "10-entity-candidates-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "10-entity-candidates-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "10-entity-candidates-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "11-project-glossary-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "11-project-glossary-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "11-project-glossary-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "11-project-glossary-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "12-business-rules-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "12-business-rules-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "12-business-rules-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "12-business-rules-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "13-attribute-composition-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "13-attribute-composition-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "13-attribute-composition-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "13-attribute-composition-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "14-data-history-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "14-data-history-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "14-data-history-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "14-data-history-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "15-model-revision-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "15-model-revision-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "15-model-revision-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "15-model-revision-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "16-decision-matrix-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "16-decision-matrix-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "16-decision-matrix-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "16-decision-matrix-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "17-adr-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "17-adr-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "17-adr-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "17-adr-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "18-nfr-impact-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "18-nfr-impact-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "18-nfr-impact-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "18-nfr-impact-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "19-defense-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "19-defense-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "19-defense-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "19-defense-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "20-ux-goals-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "20-ux-goals-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "20-ux-goals-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "20-ux-goals-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "21-information-architecture-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "21-information-architecture-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "21-information-architecture-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "21-information-architecture-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "25-rbac-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "25-rbac-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "25-rbac-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "25-rbac-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "26-auth-lockout-Q01",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "26-auth-lockout-Q02",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "26-auth-lockout-Q03",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    },
+    {
+      "id": "26-auth-lockout-Q04",
+      "wrongAndCorrect": 2,
+      "invalidatesDependent": true
+    }
+  ],
+  "tasks": [],
+  "errors": [],
+  "layout": [],
+  "status": "passed"
+}

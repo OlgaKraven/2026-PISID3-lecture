@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-25",
+  "sourceSha256": "3874de3025abb41096a30f4cae9aa3c54ef052abc1f811e6ada75fa8d5e5af9a",
+  "contentVersion": "pisid3-2026.10.25",
+  "baseline": {
+    "slides": 2195,
+    "idsAndRelativeOrderPreserved": true
+  },
+  "current": {
+    "lectures": 26,
+    "slides": 2299,
+    "tasks": 416,
+    "independentCases": 104,
+    "teacherNotes": 2299
+  },
+  "checks": {
+    "release-layout": {
+      "file": "reports/release-layout.json",
+      "status": "passed",
+      "sha256": "b6068da91ca3c89a052cd49d82d5d1582018fbedc8226776c04feb222f688adb"
+    },
+    "release-show": {
+      "file": "reports/release-show.json",
+      "status": "passed",
+      "sha256": "14dee4488af97a3d76a4a7d3b1e022ee1a01bb8e0fc6c0480766f218b02e8a7d"
+    },
+    "release-cases": {
+      "file": "reports/release-cases.json",
+      "status": "passed",
+      "sha256": "01b725fdfe72ab932d13eb6e94c604da99c7467c00b66b8285f2f48f422053c8"
+    },
+    "release-tasks": {
+      "file": "reports/release-tasks.json",
+      "status": "passed",
+      "sha256": "3af034c5591ba75921628172897deeb63ad20468d4f9b555944331e246d70a2e"
+    },
+    "display-controls": {
+      "file": "reports/display-controls.json",
+      "status": "passed",
+      "sha256": "da8f377a0c5b4d6a2b0cb2264fce09032fd0549407e89ccff42d122d15f7cd67"
+    },
+    "visual-review": {
+      "file": "reports/visual-review.json",
+      "status": "passed",
+      "sha256": "a769e2c2bb7bfdaeddade55989775ed3833e748e56616533cea71a3c03f08f50"
+    },
+    "pdf-visual-review": {
+      "file": "reports/pdf-visual-review.json",
+      "status": "completed",
+      "sha256": "4c57098dad1d2afcc9f8afdd19db18f6efa5759c53830bc0ca897fc2ed950655"
+    },
+    "editorial-review": {
+      "file": "reports/editorial-review.json",
+      "status": "completed",
+      "sha256": "abca502ff796c49f61e3d924a3d81a0cf4559a1be09431eb675003dd33684ccd"
+    },
+    "infographic-style": {
+      "file": "reports/infographic-style.json",
+      "status": "passed",
+      "sha256": "06503a17228649e1ffae9ac719b76919d6decacc3b7d11b25b89d6efc7094773"
+    }
+  },
+  "diagramStyleSha256": "b1033a87509be785dc7c40538773b937680796e4c1686eb45cb6e9ff665d6289"
+}

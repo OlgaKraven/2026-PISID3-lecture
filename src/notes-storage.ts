@@ -2,9 +2,11 @@ import type {Note} from '@olgakraven/lecture-engine';
 
 type Notes = Record<string, Note>;
 const defaults = new Map<string, Notes>();
+const inherited = new Map<string, Notes>();
 
-export function registerNotes(key: string, notes: Notes) {
+export function registerNotes(key: string, notes: Notes, previous: Notes = {}) {
   defaults.set(key, notes);
+  inherited.set(key, previous);
 }
 
 function parseNotes(raw: string | null): Notes {
@@ -20,7 +22,7 @@ export const notesStorage = {
   getItem(key: string): string | null {
     const raw = localStorage.getItem(key);
     const source = defaults.get(key);
-    return source ? JSON.stringify({...source, ...parseNotes(raw)}) : raw;
+    return source ? JSON.stringify({...source, ...inherited.get(key), ...parseNotes(raw)}) : raw;
   },
   setItem(key: string, value: string): void {
     const source = defaults.get(key);

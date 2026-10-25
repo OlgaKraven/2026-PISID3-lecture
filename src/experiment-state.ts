@@ -10,7 +10,12 @@ export function useDemoState(id: string, initial: DemoState, writable: boolean, 
   const session = new URLSearchParams(location.search).get('session');
   const channelName = `lecture-experiment:${location.pathname}:${version}:${session}`;
   const key = `${channelName}:${id}`;
-  const [state, setState] = useState<DemoState>(() => memory.get(key) || initial);
+  const savedKey=`pisid-draft:${location.pathname}:${version}:${id}`;
+  const [state, setState] = useState<DemoState>(() => {
+    if(memory.has(key))return memory.get(key)!;
+    if(writable&&id.startsWith('practice:'))try{const saved=JSON.parse(localStorage.getItem(savedKey)||'null');if(saved&&Object.keys(initial).every(k=>typeof saved[k]===typeof initial[k]))return saved;}catch{}
+    return initial;
+  });
   const current = useRef(state);
   const channel = useRef<BroadcastChannel | null>(null);
   current.current = state;
@@ -39,6 +44,7 @@ export function useDemoState(id: string, initial: DemoState, writable: boolean, 
     if (!writable) return;
     const next = {...current.current, ...patch};
     memory.set(key, next); current.current = next; setState(next);
+    if(id.startsWith('practice:'))try{localStorage.setItem(savedKey,JSON.stringify(next))}catch{}
     channel.current?.postMessage({protocol: 1, type: 'STATE', id, state: next});
   };
   return [state, update] as const;

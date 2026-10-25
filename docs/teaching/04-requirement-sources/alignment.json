@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "courseId": "pisid3",
+  "contentVersion": "pisid3-2026.10.25",
+  "sourceKind": "local",
+  "sourceSha256": "3874de3025abb41096a30f4cae9aa3c54ef052abc1f811e6ada75fa8d5e5af9a",
+  "lectureIds": [
+    "04-requirement-sources"
+  ],
+  "documents": {
+    "teacher": "lecture.teacher.md",
+    "presenter": "lecture.presenter.md"
+  },
+  "slides": [
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-start",
+      "displayNumber": 1,
+      "title": "Источники требований",
+      "anchors": {
+        "teacher": "screen-001",
+        "presenter": "screen-001"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-route",
+      "displayNumber": 2,
+      "title": "Вопросы темы",
+      "anchors": {
+        "teacher": "screen-002",
+        "presenter": "screen-002"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-why",
+      "displayNumber": 3,
+      "title": "Результат нашей работы",
+      "anchors": {
+        "teacher": "screen-003",
+        "presenter": "screen-003"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-case",
+      "displayNumber": 4,
+      "title": "WMS и файл WMS.xlsx",
+      "anchors": {
+        "teacher": "screen-004",
+        "presenter": "screen-004"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-prerequisites",
+      "displayNumber": 5,
+      "title": "Перед началом: что нужно понимать",
+      "anchors": {
+        "teacher": "screen-005",
+        "presenter": "screen-005"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-explanation",
+      "displayNumber": 6,
+      "title": "Как работает основной подход",
+      "anchors": {
+        "teacher": "screen-006",
+        "presenter": "screen-006"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01",
+      "displayNumber": 7,
+      "title": "Брифинг как источник и Интервью как источник",
+      "anchors": {
+        "teacher": "screen-007",
+        "presenter": "screen-007"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c1-definition",
+      "displayNumber": 8,
+      "title": "Брифинг как источник",
+      "anchors": {
+        "teacher": "screen-008",
+        "presenter": "screen-008"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c1-explanation",
+      "displayNumber": 9,
+      "title": "Брифинг как источник: смысл и границы",
+      "anchors": {
+        "teacher": "screen-009",
+        "presenter": "screen-009"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c1-walkthrough",
+      "displayNumber": 10,
+      "title": "Брифинг как источник: пример по шагам",
+      "anchors": {
+        "teacher": "screen-010",
+        "presenter": "screen-010"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c1-decision",
+      "displayNumber": 11,
+      "title": "Брифинг как источник: выбор действия",
+      "anchors": {
+        "teacher": "screen-011",
+        "presenter": "screen-011"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c2-definition",
+      "displayNumber": 12,
+      "title": "Интервью как источник",
+      "anchors": {
+        "teacher": "screen-012",
+        "presenter": "screen-012"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c2-explanation",
+      "displayNumber": 13,
+      "title": "Интервью как источник: смысл и границы",
+      "anchors": {
+        "teacher": "screen-013",
+        "presenter": "screen-013"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c2-walkthrough",
+      "displayNumber": 14,
+      "title": "Интервью как источник: пример по шагам",
+      "anchors": {
+        "teacher": "screen-014",
+        "presenter": "screen-014"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c2-decision",
+      "displayNumber": 15,
+      "title": "Интервью как источник: выбор действия",
+      "anchors": {
+        "teacher": "screen-015",
+        "presenter": "screen-015"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-mechanism",
+      "displayNumber": 16,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-016",
+        "presenter": "screen-016"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-input",
+      "displayNumber": 17,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-017",
+        "presenter": "screen-017"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-worked",
+      "displayNumber": 18,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-018",
+        "presenter": "screen-018"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-boundary",
+      "displayNumber": 19,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-019",
+        "presenter": "screen-019"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-practice",
+      "displayNumber": 20,
+      "title": "Свидетельства интервью",
+      "anchors": {
+        "teacher": "screen-020",
+        "presenter": "screen-020"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-T01",
+      "displayNumber": 21,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-021",
+        "presenter": "screen-021"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-T02",
+      "displayNumber": 22,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-022",
+        "presenter": "screen-022"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-T03",
+      "displayNumber": 23,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-023",
+        "presenter": "screen-023"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q01-T04",
+      "displayNumber": 24,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-024",
+        "presenter": "screen-024"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02",
+      "displayNumber": 25,
+      "title": "Действующая форма и Отчёт",
+      "anchors": {
+        "teacher": "screen-025",
+        "presenter": "screen-025"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c3-definition",
+      "displayNumber": 26,
+      "title": "Действующая форма",
+      "anchors": {
+        "teacher": "screen-026",
+        "presenter": "screen-026"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c3-explanation",
+      "displayNumber": 27,
+      "title": "Действующая форма: смысл и границы",
+      "anchors": {
+        "teacher": "screen-027",
+        "presenter": "screen-027"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c3-walkthrough",
+      "displayNumber": 28,
+      "title": "Действующая форма: пример по шагам",
+      "anchors": {
+        "teacher": "screen-028",
+        "presenter": "screen-028"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c3-decision",
+      "displayNumber": 29,
+      "title": "Действующая форма: выбор действия",
+      "anchors": {
+        "teacher": "screen-029",
+        "presenter": "screen-029"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c4-definition",
+      "displayNumber": 30,
+      "title": "Отчёт",
+      "anchors": {
+        "teacher": "screen-030",
+        "presenter": "screen-030"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c4-explanation",
+      "displayNumber": 31,
+      "title": "Отчёт: смысл и границы",
+      "anchors": {
+        "teacher": "screen-031",
+        "presenter": "screen-031"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c4-walkthrough",
+      "displayNumber": 32,
+      "title": "Отчёт: пример по шагам",
+      "anchors": {
+        "teacher": "screen-032",
+        "presenter": "screen-032"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c4-decision",
+      "displayNumber": 33,
+      "title": "Отчёт: выбор действия",
+      "anchors": {
+        "teacher": "screen-033",
+        "presenter": "screen-033"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-mechanism",
+      "displayNumber": 34,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-034",
+        "presenter": "screen-034"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-input",
+      "displayNumber": 35,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-035",
+        "presenter": "screen-035"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-worked",
+      "displayNumber": 36,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-036",
+        "presenter": "screen-036"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-boundary",
+      "displayNumber": 37,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-037",
+        "presenter": "screen-037"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-practice",
+      "displayNumber": 38,
+      "title": "Форма и отчёт",
+      "anchors": {
+        "teacher": "screen-038",
+        "presenter": "screen-038"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-T01",
+      "displayNumber": 39,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-039",
+        "presenter": "screen-039"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-T02",
+      "displayNumber": 40,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-040",
+        "presenter": "screen-040"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-T03",
+      "displayNumber": 41,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-041",
+        "presenter": "screen-041"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q02-T04",
+      "displayNumber": 42,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-042",
+        "presenter": "screen-042"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03",
+      "displayNumber": 43,
+      "title": "Наблюдение и Структура Excel",
+      "anchors": {
+        "teacher": "screen-043",
+        "presenter": "screen-043"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c5-definition",
+      "displayNumber": 44,
+      "title": "Наблюдение",
+      "anchors": {
+        "teacher": "screen-044",
+        "presenter": "screen-044"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c5-explanation",
+      "displayNumber": 45,
+      "title": "Наблюдение: смысл и границы",
+      "anchors": {
+        "teacher": "screen-045",
+        "presenter": "screen-045"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c5-walkthrough",
+      "displayNumber": 46,
+      "title": "Наблюдение: пример по шагам",
+      "anchors": {
+        "teacher": "screen-046",
+        "presenter": "screen-046"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c5-decision",
+      "displayNumber": 47,
+      "title": "Наблюдение: выбор действия",
+      "anchors": {
+        "teacher": "screen-047",
+        "presenter": "screen-047"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c6-definition",
+      "displayNumber": 48,
+      "title": "Структура Excel",
+      "anchors": {
+        "teacher": "screen-048",
+        "presenter": "screen-048"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c6-explanation",
+      "displayNumber": 49,
+      "title": "Структура Excel: смысл и границы",
+      "anchors": {
+        "teacher": "screen-049",
+        "presenter": "screen-049"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c6-walkthrough",
+      "displayNumber": 50,
+      "title": "Структура Excel: пример по шагам",
+      "anchors": {
+        "teacher": "screen-050",
+        "presenter": "screen-050"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c6-decision",
+      "displayNumber": 51,
+      "title": "Структура Excel: выбор действия",
+      "anchors": {
+        "teacher": "screen-051",
+        "presenter": "screen-051"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-mechanism",
+      "displayNumber": 52,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-052",
+        "presenter": "screen-052"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-input",
+      "displayNumber": 53,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-053",
+        "presenter": "screen-053"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-worked",
+      "displayNumber": 54,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-054",
+        "presenter": "screen-054"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-boundary",
+      "displayNumber": 55,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-055",
+        "presenter": "screen-055"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-practice",
+      "displayNumber": 56,
+      "title": "Повторы в выгрузке",
+      "anchors": {
+        "teacher": "screen-056",
+        "presenter": "screen-056"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-T01",
+      "displayNumber": 57,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-057",
+        "presenter": "screen-057"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-T02",
+      "displayNumber": 58,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-058",
+        "presenter": "screen-058"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-T03",
+      "displayNumber": 59,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-059",
+        "presenter": "screen-059"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q03-T04",
+      "displayNumber": 60,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-060",
+        "presenter": "screen-060"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04",
+      "displayNumber": 61,
+      "title": "Качество выгрузки и Триангуляция",
+      "anchors": {
+        "teacher": "screen-061",
+        "presenter": "screen-061"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c7-definition",
+      "displayNumber": 62,
+      "title": "Качество выгрузки",
+      "anchors": {
+        "teacher": "screen-062",
+        "presenter": "screen-062"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c7-explanation",
+      "displayNumber": 63,
+      "title": "Качество выгрузки: смысл и границы",
+      "anchors": {
+        "teacher": "screen-063",
+        "presenter": "screen-063"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c7-walkthrough",
+      "displayNumber": 64,
+      "title": "Качество выгрузки: пример по шагам",
+      "anchors": {
+        "teacher": "screen-064",
+        "presenter": "screen-064"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c7-decision",
+      "displayNumber": 65,
+      "title": "Качество выгрузки: выбор действия",
+      "anchors": {
+        "teacher": "screen-065",
+        "presenter": "screen-065"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c8-definition",
+      "displayNumber": 66,
+      "title": "Триангуляция",
+      "anchors": {
+        "teacher": "screen-066",
+        "presenter": "screen-066"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c8-explanation",
+      "displayNumber": 67,
+      "title": "Триангуляция: смысл и границы",
+      "anchors": {
+        "teacher": "screen-067",
+        "presenter": "screen-067"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c8-walkthrough",
+      "displayNumber": 68,
+      "title": "Триангуляция: пример по шагам",
+      "anchors": {
+        "teacher": "screen-068",
+        "presenter": "screen-068"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-c8-decision",
+      "displayNumber": 69,
+      "title": "Триангуляция: выбор действия",
+      "anchors": {
+        "teacher": "screen-069",
+        "presenter": "screen-069"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-mechanism",
+      "displayNumber": 70,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-070",
+        "presenter": "screen-070"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-input",
+      "displayNumber": 71,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-071",
+        "presenter": "screen-071"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-worked",
+      "displayNumber": 72,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-072",
+        "presenter": "screen-072"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-boundary",
+      "displayNumber": 73,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-073",
+        "presenter": "screen-073"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-practice",
+      "displayNumber": 74,
+      "title": "Независимость источников",
+      "anchors": {
+        "teacher": "screen-074",
+        "presenter": "screen-074"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-T01",
+      "displayNumber": 75,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-075",
+        "presenter": "screen-075"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-T02",
+      "displayNumber": 76,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-076",
+        "presenter": "screen-076"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-T03",
+      "displayNumber": 77,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-077",
+        "presenter": "screen-077"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-Q04-T04",
+      "displayNumber": 78,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-078",
+        "presenter": "screen-078"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-additional-case-input",
+      "displayNumber": 79,
+      "title": "Дополнительный случай: разберите условия",
+      "anchors": {
+        "teacher": "screen-079",
+        "presenter": "screen-079"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-additional-case-solution",
+      "displayNumber": 80,
+      "title": "Дополнительный случай: решение",
+      "anchors": {
+        "teacher": "screen-080",
+        "presenter": "screen-080"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-additional-case-boundary",
+      "displayNumber": 81,
+      "title": "Дополнительный случай: проверка ошибки",
+      "anchors": {
+        "teacher": "screen-081",
+        "presenter": "screen-081"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-experiment-start",
+      "displayNumber": 82,
+      "title": "Лаборатория: Сверьте три источника остатка",
+      "anchors": {
+        "teacher": "screen-082",
+        "presenter": "screen-082"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-experiment",
+      "displayNumber": 83,
+      "title": "Сверьте три источника остатка",
+      "anchors": {
+        "teacher": "screen-083",
+        "presenter": "screen-083"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-experiment-review",
+      "displayNumber": 84,
+      "title": "Лаборатория: выводы и границы",
+      "anchors": {
+        "teacher": "screen-084",
+        "presenter": "screen-084"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-summary",
+      "displayNumber": 85,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-085",
+        "presenter": "screen-085"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-sources",
+      "displayNumber": 86,
+      "title": "Предметные источники",
+      "anchors": {
+        "teacher": "screen-086",
+        "presenter": "screen-086"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-final",
+      "displayNumber": 87,
+      "title": "Перенос в свой проект",
+      "anchors": {
+        "teacher": "screen-087",
+        "presenter": "screen-087"
+      }
+    },
+    {
+      "lectureId": "04-requirement-sources",
+      "slideId": "04-requirement-sources-questions",
+      "displayNumber": 88,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-088",
+        "presenter": "screen-088"
+      }
+    }
+  ]
+}

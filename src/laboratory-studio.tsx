@@ -1,3 +1,4 @@
+import {PublicSelect} from './public-select';
 type Value=string|number|boolean|string[];
 export type LaboratoryField={id:string;label:string;options:string[];value:string};
 export function studioResult(number:number,values:Record<string,Value>){
@@ -27,7 +28,7 @@ export function studioResult(number:number,values:Record<string,Value>){
 export function LaboratoryStudio({number,fields,values,update}:{number:number;fields:LaboratoryField[];values:Record<string,Value>;update:(patch:Record<string,Value>)=>void}){
  const outcome=studioResult(number,values);
  return <div className="laboratory-studio">
-  <div className="studio-parameters">{fields.map(field=><label className="experiment-field" key={field.id}><span>{field.label}</span><select value={String(values['studio_'+field.id]||field.value)} onChange={e=>update({['studio_'+field.id]:e.target.value})}>{field.options.map(option=><option key={option}>{option}</option>)}</select></label>)}</div>
+  <div className="studio-parameters">{fields.map(field=><label className="experiment-field" key={field.id}><span>{field.label}</span><PublicSelect aria-label={field.label} value={String(values['studio_'+field.id]||field.value)} onChange={e=>update({['studio_'+field.id]:e.target.value})}>{field.options.map(option=><option key={option}>{option}</option>)}</PublicSelect></label>)}</div>
   <div className="studio-artifact" role="status" aria-live="polite"><h3>Текущий проектный результат</h3><p>{outcome.result}</p><dl>{fields.map(field=><div key={field.id}><dt>{field.label}</dt><dd>{String(values['studio_'+field.id]||field.value)}</dd></div>)}</dl>{outcome.issues.length>0?<><h4>Что ещё требуется согласовать</h4><ul>{outcome.issues.map(issue=><li key={issue}>{issue}</li>)}</ul></>:<p>Условия этого случая согласованы. Измените одно из них и проверьте, сохранится ли вывод.</p>}</div>
  </div>;
 }

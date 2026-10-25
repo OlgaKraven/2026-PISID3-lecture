@@ -1,5 +1,5 @@
 {
-  "version": "pisid3-2026.10.13-teaching-v5",
+  "version": "pisid3-2026.10.25",
   "touch": [
     "native Chromium touch left",
     "native Chromium touch right"

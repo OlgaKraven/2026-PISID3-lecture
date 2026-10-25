@@ -21,6 +21,7 @@
       "01-project-decisions-Q01-input",
       "01-project-decisions-Q01-worked",
       "01-project-decisions-Q01-boundary",
+      "01-project-decisions-Q01-practice",
       "01-project-decisions-Q01-T01",
       "01-project-decisions-Q01-T02",
       "01-project-decisions-Q01-T03",
@@ -44,7 +45,8 @@
       "01-project-decisions-Q01-mechanism",
       "01-project-decisions-Q01-input",
       "01-project-decisions-Q01-worked",
-      "01-project-decisions-Q01-boundary"
+      "01-project-decisions-Q01-boundary",
+      "01-project-decisions-Q01-practice"
     ],
     "outcome": "Факт о двух ячейках отделён от решения о способе размещения.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -72,6 +74,7 @@
       "01-project-decisions-Q02-input",
       "01-project-decisions-Q02-worked",
       "01-project-decisions-Q02-boundary",
+      "01-project-decisions-Q02-practice",
       "01-project-decisions-Q02-T01",
       "01-project-decisions-Q02-T02",
       "01-project-decisions-Q02-T03",
@@ -95,7 +98,8 @@
       "01-project-decisions-Q02-mechanism",
       "01-project-decisions-Q02-input",
       "01-project-decisions-Q02-worked",
-      "01-project-decisions-Q02-boundary"
+      "01-project-decisions-Q02-boundary",
+      "01-project-decisions-Q02-practice"
     ],
     "outcome": "Выбран динамический подбор для данного примера с проверкой вместимости.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -123,6 +127,7 @@
       "01-project-decisions-Q03-input",
       "01-project-decisions-Q03-worked",
       "01-project-decisions-Q03-boundary",
+      "01-project-decisions-Q03-practice",
       "01-project-decisions-Q03-T01",
       "01-project-decisions-Q03-T02",
       "01-project-decisions-Q03-T03",
@@ -146,7 +151,8 @@
       "01-project-decisions-Q03-mechanism",
       "01-project-decisions-Q03-input",
       "01-project-decisions-Q03-worked",
-      "01-project-decisions-Q03-boundary"
+      "01-project-decisions-Q03-boundary",
+      "01-project-decisions-Q03-practice"
     ],
     "outcome": "В матрице есть путь REQ-14 → правило → сценарий → тест.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -174,6 +180,7 @@
       "01-project-decisions-Q04-input",
       "01-project-decisions-Q04-worked",
       "01-project-decisions-Q04-boundary",
+      "01-project-decisions-Q04-practice",
       "01-project-decisions-Q04-T01",
       "01-project-decisions-Q04-T02",
       "01-project-decisions-Q04-T03",
@@ -197,7 +204,8 @@
       "01-project-decisions-Q04-mechanism",
       "01-project-decisions-Q04-input",
       "01-project-decisions-Q04-worked",
-      "01-project-decisions-Q04-boundary"
+      "01-project-decisions-Q04-boundary",
+      "01-project-decisions-Q04-practice"
     ],
     "outcome": "Ответственность за смысл конфликта и технический механизм разделены.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -225,6 +233,7 @@
       "02-roles-views-Q01-input",
       "02-roles-views-Q01-worked",
       "02-roles-views-Q01-boundary",
+      "02-roles-views-Q01-practice",
       "02-roles-views-Q01-T01",
       "02-roles-views-Q01-T02",
       "02-roles-views-Q01-T03",
@@ -248,7 +257,8 @@
       "02-roles-views-Q01-mechanism",
       "02-roles-views-Q01-input",
       "02-roles-views-Q01-worked",
-      "02-roles-views-Q01-boundary"
+      "02-roles-views-Q01-boundary",
+      "02-roles-views-Q01-practice"
     ],
     "outcome": "Цель скорости дополнена условиями рабочего места и восстановления после ошибки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -276,6 +286,7 @@
       "02-roles-views-Q02-input",
       "02-roles-views-Q02-worked",
       "02-roles-views-Q02-boundary",
+      "02-roles-views-Q02-practice",
       "02-roles-views-Q02-T01",
       "02-roles-views-Q02-T02",
       "02-roles-views-Q02-T03",
@@ -299,7 +310,8 @@
       "02-roles-views-Q02-mechanism",
       "02-roles-views-Q02-input",
       "02-roles-views-Q02-worked",
-      "02-roles-views-Q02-boundary"
+      "02-roles-views-Q02-boundary",
+      "02-roles-views-Q02-practice"
     ],
     "outcome": "Подтверждённая потребность связана с отдельным проектным решением.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -327,6 +339,7 @@
       "02-roles-views-Q03-input",
       "02-roles-views-Q03-worked",
       "02-roles-views-Q03-boundary",
+      "02-roles-views-Q03-practice",
       "02-roles-views-Q03-T01",
       "02-roles-views-Q03-T02",
       "02-roles-views-Q03-T03",
@@ -350,7 +363,8 @@
       "02-roles-views-Q03-mechanism",
       "02-roles-views-Q03-input",
       "02-roles-views-Q03-worked",
-      "02-roles-views-Q03-boundary"
+      "02-roles-views-Q03-boundary",
+      "02-roles-views-Q03-practice"
     ],
     "outcome": "Техническое предложение оценено по последствиям для работы роли.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -378,6 +392,7 @@
       "02-roles-views-Q04-input",
       "02-roles-views-Q04-worked",
       "02-roles-views-Q04-boundary",
+      "02-roles-views-Q04-practice",
       "02-roles-views-Q04-T01",
       "02-roles-views-Q04-T02",
       "02-roles-views-Q04-T03",
@@ -401,7 +416,8 @@
       "02-roles-views-Q04-mechanism",
       "02-roles-views-Q04-input",
       "02-roles-views-Q04-worked",
-      "02-roles-views-Q04-boundary"
+      "02-roles-views-Q04-boundary",
+      "02-roles-views-Q04-practice"
     ],
     "outcome": "В протоколе названы стороны, решение и полномочный согласующий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -429,6 +445,7 @@
       "03-artifact-map-Q01-input",
       "03-artifact-map-Q01-worked",
       "03-artifact-map-Q01-boundary",
+      "03-artifact-map-Q01-practice",
       "03-artifact-map-Q01-T01",
       "03-artifact-map-Q01-T02",
       "03-artifact-map-Q01-T03",
@@ -452,7 +469,8 @@
       "03-artifact-map-Q01-mechanism",
       "03-artifact-map-Q01-input",
       "03-artifact-map-Q01-worked",
-      "03-artifact-map-Q01-boundary"
+      "03-artifact-map-Q01-boundary",
+      "03-artifact-map-Q01-practice"
     ],
     "outcome": "Пожелание стало управляемой записью, а не потерялось в протоколе.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -480,6 +498,7 @@
       "03-artifact-map-Q02-input",
       "03-artifact-map-Q02-worked",
       "03-artifact-map-Q02-boundary",
+      "03-artifact-map-Q02-practice",
       "03-artifact-map-Q02-T01",
       "03-artifact-map-Q02-T02",
       "03-artifact-map-Q02-T03",
@@ -503,7 +522,8 @@
       "03-artifact-map-Q02-mechanism",
       "03-artifact-map-Q02-input",
       "03-artifact-map-Q02-worked",
-      "03-artifact-map-Q02-boundary"
+      "03-artifact-map-Q02-boundary",
+      "03-artifact-map-Q02-practice"
     ],
     "outcome": "Определение связано с объектом модели и его идентификатором.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -531,6 +551,7 @@
       "03-artifact-map-Q03-input",
       "03-artifact-map-Q03-worked",
       "03-artifact-map-Q03-boundary",
+      "03-artifact-map-Q03-practice",
       "03-artifact-map-Q03-T01",
       "03-artifact-map-Q03-T02",
       "03-artifact-map-Q03-T03",
@@ -554,7 +575,8 @@
       "03-artifact-map-Q03-mechanism",
       "03-artifact-map-Q03-input",
       "03-artifact-map-Q03-worked",
-      "03-artifact-map-Q03-boundary"
+      "03-artifact-map-Q03-boundary",
+      "03-artifact-map-Q03-practice"
     ],
     "outcome": "Макет и спецификация описывают одинаковую доступность операции.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -582,6 +604,7 @@
       "03-artifact-map-Q04-input",
       "03-artifact-map-Q04-worked",
       "03-artifact-map-Q04-boundary",
+      "03-artifact-map-Q04-practice",
       "03-artifact-map-Q04-T01",
       "03-artifact-map-Q04-T02",
       "03-artifact-map-Q04-T03",
@@ -605,7 +628,8 @@
       "03-artifact-map-Q04-mechanism",
       "03-artifact-map-Q04-input",
       "03-artifact-map-Q04-worked",
-      "03-artifact-map-Q04-boundary"
+      "03-artifact-map-Q04-boundary",
+      "03-artifact-map-Q04-practice"
     ],
     "outcome": "Разрыв трассировки закрыт проверяемым тестовым условием.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -633,6 +657,7 @@
       "04-requirement-sources-Q01-input",
       "04-requirement-sources-Q01-worked",
       "04-requirement-sources-Q01-boundary",
+      "04-requirement-sources-Q01-practice",
       "04-requirement-sources-Q01-T01",
       "04-requirement-sources-Q01-T02",
       "04-requirement-sources-Q01-T03",
@@ -656,7 +681,8 @@
       "04-requirement-sources-Q01-mechanism",
       "04-requirement-sources-Q01-input",
       "04-requirement-sources-Q01-worked",
-      "04-requirement-sources-Q01-boundary"
+      "04-requirement-sources-Q01-boundary",
+      "04-requirement-sources-Q01-practice"
     ],
     "outcome": "Противоречие сохранено до уточнения, а не устранено догадкой.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -684,6 +710,7 @@
       "04-requirement-sources-Q02-input",
       "04-requirement-sources-Q02-worked",
       "04-requirement-sources-Q02-boundary",
+      "04-requirement-sources-Q02-practice",
       "04-requirement-sources-Q02-T01",
       "04-requirement-sources-Q02-T02",
       "04-requirement-sources-Q02-T03",
@@ -707,7 +734,8 @@
       "04-requirement-sources-Q02-mechanism",
       "04-requirement-sources-Q02-input",
       "04-requirement-sources-Q02-worked",
-      "04-requirement-sources-Q02-boundary"
+      "04-requirement-sources-Q02-boundary",
+      "04-requirement-sources-Q02-practice"
     ],
     "outcome": "Группировка отчёта не принята за состав сущностей.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -735,6 +763,7 @@
       "04-requirement-sources-Q03-input",
       "04-requirement-sources-Q03-worked",
       "04-requirement-sources-Q03-boundary",
+      "04-requirement-sources-Q03-practice",
       "04-requirement-sources-Q03-T01",
       "04-requirement-sources-Q03-T02",
       "04-requirement-sources-Q03-T03",
@@ -758,7 +787,8 @@
       "04-requirement-sources-Q03-mechanism",
       "04-requirement-sources-Q03-input",
       "04-requirement-sources-Q03-worked",
-      "04-requirement-sources-Q03-boundary"
+      "04-requirement-sources-Q03-boundary",
+      "04-requirement-sources-Q03-practice"
     ],
     "outcome": "Ограничение файла отделено от фактической кратности размещения.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -786,6 +816,7 @@
       "04-requirement-sources-Q04-input",
       "04-requirement-sources-Q04-worked",
       "04-requirement-sources-Q04-boundary",
+      "04-requirement-sources-Q04-practice",
       "04-requirement-sources-Q04-T01",
       "04-requirement-sources-Q04-T02",
       "04-requirement-sources-Q04-T03",
@@ -809,7 +840,8 @@
       "04-requirement-sources-Q04-mechanism",
       "04-requirement-sources-Q04-input",
       "04-requirement-sources-Q04-worked",
-      "04-requirement-sources-Q04-boundary"
+      "04-requirement-sources-Q04-boundary",
+      "04-requirement-sources-Q04-practice"
     ],
     "outcome": "Повтор объяснён двумя размещениями; пустая дата остаётся отдельным вопросом качества.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -837,6 +869,7 @@
       "05-interview-technique-Q01-input",
       "05-interview-technique-Q01-worked",
       "05-interview-technique-Q01-boundary",
+      "05-interview-technique-Q01-practice",
       "05-interview-technique-Q01-T01",
       "05-interview-technique-Q01-T02",
       "05-interview-technique-Q01-T03",
@@ -860,7 +893,8 @@
       "05-interview-technique-Q01-mechanism",
       "05-interview-technique-Q01-input",
       "05-interview-technique-Q01-worked",
-      "05-interview-technique-Q01-boundary"
+      "05-interview-technique-Q01-boundary",
+      "05-interview-technique-Q01-practice"
     ],
     "outcome": "Получена последовательность действий, а не согласие с оценкой интерфейса.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -888,6 +922,7 @@
       "05-interview-technique-Q02-input",
       "05-interview-technique-Q02-worked",
       "05-interview-technique-Q02-boundary",
+      "05-interview-technique-Q02-practice",
       "05-interview-technique-Q02-T01",
       "05-interview-technique-Q02-T02",
       "05-interview-technique-Q02-T03",
@@ -911,7 +946,8 @@
       "05-interview-technique-Q02-mechanism",
       "05-interview-technique-Q02-input",
       "05-interview-technique-Q02-worked",
-      "05-interview-technique-Q02-boundary"
+      "05-interview-technique-Q02-boundary",
+      "05-interview-technique-Q02-practice"
     ],
     "outcome": "Правило отделено от частного случая и записано с границей применения.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -939,6 +975,7 @@
       "05-interview-technique-Q03-input",
       "05-interview-technique-Q03-worked",
       "05-interview-technique-Q03-boundary",
+      "05-interview-technique-Q03-practice",
       "05-interview-technique-Q03-T01",
       "05-interview-technique-Q03-T02",
       "05-interview-technique-Q03-T03",
@@ -962,7 +999,8 @@
       "05-interview-technique-Q03-mechanism",
       "05-interview-technique-Q03-input",
       "05-interview-technique-Q03-worked",
-      "05-interview-technique-Q03-boundary"
+      "05-interview-technique-Q03-boundary",
+      "05-interview-technique-Q03-practice"
     ],
     "outcome": "Собеседник уточнил, что повтор возник после отсутствия подтверждения сервера.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -990,6 +1028,7 @@
       "05-interview-technique-Q04-input",
       "05-interview-technique-Q04-worked",
       "05-interview-technique-Q04-boundary",
+      "05-interview-technique-Q04-practice",
       "05-interview-technique-Q04-T01",
       "05-interview-technique-Q04-T02",
       "05-interview-technique-Q04-T03",
@@ -1013,7 +1052,8 @@
       "05-interview-technique-Q04-mechanism",
       "05-interview-technique-Q04-input",
       "05-interview-technique-Q04-worked",
-      "05-interview-technique-Q04-boundary"
+      "05-interview-technique-Q04-boundary",
+      "05-interview-technique-Q04-practice"
     ],
     "outcome": "Неопределённость имеет запись Q-03 и следующий шаг.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1041,6 +1081,7 @@
       "06-requirement-classes-Q01-input",
       "06-requirement-classes-Q01-worked",
       "06-requirement-classes-Q01-boundary",
+      "06-requirement-classes-Q01-practice",
       "06-requirement-classes-Q01-T01",
       "06-requirement-classes-Q01-T02",
       "06-requirement-classes-Q01-T03",
@@ -1064,7 +1105,8 @@
       "06-requirement-classes-Q01-mechanism",
       "06-requirement-classes-Q01-input",
       "06-requirement-classes-Q01-worked",
-      "06-requirement-classes-Q01-boundary"
+      "06-requirement-classes-Q01-boundary",
+      "06-requirement-classes-Q01-practice"
     ],
     "outcome": "Для каждой записи задан свой способ проверки поведения или времени.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1092,6 +1134,7 @@
       "06-requirement-classes-Q02-input",
       "06-requirement-classes-Q02-worked",
       "06-requirement-classes-Q02-boundary",
+      "06-requirement-classes-Q02-practice",
       "06-requirement-classes-Q02-T01",
       "06-requirement-classes-Q02-T02",
       "06-requirement-classes-Q02-T03",
@@ -1115,7 +1158,8 @@
       "06-requirement-classes-Q02-mechanism",
       "06-requirement-classes-Q02-input",
       "06-requirement-classes-Q02-worked",
-      "06-requirement-classes-Q02-boundary"
+      "06-requirement-classes-Q02-boundary",
+      "06-requirement-classes-Q02-practice"
     ],
     "outcome": "Разные источники ограничений сохранены отдельно.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1143,6 +1187,7 @@
       "06-requirement-classes-Q03-input",
       "06-requirement-classes-Q03-worked",
       "06-requirement-classes-Q03-boundary",
+      "06-requirement-classes-Q03-practice",
       "06-requirement-classes-Q03-T01",
       "06-requirement-classes-Q03-T02",
       "06-requirement-classes-Q03-T03",
@@ -1166,7 +1211,8 @@
       "06-requirement-classes-Q03-mechanism",
       "06-requirement-classes-Q03-input",
       "06-requirement-classes-Q03-worked",
-      "06-requirement-classes-Q03-boundary"
+      "06-requirement-classes-Q03-boundary",
+      "06-requirement-classes-Q03-practice"
     ],
     "outcome": "Намерение пользователя раскрыто проверяемой обязанностью системы.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1194,6 +1240,7 @@
       "06-requirement-classes-Q04-input",
       "06-requirement-classes-Q04-worked",
       "06-requirement-classes-Q04-boundary",
+      "06-requirement-classes-Q04-practice",
       "06-requirement-classes-Q04-T01",
       "06-requirement-classes-Q04-T02",
       "06-requirement-classes-Q04-T03",
@@ -1217,7 +1264,8 @@
       "06-requirement-classes-Q04-mechanism",
       "06-requirement-classes-Q04-input",
       "06-requirement-classes-Q04-worked",
-      "06-requirement-classes-Q04-boundary"
+      "06-requirement-classes-Q04-boundary",
+      "06-requirement-classes-Q04-practice"
     ],
     "outcome": "Каждая запись имеет класс и самостоятельный критерий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1245,6 +1293,7 @@
       "07-requirement-quality-Q01-input",
       "07-requirement-quality-Q01-worked",
       "07-requirement-quality-Q01-boundary",
+      "07-requirement-quality-Q01-practice",
       "07-requirement-quality-Q01-T01",
       "07-requirement-quality-Q01-T02",
       "07-requirement-quality-Q01-T03",
@@ -1268,7 +1317,8 @@
       "07-requirement-quality-Q01-mechanism",
       "07-requirement-quality-Q01-input",
       "07-requirement-quality-Q01-worked",
-      "07-requirement-quality-Q01-boundary"
+      "07-requirement-quality-Q01-boundary",
+      "07-requirement-quality-Q01-practice"
     ],
     "outcome": "Проверка может указать, какая именно обязанность не выполнена.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1296,6 +1346,7 @@
       "07-requirement-quality-Q02-input",
       "07-requirement-quality-Q02-worked",
       "07-requirement-quality-Q02-boundary",
+      "07-requirement-quality-Q02-practice",
       "07-requirement-quality-Q02-T01",
       "07-requirement-quality-Q02-T02",
       "07-requirement-quality-Q02-T03",
@@ -1319,7 +1370,8 @@
       "07-requirement-quality-Q02-mechanism",
       "07-requirement-quality-Q02-input",
       "07-requirement-quality-Q02-worked",
-      "07-requirement-quality-Q02-boundary"
+      "07-requirement-quality-Q02-boundary",
+      "07-requirement-quality-Q02-practice"
     ],
     "outcome": "Два читателя могут воспроизвести один и тот же сценарий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1347,6 +1399,7 @@
       "07-requirement-quality-Q03-input",
       "07-requirement-quality-Q03-worked",
       "07-requirement-quality-Q03-boundary",
+      "07-requirement-quality-Q03-practice",
       "07-requirement-quality-Q03-T01",
       "07-requirement-quality-Q03-T02",
       "07-requirement-quality-Q03-T03",
@@ -1370,7 +1423,8 @@
       "07-requirement-quality-Q03-mechanism",
       "07-requirement-quality-Q03-input",
       "07-requirement-quality-Q03-worked",
-      "07-requirement-quality-Q03-boundary"
+      "07-requirement-quality-Q03-boundary",
+      "07-requirement-quality-Q03-practice"
     ],
     "outcome": "Нужная история не потеряна; источник каждого требования указан.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1398,6 +1452,7 @@
       "07-requirement-quality-Q04-input",
       "07-requirement-quality-Q04-worked",
       "07-requirement-quality-Q04-boundary",
+      "07-requirement-quality-Q04-practice",
       "07-requirement-quality-Q04-T01",
       "07-requirement-quality-Q04-T02",
       "07-requirement-quality-Q04-T03",
@@ -1421,7 +1476,8 @@
       "07-requirement-quality-Q04-mechanism",
       "07-requirement-quality-Q04-input",
       "07-requirement-quality-Q04-worked",
-      "07-requirement-quality-Q04-boundary"
+      "07-requirement-quality-Q04-boundary",
+      "07-requirement-quality-Q04-practice"
     ],
     "outcome": "Неопределённые слова заменены условиями и перечнем.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1449,6 +1505,7 @@
       "08-user-story-acceptance-Q01-input",
       "08-user-story-acceptance-Q01-worked",
       "08-user-story-acceptance-Q01-boundary",
+      "08-user-story-acceptance-Q01-practice",
       "08-user-story-acceptance-Q01-T01",
       "08-user-story-acceptance-Q01-T02",
       "08-user-story-acceptance-Q01-T03",
@@ -1472,7 +1529,8 @@
       "08-user-story-acceptance-Q01-mechanism",
       "08-user-story-acceptance-Q01-input",
       "08-user-story-acceptance-Q01-worked",
-      "08-user-story-acceptance-Q01-boundary"
+      "08-user-story-acceptance-Q01-boundary",
+      "08-user-story-acceptance-Q01-practice"
     ],
     "outcome": "История описывает работу пользователя и завершённую задачу.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1500,6 +1558,7 @@
       "08-user-story-acceptance-Q02-input",
       "08-user-story-acceptance-Q02-worked",
       "08-user-story-acceptance-Q02-boundary",
+      "08-user-story-acceptance-Q02-practice",
       "08-user-story-acceptance-Q02-T01",
       "08-user-story-acceptance-Q02-T02",
       "08-user-story-acceptance-Q02-T03",
@@ -1523,7 +1582,8 @@
       "08-user-story-acceptance-Q02-mechanism",
       "08-user-story-acceptance-Q02-input",
       "08-user-story-acceptance-Q02-worked",
-      "08-user-story-acceptance-Q02-boundary"
+      "08-user-story-acceptance-Q02-boundary",
+      "08-user-story-acceptance-Q02-practice"
     ],
     "outcome": "Критерий связывает условие, действие и наблюдаемый результат.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1551,6 +1611,7 @@
       "08-user-story-acceptance-Q03-input",
       "08-user-story-acceptance-Q03-worked",
       "08-user-story-acceptance-Q03-boundary",
+      "08-user-story-acceptance-Q03-practice",
       "08-user-story-acceptance-Q03-T01",
       "08-user-story-acceptance-Q03-T02",
       "08-user-story-acceptance-Q03-T03",
@@ -1574,7 +1635,8 @@
       "08-user-story-acceptance-Q03-mechanism",
       "08-user-story-acceptance-Q03-input",
       "08-user-story-acceptance-Q03-worked",
-      "08-user-story-acceptance-Q03-boundary"
+      "08-user-story-acceptance-Q03-boundary",
+      "08-user-story-acceptance-Q03-practice"
     ],
     "outcome": "История покрывает успех и значимый отрицательный случай.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1602,6 +1664,7 @@
       "08-user-story-acceptance-Q04-input",
       "08-user-story-acceptance-Q04-worked",
       "08-user-story-acceptance-Q04-boundary",
+      "08-user-story-acceptance-Q04-practice",
       "08-user-story-acceptance-Q04-T01",
       "08-user-story-acceptance-Q04-T02",
       "08-user-story-acceptance-Q04-T03",
@@ -1625,7 +1688,8 @@
       "08-user-story-acceptance-Q04-mechanism",
       "08-user-story-acceptance-Q04-input",
       "08-user-story-acceptance-Q04-worked",
-      "08-user-story-acceptance-Q04-boundary"
+      "08-user-story-acceptance-Q04-boundary",
+      "08-user-story-acceptance-Q04-practice"
     ],
     "outcome": "Граница позволяет проверить историю целиком.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1653,6 +1717,7 @@
       "09-assumptions-traceability-Q01-input",
       "09-assumptions-traceability-Q01-worked",
       "09-assumptions-traceability-Q01-boundary",
+      "09-assumptions-traceability-Q01-practice",
       "09-assumptions-traceability-Q01-T01",
       "09-assumptions-traceability-Q01-T02",
       "09-assumptions-traceability-Q01-T03",
@@ -1676,7 +1741,8 @@
       "09-assumptions-traceability-Q01-mechanism",
       "09-assumptions-traceability-Q01-input",
       "09-assumptions-traceability-Q01-worked",
-      "09-assumptions-traceability-Q01-boundary"
+      "09-assumptions-traceability-Q01-boundary",
+      "09-assumptions-traceability-Q01-practice"
     ],
     "outcome": "Основание решения имеет явную степень уверенности.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1704,6 +1770,7 @@
       "09-assumptions-traceability-Q02-input",
       "09-assumptions-traceability-Q02-worked",
       "09-assumptions-traceability-Q02-boundary",
+      "09-assumptions-traceability-Q02-practice",
       "09-assumptions-traceability-Q02-T01",
       "09-assumptions-traceability-Q02-T02",
       "09-assumptions-traceability-Q02-T03",
@@ -1727,7 +1794,8 @@
       "09-assumptions-traceability-Q02-mechanism",
       "09-assumptions-traceability-Q02-input",
       "09-assumptions-traceability-Q02-worked",
-      "09-assumptions-traceability-Q02-boundary"
+      "09-assumptions-traceability-Q02-boundary",
+      "09-assumptions-traceability-Q02-practice"
     ],
     "outcome": "По ID можно найти требования, ожидающие ответа.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1755,6 +1823,7 @@
       "09-assumptions-traceability-Q03-input",
       "09-assumptions-traceability-Q03-worked",
       "09-assumptions-traceability-Q03-boundary",
+      "09-assumptions-traceability-Q03-practice",
       "09-assumptions-traceability-Q03-T01",
       "09-assumptions-traceability-Q03-T02",
       "09-assumptions-traceability-Q03-T03",
@@ -1778,7 +1847,8 @@
       "09-assumptions-traceability-Q03-mechanism",
       "09-assumptions-traceability-Q03-input",
       "09-assumptions-traceability-Q03-worked",
-      "09-assumptions-traceability-Q03-boundary"
+      "09-assumptions-traceability-Q03-boundary",
+      "09-assumptions-traceability-Q03-practice"
     ],
     "outcome": "Можно найти реализацию требования и объяснить назначение теста.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1806,6 +1876,7 @@
       "09-assumptions-traceability-Q04-input",
       "09-assumptions-traceability-Q04-worked",
       "09-assumptions-traceability-Q04-boundary",
+      "09-assumptions-traceability-Q04-practice",
       "09-assumptions-traceability-Q04-T01",
       "09-assumptions-traceability-Q04-T02",
       "09-assumptions-traceability-Q04-T03",
@@ -1829,7 +1900,8 @@
       "09-assumptions-traceability-Q04-mechanism",
       "09-assumptions-traceability-Q04-input",
       "09-assumptions-traceability-Q04-worked",
-      "09-assumptions-traceability-Q04-boundary"
+      "09-assumptions-traceability-Q04-boundary",
+      "09-assumptions-traceability-Q04-practice"
     ],
     "outcome": "Изменение имеет перечень затронутых объектов и пробел проверки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1857,6 +1929,7 @@
       "10-entity-candidates-Q01-input",
       "10-entity-candidates-Q01-worked",
       "10-entity-candidates-Q01-boundary",
+      "10-entity-candidates-Q01-practice",
       "10-entity-candidates-Q01-T01",
       "10-entity-candidates-Q01-T02",
       "10-entity-candidates-Q01-T03",
@@ -1880,7 +1953,8 @@
       "10-entity-candidates-Q01-mechanism",
       "10-entity-candidates-Q01-input",
       "10-entity-candidates-Q01-worked",
-      "10-entity-candidates-Q01-boundary"
+      "10-entity-candidates-Q01-boundary",
+      "10-entity-candidates-Q01-practice"
     ],
     "outcome": "Кандидаты имеют обоснование и ещё не объявлены окончательными таблицами.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1908,6 +1982,7 @@
       "10-entity-candidates-Q02-input",
       "10-entity-candidates-Q02-worked",
       "10-entity-candidates-Q02-boundary",
+      "10-entity-candidates-Q02-practice",
       "10-entity-candidates-Q02-T01",
       "10-entity-candidates-Q02-T02",
       "10-entity-candidates-Q02-T03",
@@ -1931,7 +2006,8 @@
       "10-entity-candidates-Q02-mechanism",
       "10-entity-candidates-Q02-input",
       "10-entity-candidates-Q02-worked",
-      "10-entity-candidates-Q02-boundary"
+      "10-entity-candidates-Q02-boundary",
+      "10-entity-candidates-Q02-practice"
     ],
     "outcome": "Модель может хранить документ операции и несколько событий её обработки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -1959,6 +2035,7 @@
       "10-entity-candidates-Q03-input",
       "10-entity-candidates-Q03-worked",
       "10-entity-candidates-Q03-boundary",
+      "10-entity-candidates-Q03-practice",
       "10-entity-candidates-Q03-T01",
       "10-entity-candidates-Q03-T02",
       "10-entity-candidates-Q03-T03",
@@ -1982,7 +2059,8 @@
       "10-entity-candidates-Q03-mechanism",
       "10-entity-candidates-Q03-input",
       "10-entity-candidates-Q03-worked",
-      "10-entity-candidates-Q03-boundary"
+      "10-entity-candidates-Q03-boundary",
+      "10-entity-candidates-Q03-practice"
     ],
     "outcome": "Многие-ко-многим раскрыто объектом, хранящим смысл связи.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2010,6 +2088,7 @@
       "10-entity-candidates-Q04-input",
       "10-entity-candidates-Q04-worked",
       "10-entity-candidates-Q04-boundary",
+      "10-entity-candidates-Q04-practice",
       "10-entity-candidates-Q04-T01",
       "10-entity-candidates-Q04-T02",
       "10-entity-candidates-Q04-T03",
@@ -2033,7 +2112,8 @@
       "10-entity-candidates-Q04-mechanism",
       "10-entity-candidates-Q04-input",
       "10-entity-candidates-Q04-worked",
-      "10-entity-candidates-Q04-boundary"
+      "10-entity-candidates-Q04-boundary",
+      "10-entity-candidates-Q04-practice"
     ],
     "outcome": "Перечень кандидатов содержит причину включения или исключения.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2061,6 +2141,7 @@
       "11-project-glossary-Q01-input",
       "11-project-glossary-Q01-worked",
       "11-project-glossary-Q01-boundary",
+      "11-project-glossary-Q01-practice",
       "11-project-glossary-Q01-T01",
       "11-project-glossary-Q01-T02",
       "11-project-glossary-Q01-T03",
@@ -2084,7 +2165,8 @@
       "11-project-glossary-Q01-mechanism",
       "11-project-glossary-Q01-input",
       "11-project-glossary-Q01-worked",
-      "11-project-glossary-Q01-boundary"
+      "11-project-glossary-Q01-boundary",
+      "11-project-glossary-Q01-practice"
     ],
     "outcome": "Определение позволяет отнести пример к нужному понятию.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2112,6 +2194,7 @@
       "11-project-glossary-Q02-input",
       "11-project-glossary-Q02-worked",
       "11-project-glossary-Q02-boundary",
+      "11-project-glossary-Q02-practice",
       "11-project-glossary-Q02-T01",
       "11-project-glossary-Q02-T02",
       "11-project-glossary-Q02-T03",
@@ -2135,7 +2218,8 @@
       "11-project-glossary-Q02-mechanism",
       "11-project-glossary-Q02-input",
       "11-project-glossary-Q02-worked",
-      "11-project-glossary-Q02-boundary"
+      "11-project-glossary-Q02-boundary",
+      "11-project-glossary-Q02-practice"
     ],
     "outcome": "Глоссарий уменьшает неоднозначность модели и интерфейса.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2163,6 +2247,7 @@
       "11-project-glossary-Q03-input",
       "11-project-glossary-Q03-worked",
       "11-project-glossary-Q03-boundary",
+      "11-project-glossary-Q03-practice",
       "11-project-glossary-Q03-T01",
       "11-project-glossary-Q03-T02",
       "11-project-glossary-Q03-T03",
@@ -2186,7 +2271,8 @@
       "11-project-glossary-Q03-mechanism",
       "11-project-glossary-Q03-input",
       "11-project-glossary-Q03-worked",
-      "11-project-glossary-Q03-boundary"
+      "11-project-glossary-Q03-boundary",
+      "11-project-glossary-Q03-practice"
     ],
     "outcome": "Определение опирается на доступное свидетельство.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2214,6 +2300,7 @@
       "11-project-glossary-Q04-input",
       "11-project-glossary-Q04-worked",
       "11-project-glossary-Q04-boundary",
+      "11-project-glossary-Q04-practice",
       "11-project-glossary-Q04-T01",
       "11-project-glossary-Q04-T02",
       "11-project-glossary-Q04-T03",
@@ -2237,7 +2324,8 @@
       "11-project-glossary-Q04-mechanism",
       "11-project-glossary-Q04-input",
       "11-project-glossary-Q04-worked",
-      "11-project-glossary-Q04-boundary"
+      "11-project-glossary-Q04-boundary",
+      "11-project-glossary-Q04-practice"
     ],
     "outcome": "История терминов объясняет изменение модели.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2265,6 +2353,7 @@
       "12-business-rules-Q01-input",
       "12-business-rules-Q01-worked",
       "12-business-rules-Q01-boundary",
+      "12-business-rules-Q01-practice",
       "12-business-rules-Q01-T01",
       "12-business-rules-Q01-T02",
       "12-business-rules-Q01-T03",
@@ -2288,7 +2377,8 @@
       "12-business-rules-Q01-mechanism",
       "12-business-rules-Q01-input",
       "12-business-rules-Q01-worked",
-      "12-business-rules-Q01-boundary"
+      "12-business-rules-Q01-boundary",
+      "12-business-rules-Q01-practice"
     ],
     "outcome": "Правило не зависит от названия кнопки и технологии.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2316,6 +2406,7 @@
       "12-business-rules-Q02-input",
       "12-business-rules-Q02-worked",
       "12-business-rules-Q02-boundary",
+      "12-business-rules-Q02-practice",
       "12-business-rules-Q02-T01",
       "12-business-rules-Q02-T02",
       "12-business-rules-Q02-T03",
@@ -2339,7 +2430,8 @@
       "12-business-rules-Q02-mechanism",
       "12-business-rules-Q02-input",
       "12-business-rules-Q02-worked",
-      "12-business-rules-Q02-boundary"
+      "12-business-rules-Q02-boundary",
+      "12-business-rules-Q02-practice"
     ],
     "outcome": "Исключение не превращается в свободный обход запрета.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2367,6 +2459,7 @@
       "12-business-rules-Q03-input",
       "12-business-rules-Q03-worked",
       "12-business-rules-Q03-boundary",
+      "12-business-rules-Q03-practice",
       "12-business-rules-Q03-T01",
       "12-business-rules-Q03-T02",
       "12-business-rules-Q03-T03",
@@ -2390,7 +2483,8 @@
       "12-business-rules-Q03-mechanism",
       "12-business-rules-Q03-input",
       "12-business-rules-Q03-worked",
-      "12-business-rules-Q03-boundary"
+      "12-business-rules-Q03-boundary",
+      "12-business-rules-Q03-practice"
     ],
     "outcome": "Пересечение правил имеет однозначный исход и владельца.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2418,6 +2512,7 @@
       "12-business-rules-Q04-input",
       "12-business-rules-Q04-worked",
       "12-business-rules-Q04-boundary",
+      "12-business-rules-Q04-practice",
       "12-business-rules-Q04-T01",
       "12-business-rules-Q04-T02",
       "12-business-rules-Q04-T03",
@@ -2441,7 +2536,8 @@
       "12-business-rules-Q04-mechanism",
       "12-business-rules-Q04-input",
       "12-business-rules-Q04-worked",
-      "12-business-rules-Q04-boundary"
+      "12-business-rules-Q04-boundary",
+      "12-business-rules-Q04-practice"
     ],
     "outcome": "Проверены четыре комбинации и момент проверки статуса.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2469,6 +2565,7 @@
       "13-attribute-composition-Q01-input",
       "13-attribute-composition-Q01-worked",
       "13-attribute-composition-Q01-boundary",
+      "13-attribute-composition-Q01-practice",
       "13-attribute-composition-Q01-T01",
       "13-attribute-composition-Q01-T02",
       "13-attribute-composition-Q01-T03",
@@ -2492,7 +2589,8 @@
       "13-attribute-composition-Q01-mechanism",
       "13-attribute-composition-Q01-input",
       "13-attribute-composition-Q01-worked",
-      "13-attribute-composition-Q01-boundary"
+      "13-attribute-composition-Q01-boundary",
+      "13-attribute-composition-Q01-practice"
     ],
     "outcome": "Пустое значение различается с ошибкой обязательного поля.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2520,6 +2618,7 @@
       "13-attribute-composition-Q02-input",
       "13-attribute-composition-Q02-worked",
       "13-attribute-composition-Q02-boundary",
+      "13-attribute-composition-Q02-practice",
       "13-attribute-composition-Q02-T01",
       "13-attribute-composition-Q02-T02",
       "13-attribute-composition-Q02-T03",
@@ -2543,7 +2642,8 @@
       "13-attribute-composition-Q02-mechanism",
       "13-attribute-composition-Q02-input",
       "13-attribute-composition-Q02-worked",
-      "13-attribute-composition-Q02-boundary"
+      "13-attribute-composition-Q02-boundary",
+      "13-attribute-composition-Q02-practice"
     ],
     "outcome": "Смысл кода сохранён, происхождение времени известно.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2571,6 +2671,7 @@
       "13-attribute-composition-Q03-input",
       "13-attribute-composition-Q03-worked",
       "13-attribute-composition-Q03-boundary",
+      "13-attribute-composition-Q03-practice",
       "13-attribute-composition-Q03-T01",
       "13-attribute-composition-Q03-T02",
       "13-attribute-composition-Q03-T03",
@@ -2594,7 +2695,8 @@
       "13-attribute-composition-Q03-mechanism",
       "13-attribute-composition-Q03-input",
       "13-attribute-composition-Q03-worked",
-      "13-attribute-composition-Q03-boundary"
+      "13-attribute-composition-Q03-boundary",
+      "13-attribute-composition-Q03-practice"
     ],
     "outcome": "Статус имеет правила перехода; значение не дублируется без основания.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2622,6 +2724,7 @@
       "13-attribute-composition-Q04-input",
       "13-attribute-composition-Q04-worked",
       "13-attribute-composition-Q04-boundary",
+      "13-attribute-composition-Q04-practice",
       "13-attribute-composition-Q04-T01",
       "13-attribute-composition-Q04-T02",
       "13-attribute-composition-Q04-T03",
@@ -2645,7 +2748,8 @@
       "13-attribute-composition-Q04-mechanism",
       "13-attribute-composition-Q04-input",
       "13-attribute-composition-Q04-worked",
-      "13-attribute-composition-Q04-boundary"
+      "13-attribute-composition-Q04-boundary",
+      "13-attribute-composition-Q04-practice"
     ],
     "outcome": "Вычисление воспроизводится из известных исходных значений.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2673,6 +2777,7 @@
       "14-data-history-Q01-input",
       "14-data-history-Q01-worked",
       "14-data-history-Q01-boundary",
+      "14-data-history-Q01-practice",
       "14-data-history-Q01-T01",
       "14-data-history-Q01-T02",
       "14-data-history-Q01-T03",
@@ -2696,7 +2801,8 @@
       "14-data-history-Q01-mechanism",
       "14-data-history-Q01-input",
       "14-data-history-Q01-worked",
-      "14-data-history-Q01-boundary"
+      "14-data-history-Q01-boundary",
+      "14-data-history-Q01-practice"
     ],
     "outcome": "Можно ответить, где партия сейчас и как она туда попала.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2724,6 +2830,7 @@
       "14-data-history-Q02-input",
       "14-data-history-Q02-worked",
       "14-data-history-Q02-boundary",
+      "14-data-history-Q02-practice",
       "14-data-history-Q02-T01",
       "14-data-history-Q02-T02",
       "14-data-history-Q02-T03",
@@ -2747,7 +2854,8 @@
       "14-data-history-Q02-mechanism",
       "14-data-history-Q02-input",
       "14-data-history-Q02-worked",
-      "14-data-history-Q02-boundary"
+      "14-data-history-Q02-boundary",
+      "14-data-history-Q02-practice"
     ],
     "outcome": "История поддерживает объяснение решения на нужную дату.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2775,6 +2883,7 @@
       "14-data-history-Q03-input",
       "14-data-history-Q03-worked",
       "14-data-history-Q03-boundary",
+      "14-data-history-Q03-practice",
       "14-data-history-Q03-T01",
       "14-data-history-Q03-T02",
       "14-data-history-Q03-T03",
@@ -2798,7 +2907,8 @@
       "14-data-history-Q03-mechanism",
       "14-data-history-Q03-input",
       "14-data-history-Q03-worked",
-      "14-data-history-Q03-boundary"
+      "14-data-history-Q03-boundary",
+      "14-data-history-Q03-practice"
     ],
     "outcome": "Старая сумма воспроизводится без обращения к текущей цене.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2826,6 +2936,7 @@
       "14-data-history-Q04-input",
       "14-data-history-Q04-worked",
       "14-data-history-Q04-boundary",
+      "14-data-history-Q04-practice",
       "14-data-history-Q04-T01",
       "14-data-history-Q04-T02",
       "14-data-history-Q04-T03",
@@ -2849,7 +2960,8 @@
       "14-data-history-Q04-mechanism",
       "14-data-history-Q04-input",
       "14-data-history-Q04-worked",
-      "14-data-history-Q04-boundary"
+      "14-data-history-Q04-boundary",
+      "14-data-history-Q04-practice"
     ],
     "outcome": "Сохраняются исходный факт, причина и результат корректировки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2877,6 +2989,7 @@
       "15-model-revision-Q01-input",
       "15-model-revision-Q01-worked",
       "15-model-revision-Q01-boundary",
+      "15-model-revision-Q01-practice",
       "15-model-revision-Q01-T01",
       "15-model-revision-Q01-T02",
       "15-model-revision-Q01-T03",
@@ -2900,7 +3013,8 @@
       "15-model-revision-Q01-mechanism",
       "15-model-revision-Q01-input",
       "15-model-revision-Q01-worked",
-      "15-model-revision-Q01-boundary"
+      "15-model-revision-Q01-boundary",
+      "15-model-revision-Q01-practice"
     ],
     "outcome": "Заключение относится к определённым версиям.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2928,6 +3042,7 @@
       "15-model-revision-Q02-input",
       "15-model-revision-Q02-worked",
       "15-model-revision-Q02-boundary",
+      "15-model-revision-Q02-practice",
       "15-model-revision-Q02-T01",
       "15-model-revision-Q02-T02",
       "15-model-revision-Q02-T03",
@@ -2951,7 +3066,8 @@
       "15-model-revision-Q02-mechanism",
       "15-model-revision-Q02-input",
       "15-model-revision-Q02-worked",
-      "15-model-revision-Q02-boundary"
+      "15-model-revision-Q02-boundary",
+      "15-model-revision-Q02-practice"
     ],
     "outcome": "Пробел имеет ID, основание и ожидаемое исправление.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -2979,6 +3095,7 @@
       "15-model-revision-Q03-input",
       "15-model-revision-Q03-worked",
       "15-model-revision-Q03-boundary",
+      "15-model-revision-Q03-practice",
       "15-model-revision-Q03-T01",
       "15-model-revision-Q03-T02",
       "15-model-revision-Q03-T03",
@@ -3002,7 +3119,8 @@
       "15-model-revision-Q03-mechanism",
       "15-model-revision-Q03-input",
       "15-model-revision-Q03-worked",
-      "15-model-revision-Q03-boundary"
+      "15-model-revision-Q03-boundary",
+      "15-model-revision-Q03-practice"
     ],
     "outcome": "Модель очищена от оформления и неопределённых оценок.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3030,6 +3148,7 @@
       "15-model-revision-Q04-input",
       "15-model-revision-Q04-worked",
       "15-model-revision-Q04-boundary",
+      "15-model-revision-Q04-practice",
       "15-model-revision-Q04-T01",
       "15-model-revision-Q04-T02",
       "15-model-revision-Q04-T03",
@@ -3053,7 +3172,8 @@
       "15-model-revision-Q04-mechanism",
       "15-model-revision-Q04-input",
       "15-model-revision-Q04-worked",
-      "15-model-revision-Q04-boundary"
+      "15-model-revision-Q04-boundary",
+      "15-model-revision-Q04-practice"
     ],
     "outcome": "Ревизия завершается конкретным перечнем действий, а не оценкой «плохо».",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3081,6 +3201,7 @@
       "16-decision-matrix-Q01-input",
       "16-decision-matrix-Q01-worked",
       "16-decision-matrix-Q01-boundary",
+      "16-decision-matrix-Q01-practice",
       "16-decision-matrix-Q01-T01",
       "16-decision-matrix-Q01-T02",
       "16-decision-matrix-Q01-T03",
@@ -3104,7 +3225,8 @@
       "16-decision-matrix-Q01-mechanism",
       "16-decision-matrix-Q01-input",
       "16-decision-matrix-Q01-worked",
-      "16-decision-matrix-Q01-boundary"
+      "16-decision-matrix-Q01-boundary",
+      "16-decision-matrix-Q01-practice"
     ],
     "outcome": "Недопустимый вариант не выигрывает за счёт красивых баллов.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3132,6 +3254,7 @@
       "16-decision-matrix-Q02-input",
       "16-decision-matrix-Q02-worked",
       "16-decision-matrix-Q02-boundary",
+      "16-decision-matrix-Q02-practice",
       "16-decision-matrix-Q02-T01",
       "16-decision-matrix-Q02-T02",
       "16-decision-matrix-Q02-T03",
@@ -3155,7 +3278,8 @@
       "16-decision-matrix-Q02-mechanism",
       "16-decision-matrix-Q02-input",
       "16-decision-matrix-Q02-worked",
-      "16-decision-matrix-Q02-boundary"
+      "16-decision-matrix-Q02-boundary",
+      "16-decision-matrix-Q02-practice"
     ],
     "outcome": "Вес отражает важность, шкала — качество; величины не смешаны.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3183,6 +3307,7 @@
       "16-decision-matrix-Q03-input",
       "16-decision-matrix-Q03-worked",
       "16-decision-matrix-Q03-boundary",
+      "16-decision-matrix-Q03-practice",
       "16-decision-matrix-Q03-T01",
       "16-decision-matrix-Q03-T02",
       "16-decision-matrix-Q03-T03",
@@ -3206,7 +3331,8 @@
       "16-decision-matrix-Q03-mechanism",
       "16-decision-matrix-Q03-input",
       "16-decision-matrix-Q03-worked",
-      "16-decision-matrix-Q03-boundary"
+      "16-decision-matrix-Q03-boundary",
+      "16-decision-matrix-Q03-practice"
     ],
     "outcome": "По согласованным весам A выше на 0,4 балла.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3234,6 +3360,7 @@
       "16-decision-matrix-Q04-input",
       "16-decision-matrix-Q04-worked",
       "16-decision-matrix-Q04-boundary",
+      "16-decision-matrix-Q04-practice",
       "16-decision-matrix-Q04-T01",
       "16-decision-matrix-Q04-T02",
       "16-decision-matrix-Q04-T03",
@@ -3257,7 +3384,8 @@
       "16-decision-matrix-Q04-mechanism",
       "16-decision-matrix-Q04-input",
       "16-decision-matrix-Q04-worked",
-      "16-decision-matrix-Q04-boundary"
+      "16-decision-matrix-Q04-boundary",
+      "16-decision-matrix-Q04-practice"
     ],
     "outcome": "Протокол показывает исходные оценки, веса и условие пересмотра.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3285,6 +3413,7 @@
       "17-adr-Q01-input",
       "17-adr-Q01-worked",
       "17-adr-Q01-boundary",
+      "17-adr-Q01-practice",
       "17-adr-Q01-T01",
       "17-adr-Q01-T02",
       "17-adr-Q01-T03",
@@ -3308,7 +3437,8 @@
       "17-adr-Q01-mechanism",
       "17-adr-Q01-input",
       "17-adr-Q01-worked",
-      "17-adr-Q01-boundary"
+      "17-adr-Q01-boundary",
+      "17-adr-Q01-practice"
     ],
     "outcome": "Заголовок и контекст объясняют, какую проблему решает запись.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3336,6 +3466,7 @@
       "17-adr-Q02-input",
       "17-adr-Q02-worked",
       "17-adr-Q02-boundary",
+      "17-adr-Q02-practice",
       "17-adr-Q02-T01",
       "17-adr-Q02-T02",
       "17-adr-Q02-T03",
@@ -3359,7 +3490,8 @@
       "17-adr-Q02-mechanism",
       "17-adr-Q02-input",
       "17-adr-Q02-worked",
-      "17-adr-Q02-boundary"
+      "17-adr-Q02-boundary",
+      "17-adr-Q02-practice"
     ],
     "outcome": "Читатель видит выбор, а не только название технологии.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3387,6 +3519,7 @@
       "17-adr-Q03-input",
       "17-adr-Q03-worked",
       "17-adr-Q03-boundary",
+      "17-adr-Q03-practice",
       "17-adr-Q03-T01",
       "17-adr-Q03-T02",
       "17-adr-Q03-T03",
@@ -3410,7 +3543,8 @@
       "17-adr-Q03-mechanism",
       "17-adr-Q03-input",
       "17-adr-Q03-worked",
-      "17-adr-Q03-boundary"
+      "17-adr-Q03-boundary",
+      "17-adr-Q03-practice"
     ],
     "outcome": "Преимущество и обязательства решения видны вместе.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3438,6 +3572,7 @@
       "17-adr-Q04-input",
       "17-adr-Q04-worked",
       "17-adr-Q04-boundary",
+      "17-adr-Q04-practice",
       "17-adr-Q04-T01",
       "17-adr-Q04-T02",
       "17-adr-Q04-T03",
@@ -3461,7 +3596,8 @@
       "17-adr-Q04-mechanism",
       "17-adr-Q04-input",
       "17-adr-Q04-worked",
-      "17-adr-Q04-boundary"
+      "17-adr-Q04-boundary",
+      "17-adr-Q04-practice"
     ],
     "outcome": "История объясняет прошлую реализацию и текущее решение.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3489,6 +3625,7 @@
       "18-nfr-impact-Q01-input",
       "18-nfr-impact-Q01-worked",
       "18-nfr-impact-Q01-boundary",
+      "18-nfr-impact-Q01-practice",
       "18-nfr-impact-Q01-T01",
       "18-nfr-impact-Q01-T02",
       "18-nfr-impact-Q01-T03",
@@ -3512,7 +3649,8 @@
       "18-nfr-impact-Q01-mechanism",
       "18-nfr-impact-Q01-input",
       "18-nfr-impact-Q01-worked",
-      "18-nfr-impact-Q01-boundary"
+      "18-nfr-impact-Q01-boundary",
+      "18-nfr-impact-Q01-practice"
     ],
     "outcome": "Нагрузочный профиль описывает данные и активность, а не одно число пользователей.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3540,6 +3678,7 @@
       "18-nfr-impact-Q02-input",
       "18-nfr-impact-Q02-worked",
       "18-nfr-impact-Q02-boundary",
+      "18-nfr-impact-Q02-practice",
       "18-nfr-impact-Q02-T01",
       "18-nfr-impact-Q02-T02",
       "18-nfr-impact-Q02-T03",
@@ -3563,7 +3702,8 @@
       "18-nfr-impact-Q02-mechanism",
       "18-nfr-impact-Q02-input",
       "18-nfr-impact-Q02-worked",
-      "18-nfr-impact-Q02-boundary"
+      "18-nfr-impact-Q02-boundary",
+      "18-nfr-impact-Q02-practice"
     ],
     "outcome": "Режим 24×7 не принят за обещание абсолютного отсутствия отказов.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3591,6 +3731,7 @@
       "18-nfr-impact-Q03-input",
       "18-nfr-impact-Q03-worked",
       "18-nfr-impact-Q03-boundary",
+      "18-nfr-impact-Q03-practice",
       "18-nfr-impact-Q03-T01",
       "18-nfr-impact-Q03-T02",
       "18-nfr-impact-Q03-T03",
@@ -3614,7 +3755,8 @@
       "18-nfr-impact-Q03-mechanism",
       "18-nfr-impact-Q03-input",
       "18-nfr-impact-Q03-worked",
-      "18-nfr-impact-Q03-boundary"
+      "18-nfr-impact-Q03-boundary",
+      "18-nfr-impact-Q03-practice"
     ],
     "outcome": "Ускорение не отменяет проверку актуальных полномочий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3642,6 +3784,7 @@
       "18-nfr-impact-Q04-input",
       "18-nfr-impact-Q04-worked",
       "18-nfr-impact-Q04-boundary",
+      "18-nfr-impact-Q04-practice",
       "18-nfr-impact-Q04-T01",
       "18-nfr-impact-Q04-T02",
       "18-nfr-impact-Q04-T03",
@@ -3665,7 +3808,8 @@
       "18-nfr-impact-Q04-mechanism",
       "18-nfr-impact-Q04-input",
       "18-nfr-impact-Q04-worked",
-      "18-nfr-impact-Q04-boundary"
+      "18-nfr-impact-Q04-boundary",
+      "18-nfr-impact-Q04-practice"
     ],
     "outcome": "Компромисс зафиксирован вместе с целью аудита.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3693,6 +3837,7 @@
       "19-defense-Q01-input",
       "19-defense-Q01-worked",
       "19-defense-Q01-boundary",
+      "19-defense-Q01-practice",
       "19-defense-Q01-T01",
       "19-defense-Q01-T02",
       "19-defense-Q01-T03",
@@ -3716,7 +3861,8 @@
       "19-defense-Q01-mechanism",
       "19-defense-Q01-input",
       "19-defense-Q01-worked",
-      "19-defense-Q01-boundary"
+      "19-defense-Q01-boundary",
+      "19-defense-Q01-practice"
     ],
     "outcome": "Один смысл объяснён на языке двух аудиторий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3744,6 +3890,7 @@
       "19-defense-Q02-input",
       "19-defense-Q02-worked",
       "19-defense-Q02-boundary",
+      "19-defense-Q02-practice",
       "19-defense-Q02-T01",
       "19-defense-Q02-T02",
       "19-defense-Q02-T03",
@@ -3767,7 +3914,8 @@
       "19-defense-Q02-mechanism",
       "19-defense-Q02-input",
       "19-defense-Q02-worked",
-      "19-defense-Q02-boundary"
+      "19-defense-Q02-boundary",
+      "19-defense-Q02-practice"
     ],
     "outcome": "Аргумент опирается на факт и допустимые альтернативы.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3795,6 +3943,7 @@
       "19-defense-Q03-input",
       "19-defense-Q03-worked",
       "19-defense-Q03-boundary",
+      "19-defense-Q03-practice",
       "19-defense-Q03-T01",
       "19-defense-Q03-T02",
       "19-defense-Q03-T03",
@@ -3818,7 +3967,8 @@
       "19-defense-Q03-mechanism",
       "19-defense-Q03-input",
       "19-defense-Q03-worked",
-      "19-defense-Q03-boundary"
+      "19-defense-Q03-boundary",
+      "19-defense-Q03-practice"
     ],
     "outcome": "Защита включает цену решения и границы применения.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3846,6 +3996,7 @@
       "19-defense-Q04-input",
       "19-defense-Q04-worked",
       "19-defense-Q04-boundary",
+      "19-defense-Q04-practice",
       "19-defense-Q04-T01",
       "19-defense-Q04-T02",
       "19-defense-Q04-T03",
@@ -3869,7 +4020,8 @@
       "19-defense-Q04-mechanism",
       "19-defense-Q04-input",
       "19-defense-Q04-worked",
-      "19-defense-Q04-boundary"
+      "19-defense-Q04-boundary",
+      "19-defense-Q04-practice"
     ],
     "outcome": "Возражение проверено наблюдаемым поведением в учебной модели.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3897,6 +4049,7 @@
       "20-ux-goals-Q01-input",
       "20-ux-goals-Q01-worked",
       "20-ux-goals-Q01-boundary",
+      "20-ux-goals-Q01-practice",
       "20-ux-goals-Q01-T01",
       "20-ux-goals-Q01-T02",
       "20-ux-goals-Q01-T03",
@@ -3920,7 +4073,8 @@
       "20-ux-goals-Q01-mechanism",
       "20-ux-goals-Q01-input",
       "20-ux-goals-Q01-worked",
-      "20-ux-goals-Q01-boundary"
+      "20-ux-goals-Q01-boundary",
+      "20-ux-goals-Q01-practice"
     ],
     "outcome": "Задачи интерфейса связаны с завершённым результатом пользователя.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3948,6 +4102,7 @@
       "20-ux-goals-Q02-input",
       "20-ux-goals-Q02-worked",
       "20-ux-goals-Q02-boundary",
+      "20-ux-goals-Q02-practice",
       "20-ux-goals-Q02-T01",
       "20-ux-goals-Q02-T02",
       "20-ux-goals-Q02-T03",
@@ -3971,7 +4126,8 @@
       "20-ux-goals-Q02-mechanism",
       "20-ux-goals-Q02-input",
       "20-ux-goals-Q02-worked",
-      "20-ux-goals-Q02-boundary"
+      "20-ux-goals-Q02-boundary",
+      "20-ux-goals-Q02-practice"
     ],
     "outcome": "Пользователь понимает следующий шаг без повторного ввода всего документа.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -3999,6 +4155,7 @@
       "20-ux-goals-Q03-input",
       "20-ux-goals-Q03-worked",
       "20-ux-goals-Q03-boundary",
+      "20-ux-goals-Q03-practice",
       "20-ux-goals-Q03-T01",
       "20-ux-goals-Q03-T02",
       "20-ux-goals-Q03-T03",
@@ -4022,7 +4179,8 @@
       "20-ux-goals-Q03-mechanism",
       "20-ux-goals-Q03-input",
       "20-ux-goals-Q03-worked",
-      "20-ux-goals-Q03-boundary"
+      "20-ux-goals-Q03-boundary",
+      "20-ux-goals-Q03-practice"
     ],
     "outcome": "Частота и цена ошибки влияют на разные решения интерфейса.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4050,6 +4208,7 @@
       "20-ux-goals-Q04-input",
       "20-ux-goals-Q04-worked",
       "20-ux-goals-Q04-boundary",
+      "20-ux-goals-Q04-practice",
       "20-ux-goals-Q04-T01",
       "20-ux-goals-Q04-T02",
       "20-ux-goals-Q04-T03",
@@ -4073,7 +4232,8 @@
       "20-ux-goals-Q04-mechanism",
       "20-ux-goals-Q04-input",
       "20-ux-goals-Q04-worked",
-      "20-ux-goals-Q04-boundary"
+      "20-ux-goals-Q04-boundary",
+      "20-ux-goals-Q04-practice"
     ],
     "outcome": "Критерий успеха относится к бизнес-результату и понятному статусу.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4101,6 +4261,7 @@
       "21-information-architecture-Q01-input",
       "21-information-architecture-Q01-worked",
       "21-information-architecture-Q01-boundary",
+      "21-information-architecture-Q01-practice",
       "21-information-architecture-Q01-T01",
       "21-information-architecture-Q01-T02",
       "21-information-architecture-Q01-T03",
@@ -4124,7 +4285,8 @@
       "21-information-architecture-Q01-mechanism",
       "21-information-architecture-Q01-input",
       "21-information-architecture-Q01-worked",
-      "21-information-architecture-Q01-boundary"
+      "21-information-architecture-Q01-boundary",
+      "21-information-architecture-Q01-practice"
     ],
     "outcome": "Навигация отражает ожидаемый способ поиска действия.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4152,6 +4314,7 @@
       "21-information-architecture-Q02-input",
       "21-information-architecture-Q02-worked",
       "21-information-architecture-Q02-boundary",
+      "21-information-architecture-Q02-practice",
       "21-information-architecture-Q02-T01",
       "21-information-architecture-Q02-T02",
       "21-information-architecture-Q02-T03",
@@ -4175,7 +4338,8 @@
       "21-information-architecture-Q02-mechanism",
       "21-information-architecture-Q02-input",
       "21-information-architecture-Q02-worked",
-      "21-information-architecture-Q02-boundary"
+      "21-information-architecture-Q02-boundary",
+      "21-information-architecture-Q02-practice"
     ],
     "outcome": "Иерархия показывает приоритет без удаления функций.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4203,6 +4367,7 @@
       "21-information-architecture-Q03-input",
       "21-information-architecture-Q03-worked",
       "21-information-architecture-Q03-boundary",
+      "21-information-architecture-Q03-practice",
       "21-information-architecture-Q03-T01",
       "21-information-architecture-Q03-T02",
       "21-information-architecture-Q03-T03",
@@ -4226,7 +4391,8 @@
       "21-information-architecture-Q03-mechanism",
       "21-information-architecture-Q03-input",
       "21-information-architecture-Q03-worked",
-      "21-information-architecture-Q03-boundary"
+      "21-information-architecture-Q03-boundary",
+      "21-information-architecture-Q03-practice"
     ],
     "outcome": "Переход сохраняет понятный контекст и путь назад.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4254,6 +4420,7 @@
       "21-information-architecture-Q04-input",
       "21-information-architecture-Q04-worked",
       "21-information-architecture-Q04-boundary",
+      "21-information-architecture-Q04-practice",
       "21-information-architecture-Q04-T01",
       "21-information-architecture-Q04-T02",
       "21-information-architecture-Q04-T03",
@@ -4277,7 +4444,8 @@
       "21-information-architecture-Q04-mechanism",
       "21-information-architecture-Q04-input",
       "21-information-architecture-Q04-worked",
-      "21-information-architecture-Q04-boundary"
+      "21-information-architecture-Q04-boundary",
+      "21-information-architecture-Q04-practice"
     ],
     "outcome": "Рабочее место ускоряет поиск нужных данных в разрешённых границах.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4305,6 +4473,7 @@
       "22-wireframe-prototype-Q01-input",
       "22-wireframe-prototype-Q01-worked",
       "22-wireframe-prototype-Q01-boundary",
+      "22-wireframe-prototype-Q01-practice",
       "22-wireframe-prototype-Q01-T01",
       "22-wireframe-prototype-Q01-T02",
       "22-wireframe-prototype-Q01-T03",
@@ -4328,7 +4497,8 @@
       "22-wireframe-prototype-Q01-mechanism",
       "22-wireframe-prototype-Q01-input",
       "22-wireframe-prototype-Q01-worked",
-      "22-wireframe-prototype-Q01-boundary"
+      "22-wireframe-prototype-Q01-boundary",
+      "22-wireframe-prototype-Q01-practice"
     ],
     "outcome": "Результат теста относится к маршруту, а не к предпочтению цвета.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4356,6 +4526,7 @@
       "22-wireframe-prototype-Q02-input",
       "22-wireframe-prototype-Q02-worked",
       "22-wireframe-prototype-Q02-boundary",
+      "22-wireframe-prototype-Q02-practice",
       "22-wireframe-prototype-Q02-T01",
       "22-wireframe-prototype-Q02-T02",
       "22-wireframe-prototype-Q02-T03",
@@ -4379,7 +4550,8 @@
       "22-wireframe-prototype-Q02-mechanism",
       "22-wireframe-prototype-Q02-input",
       "22-wireframe-prototype-Q02-worked",
-      "22-wireframe-prototype-Q02-boundary"
+      "22-wireframe-prototype-Q02-boundary",
+      "22-wireframe-prototype-Q02-practice"
     ],
     "outcome": "Детализация отвечает текущему вопросу проверки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4407,6 +4579,7 @@
       "22-wireframe-prototype-Q03-input",
       "22-wireframe-prototype-Q03-worked",
       "22-wireframe-prototype-Q03-boundary",
+      "22-wireframe-prototype-Q03-practice",
       "22-wireframe-prototype-Q03-T01",
       "22-wireframe-prototype-Q03-T02",
       "22-wireframe-prototype-Q03-T03",
@@ -4430,7 +4603,8 @@
       "22-wireframe-prototype-Q03-mechanism",
       "22-wireframe-prototype-Q03-input",
       "22-wireframe-prototype-Q03-worked",
-      "22-wireframe-prototype-Q03-boundary"
+      "22-wireframe-prototype-Q03-boundary",
+      "22-wireframe-prototype-Q03-practice"
     ],
     "outcome": "Прототип выявляет переносы текста и возможность восстановления сценария.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4458,6 +4632,7 @@
       "22-wireframe-prototype-Q04-input",
       "22-wireframe-prototype-Q04-worked",
       "22-wireframe-prototype-Q04-boundary",
+      "22-wireframe-prototype-Q04-practice",
       "22-wireframe-prototype-Q04-T01",
       "22-wireframe-prototype-Q04-T02",
       "22-wireframe-prototype-Q04-T03",
@@ -4481,7 +4656,8 @@
       "22-wireframe-prototype-Q04-mechanism",
       "22-wireframe-prototype-Q04-input",
       "22-wireframe-prototype-Q04-worked",
-      "22-wireframe-prototype-Q04-boundary"
+      "22-wireframe-prototype-Q04-boundary",
+      "22-wireframe-prototype-Q04-practice"
     ],
     "outcome": "Разработчик получает проверяемый контракт, а не набор картинок.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4509,6 +4685,7 @@
       "23-forms-validation-states-Q01-input",
       "23-forms-validation-states-Q01-worked",
       "23-forms-validation-states-Q01-boundary",
+      "23-forms-validation-states-Q01-practice",
       "23-forms-validation-states-Q01-T01",
       "23-forms-validation-states-Q01-T02",
       "23-forms-validation-states-Q01-T03",
@@ -4532,7 +4709,8 @@
       "23-forms-validation-states-Q01-mechanism",
       "23-forms-validation-states-Q01-input",
       "23-forms-validation-states-Q01-worked",
-      "23-forms-validation-states-Q01-boundary"
+      "23-forms-validation-states-Q01-boundary",
+      "23-forms-validation-states-Q01-practice"
     ],
     "outcome": "Пользователь понимает, что введено и что требуется.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4560,6 +4738,7 @@
       "23-forms-validation-states-Q02-input",
       "23-forms-validation-states-Q02-worked",
       "23-forms-validation-states-Q02-boundary",
+      "23-forms-validation-states-Q02-practice",
       "23-forms-validation-states-Q02-T01",
       "23-forms-validation-states-Q02-T02",
       "23-forms-validation-states-Q02-T03",
@@ -4583,7 +4762,8 @@
       "23-forms-validation-states-Q02-mechanism",
       "23-forms-validation-states-Q02-input",
       "23-forms-validation-states-Q02-worked",
-      "23-forms-validation-states-Q02-boundary"
+      "23-forms-validation-states-Q02-boundary",
+      "23-forms-validation-states-Q02-practice"
     ],
     "outcome": "Формат не подменяет бизнес-валидность.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4611,6 +4791,7 @@
       "23-forms-validation-states-Q03-input",
       "23-forms-validation-states-Q03-worked",
       "23-forms-validation-states-Q03-boundary",
+      "23-forms-validation-states-Q03-practice",
       "23-forms-validation-states-Q03-T01",
       "23-forms-validation-states-Q03-T02",
       "23-forms-validation-states-Q03-T03",
@@ -4634,7 +4815,8 @@
       "23-forms-validation-states-Q03-mechanism",
       "23-forms-validation-states-Q03-input",
       "23-forms-validation-states-Q03-worked",
-      "23-forms-validation-states-Q03-boundary"
+      "23-forms-validation-states-Q03-boundary",
+      "23-forms-validation-states-Q03-practice"
     ],
     "outcome": "Пользователь не принимает сбой за отсутствие данных.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4662,6 +4844,7 @@
       "23-forms-validation-states-Q04-input",
       "23-forms-validation-states-Q04-worked",
       "23-forms-validation-states-Q04-boundary",
+      "23-forms-validation-states-Q04-practice",
       "23-forms-validation-states-Q04-T01",
       "23-forms-validation-states-Q04-T02",
       "23-forms-validation-states-Q04-T03",
@@ -4685,7 +4868,8 @@
       "23-forms-validation-states-Q04-mechanism",
       "23-forms-validation-states-Q04-input",
       "23-forms-validation-states-Q04-worked",
-      "23-forms-validation-states-Q04-boundary"
+      "23-forms-validation-states-Q04-boundary",
+      "23-forms-validation-states-Q04-practice"
     ],
     "outcome": "Успех подтверждается серверным результатом, введённые данные сохраняются при восстановлении.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4713,6 +4897,7 @@
       "24-design-system-accessibility-Q01-input",
       "24-design-system-accessibility-Q01-worked",
       "24-design-system-accessibility-Q01-boundary",
+      "24-design-system-accessibility-Q01-practice",
       "24-design-system-accessibility-Q01-T01",
       "24-design-system-accessibility-Q01-T02",
       "24-design-system-accessibility-Q01-T03",
@@ -4736,7 +4921,8 @@
       "24-design-system-accessibility-Q01-mechanism",
       "24-design-system-accessibility-Q01-input",
       "24-design-system-accessibility-Q01-worked",
-      "24-design-system-accessibility-Q01-boundary"
+      "24-design-system-accessibility-Q01-boundary",
+      "24-design-system-accessibility-Q01-practice"
     ],
     "outcome": "Основные данные различимы без случайного увеличения всех надписей.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4764,6 +4950,7 @@
       "24-design-system-accessibility-Q02-input",
       "24-design-system-accessibility-Q02-worked",
       "24-design-system-accessibility-Q02-boundary",
+      "24-design-system-accessibility-Q02-practice",
       "24-design-system-accessibility-Q02-T01",
       "24-design-system-accessibility-Q02-T02",
       "24-design-system-accessibility-Q02-T03",
@@ -4787,7 +4974,8 @@
       "24-design-system-accessibility-Q02-mechanism",
       "24-design-system-accessibility-Q02-input",
       "24-design-system-accessibility-Q02-worked",
-      "24-design-system-accessibility-Q02-boundary"
+      "24-design-system-accessibility-Q02-boundary",
+      "24-design-system-accessibility-Q02-practice"
     ],
     "outcome": "Изменение решения распространяется согласованно.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4815,6 +5003,7 @@
       "24-design-system-accessibility-Q03-input",
       "24-design-system-accessibility-Q03-worked",
       "24-design-system-accessibility-Q03-boundary",
+      "24-design-system-accessibility-Q03-practice",
       "24-design-system-accessibility-Q03-T01",
       "24-design-system-accessibility-Q03-T02",
       "24-design-system-accessibility-Q03-T03",
@@ -4838,7 +5027,8 @@
       "24-design-system-accessibility-Q03-mechanism",
       "24-design-system-accessibility-Q03-input",
       "24-design-system-accessibility-Q03-worked",
-      "24-design-system-accessibility-Q03-boundary"
+      "24-design-system-accessibility-Q03-boundary",
+      "24-design-system-accessibility-Q03-practice"
     ],
     "outcome": "Пользователь понимает ожидание и отказ без различения оттенков.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4866,6 +5056,7 @@
       "24-design-system-accessibility-Q04-input",
       "24-design-system-accessibility-Q04-worked",
       "24-design-system-accessibility-Q04-boundary",
+      "24-design-system-accessibility-Q04-practice",
       "24-design-system-accessibility-Q04-T01",
       "24-design-system-accessibility-Q04-T02",
       "24-design-system-accessibility-Q04-T03",
@@ -4889,7 +5080,8 @@
       "24-design-system-accessibility-Q04-mechanism",
       "24-design-system-accessibility-Q04-input",
       "24-design-system-accessibility-Q04-worked",
-      "24-design-system-accessibility-Q04-boundary"
+      "24-design-system-accessibility-Q04-boundary",
+      "24-design-system-accessibility-Q04-practice"
     ],
     "outcome": "Операция выполнима клавиатурой и понятна без изображения сканера.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4917,6 +5109,7 @@
       "25-rbac-Q01-input",
       "25-rbac-Q01-worked",
       "25-rbac-Q01-boundary",
+      "25-rbac-Q01-practice",
       "25-rbac-Q01-T01",
       "25-rbac-Q01-T02",
       "25-rbac-Q01-T03",
@@ -4940,7 +5133,8 @@
       "25-rbac-Q01-mechanism",
       "25-rbac-Q01-input",
       "25-rbac-Q01-worked",
-      "25-rbac-Q01-boundary"
+      "25-rbac-Q01-boundary",
+      "25-rbac-Q01-practice"
     ],
     "outcome": "Право можно описать через роль и объект.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -4968,6 +5162,7 @@
       "25-rbac-Q02-input",
       "25-rbac-Q02-worked",
       "25-rbac-Q02-boundary",
+      "25-rbac-Q02-practice",
       "25-rbac-Q02-T01",
       "25-rbac-Q02-T02",
       "25-rbac-Q02-T03",
@@ -4991,7 +5186,8 @@
       "25-rbac-Q02-mechanism",
       "25-rbac-Q02-input",
       "25-rbac-Q02-worked",
-      "25-rbac-Q02-boundary"
+      "25-rbac-Q02-boundary",
+      "25-rbac-Q02-practice"
     ],
     "outcome": "Одно название операции получает разные границы данных.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5019,6 +5215,7 @@
       "25-rbac-Q03-input",
       "25-rbac-Q03-worked",
       "25-rbac-Q03-boundary",
+      "25-rbac-Q03-practice",
       "25-rbac-Q03-T01",
       "25-rbac-Q03-T02",
       "25-rbac-Q03-T03",
@@ -5042,7 +5239,8 @@
       "25-rbac-Q03-mechanism",
       "25-rbac-Q03-input",
       "25-rbac-Q03-worked",
-      "25-rbac-Q03-boundary"
+      "25-rbac-Q03-boundary",
+      "25-rbac-Q03-practice"
     ],
     "outcome": "Минимальный набор позволяет работать и снижает лишние полномочия.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5070,6 +5268,7 @@
       "25-rbac-Q04-input",
       "25-rbac-Q04-worked",
       "25-rbac-Q04-boundary",
+      "25-rbac-Q04-practice",
       "25-rbac-Q04-T01",
       "25-rbac-Q04-T02",
       "25-rbac-Q04-T03",
@@ -5093,7 +5292,8 @@
       "25-rbac-Q04-mechanism",
       "25-rbac-Q04-input",
       "25-rbac-Q04-worked",
-      "25-rbac-Q04-boundary"
+      "25-rbac-Q04-boundary",
+      "25-rbac-Q04-practice"
     ],
     "outcome": "Негативный тест отклоняет действие без изменения данных.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5121,6 +5321,7 @@
       "26-auth-lockout-Q01-input",
       "26-auth-lockout-Q01-worked",
       "26-auth-lockout-Q01-boundary",
+      "26-auth-lockout-Q01-practice",
       "26-auth-lockout-Q01-T01",
       "26-auth-lockout-Q01-T02",
       "26-auth-lockout-Q01-T03",
@@ -5144,7 +5345,8 @@
       "26-auth-lockout-Q01-mechanism",
       "26-auth-lockout-Q01-input",
       "26-auth-lockout-Q01-worked",
-      "26-auth-lockout-Q01-boundary"
+      "26-auth-lockout-Q01-boundary",
+      "26-auth-lockout-Q01-practice"
     ],
     "outcome": "Название аккаунта не принято за доказательство личности.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5172,6 +5374,7 @@
       "26-auth-lockout-Q02-input",
       "26-auth-lockout-Q02-worked",
       "26-auth-lockout-Q02-boundary",
+      "26-auth-lockout-Q02-practice",
       "26-auth-lockout-Q02-T01",
       "26-auth-lockout-Q02-T02",
       "26-auth-lockout-Q02-T03",
@@ -5195,7 +5398,8 @@
       "26-auth-lockout-Q02-mechanism",
       "26-auth-lockout-Q02-input",
       "26-auth-lockout-Q02-worked",
-      "26-auth-lockout-Q02-boundary"
+      "26-auth-lockout-Q02-boundary",
+      "26-auth-lockout-Q02-practice"
     ],
     "outcome": "Смена устройства не обнуляет учёт событий.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5223,6 +5427,7 @@
       "26-auth-lockout-Q03-input",
       "26-auth-lockout-Q03-worked",
       "26-auth-lockout-Q03-boundary",
+      "26-auth-lockout-Q03-practice",
       "26-auth-lockout-Q03-T01",
       "26-auth-lockout-Q03-T02",
       "26-auth-lockout-Q03-T03",
@@ -5246,7 +5451,8 @@
       "26-auth-lockout-Q03-mechanism",
       "26-auth-lockout-Q03-input",
       "26-auth-lockout-Q03-worked",
-      "26-auth-lockout-Q03-boundary"
+      "26-auth-lockout-Q03-boundary",
+      "26-auth-lockout-Q03-practice"
     ],
     "outcome": "Возвращение доступа имеет автора, время и причину.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
@@ -5274,6 +5480,7 @@
       "26-auth-lockout-Q04-input",
       "26-auth-lockout-Q04-worked",
       "26-auth-lockout-Q04-boundary",
+      "26-auth-lockout-Q04-practice",
       "26-auth-lockout-Q04-T01",
       "26-auth-lockout-Q04-T02",
       "26-auth-lockout-Q04-T03",
@@ -5297,7 +5504,8 @@
       "26-auth-lockout-Q04-mechanism",
       "26-auth-lockout-Q04-input",
       "26-auth-lockout-Q04-worked",
-      "26-auth-lockout-Q04-boundary"
+      "26-auth-lockout-Q04-boundary",
+      "26-auth-lockout-Q04-practice"
     ],
     "outcome": "Дополнительная мера не оставляет законного пользователя без следующего шага.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",

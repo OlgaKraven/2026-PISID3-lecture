@@ -1,0 +1,167 @@
+{
+  "version": "pisid3-2026.10.25",
+  "mode": "show",
+  "lectures": [
+    {
+      "id": "01-project-decisions",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "02-roles-views",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "03-artifact-map",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "04-requirement-sources",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "05-interview-technique",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "06-requirement-classes",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "07-requirement-quality",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "10-entity-candidates",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "11-project-glossary",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "12-business-rules",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "13-attribute-composition",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "14-data-history",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "15-model-revision",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "16-decision-matrix",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "17-adr",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "18-nfr-impact",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "19-defense",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "20-ux-goals",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "21-information-architecture",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "23-forms-validation-states",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "slides": 88,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "25-rbac",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "26-auth-lockout",
+      "slides": 89,
+      "issues": [],
+      "notesRequested": false
+    }
+  ],
+  "cases": [],
+  "tasks": [],
+  "errors": [],
+  "layout": [],
+  "status": "passed"
+}

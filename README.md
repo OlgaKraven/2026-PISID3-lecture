@@ -1,57 +1,33 @@
 # ПиДИС · 3 курс
 
-26 лекций МДК.05.01 «Проектирование и дизайн информационных систем», 5–6 семестры. Учебный кейс — WMS. 2 195 слайдов, 208 понятий, 104 вопроса, 416 заданий, 572 схемы (338 предметных и сравнительных, 234 пошаговых), 208 интерактивных разборов и 26 лабораторий. Редакция: `pisid3-2026.10.13-teaching-v5`.
+## 5 семестр
 
-## Запуск
+- [Что такое проектирование ИС и чем оно не является](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=01-project-decisions)
+- [Роли и точки зрения на систему](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=02-roles-views)
+- [Карта артефактов проекта и зависимости между ними](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=03-artifact-map)
+- [Источники требований и чтение выгрузки заказчика](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=04-requirement-sources)
+- [Техника интервью и протокол встречи](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=05-interview-technique)
+- [Классификация требований: функции, качества, ограничения и правила](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=06-requirement-classes)
+- [Атомарность, проверяемость и недвусмысленность требования](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=07-requirement-quality)
+- [User story и критерии приёмки](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=08-user-story-acceptance)
+- [Допущения, открытые вопросы и трассируемость](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=09-assumptions-traceability)
+- [От документов заказчика к перечню сущностей](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=10-entity-candidates)
+- [Глоссарий проекта и цена разночтений](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=11-project-glossary)
+- [Бизнес-правила предметной области](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=12-business-rules)
+- [Атрибутный состав сущности](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=13-attribute-composition)
+- [Историчность данных и изменяемые значения](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=14-data-history)
+- [Ревизия модели по документам заказчика](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=15-model-revision)
+- [Варианты решения и взвешенная матрица выбора](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=16-decision-matrix)
+- [Запись проектного решения ADR](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=17-adr)
+- [Как нефункциональные требования меняют решение](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=18-nfr-impact)
+- [Защита проектного решения перед заказчиком](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=19-defense)
 
-Node.js 24. Из корня проекта:
+## 6 семестр
 
-```sh
-npm ci
-npm run build
-npm run preview -- --port 4176
-```
-
-Открыть <http://127.0.0.1:4176/2026-PISID3-lecture/>. Разработка: `npm run dev`. `BASE_PATH` задаёт путь размещения. Через `file://` сайт не запускается.
-
-## Управление
-
-Кнопка **«Тур по кнопкам»** находится поверх каталога и скрывается в презентации. Прямой запуск: `?tour=1`. Escape закрывает подсказки. Перелистывание: стрелки под слайдом, ←/→, PageUp/PageDown, Home/End; свайп влево открывает следующий слайд, вправо — предыдущий. Поля и диалоги сохраняют собственное управление.
-
-В каталоге у каждой темы есть **«Открыть эксперимент»**; в лекции и панели преподавателя — **«Эксперимент»**. На вводном слайде нажмите **«Начать эксперимент»**, затем **«Развернуть эксперимент»** для большого рабочего поля. Изменяйте условия, наблюдайте анимацию и сохраняйте результаты запусков для сравнения. Есть исходный набор, изменённое условие и проверка границы.
-
-Вход и редактор курса исключены из интерфейса и сборки. Убраны кнопки повтора и отключения анимации, «Изучено», «Повторить», «Закладка» и текст «Вперёд». Стрелки сохраняют доступные подписи. Режим двух окон сохранён: параметры, результаты, развёрнутая лаборатория и ход анимации синхронизируются с аудиторией. Анимация запускается при изменении условия или действии и учитывает системное уменьшение движения.
-
-В заданиях с несколькими ответами 6–8 вариантов, из которых правильны 2, 3 или 4. В соответствии 6–8 пар: можно выбирать ответ, менять порядок и перемешивать оба списка. Второй экран показывает полные тексты выбранных пар и получает изменения порядка и прокрутки. Новая попытка меняет порядок вариантов.
-
-## Авторские источники
-
-[Гайд автора](public/project-guide.html) · [Справка преподавателя](public/guide.html) · [Аудит текущей редакции](docs/EDITORIAL_REVIEW.md)
-
-Определения: `authoring/original-course.json`; разборы: `authoring/worked-cases.mjs`; объяснения и дополнительные случаи: `authoring/teaching-guidance.mjs`, `authoring/expanded-blocks.mjs`; схемы: `authoring/case-visuals.mjs`. Лаборатории: `authoring/experiments.json`, `authoring/laboratory-config.mjs` и `authoring/experiment-visuals.mjs`. Генератор `scripts/generate-content.mjs` обновляет курс, задания, лаборатории и заметки одновременно. Индивидуальные заметки: `authoring/teacher-overrides.json`. Старые ссылки: `authoring/slide-aliases.json`.
-
-В каждой лекции 84–85 слайдов: исходные знания, объяснение подхода, смысл и границы восьми понятий, пошаговые примеры, четыре полных случая, дополнительный независимый случай и лаборатория с разбором. Заметки содержат ход объяснения, вопросы группе, ожидаемые ответы и типичные ошибки, чтобы тему мог вести начинающий преподаватель. 624 ссылки на ранее объединённые слайды сохранены. Повтор не удаляется, если он необходим для объяснения, самостоятельной попытки или переноса в новую ситуацию.
-
-Действующий интерфейс — `src`; исторические `app`, `components`, `hooks`, `lib` не входят в сборку. Движок закреплён архивом `vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz`: ограничение размеров заданий расширено до 4–10 вариантов и пар. Исходный архив 0.2.0 сохранён; `node scripts/prepare-engine.mjs` воспроизводит расширение, после него нужен `npm install` для согласования lock-файла. Адаптеры в `scripts/*-plugin.ts` проверяют сигнатуры движка и останавливают сборку при несовместимом обновлении.
-
-Полный сценарий `public/teacher-pack.json` публичен; все 2 195 заметок согласованы с текущими слайдами. Версия видна над заметками. Личные правки прежней редакции остаются в отдельном хранилище браузера и не перекрывают новый сценарий; экспортируйте их перед сменой версии. Окно аудитории не загружает сценарий. Эксперименты и их параметры являются учебными моделями; для печати используются статические схемы.
-
-## Проверки
-
-```sh
-npm run generate:content
-npm run check:generated
-npm run check:methodology
-npm run audit:content
-npm run check:readiness -- --strict --teacher=public/teacher-pack.json
-npm run test:notes
-npm run lint
-npm run build
-npm run check:privacy
-```
-
-При работающем preview: `npm run test:interactions`, `npm run test:tour`, `npm run test:smoke`, `npm run test:visuals`, `node scripts/check-startup-notes.mjs`, `node scripts/render-audit.mjs`, `node scripts/check-resources.mjs`. `SITE_URL` переопределяет адрес. Нужен Chromium Playwright либо Edge. Старый `scripts/audit-content.mjs` проверяет архив миграции.
-
-PDF: `npm run export:pdf`; одна лекция: `npm run export:pdf -- --topic 16-decision-matrix`. Результат — `outputs/pdf/student`.
-
-GitHub Actions публикует Pages после обновления main; пуш выполняется после утверждения предпросмотра. Офлайн-копия не включает внешние файлы Яндекс Диска. РПД и официальные часы не предоставлены; время сценария не является расписанием пары. [Источники и границы проверки](docs/SOURCE_AUDIT.md).
+- [Дизайн ИС: цели, задачи, сценарии и цена ошибки](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=20-ux-goals)
+- [Информационная архитектура и навигация](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=21-information-architecture)
+- [Wireframe и прототип: уровни детализации](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=22-wireframe-prototype)
+- [Формы, валидация, сообщения и состояния экрана](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=23-forms-validation-states)
+- [Дизайн-система проекта и основы доступности](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=24-design-system-accessibility)
+- [Ролевая модель и матрица прав доступа](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=25-rbac)
+- [Сценарий входа, блокировка и разблокировка](https://olgakraven.github.io/2026-PISID3-lecture/?lecture=26-auth-lockout)

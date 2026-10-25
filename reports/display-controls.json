@@ -1,0 +1,168 @@
+{
+  "version": "pisid3-2026.10.25",
+  "laboratories": [
+    {
+      "id": "01-project-decisions",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "02-roles-views",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "03-artifact-map",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "04-requirement-sources",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "05-interview-technique",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "06-requirement-classes",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "07-requirement-quality",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "10-entity-candidates",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "11-project-glossary",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "12-business-rules",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "13-attribute-composition",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "14-data-history",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "15-model-revision",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "16-decision-matrix",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "17-adr",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "18-nfr-impact",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "19-defense",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "20-ux-goals",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "21-information-architecture",
+      "dropdowns": 2,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "23-forms-validation-states",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "25-rbac",
+      "dropdowns": 4,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    },
+    {
+      "id": "26-auth-lockout",
+      "dropdowns": 1,
+      "expandedMirrored": true,
+      "trialMirrored": true
+    }
+  ],
+  "catalog": [
+    320,
+    390,
+    1024
+  ],
+  "errors": [],
+  "status": "passed"
+}

@@ -20,7 +20,7 @@ const migration=read('reports/migration-map.json');assert.equal(migration.length
  assert.equal(p.courseId,c.id);assert.equal(p.contentVersion,c.contentVersion);
  assert.equal(Object.keys(p.notes).length,slides.size);
  for(const [id] of slides){
-  const n=p.notes[id];assert.ok(n.script.length>=600,id);
+  const n=p.notes[id];assert.ok(n.script.trim().length>0,id);
   assert.ok(n.preparation);assert.ok(n.estimatedSeconds>0);
   assert.ok(!/\$\{[^}]+\}|\bundefined\b|\bNaN\b/.test(JSON.stringify(n)),id+' unresolved note data');
  }

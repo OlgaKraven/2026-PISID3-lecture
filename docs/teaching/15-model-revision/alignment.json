@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "courseId": "pisid3",
+  "contentVersion": "pisid3-2026.10.25",
+  "sourceKind": "local",
+  "sourceSha256": "3874de3025abb41096a30f4cae9aa3c54ef052abc1f811e6ada75fa8d5e5af9a",
+  "lectureIds": [
+    "15-model-revision"
+  ],
+  "documents": {
+    "teacher": "lecture.teacher.md",
+    "presenter": "lecture.presenter.md"
+  },
+  "slides": [
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-start",
+      "displayNumber": 1,
+      "title": "Ревизия модели",
+      "anchors": {
+        "teacher": "screen-001",
+        "presenter": "screen-001"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-route",
+      "displayNumber": 2,
+      "title": "Вопросы темы",
+      "anchors": {
+        "teacher": "screen-002",
+        "presenter": "screen-002"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-why",
+      "displayNumber": 3,
+      "title": "Результат нашей работы",
+      "anchors": {
+        "teacher": "screen-003",
+        "presenter": "screen-003"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-case",
+      "displayNumber": 4,
+      "title": "Ревизия концептуальной модели WMS",
+      "anchors": {
+        "teacher": "screen-004",
+        "presenter": "screen-004"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-prerequisites",
+      "displayNumber": 5,
+      "title": "Перед началом: что нужно понимать",
+      "anchors": {
+        "teacher": "screen-005",
+        "presenter": "screen-005"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-explanation",
+      "displayNumber": 6,
+      "title": "Как работает основной подход",
+      "anchors": {
+        "teacher": "screen-006",
+        "presenter": "screen-006"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-exam-context",
+      "displayNumber": 7,
+      "title": "Связь с ДЭ 2027",
+      "anchors": {
+        "teacher": "screen-007",
+        "presenter": "screen-007"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01",
+      "displayNumber": 8,
+      "title": "Вход ревизии и Проверка полноты",
+      "anchors": {
+        "teacher": "screen-008",
+        "presenter": "screen-008"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c1-definition",
+      "displayNumber": 9,
+      "title": "Вход ревизии",
+      "anchors": {
+        "teacher": "screen-009",
+        "presenter": "screen-009"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c1-explanation",
+      "displayNumber": 10,
+      "title": "Вход ревизии: смысл и границы",
+      "anchors": {
+        "teacher": "screen-010",
+        "presenter": "screen-010"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c1-walkthrough",
+      "displayNumber": 11,
+      "title": "Вход ревизии: пример по шагам",
+      "anchors": {
+        "teacher": "screen-011",
+        "presenter": "screen-011"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c1-decision",
+      "displayNumber": 12,
+      "title": "Вход ревизии: выбор действия",
+      "anchors": {
+        "teacher": "screen-012",
+        "presenter": "screen-012"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c2-definition",
+      "displayNumber": 13,
+      "title": "Проверка полноты",
+      "anchors": {
+        "teacher": "screen-013",
+        "presenter": "screen-013"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c2-explanation",
+      "displayNumber": 14,
+      "title": "Проверка полноты: смысл и границы",
+      "anchors": {
+        "teacher": "screen-014",
+        "presenter": "screen-014"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c2-walkthrough",
+      "displayNumber": 15,
+      "title": "Проверка полноты: пример по шагам",
+      "anchors": {
+        "teacher": "screen-015",
+        "presenter": "screen-015"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c2-decision",
+      "displayNumber": 16,
+      "title": "Проверка полноты: выбор действия",
+      "anchors": {
+        "teacher": "screen-016",
+        "presenter": "screen-016"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-mechanism",
+      "displayNumber": 17,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-017",
+        "presenter": "screen-017"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-input",
+      "displayNumber": 18,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-018",
+        "presenter": "screen-018"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-worked",
+      "displayNumber": 19,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-019",
+        "presenter": "screen-019"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-boundary",
+      "displayNumber": 20,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-020",
+        "presenter": "screen-020"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-practice",
+      "displayNumber": 21,
+      "title": "Зафиксированный вход ревизии",
+      "anchors": {
+        "teacher": "screen-021",
+        "presenter": "screen-021"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-T01",
+      "displayNumber": 22,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-022",
+        "presenter": "screen-022"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-T02",
+      "displayNumber": 23,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-023",
+        "presenter": "screen-023"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-T03",
+      "displayNumber": 24,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-024",
+        "presenter": "screen-024"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q01-T04",
+      "displayNumber": 25,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-025",
+        "presenter": "screen-025"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02",
+      "displayNumber": 26,
+      "title": "Трассировка требования и Непокрытое требование",
+      "anchors": {
+        "teacher": "screen-026",
+        "presenter": "screen-026"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c3-definition",
+      "displayNumber": 27,
+      "title": "Трассировка требования",
+      "anchors": {
+        "teacher": "screen-027",
+        "presenter": "screen-027"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c3-explanation",
+      "displayNumber": 28,
+      "title": "Трассировка требования: смысл и границы",
+      "anchors": {
+        "teacher": "screen-028",
+        "presenter": "screen-028"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c3-walkthrough",
+      "displayNumber": 29,
+      "title": "Трассировка требования: пример по шагам",
+      "anchors": {
+        "teacher": "screen-029",
+        "presenter": "screen-029"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c3-decision",
+      "displayNumber": 30,
+      "title": "Трассировка требования: выбор действия",
+      "anchors": {
+        "teacher": "screen-030",
+        "presenter": "screen-030"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c4-definition",
+      "displayNumber": 31,
+      "title": "Непокрытое требование",
+      "anchors": {
+        "teacher": "screen-031",
+        "presenter": "screen-031"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c4-explanation",
+      "displayNumber": 32,
+      "title": "Непокрытое требование: смысл и границы",
+      "anchors": {
+        "teacher": "screen-032",
+        "presenter": "screen-032"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c4-walkthrough",
+      "displayNumber": 33,
+      "title": "Непокрытое требование: пример по шагам",
+      "anchors": {
+        "teacher": "screen-033",
+        "presenter": "screen-033"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c4-decision",
+      "displayNumber": 34,
+      "title": "Непокрытое требование: выбор действия",
+      "anchors": {
+        "teacher": "screen-034",
+        "presenter": "screen-034"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-mechanism",
+      "displayNumber": 35,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-035",
+        "presenter": "screen-035"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-input",
+      "displayNumber": 36,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-036",
+        "presenter": "screen-036"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-worked",
+      "displayNumber": 37,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-037",
+        "presenter": "screen-037"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-boundary",
+      "displayNumber": 38,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-038",
+        "presenter": "screen-038"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-practice",
+      "displayNumber": 39,
+      "title": "Непокрытое требование",
+      "anchors": {
+        "teacher": "screen-039",
+        "presenter": "screen-039"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-T01",
+      "displayNumber": 40,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-040",
+        "presenter": "screen-040"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-T02",
+      "displayNumber": 41,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-041",
+        "presenter": "screen-041"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-T03",
+      "displayNumber": 42,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-042",
+        "presenter": "screen-042"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q02-T04",
+      "displayNumber": 43,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-043",
+        "presenter": "screen-043"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03",
+      "displayNumber": 44,
+      "title": "Лишняя сущность и Лишний атрибут",
+      "anchors": {
+        "teacher": "screen-044",
+        "presenter": "screen-044"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c5-definition",
+      "displayNumber": 45,
+      "title": "Лишняя сущность",
+      "anchors": {
+        "teacher": "screen-045",
+        "presenter": "screen-045"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c5-explanation",
+      "displayNumber": 46,
+      "title": "Лишняя сущность: смысл и границы",
+      "anchors": {
+        "teacher": "screen-046",
+        "presenter": "screen-046"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c5-walkthrough",
+      "displayNumber": 47,
+      "title": "Лишняя сущность: пример по шагам",
+      "anchors": {
+        "teacher": "screen-047",
+        "presenter": "screen-047"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c5-decision",
+      "displayNumber": 48,
+      "title": "Лишняя сущность: выбор действия",
+      "anchors": {
+        "teacher": "screen-048",
+        "presenter": "screen-048"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c6-definition",
+      "displayNumber": 49,
+      "title": "Лишний атрибут",
+      "anchors": {
+        "teacher": "screen-049",
+        "presenter": "screen-049"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c6-explanation",
+      "displayNumber": 50,
+      "title": "Лишний атрибут: смысл и границы",
+      "anchors": {
+        "teacher": "screen-050",
+        "presenter": "screen-050"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c6-walkthrough",
+      "displayNumber": 51,
+      "title": "Лишний атрибут: пример по шагам",
+      "anchors": {
+        "teacher": "screen-051",
+        "presenter": "screen-051"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c6-decision",
+      "displayNumber": 52,
+      "title": "Лишний атрибут: выбор действия",
+      "anchors": {
+        "teacher": "screen-052",
+        "presenter": "screen-052"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-mechanism",
+      "displayNumber": 53,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-053",
+        "presenter": "screen-053"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-input",
+      "displayNumber": 54,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-054",
+        "presenter": "screen-054"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-worked",
+      "displayNumber": 55,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-055",
+        "presenter": "screen-055"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-boundary",
+      "displayNumber": 56,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-056",
+        "presenter": "screen-056"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-practice",
+      "displayNumber": 57,
+      "title": "Лишний атрибут",
+      "anchors": {
+        "teacher": "screen-057",
+        "presenter": "screen-057"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-T01",
+      "displayNumber": 58,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-058",
+        "presenter": "screen-058"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-T02",
+      "displayNumber": 59,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-059",
+        "presenter": "screen-059"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-T03",
+      "displayNumber": 60,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-060",
+        "presenter": "screen-060"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q03-T04",
+      "displayNumber": 61,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-061",
+        "presenter": "screen-061"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04",
+      "displayNumber": 62,
+      "title": "Перекрёстная проверка и Заключение ревизии",
+      "anchors": {
+        "teacher": "screen-062",
+        "presenter": "screen-062"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c7-definition",
+      "displayNumber": 63,
+      "title": "Перекрёстная проверка",
+      "anchors": {
+        "teacher": "screen-063",
+        "presenter": "screen-063"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c7-explanation",
+      "displayNumber": 64,
+      "title": "Перекрёстная проверка: смысл и границы",
+      "anchors": {
+        "teacher": "screen-064",
+        "presenter": "screen-064"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c7-walkthrough",
+      "displayNumber": 65,
+      "title": "Перекрёстная проверка: пример по шагам",
+      "anchors": {
+        "teacher": "screen-065",
+        "presenter": "screen-065"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c7-decision",
+      "displayNumber": 66,
+      "title": "Перекрёстная проверка: выбор действия",
+      "anchors": {
+        "teacher": "screen-066",
+        "presenter": "screen-066"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c8-definition",
+      "displayNumber": 67,
+      "title": "Заключение ревизии",
+      "anchors": {
+        "teacher": "screen-067",
+        "presenter": "screen-067"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c8-explanation",
+      "displayNumber": 68,
+      "title": "Заключение ревизии: смысл и границы",
+      "anchors": {
+        "teacher": "screen-068",
+        "presenter": "screen-068"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c8-walkthrough",
+      "displayNumber": 69,
+      "title": "Заключение ревизии: пример по шагам",
+      "anchors": {
+        "teacher": "screen-069",
+        "presenter": "screen-069"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-c8-decision",
+      "displayNumber": 70,
+      "title": "Заключение ревизии: выбор действия",
+      "anchors": {
+        "teacher": "screen-070",
+        "presenter": "screen-070"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-mechanism",
+      "displayNumber": 71,
+      "title": "Почему решение работает",
+      "anchors": {
+        "teacher": "screen-071",
+        "presenter": "screen-071"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-input",
+      "displayNumber": 72,
+      "title": "Исходные данные полного примера",
+      "anchors": {
+        "teacher": "screen-072",
+        "presenter": "screen-072"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-worked",
+      "displayNumber": 73,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-073",
+        "presenter": "screen-073"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-boundary",
+      "displayNumber": 74,
+      "title": "Если условие изменится",
+      "anchors": {
+        "teacher": "screen-074",
+        "presenter": "screen-074"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-practice",
+      "displayNumber": 75,
+      "title": "Закрытие замечаний",
+      "anchors": {
+        "teacher": "screen-075",
+        "presenter": "screen-075"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-T01",
+      "displayNumber": 76,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-076",
+        "presenter": "screen-076"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-T02",
+      "displayNumber": 77,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-077",
+        "presenter": "screen-077"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-T03",
+      "displayNumber": 78,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-078",
+        "presenter": "screen-078"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-Q04-T04",
+      "displayNumber": 79,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-079",
+        "presenter": "screen-079"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-additional-case-input",
+      "displayNumber": 80,
+      "title": "Дополнительный случай: разберите условия",
+      "anchors": {
+        "teacher": "screen-080",
+        "presenter": "screen-080"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-additional-case-solution",
+      "displayNumber": 81,
+      "title": "Дополнительный случай: решение",
+      "anchors": {
+        "teacher": "screen-081",
+        "presenter": "screen-081"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-additional-case-boundary",
+      "displayNumber": 82,
+      "title": "Дополнительный случай: проверка ошибки",
+      "anchors": {
+        "teacher": "screen-082",
+        "presenter": "screen-082"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-experiment-start",
+      "displayNumber": 83,
+      "title": "Лаборатория: Проведите ревизию REQ-14",
+      "anchors": {
+        "teacher": "screen-083",
+        "presenter": "screen-083"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-experiment",
+      "displayNumber": 84,
+      "title": "Проведите ревизию REQ-14",
+      "anchors": {
+        "teacher": "screen-084",
+        "presenter": "screen-084"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-experiment-review",
+      "displayNumber": 85,
+      "title": "Лаборатория: выводы и границы",
+      "anchors": {
+        "teacher": "screen-085",
+        "presenter": "screen-085"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-summary",
+      "displayNumber": 86,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-086",
+        "presenter": "screen-086"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-sources",
+      "displayNumber": 87,
+      "title": "Предметные источники",
+      "anchors": {
+        "teacher": "screen-087",
+        "presenter": "screen-087"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-final",
+      "displayNumber": 88,
+      "title": "Перенос в свой проект",
+      "anchors": {
+        "teacher": "screen-088",
+        "presenter": "screen-088"
+      }
+    },
+    {
+      "lectureId": "15-model-revision",
+      "slideId": "15-model-revision-questions",
+      "displayNumber": 89,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-089",
+        "presenter": "screen-089"
+      }
+    }
+  ]
+}

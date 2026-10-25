@@ -4,13 +4,16 @@ import cases from '../authoring/worked-cases.mjs';
 import caseVisuals, {describeVisual} from '../authoring/case-visuals.mjs';
 import {experimentVisual} from '../authoring/experiment-visuals.mjs';
 import guidance from '../authoring/teaching-guidance.mjs';
+import {buildPracticeCases} from '../authoring/practice-cases.mjs';
+import {refineNote} from '../authoring/presenter-speech.mjs';
 import {buildLaboratories} from '../authoring/laboratory-config.mjs';
 import {addTeachingIntroduction,addConceptExplanation,addQuestionExplanation,addBoundaryExample,addAdditionalCase} from '../authoring/expanded-blocks.mjs';
 const experiments=JSON.parse(fs.readFileSync('authoring/experiments.json','utf8'));
 const original=JSON.parse(fs.readFileSync('authoring/original-course.json','utf8'));
-const version='pisid3-2026.10.13-teaching-v5';
+const version='pisid3-2026.10.25';
+const practiceCases=buildPracticeCases(original.topics);
 const laboratories=buildLaboratories(experiments,guidance);
-const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'От требований склада',heroAccent:'к модели и интерфейсу',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-wms.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
+const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'От требований склада',heroAccent:'к модели и интерфейсу',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-pisid-design.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
 let group='';for(const line of fs.readFileSync('SOURCES.md','utf8').split('\n')){if(line.startsWith('## Основная'))group='primary';else if(line.startsWith('## Дополнительная'))group='additional';else if(line.startsWith('## '))group='';if(group&&line.startsWith('- ')){const url=line.match(/\]\((https[^)]+)\)/)?.[1];c.literature[group].push({citation:line.slice(2).replaceAll('*','').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace('ISBN 978-5-93026-166-10','ISBN требует уточнения').trim(),...(url?{url}:{})});}}
 const bank={schemaVersion:1,courseId:c.id,contentVersion:version,mode:'autonomous-educational',notice:'Ключи учебной автономной самопроверки доступны технически.',keys:{}};
 const teacher={schemaVersion:1,courseId:c.id,contentVersion:version,notes:{}};
@@ -32,7 +35,7 @@ for(const [li,t] of original.topics.entries()){
    let note=comment.note||{script:comment.script,preparation:comment.preparation||'Учебный пример WMS; значения условные. '+t.caseContext,notebook:s.notebook||'Отдельная запись не требуется.',questions:comment.questions||'',answer:comment.answer||'',estimatedSeconds:comment.seconds||75};
    if(!note.script)throw Error('Не написана заметка '+s.id);
    if(prior?.slides[s.id]){if(prior.slides[s.id].contentHash!==digest(s))throw Error('Согласуйте заметку изменённого слайда: '+s.id);note=prior.slides[s.id].note;}
-   if(note.script.length<600){note.script+=`\n\nПояснение на примере темы: ${t.caseContext} Ожидаемый результат занятия: ${t.deliverable}.\n\nВопрос группе: какое исходное условие позволяет выполнить показанное действие? Ответ преподавателю: ${comment.answer||slide.notebook||slide.body||t.objective}. Попросите обосновать ответ по данным слайда. Если названо только слово или кнопка, вернитесь к действию и наблюдаемому результату.`;}
+   note=refineNote({slide:s,topic:t,index:li,cases:cases[li],guidance:guidance[li],note,practiceCases,laboratory:laboratories[li]});
    note=cleanText(note);teacher.notes[s.id]=note;source.slides[s.id]={contentHash:digest(s),note};
   }
   return s.id;
@@ -47,10 +50,10 @@ for(const [li,t] of original.topics.entries()){
   const pair=t.concepts.slice(qi*2,qi*2+2),[a,b]=pair,w=cases[li][qi],prefix=`Q0${qi+1}`,start=l.slides.length,title=a.name+' и '+b.name;
   const qa=`Как обнаружить ошибку при применении понятия «${a.name}»?\nКак проверить результат для понятия «${b.name}»?`;
   const context=(script,extra={})=>({script,questions:qa,answer:`${a.name}: ${a.check}.\n${b.name}: ${b.check}.`,...extra});
-  add(prefix,{kind:'section',title,kicker:`Вопрос ${qi+1}`,body:'От значения понятий к решению и проверке'},{script:`Переходим к вопросу «${title}». Эти понятия раскрываются в одном рабочем контексте: ${w[0]} В конце разбора сможем объяснить результат: ${w[2]} Проверим также границу: ${w[3]} Сначала разберём каждое понятие отдельно, затем соберём решение целиком.`,seconds:30});
+  add(prefix,{kind:'section',title,kicker:`Вопрос ${qi+1}`,body:w[0]},{script:`Переходим к вопросу «${title}». Эти понятия раскрываются в одном рабочем контексте: ${w[0]}`,seconds:30});
   for(const [j,x] of pair.entries()){
    const n=qi*2+j+1,base=`c${n}`;
-   const definition=add(base+'-definition',{kind:'theory',title:x.name,kicker:'Понятие',body:x.definition,notebook:x.check},context(`Уточним значение понятия «${x.name}»: ${x.definition} ${x.principle} Попросите назвать отличительный признак. Ориентир для обсуждения: ${x.check}. Дайте время записать определение с критерием. Применение разберём на следующем слайде.`));
+   const definition=add(base+'-definition',{kind:'theory',title:x.name,kicker:'Понятие',body:x.principle,notebook:x.definition},context(`${x.definition} ${x.principle}`));
    addConceptExplanation(add,base,x,pair,w,t,li,qi);
    add(base+'-decision',{kind:'comparison',title:x.name+': выбор действия',kicker:'Разбор выбора',body:`Проверьте, какое действие обеспечивает результат: ${x.check}`,visual:{type:'comparison',columns:['Ошибка','Действие'],rows:[[x.pitfall,x.decision]],caption:'Критерий: '+x.check}},context(`Предложите выбор действия для ситуации «${x.example}» до раскрытия последствий. Сравните варианты для понятия «${x.name}». Ошибка: ${x.pitfall}. Попросите объяснить, почему она мешает выполнить критерий: ${x.check}. Затем обсудите исправление: ${x.decision}`));
    c.glossary.push({term:x.name,definition:x.definition,slideIds:[definition]});
@@ -58,6 +61,8 @@ for(const [li,t] of original.topics.entries()){
   addQuestionExplanation(add,prefix,pair,w,t,li,qi);
   add(prefix+'-worked',{kind:'example',title:'Полный разбор решения',kicker:'Учебные данные',visual:caseVisuals[li][qi]},context(`Разберём вопрос «${title}» целиком. Схема показывает следующие связи и значения. ${describeVisual(caseVisuals[li][qi])} Вывод по схеме: ${caseVisuals[li][qi].caption} ${w[0]} ${w[1]} Получаем: ${w[2]} Проверяем границу: ${w[3]} В этом рассуждении ${a.name.toLowerCase()} и ${b.name.toLowerCase()} выполняют разные функции. ${a.check}. ${b.check}. После самостоятельной попытки сравните не только итог, но и основание каждого шага. Не добавляйте не подтверждённое исходными данными правило.`,{seconds:130,answer:w[2]+' '+w[3]}));
   addBoundaryExample(add,prefix,pair,w,li,qi);
+  const practice=practiceCases.find(c=>c.id===t.id+'-'+prefix);
+  add(prefix+'-practice',{kind:'example',title:practice.title,kicker:'Самостоятельный случай',body:'Постройте артефакт по новым данным и объясните границу решения.'},{script:practice.input,answer:practice.explanation,seconds:180});
   const evidence=l.slides.slice(start).filter(s=>s.kind!=='section').map(s=>s.id),taskIds=[];
   const make=(tn,type,prompt,options,extra,key)=>{const id=`L${String(li+1).padStart(3,'0')}-${prefix}-T0${tn}`,task={id,type,prompt,...(options?{options}:{}),...extra};bank.keys[id]=key;taskIds.push(id);add(prefix+'-T0'+tn,{kind:'test',title:['Один ответ','Несколько ответов','Краткий ответ','Соответствие'][tn-1],kicker:`Самопроверка · ${tn}/4`,task},context(`Проверяем вопрос «${title}». ${prompt} Дайте время сформулировать ответ до раскрытия. ${key.explanation} Основание ответа уже было показано в определении и разборе: ${w[2]} Если возникла ошибка, вернитесь к различию понятий и критерию, а не запоминайте позицию варианта. ${w[3]}`,{answer:key.type==='matching'?task.items.map(item=>item.text+' → '+task.options.find(o=>o.id===key.pairs[item.id]).text).join('\n'):key.type==='short'?key.accepted.join('; '):key.correct.map(id=>task.options.find(o=>o.id===id).text).join('\n'),seconds:[65,85,60,100][tn-1]}));};
   const rotate=(arr,n)=>[...arr.slice(n),...arr.slice(0,n)];
@@ -100,7 +105,11 @@ for(const id of Object.keys(prior.slides))if(!source.slides[id])throw Error('З�
 for(const d of ['public','reports','private','private/lectures'])fs.mkdirSync(d,{recursive:true});
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(cleanText(v),null,2)+'\n');
 write('public/laboratories.json',laboratories);
+write('public/practice-cases.json',practiceCases);
+write('reports/visual-plan.json',practiceCases.map(c=>({lectureId:c.lectureId,question:c.question,slideId:c.returnSlide,goal:c.title,notation:c.notation,shows:c.fields.map(f=>f.label)})));
 write('public/course.json',c);write('public/assessment.json',bank);write('authoring/questions.json',questions);write('reports/registry.json',registry);
+const previousNotes=JSON.parse(fs.readFileSync('authoring/previous-note-hashes.json','utf8'));
+teacher.previousContentVersion=previousNotes.contentVersion;teacher.previousNoteHashes=previousNotes.hashes;
 write('public/teacher-pack.json',teacher);
 if(process.argv.includes('--teacher')){write('private/teacher-pack.json',teacher);write('private/teacher-source.json',source);for(const l of c.lectures){const notes=Object.fromEntries(l.slides.map(s=>[s.id,teacher.notes[s.id]]));write('private/lectures/'+l.id+'.json',{...teacher,notes});fs.writeFileSync('private/lectures/'+l.id+'.md','# '+l.title+'\n\n'+l.slides.map(s=>{const n=notes[s.id];return `## ${s.id} · ${s.title}\n\n${n.script}\n\nПодготовка: ${n.preparation}\n\nКонспект: ${n.notebook}\n\n${n.questions}\n\n${n.answer}\n\nОценка: ${n.estimatedSeconds} с.\n`;}).join('\n'));}write('private/preparation-cards.json',c.lectures.map((l,i)=>({lectureId:l.id,logic:questions.filter(q=>q.lectureId===l.id).map(q=>q.title),prerequisites:i?'Предшествующие темы курса; факт, решение, проверка.':'Понятие ИС и описание рабочей задачи.',uncertainties:['РПД и официальные часы не предоставлены.','Учебные данные WMS условны.'],estimatedMinutes:registry[i].estimatedMinutes})));}
 console.log(JSON.stringify({lectures:c.lectures.length,slides:c.lectures.reduce((n,l)=>n+l.slides.length,0),tasks:Object.keys(bank.keys).length,notes:Object.keys(teacher.notes).length}));

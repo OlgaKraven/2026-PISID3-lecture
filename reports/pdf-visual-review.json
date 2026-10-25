@@ -1,0 +1,317 @@
+{
+  "lectures": [
+    {
+      "id": "01-project-decisions",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "02-roles-views",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "03-artifact-map",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "04-requirement-sources",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "05-interview-technique",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "06-requirement-classes",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "07-requirement-quality",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "10-entity-candidates",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "11-project-glossary",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "12-business-rules",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "13-attribute-composition",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "14-data-history",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "15-model-revision",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "16-decision-matrix",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "17-adr",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "18-nfr-impact",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "19-defense",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "20-ux-goals",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "21-information-architecture",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "23-forms-validation-states",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "pages": 88,
+      "rendered": [
+        1,
+        8,
+        18,
+        74,
+        83
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "25-rbac",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    },
+    {
+      "id": "26-auth-lockout",
+      "pages": 89,
+      "rendered": [
+        1,
+        9,
+        19,
+        75,
+        84
+      ],
+      "replacementCharactersInSample": 0
+    }
+  ],
+  "renderedPages": 130
+}
