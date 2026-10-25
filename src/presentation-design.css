@@ -246,3 +246,13 @@
 
 @media(min-width:821px),print{.slide-frame[data-slide-id].kind-section>.slide-content>.slide-copy{width:82%;max-width:82%}.slide-frame[data-slide-id].kind-section .slide-copy>h2{max-width:none}.slide-frame[data-slide-id].kind-section .slide-copy>.slide-body-copy{max-width:none;font-size:1.85cqw;line-height:1.4}.slide-frame[data-slide-id].kind-section:has(.laboratory-entry) .slide-copy>h2{font-size:3.87cqw}}
 .presenter-header{padding:16px 20px;background:var(--surface);border-bottom:1px solid var(--border);margin-bottom:18px}.presenter-header .presenter-heading{flex:1}.presenter-header .button{font-size:12px;min-height:42px}.presenter-header .button.primary{background:#ca2822;color:#fff}.presenter-notes>.notes-version{display:none}
+/* Keep both matching lists inside their allocated row above the check button. */
+@media(min-width:821px){
+ .slide-frame[data-slide-id] .interactive-task>.matching-board{display:grid;grid-template-rows:auto minmax(0,1fr);min-height:0;overflow:hidden}
+ .slide-frame[data-slide-id] .matching-columns{min-height:0;overflow:hidden}
+ .slide-frame[data-slide-id] .matching-list{min-height:0;height:100%;max-height:none;overflow:auto}
+}
+.slide-frame[data-slide-id] .matching-board{font-size:clamp(14px,1.45cqw,22px)}
+.slide-frame[data-slide-id] .matching-card-title>button{font-size:1em;line-height:1.4}
+.slide-frame[data-slide-id] .matching-board :is(.matching-selected,.matching-links,.matching-card>p){font-size:1em!important;line-height:1.4!important}
+.slide-frame[data-slide-id] .matching-moves button{min-width:36px;min-height:36px}

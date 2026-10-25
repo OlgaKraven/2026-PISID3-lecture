@@ -19,8 +19,8 @@ export function CaseTools({children,version}:{children:ReactNode;version:string}
  const dialog=useRef<HTMLDialogElement>(null),opener=useRef<HTMLElement|null>(null);
  const id=String(state.caseId),c=cases.find(c=>c.id===id);
  useEffect(()=>{const open=(event:Event)=>{if(!audience){opener.current=document.activeElement as HTMLElement;update({caseId:String((event as CustomEvent).detail)})}};document.addEventListener('pisid-case',open);document.addEventListener('pisid-experiment',open);return()=>{document.removeEventListener('pisid-case',open);document.removeEventListener('pisid-experiment',open)}},[audience,update]);
- useEffect(()=>{if(c&&dialog.current&&!dialog.current.open)dialog.current.showModal()},[c]);
- const close=()=>{if(!audience){update({caseId:''});opener.current?.focus()}};
+ useEffect(()=>{if(c&&dialog.current&&!dialog.current.open)dialog.current.showModal();else if(!c&&!audience)opener.current?.focus()},[c,audience]);
+ const close=()=>{if(!audience)update({caseId:''})};
  return <>{children}{c&&createPortal(<dialog ref={dialog} className="case-dialog" aria-label={'Эксперимент: '+c.title} onCancel={e=>{e.preventDefault();close()}}><div className="case-top"><strong>Эксперимент · Вопрос {c.question}</strong>{!audience&&<button className="button secondary" onClick={close}>Вернуться к слайду</button>}</div><div className="case-activity-body"><QuestionExperiment key={'experiment:'+id} id={id} writable={!audience} version={version}><CaseEditor key={id} c={c} writable={!audience} version={version} embedded/></QuestionExperiment></div></dialog>,document.body)}</>;
 }
 function CaseEditor({c,writable,version,embedded=false}:{c:Practice;writable:boolean;version:string;embedded?:boolean}){
