@@ -1,0 +1,83 @@
+{
+  "contentVersion": "pisid3-2026.10.25-student",
+  "reviewedAt": "2026-10-25",
+  "scope": {
+    "lectures": 26,
+    "slides": 2299,
+    "originalSlideIdsAndOrderPreserved": 2195,
+    "concepts": 208,
+    "workedSolutionsWithVisibleAction": 104,
+    "changedConditionsWithActionAndResult": 104,
+    "questionExperimentsBeforeTests": 104,
+    "originalLaboratories": 26,
+    "assessmentTasks": 416,
+    "originalInfographics": 572
+  },
+  "studentReview": "Expert reading of student material; not a classroom trial. Explanations are available without private presenter notes.",
+  "findings": "docs/STUDENT-REVIEW-2026-10-25.md",
+  "checks": {
+    "question-experiments": {
+      "status": "passed",
+      "sha256": "3d62a3f3a85c7ca1b3aa2a80fea2634366183d190dc051455bea0e4939ca0e34"
+    },
+    "release-cases": {
+      "status": "passed",
+      "sha256": "ad3cd7aa501ffedcb994a518044d25525efa0195b881eac9b0d3eb484a0acd6b"
+    },
+    "release-tasks": {
+      "status": "passed",
+      "sha256": "5b24484ba5bb2bb7f0af01e4c9ea98cdb3cca50d7e615ccf7e6977c7a5101f09"
+    },
+    "release-layout": {
+      "status": "passed",
+      "sha256": "b074747ed710861c20e9309b3528156726cfff6111d1a5e4e7805b4abb3df3bd"
+    },
+    "release-show": {
+      "status": "passed",
+      "sha256": "61cfc0a41d20f34ff9caecff1c9f1e728656edc05988e155854ff851e706f46b"
+    },
+    "infographic-style": {
+      "status": "passed",
+      "sha256": "28751874252889560399476a3aa846063d61907c6d5dc71d02823fb1ace5285b"
+    },
+    "visual-review": {
+      "status": "passed",
+      "sha256": "8342f666718b3712065f6d10b6c9df6b7d0705fb67b8ecab8874bf01d78f54ef"
+    },
+    "display-controls": {
+      "status": "passed",
+      "sha256": "bf599de096e60f70a7ff70e9f077d19118361ef9a49eda42750f34a6c5c7d968"
+    },
+    "editorial-review": {
+      "status": "reviewed",
+      "sha256": "7377d531201f5f6af9ae4474c4f3275ecd33765b3f4a6fbd68e42f1136cd578d"
+    }
+  },
+  "pdf": {
+    "lectures": 26,
+    "pages": 2299,
+    "representativePagesRenderedAndInspected": 130,
+    "replacementCharactersInRenderedSamples": 0
+  },
+  "authors": {
+    "historyNames": [
+      "Olga",
+      "OlgaKraven"
+    ],
+    "githubContributors": [
+      "OlgaKraven"
+    ],
+    "coauthorTrailersFound": false,
+    "historyRewritten": false
+  },
+  "sha256": {
+    "public/course.json": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
+    "public/teacher-pack.json": "8a54294a05590a573e82ae3f8bd3b9b660422bbf4f2de9e75aa55c3dad3a72bb",
+    "public/practice-cases.json": "6629e7cfad20909a6d1f45ea141ca20dc190874842a26bd70ab7d1d3b049b317",
+    "public/question-experiments.json": "05ec8b9f6c824f7893ad37252693c8927df4158201404183aeca09f41631001f",
+    "src/infographic-theme.css": "e978c29e248f7971804f2213c4c8706f4fe2d5d01870d0350f49cfa184910e69",
+    "src/question-experiment.css": "ad857fb471b59d9e307895db5c2a2f2b58b74e7ced9da619b246751e4af87a4a",
+    "src/question-experiment.tsx": "55b07c44240eddca923294e1d4816dbad1ffffe6ee88a7c39824729c779a0ec9",
+    "README.md": "635f553f3345e24096eea752bd6068b656996be47cc53aea971a66ee53e4abc8"
+  }
+}
