@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "sourceCourseSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "unit": "08-user-story-acceptance:Q01",
+  "slides": 18,
+  "checks": [
+    "Missing real block rejected",
+    "Complete current acceptance fixture accepted",
+    "Actual nested story asset replaced with generic labels: prior approval rejected",
+    "Rebuilding inventory does not approve changed artifact"
+  ],
+  "scope": "Temporary copy with actual course data. Tests version and coverage enforcement; does not automatically establish pedagogical quality."
+}

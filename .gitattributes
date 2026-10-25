@@ -1,3 +1,14 @@
+# Runtime fingerprints must survive checkout on Windows and Linux.
+src/** text eol=lf
+scripts/** text eol=lf
+authoring/** text eol=lf
+vite.config.ts text eol=lf
+package-lock.json text eol=lf
+public/*.json text eol=lf
+public/models/** -text
+public/artifacts/** -text
+public/fonts/** -text
+vendor/** -text
 # Alignment maps refer to the exact published source bytes on every device.
 public/course.json -text
 public/teacher-pack.json -text

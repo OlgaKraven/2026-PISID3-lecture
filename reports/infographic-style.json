@@ -1,5 +1,5 @@
 {
-  "version": "pisid3-2026.10.25-artifacts",
+  "version": "pisid3-2026.10.25-blocks",
   "themes": [
     {
       "theme": "light",
@@ -12,11 +12,13 @@
   ],
   "expanded": [
     "network",
-    "decision",
     "matrix",
-    "process",
+    "callouts",
+    "decision",
     "tree",
-    "callouts"
+    "callouts:story",
+    "process",
+    "callouts:form"
   ],
   "laboratories": [],
   "problems": [],

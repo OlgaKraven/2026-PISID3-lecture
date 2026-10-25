@@ -1,0 +1,4610 @@
+{
+  "schemaVersion": 1,
+  "courseId": "pisid3",
+  "contentVersion": "pisid3-2026.10.25-blocks",
+  "inputs": {
+    "course": "public/course.json",
+    "pack": "public/teacher-pack.json",
+    "runtime": [
+      "src",
+      "public/fonts",
+      "scripts/diagram-layout-plugin.ts",
+      "scripts/presentation-plugin.ts",
+      "scripts/interface-plugin.ts",
+      "scripts/notes-storage-plugin.ts",
+      "vite.config.ts",
+      "package-lock.json",
+      "vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",
+      "public/assessment.json",
+      "public/question-experiments.json",
+      "public/practice-cases.json",
+      "public/laboratories.json",
+      "public/form-artifacts.json",
+      "public/teaching-artifacts.json"
+    ]
+  },
+  "runtimeHashes": {
+    "src/answer-dialog.css": "a0b49dd656c23fe092686f4e4ddf5787961f5fd8eeeb3a04c28242717e483964",
+    "src/answer-dialog.tsx": "ddc070fdce9364f2307aa4f8051a403a4b607a02cecd601a745f73df7f0bf2ca",
+    "src/artifact-layout.tsx": "37da02f4f278692bc34fec71cdf7bed04f7d62f65a9689591492e95694289d65",
+    "src/assessment-overview.tsx": "527b3f7af1906766780fda30efd767b03eada2be928f2ed75b772eb8d06b255f",
+    "src/case-workshop.css": "2b62cb86d52930b252dd0155165dfa4062110a14655ff24c91f128429cea8765",
+    "src/case-workshop.tsx": "2e416030a1f474fe381a37a05b1a6917297e5cda003716235e18ca04b97bd50c",
+    "src/component-workbench.css": "880870e90cf649b2002b7753e60ec2c6dd81d63c320c4d0f8baf1802781ab42d",
+    "src/component-workbench.tsx": "d1c0739ac2b85b0485abc76ee21fc1ad8f9b538c5764d714876a501a08fc5bca",
+    "src/course-catalog.css": "552e9fb9c055db7c70d19f3a4d4feb4e83ca38cc5ec990debe01cbb3cb796371",
+    "src/CourseCatalog.tsx": "d8d3b3ee5a4775fe7b246dde65962c5c140221b62f6e0c96906b682295fd8930",
+    "src/experiment-math.ts": "6ab267d8752b84e043475c7cca6f19133a0468bd417b1d8a130ceeb8f63bf59b",
+    "src/experiment-state.ts": "8bce5ce56a2e0c6166b9c70f81e42d072e9df7ea5e08ef23326fbc17c24cd6c9",
+    "src/form-artifact.tsx": "010db3c723043f3db9784a2bbba09706c0c1ba2db73528dd2a15729410bf33c2",
+    "src/infographic-theme.css": "b3ff97530d823d9814e055ce643f975a3f5279835808d2bca58ca46bfc47baed",
+    "src/interactive-examples.tsx": "5975c58ffa71ce19ecf6ad9d51ac9279f9220f58004d90d1336bc3c31f18fb34",
+    "src/laboratory-entry.tsx": "6ffc2e32c4a33a380ea68228bd73453fbf63ee867e7994899f140b95f2c8f589",
+    "src/laboratory-scenes.tsx": "a33c7e890d584f17bfc772dedcad88653a5f0194f2cff90aee394ac30ccf41b0",
+    "src/laboratory-studio.tsx": "140d83a3ba963d4f77023b34293e9eddbbbd4e20e20b27e1997a46663a4de3a0",
+    "src/lecture.css": "5a76afb9181612d99b0c4882a67ba30e1c8a6f4e9893e601e89199d93525d66f",
+    "src/main.tsx": "8b23d64bd0ea571ebc0cca445b87129f14531e5deda95ac49ab26fe58fb4a1ce",
+    "src/matching-board.tsx": "d1321b028fb67d0798e9308720d151712073fb2f1b4ce4a4d9faff4d536db430",
+    "src/navigation.tsx": "ad494012ee03bf73dcab823df401dc7ad9730c015cf768efd5af382a430e78a5",
+    "src/network-layout.tsx": "9081ec527fcbdd67479f02984784ab5595f2105a231831b8afafb826c14c4b49",
+    "src/notes-storage.ts": "b368a45497eecae0d4ad7610a34ad0143e95fc7b14a09ce2539cc08557a44748",
+    "src/presentation-design.css": "35b2a008e8861dd3eedee2823613d019cc795b91d1fa97c556cd50862c117f1b",
+    "src/presentation.ts": "c4034d08dfe7475dfc583b8a63f796b1c494407e30cf62ae2ce29c333f8ccb54",
+    "src/public-select.tsx": "bf56e09fd37547dd5cabdd6571add1d1d8ba8fd006a7cec7444171896b9a9e51",
+    "src/public-viewport.tsx": "c69b15631eba65d9c0932412988e058c5672a91948bf9a744947a168b854099a",
+    "src/question-experiment.css": "ad857fb471b59d9e307895db5c2a2f2b58b74e7ced9da619b246751e4af87a4a",
+    "src/question-experiment.tsx": "5c111e9f68361278c578b25acaec66bb6b59053e799800bf0f463c711e2e7999",
+    "src/startup-notes.ts": "894d4ff430e2a76f6a28061c51a5badd8f45964202986c9ebef70c37f027f87f",
+    "src/teaching-artifact.css": "fd05f6d9d7a51615a3a48bc8c9bdb6aa3b3d67fdc96ef026f7c8cfbc76988060",
+    "src/teaching-artifact.tsx": "d012e7b2ac0be748c927fa4b99d8dc206ffe6725022341855c29559a28a878cc",
+    "public/fonts/raleway-cyrillic.woff2": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd",
+    "scripts/diagram-layout-plugin.ts": "aa73af1c65a7e636c3a5acf968432452597d31fa13a836743994030fe444a567",
+    "scripts/presentation-plugin.ts": "246f08d9cabb505424bb2755b135e5ff00f47d616fb07839ced7554fc7b62f83",
+    "scripts/interface-plugin.ts": "45ffe28788755763a7bb0acecec6431f8a52522789734dba313c1b7e9b0b01d8",
+    "scripts/notes-storage-plugin.ts": "aa423decb865e133512db4b148915b60246a1995f86cddb48d370516ec32ea6c",
+    "vite.config.ts": "9d84040beff622de004ec83d0dfad528b7af1ce56e58e4a371949085fca4e3a3",
+    "package-lock.json": "cfa80ca0ae45ae0ee2262372c037aa745ae4fa15238392619f8615bcb6fce0c4",
+    "vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz": "df583118807bcc2a319a97c82bd31e0235980f0a6d71febd01cdfa573cabb96a",
+    "public/assessment.json": "67614695705b132a2dffd7bdeae3bee8bd1a12b065ee0825473bdbda5e3a190a",
+    "public/question-experiments.json": "42bd102c7fae91b2f77ccc2a58cfef9c59a954a4f5412766eddb7352a144efdb",
+    "public/practice-cases.json": "85a07f564c3b09130b0a1ba28ec206a3e1e3e51ce6d14a2e99ee5693e4231ce8",
+    "public/laboratories.json": "38e2bcbf8084a9840ae3bbc09874401dde586b47b1f3b224b0a76d0a777a8dc7",
+    "public/form-artifacts.json": "38ad98154eaf6838a81695df342a0f8d88b85e0c895976134cd30ce7c1b5097c",
+    "public/teaching-artifacts.json": "097b8c85a141621bcd7245d9db32f2bfbbf47aff1454a91f2ca5c9de6c804881"
+  },
+  "units": [
+    {
+      "id": "01-project-decisions:intro",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-start",
+        "01-project-decisions-route",
+        "01-project-decisions-why",
+        "01-project-decisions-case",
+        "01-project-decisions-prerequisites",
+        "01-project-decisions-explanation",
+        "01-project-decisions-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "e6a60a7f2089a571999572a90dd9fb0c512a6d1ca870ec98796a2aaddfe42388"
+    },
+    {
+      "id": "01-project-decisions:Q01",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-Q01",
+        "01-project-decisions-c1-definition",
+        "01-project-decisions-c1-explanation",
+        "01-project-decisions-c1-walkthrough",
+        "01-project-decisions-c1-decision",
+        "01-project-decisions-c2-definition",
+        "01-project-decisions-c2-explanation",
+        "01-project-decisions-c2-walkthrough",
+        "01-project-decisions-c2-decision",
+        "01-project-decisions-Q01-mechanism",
+        "01-project-decisions-Q01-input",
+        "01-project-decisions-Q01-worked",
+        "01-project-decisions-Q01-boundary",
+        "01-project-decisions-Q01-practice",
+        "01-project-decisions-Q01-T01",
+        "01-project-decisions-Q01-T02",
+        "01-project-decisions-Q01-T03",
+        "01-project-decisions-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4411fc1500a28ffd4afd7c6e3b754fc290017eddfb3bf0c73af813d06ab1ca1d"
+    },
+    {
+      "id": "01-project-decisions:Q02",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-Q02",
+        "01-project-decisions-c3-definition",
+        "01-project-decisions-c3-explanation",
+        "01-project-decisions-c3-walkthrough",
+        "01-project-decisions-c3-decision",
+        "01-project-decisions-c4-definition",
+        "01-project-decisions-c4-explanation",
+        "01-project-decisions-c4-walkthrough",
+        "01-project-decisions-c4-decision",
+        "01-project-decisions-Q02-mechanism",
+        "01-project-decisions-Q02-input",
+        "01-project-decisions-Q02-worked",
+        "01-project-decisions-Q02-boundary",
+        "01-project-decisions-Q02-practice",
+        "01-project-decisions-Q02-T01",
+        "01-project-decisions-Q02-T02",
+        "01-project-decisions-Q02-T03",
+        "01-project-decisions-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/01-lifecycle.svg": "9ffb13dedc3f69057b3063aec67def9cca75f0a1e63d233340cf9de83be0c23d"
+      },
+      "fingerprint": "a52792e7052895ce1d51c1d0ee00bac0fc0318bd17f94fd8ec4c9e4f4fa73fba"
+    },
+    {
+      "id": "01-project-decisions:Q03",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-Q03",
+        "01-project-decisions-c5-definition",
+        "01-project-decisions-c5-explanation",
+        "01-project-decisions-c5-walkthrough",
+        "01-project-decisions-c5-decision",
+        "01-project-decisions-c6-definition",
+        "01-project-decisions-c6-explanation",
+        "01-project-decisions-c6-walkthrough",
+        "01-project-decisions-c6-decision",
+        "01-project-decisions-Q03-mechanism",
+        "01-project-decisions-Q03-input",
+        "01-project-decisions-Q03-worked",
+        "01-project-decisions-Q03-boundary",
+        "01-project-decisions-Q03-practice",
+        "01-project-decisions-Q03-T01",
+        "01-project-decisions-Q03-T02",
+        "01-project-decisions-Q03-T03",
+        "01-project-decisions-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5cd0b1925eb3d28230b3488360b14fbb0067fba44bba4837b15dc8f2fafdc4f6"
+    },
+    {
+      "id": "01-project-decisions:Q04",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-Q04",
+        "01-project-decisions-c7-definition",
+        "01-project-decisions-c7-explanation",
+        "01-project-decisions-c7-walkthrough",
+        "01-project-decisions-c7-decision",
+        "01-project-decisions-c8-definition",
+        "01-project-decisions-c8-explanation",
+        "01-project-decisions-c8-walkthrough",
+        "01-project-decisions-c8-decision",
+        "01-project-decisions-Q04-mechanism",
+        "01-project-decisions-Q04-input",
+        "01-project-decisions-Q04-worked",
+        "01-project-decisions-Q04-boundary",
+        "01-project-decisions-Q04-practice",
+        "01-project-decisions-Q04-T01",
+        "01-project-decisions-Q04-T02",
+        "01-project-decisions-Q04-T03",
+        "01-project-decisions-Q04-T04",
+        "01-project-decisions-additional-case-input",
+        "01-project-decisions-additional-case-solution",
+        "01-project-decisions-additional-case-boundary",
+        "01-project-decisions-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5bf9f4361305e059da4703d528480818f6cb0eab137726d13bd3d70b7c7e83c0"
+    },
+    {
+      "id": "01-project-decisions:closing",
+      "lectureId": "01-project-decisions",
+      "slideIds": [
+        "01-project-decisions-experiment",
+        "01-project-decisions-experiment-review",
+        "01-project-decisions-summary",
+        "01-project-decisions-sources",
+        "01-project-decisions-final",
+        "01-project-decisions-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e1a3127ccaa7c7c086a0f03bb6f62bdb79a871cb556135ff2ae80dcf5ec39afb"
+    },
+    {
+      "id": "02-roles-views:intro",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-start",
+        "02-roles-views-route",
+        "02-roles-views-why",
+        "02-roles-views-case",
+        "02-roles-views-prerequisites",
+        "02-roles-views-explanation",
+        "02-roles-views-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "c337798146e44e4f34fbbe830574d5f522108461daa41220aebb91bb987760c5"
+    },
+    {
+      "id": "02-roles-views:Q01",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-Q01",
+        "02-roles-views-c1-definition",
+        "02-roles-views-c1-explanation",
+        "02-roles-views-c1-walkthrough",
+        "02-roles-views-c1-decision",
+        "02-roles-views-c2-definition",
+        "02-roles-views-c2-explanation",
+        "02-roles-views-c2-walkthrough",
+        "02-roles-views-c2-decision",
+        "02-roles-views-Q01-mechanism",
+        "02-roles-views-Q01-input",
+        "02-roles-views-Q01-worked",
+        "02-roles-views-Q01-boundary",
+        "02-roles-views-Q01-practice",
+        "02-roles-views-Q01-T01",
+        "02-roles-views-Q01-T02",
+        "02-roles-views-Q01-T03",
+        "02-roles-views-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4b48120694df3f23dc9f1a5d6ec3641d9fa73a19303ffe3dc5bf93e631718587"
+    },
+    {
+      "id": "02-roles-views:Q02",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-Q02",
+        "02-roles-views-c3-definition",
+        "02-roles-views-c3-explanation",
+        "02-roles-views-c3-walkthrough",
+        "02-roles-views-c3-decision",
+        "02-roles-views-c4-definition",
+        "02-roles-views-c4-explanation",
+        "02-roles-views-c4-walkthrough",
+        "02-roles-views-c4-decision",
+        "02-roles-views-Q02-mechanism",
+        "02-roles-views-Q02-input",
+        "02-roles-views-Q02-worked",
+        "02-roles-views-Q02-boundary",
+        "02-roles-views-Q02-practice",
+        "02-roles-views-Q02-T01",
+        "02-roles-views-Q02-T02",
+        "02-roles-views-Q02-T03",
+        "02-roles-views-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/02-quality-state.svg": "22985b65a9c115589a3b5637274b2d14a4ba46ef07813f7bcebe5a29f57b8bbe"
+      },
+      "fingerprint": "cff1b7ea9abf423501f8b93ab0d7e6edd23e27127d2a85f072c9683b85dfb660"
+    },
+    {
+      "id": "02-roles-views:Q03",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-Q03",
+        "02-roles-views-c5-definition",
+        "02-roles-views-c5-explanation",
+        "02-roles-views-c5-walkthrough",
+        "02-roles-views-c5-decision",
+        "02-roles-views-c6-definition",
+        "02-roles-views-c6-explanation",
+        "02-roles-views-c6-walkthrough",
+        "02-roles-views-c6-decision",
+        "02-roles-views-Q03-mechanism",
+        "02-roles-views-Q03-input",
+        "02-roles-views-Q03-worked",
+        "02-roles-views-Q03-boundary",
+        "02-roles-views-Q03-practice",
+        "02-roles-views-Q03-T01",
+        "02-roles-views-Q03-T02",
+        "02-roles-views-Q03-T03",
+        "02-roles-views-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e566fcb0abc0d71f35abd0046e9c363f0475cd65ffdd8d28d1257af6db051ae4"
+    },
+    {
+      "id": "02-roles-views:Q04",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-Q04",
+        "02-roles-views-c7-definition",
+        "02-roles-views-c7-explanation",
+        "02-roles-views-c7-walkthrough",
+        "02-roles-views-c7-decision",
+        "02-roles-views-c8-definition",
+        "02-roles-views-c8-explanation",
+        "02-roles-views-c8-walkthrough",
+        "02-roles-views-c8-decision",
+        "02-roles-views-Q04-mechanism",
+        "02-roles-views-Q04-input",
+        "02-roles-views-Q04-worked",
+        "02-roles-views-Q04-boundary",
+        "02-roles-views-Q04-practice",
+        "02-roles-views-Q04-T01",
+        "02-roles-views-Q04-T02",
+        "02-roles-views-Q04-T03",
+        "02-roles-views-Q04-T04",
+        "02-roles-views-additional-case-input",
+        "02-roles-views-additional-case-solution",
+        "02-roles-views-additional-case-boundary",
+        "02-roles-views-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "00ad28e7d10cf14b3cedee955d75190b448c7c580d189fdffc7d44e261cb619b"
+    },
+    {
+      "id": "02-roles-views:closing",
+      "lectureId": "02-roles-views",
+      "slideIds": [
+        "02-roles-views-experiment",
+        "02-roles-views-experiment-review",
+        "02-roles-views-summary",
+        "02-roles-views-sources",
+        "02-roles-views-final",
+        "02-roles-views-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "567e7edd55d768d91e72c9e2b4986ff3583c7c4975573ca21693ff0aa7d06887"
+    },
+    {
+      "id": "03-artifact-map:intro",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-start",
+        "03-artifact-map-route",
+        "03-artifact-map-why",
+        "03-artifact-map-case",
+        "03-artifact-map-prerequisites",
+        "03-artifact-map-explanation",
+        "03-artifact-map-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "27dfeddaf5e2ef8068429fb36738b1a8f5406aacd8dce352abfe83db567b792f"
+    },
+    {
+      "id": "03-artifact-map:Q01",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-Q01",
+        "03-artifact-map-c1-definition",
+        "03-artifact-map-c1-explanation",
+        "03-artifact-map-c1-walkthrough",
+        "03-artifact-map-c1-decision",
+        "03-artifact-map-c2-definition",
+        "03-artifact-map-c2-explanation",
+        "03-artifact-map-c2-walkthrough",
+        "03-artifact-map-c2-decision",
+        "03-artifact-map-Q01-mechanism",
+        "03-artifact-map-Q01-input",
+        "03-artifact-map-Q01-worked",
+        "03-artifact-map-Q01-boundary",
+        "03-artifact-map-Q01-practice",
+        "03-artifact-map-Q01-T01",
+        "03-artifact-map-Q01-T02",
+        "03-artifact-map-Q01-T03",
+        "03-artifact-map-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2313d694e25288be8a9835caa78cc4f8c7b618592da12079b169a222650ace0a"
+    },
+    {
+      "id": "03-artifact-map:Q02",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-Q02",
+        "03-artifact-map-c3-definition",
+        "03-artifact-map-c3-explanation",
+        "03-artifact-map-c3-walkthrough",
+        "03-artifact-map-c3-decision",
+        "03-artifact-map-c4-definition",
+        "03-artifact-map-c4-explanation",
+        "03-artifact-map-c4-walkthrough",
+        "03-artifact-map-c4-decision",
+        "03-artifact-map-Q02-mechanism",
+        "03-artifact-map-Q02-input",
+        "03-artifact-map-Q02-worked",
+        "03-artifact-map-Q02-boundary",
+        "03-artifact-map-Q02-practice",
+        "03-artifact-map-Q02-T01",
+        "03-artifact-map-Q02-T02",
+        "03-artifact-map-Q02-T03",
+        "03-artifact-map-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "92bc6bae9ccf02007e9342ee0e5154ed61fc3ca7b569be229cd5d221792c84e2"
+    },
+    {
+      "id": "03-artifact-map:Q03",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-Q03",
+        "03-artifact-map-c5-definition",
+        "03-artifact-map-c5-explanation",
+        "03-artifact-map-c5-walkthrough",
+        "03-artifact-map-c5-decision",
+        "03-artifact-map-c6-definition",
+        "03-artifact-map-c6-explanation",
+        "03-artifact-map-c6-walkthrough",
+        "03-artifact-map-c6-decision",
+        "03-artifact-map-Q03-mechanism",
+        "03-artifact-map-Q03-input",
+        "03-artifact-map-Q03-worked",
+        "03-artifact-map-Q03-boundary",
+        "03-artifact-map-Q03-practice",
+        "03-artifact-map-Q03-T01",
+        "03-artifact-map-Q03-T02",
+        "03-artifact-map-Q03-T03",
+        "03-artifact-map-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/03-form-states.svg": "d29942d09519c710486f2a739bfecc5055f22350873691ba23c8721900bdeca2"
+      },
+      "fingerprint": "0116e82c75bb4c20f1e001628cd52302dcf3d9ae3d57087f782be79684e65286"
+    },
+    {
+      "id": "03-artifact-map:Q04",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-Q04",
+        "03-artifact-map-c7-definition",
+        "03-artifact-map-c7-explanation",
+        "03-artifact-map-c7-walkthrough",
+        "03-artifact-map-c7-decision",
+        "03-artifact-map-c8-definition",
+        "03-artifact-map-c8-explanation",
+        "03-artifact-map-c8-walkthrough",
+        "03-artifact-map-c8-decision",
+        "03-artifact-map-Q04-mechanism",
+        "03-artifact-map-Q04-input",
+        "03-artifact-map-Q04-worked",
+        "03-artifact-map-Q04-boundary",
+        "03-artifact-map-Q04-practice",
+        "03-artifact-map-Q04-T01",
+        "03-artifact-map-Q04-T02",
+        "03-artifact-map-Q04-T03",
+        "03-artifact-map-Q04-T04",
+        "03-artifact-map-additional-case-input",
+        "03-artifact-map-additional-case-solution",
+        "03-artifact-map-additional-case-boundary",
+        "03-artifact-map-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "0cee3ca4f591dd8a0cfbb009cc5e8761f35e5ab5204b596f1beca89e548a6662"
+    },
+    {
+      "id": "03-artifact-map:closing",
+      "lectureId": "03-artifact-map",
+      "slideIds": [
+        "03-artifact-map-experiment",
+        "03-artifact-map-experiment-review",
+        "03-artifact-map-summary",
+        "03-artifact-map-sources",
+        "03-artifact-map-final",
+        "03-artifact-map-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "6216d0c66a429cdaeb69424b6a0dd0e575576ca016374a29f2cd133e7aba894c"
+    },
+    {
+      "id": "04-requirement-sources:intro",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-start",
+        "04-requirement-sources-route",
+        "04-requirement-sources-why",
+        "04-requirement-sources-case",
+        "04-requirement-sources-prerequisites",
+        "04-requirement-sources-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "1bc587d00df0157ac026132bcf3afe7b309e44aae784af81d2dc33332e173aa8"
+    },
+    {
+      "id": "04-requirement-sources:Q01",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-Q01",
+        "04-requirement-sources-c1-definition",
+        "04-requirement-sources-c1-explanation",
+        "04-requirement-sources-c1-walkthrough",
+        "04-requirement-sources-c1-decision",
+        "04-requirement-sources-c2-definition",
+        "04-requirement-sources-c2-explanation",
+        "04-requirement-sources-c2-walkthrough",
+        "04-requirement-sources-c2-decision",
+        "04-requirement-sources-Q01-mechanism",
+        "04-requirement-sources-Q01-input",
+        "04-requirement-sources-Q01-worked",
+        "04-requirement-sources-Q01-boundary",
+        "04-requirement-sources-Q01-practice",
+        "04-requirement-sources-Q01-T01",
+        "04-requirement-sources-Q01-T02",
+        "04-requirement-sources-Q01-T03",
+        "04-requirement-sources-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "9d0c2c041bb470b7543c494843a882bb4a6a672250c8d9862a44f7214647fea8"
+    },
+    {
+      "id": "04-requirement-sources:Q02",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-Q02",
+        "04-requirement-sources-c3-definition",
+        "04-requirement-sources-c3-explanation",
+        "04-requirement-sources-c3-walkthrough",
+        "04-requirement-sources-c3-decision",
+        "04-requirement-sources-c4-definition",
+        "04-requirement-sources-c4-explanation",
+        "04-requirement-sources-c4-walkthrough",
+        "04-requirement-sources-c4-decision",
+        "04-requirement-sources-Q02-mechanism",
+        "04-requirement-sources-Q02-input",
+        "04-requirement-sources-Q02-worked",
+        "04-requirement-sources-Q02-boundary",
+        "04-requirement-sources-Q02-practice",
+        "04-requirement-sources-Q02-T01",
+        "04-requirement-sources-Q02-T02",
+        "04-requirement-sources-Q02-T03",
+        "04-requirement-sources-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "62422182c07ce063d9f2af110f2d8dee72d58ca13fc3ba7ddddf197fce48167b"
+    },
+    {
+      "id": "04-requirement-sources:Q03",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-Q03",
+        "04-requirement-sources-c5-definition",
+        "04-requirement-sources-c5-explanation",
+        "04-requirement-sources-c5-walkthrough",
+        "04-requirement-sources-c5-decision",
+        "04-requirement-sources-c6-definition",
+        "04-requirement-sources-c6-explanation",
+        "04-requirement-sources-c6-walkthrough",
+        "04-requirement-sources-c6-decision",
+        "04-requirement-sources-Q03-mechanism",
+        "04-requirement-sources-Q03-input",
+        "04-requirement-sources-Q03-worked",
+        "04-requirement-sources-Q03-boundary",
+        "04-requirement-sources-Q03-practice",
+        "04-requirement-sources-Q03-T01",
+        "04-requirement-sources-Q03-T02",
+        "04-requirement-sources-Q03-T03",
+        "04-requirement-sources-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "fabaf6abead04ca0f1a0588cb56aca0d06e73f7bf84d5f66cc92c32aa2de2a7f"
+    },
+    {
+      "id": "04-requirement-sources:Q04",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-Q04",
+        "04-requirement-sources-c7-definition",
+        "04-requirement-sources-c7-explanation",
+        "04-requirement-sources-c7-walkthrough",
+        "04-requirement-sources-c7-decision",
+        "04-requirement-sources-c8-definition",
+        "04-requirement-sources-c8-explanation",
+        "04-requirement-sources-c8-walkthrough",
+        "04-requirement-sources-c8-decision",
+        "04-requirement-sources-Q04-mechanism",
+        "04-requirement-sources-Q04-input",
+        "04-requirement-sources-Q04-worked",
+        "04-requirement-sources-Q04-boundary",
+        "04-requirement-sources-Q04-practice",
+        "04-requirement-sources-Q04-T01",
+        "04-requirement-sources-Q04-T02",
+        "04-requirement-sources-Q04-T03",
+        "04-requirement-sources-Q04-T04",
+        "04-requirement-sources-additional-case-input",
+        "04-requirement-sources-additional-case-solution",
+        "04-requirement-sources-additional-case-boundary",
+        "04-requirement-sources-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "0461ab67d7f0aac46be52afb7dc66bd252132fc0040f9f3b49f0e7d255006382"
+    },
+    {
+      "id": "04-requirement-sources:closing",
+      "lectureId": "04-requirement-sources",
+      "slideIds": [
+        "04-requirement-sources-experiment",
+        "04-requirement-sources-experiment-review",
+        "04-requirement-sources-summary",
+        "04-requirement-sources-sources",
+        "04-requirement-sources-final",
+        "04-requirement-sources-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "fcf20fb6bb3c89f72f9ddb77d2e3c5260ca7c72658061017325939154ca6249e"
+    },
+    {
+      "id": "05-interview-technique:intro",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-start",
+        "05-interview-technique-route",
+        "05-interview-technique-why",
+        "05-interview-technique-case",
+        "05-interview-technique-prerequisites",
+        "05-interview-technique-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "cf5b81b9ce6337a95ff6c01b3df5c48f395060b8b95502f313f322ea0f192f1e"
+    },
+    {
+      "id": "05-interview-technique:Q01",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-Q01",
+        "05-interview-technique-c1-definition",
+        "05-interview-technique-c1-explanation",
+        "05-interview-technique-c1-walkthrough",
+        "05-interview-technique-c1-decision",
+        "05-interview-technique-c2-definition",
+        "05-interview-technique-c2-explanation",
+        "05-interview-technique-c2-walkthrough",
+        "05-interview-technique-c2-decision",
+        "05-interview-technique-Q01-mechanism",
+        "05-interview-technique-Q01-input",
+        "05-interview-technique-Q01-worked",
+        "05-interview-technique-Q01-boundary",
+        "05-interview-technique-Q01-practice",
+        "05-interview-technique-Q01-T01",
+        "05-interview-technique-Q01-T02",
+        "05-interview-technique-Q01-T03",
+        "05-interview-technique-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "9497217744bcb91046486e2ecb62fa50854119e0bfd6d88e9366e8577b0598c1"
+    },
+    {
+      "id": "05-interview-technique:Q02",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-Q02",
+        "05-interview-technique-c3-definition",
+        "05-interview-technique-c3-explanation",
+        "05-interview-technique-c3-walkthrough",
+        "05-interview-technique-c3-decision",
+        "05-interview-technique-c4-definition",
+        "05-interview-technique-c4-explanation",
+        "05-interview-technique-c4-walkthrough",
+        "05-interview-technique-c4-decision",
+        "05-interview-technique-Q02-mechanism",
+        "05-interview-technique-Q02-input",
+        "05-interview-technique-Q02-worked",
+        "05-interview-technique-Q02-boundary",
+        "05-interview-technique-Q02-practice",
+        "05-interview-technique-Q02-T01",
+        "05-interview-technique-Q02-T02",
+        "05-interview-technique-Q02-T03",
+        "05-interview-technique-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "8444f3662155787ceef5babbb1458878b9cd808f38f69c47380705b9bd472d1b"
+    },
+    {
+      "id": "05-interview-technique:Q03",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-Q03",
+        "05-interview-technique-c5-definition",
+        "05-interview-technique-c5-explanation",
+        "05-interview-technique-c5-walkthrough",
+        "05-interview-technique-c5-decision",
+        "05-interview-technique-c6-definition",
+        "05-interview-technique-c6-explanation",
+        "05-interview-technique-c6-walkthrough",
+        "05-interview-technique-c6-decision",
+        "05-interview-technique-Q03-mechanism",
+        "05-interview-technique-Q03-input",
+        "05-interview-technique-Q03-worked",
+        "05-interview-technique-Q03-boundary",
+        "05-interview-technique-Q03-practice",
+        "05-interview-technique-Q03-T01",
+        "05-interview-technique-Q03-T02",
+        "05-interview-technique-Q03-T03",
+        "05-interview-technique-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "ead7945bb4c18aea1be80925a396756171944c37e188ac96708f484006ee95ff"
+    },
+    {
+      "id": "05-interview-technique:Q04",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-Q04",
+        "05-interview-technique-c7-definition",
+        "05-interview-technique-c7-explanation",
+        "05-interview-technique-c7-walkthrough",
+        "05-interview-technique-c7-decision",
+        "05-interview-technique-c8-definition",
+        "05-interview-technique-c8-explanation",
+        "05-interview-technique-c8-walkthrough",
+        "05-interview-technique-c8-decision",
+        "05-interview-technique-Q04-mechanism",
+        "05-interview-technique-Q04-input",
+        "05-interview-technique-Q04-worked",
+        "05-interview-technique-Q04-boundary",
+        "05-interview-technique-Q04-practice",
+        "05-interview-technique-Q04-T01",
+        "05-interview-technique-Q04-T02",
+        "05-interview-technique-Q04-T03",
+        "05-interview-technique-Q04-T04",
+        "05-interview-technique-additional-case-input",
+        "05-interview-technique-additional-case-solution",
+        "05-interview-technique-additional-case-boundary",
+        "05-interview-technique-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "ff7d22a78e507495191e49a18e7274c73f65d7cfa6fa54785316406ebe186fbf"
+    },
+    {
+      "id": "05-interview-technique:closing",
+      "lectureId": "05-interview-technique",
+      "slideIds": [
+        "05-interview-technique-experiment",
+        "05-interview-technique-experiment-review",
+        "05-interview-technique-summary",
+        "05-interview-technique-sources",
+        "05-interview-technique-final",
+        "05-interview-technique-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "69380ae1159c6d5cf8254294def1c4edade7fe62c0fa22eef995dac23c4b7e55"
+    },
+    {
+      "id": "06-requirement-classes:intro",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-start",
+        "06-requirement-classes-route",
+        "06-requirement-classes-why",
+        "06-requirement-classes-case",
+        "06-requirement-classes-prerequisites",
+        "06-requirement-classes-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "68fdcaa4ba92795963b7a3d8c35a387d86824286bcd7e092dbcd71073634aa1b"
+    },
+    {
+      "id": "06-requirement-classes:Q01",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-Q01",
+        "06-requirement-classes-c1-definition",
+        "06-requirement-classes-c1-explanation",
+        "06-requirement-classes-c1-walkthrough",
+        "06-requirement-classes-c1-decision",
+        "06-requirement-classes-c2-definition",
+        "06-requirement-classes-c2-explanation",
+        "06-requirement-classes-c2-walkthrough",
+        "06-requirement-classes-c2-decision",
+        "06-requirement-classes-Q01-mechanism",
+        "06-requirement-classes-Q01-input",
+        "06-requirement-classes-Q01-worked",
+        "06-requirement-classes-Q01-boundary",
+        "06-requirement-classes-Q01-practice",
+        "06-requirement-classes-Q01-T01",
+        "06-requirement-classes-Q01-T02",
+        "06-requirement-classes-Q01-T03",
+        "06-requirement-classes-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "70c49de8b37ca036eb21bd69dde1ff325dc04fa32667a6e79ed1c0bb2a7d4230"
+    },
+    {
+      "id": "06-requirement-classes:Q02",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-Q02",
+        "06-requirement-classes-c3-definition",
+        "06-requirement-classes-c3-explanation",
+        "06-requirement-classes-c3-walkthrough",
+        "06-requirement-classes-c3-decision",
+        "06-requirement-classes-c4-definition",
+        "06-requirement-classes-c4-explanation",
+        "06-requirement-classes-c4-walkthrough",
+        "06-requirement-classes-c4-decision",
+        "06-requirement-classes-Q02-mechanism",
+        "06-requirement-classes-Q02-input",
+        "06-requirement-classes-Q02-worked",
+        "06-requirement-classes-Q02-boundary",
+        "06-requirement-classes-Q02-practice",
+        "06-requirement-classes-Q02-T01",
+        "06-requirement-classes-Q02-T02",
+        "06-requirement-classes-Q02-T03",
+        "06-requirement-classes-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d68183538fd0cfc5b70da95e1324b6a6cb529402232e453f3e841922075c7a8a"
+    },
+    {
+      "id": "06-requirement-classes:Q03",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-Q03",
+        "06-requirement-classes-c5-definition",
+        "06-requirement-classes-c5-explanation",
+        "06-requirement-classes-c5-walkthrough",
+        "06-requirement-classes-c5-decision",
+        "06-requirement-classes-c6-definition",
+        "06-requirement-classes-c6-explanation",
+        "06-requirement-classes-c6-walkthrough",
+        "06-requirement-classes-c6-decision",
+        "06-requirement-classes-Q03-mechanism",
+        "06-requirement-classes-Q03-input",
+        "06-requirement-classes-Q03-worked",
+        "06-requirement-classes-Q03-boundary",
+        "06-requirement-classes-Q03-practice",
+        "06-requirement-classes-Q03-T01",
+        "06-requirement-classes-Q03-T02",
+        "06-requirement-classes-Q03-T03",
+        "06-requirement-classes-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2f93c89d031d36cb0acf2139dcd1a1e67fa40f8cb9524293e8d6bfcb6e338a87"
+    },
+    {
+      "id": "06-requirement-classes:Q04",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-Q04",
+        "06-requirement-classes-c7-definition",
+        "06-requirement-classes-c7-explanation",
+        "06-requirement-classes-c7-walkthrough",
+        "06-requirement-classes-c7-decision",
+        "06-requirement-classes-c8-definition",
+        "06-requirement-classes-c8-explanation",
+        "06-requirement-classes-c8-walkthrough",
+        "06-requirement-classes-c8-decision",
+        "06-requirement-classes-Q04-mechanism",
+        "06-requirement-classes-Q04-input",
+        "06-requirement-classes-Q04-worked",
+        "06-requirement-classes-Q04-boundary",
+        "06-requirement-classes-Q04-practice",
+        "06-requirement-classes-Q04-T01",
+        "06-requirement-classes-Q04-T02",
+        "06-requirement-classes-Q04-T03",
+        "06-requirement-classes-Q04-T04",
+        "06-requirement-classes-additional-case-input",
+        "06-requirement-classes-additional-case-solution",
+        "06-requirement-classes-additional-case-boundary",
+        "06-requirement-classes-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "61c067639ed28a445a25251551662bb1d17e0de0ea456a691bfd8928216b7a90"
+    },
+    {
+      "id": "06-requirement-classes:closing",
+      "lectureId": "06-requirement-classes",
+      "slideIds": [
+        "06-requirement-classes-experiment",
+        "06-requirement-classes-experiment-review",
+        "06-requirement-classes-summary",
+        "06-requirement-classes-sources",
+        "06-requirement-classes-final",
+        "06-requirement-classes-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a026f1de2e1fa5bc42a4547ec12829cae370b994c6a27148fd9bb0c3595a6ba6"
+    },
+    {
+      "id": "07-requirement-quality:intro",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-start",
+        "07-requirement-quality-route",
+        "07-requirement-quality-why",
+        "07-requirement-quality-case",
+        "07-requirement-quality-prerequisites",
+        "07-requirement-quality-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "4d3b04ce1e8b0ac9d21b3182af700c3707b9499f91efaa6c7b56c3902b9a8c69"
+    },
+    {
+      "id": "07-requirement-quality:Q01",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-Q01",
+        "07-requirement-quality-c1-definition",
+        "07-requirement-quality-c1-explanation",
+        "07-requirement-quality-c1-walkthrough",
+        "07-requirement-quality-c1-decision",
+        "07-requirement-quality-c2-definition",
+        "07-requirement-quality-c2-explanation",
+        "07-requirement-quality-c2-walkthrough",
+        "07-requirement-quality-c2-decision",
+        "07-requirement-quality-Q01-mechanism",
+        "07-requirement-quality-Q01-input",
+        "07-requirement-quality-Q01-worked",
+        "07-requirement-quality-Q01-boundary",
+        "07-requirement-quality-Q01-practice",
+        "07-requirement-quality-Q01-T01",
+        "07-requirement-quality-Q01-T02",
+        "07-requirement-quality-Q01-T03",
+        "07-requirement-quality-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b6a44ee9af0fe987d6930bebc633db6797e6125e8e2662cc24768251f3f76c25"
+    },
+    {
+      "id": "07-requirement-quality:Q02",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-Q02",
+        "07-requirement-quality-c3-definition",
+        "07-requirement-quality-c3-explanation",
+        "07-requirement-quality-c3-walkthrough",
+        "07-requirement-quality-c3-decision",
+        "07-requirement-quality-c4-definition",
+        "07-requirement-quality-c4-explanation",
+        "07-requirement-quality-c4-walkthrough",
+        "07-requirement-quality-c4-decision",
+        "07-requirement-quality-Q02-mechanism",
+        "07-requirement-quality-Q02-input",
+        "07-requirement-quality-Q02-worked",
+        "07-requirement-quality-Q02-boundary",
+        "07-requirement-quality-Q02-practice",
+        "07-requirement-quality-Q02-T01",
+        "07-requirement-quality-Q02-T02",
+        "07-requirement-quality-Q02-T03",
+        "07-requirement-quality-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "ad2e12868e87632169fd84a4ae99df52caebde5f41f18083bc51f397845a8831"
+    },
+    {
+      "id": "07-requirement-quality:Q03",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-Q03",
+        "07-requirement-quality-c5-definition",
+        "07-requirement-quality-c5-explanation",
+        "07-requirement-quality-c5-walkthrough",
+        "07-requirement-quality-c5-decision",
+        "07-requirement-quality-c6-definition",
+        "07-requirement-quality-c6-explanation",
+        "07-requirement-quality-c6-walkthrough",
+        "07-requirement-quality-c6-decision",
+        "07-requirement-quality-Q03-mechanism",
+        "07-requirement-quality-Q03-input",
+        "07-requirement-quality-Q03-worked",
+        "07-requirement-quality-Q03-boundary",
+        "07-requirement-quality-Q03-practice",
+        "07-requirement-quality-Q03-T01",
+        "07-requirement-quality-Q03-T02",
+        "07-requirement-quality-Q03-T03",
+        "07-requirement-quality-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b97e6b883b27d091a1a2ad21f0c684c211edd41a2bd3951ae12e3dab506d2b13"
+    },
+    {
+      "id": "07-requirement-quality:Q04",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-Q04",
+        "07-requirement-quality-c7-definition",
+        "07-requirement-quality-c7-explanation",
+        "07-requirement-quality-c7-walkthrough",
+        "07-requirement-quality-c7-decision",
+        "07-requirement-quality-c8-definition",
+        "07-requirement-quality-c8-explanation",
+        "07-requirement-quality-c8-walkthrough",
+        "07-requirement-quality-c8-decision",
+        "07-requirement-quality-Q04-mechanism",
+        "07-requirement-quality-Q04-input",
+        "07-requirement-quality-Q04-worked",
+        "07-requirement-quality-Q04-boundary",
+        "07-requirement-quality-Q04-practice",
+        "07-requirement-quality-Q04-T01",
+        "07-requirement-quality-Q04-T02",
+        "07-requirement-quality-Q04-T03",
+        "07-requirement-quality-Q04-T04",
+        "07-requirement-quality-additional-case-input",
+        "07-requirement-quality-additional-case-solution",
+        "07-requirement-quality-additional-case-boundary",
+        "07-requirement-quality-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d5e7cbde4df990c563886108f35b9f024a6254cf1e84333579b2bfcebd007bfe"
+    },
+    {
+      "id": "07-requirement-quality:closing",
+      "lectureId": "07-requirement-quality",
+      "slideIds": [
+        "07-requirement-quality-experiment",
+        "07-requirement-quality-experiment-review",
+        "07-requirement-quality-summary",
+        "07-requirement-quality-sources",
+        "07-requirement-quality-final",
+        "07-requirement-quality-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "61c3eabd5ac9926b1d4c6b446490b3dc64578954d480575656ce917bcb69685f"
+    },
+    {
+      "id": "08-user-story-acceptance:intro",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-start",
+        "08-user-story-acceptance-route",
+        "08-user-story-acceptance-why",
+        "08-user-story-acceptance-case",
+        "08-user-story-acceptance-prerequisites",
+        "08-user-story-acceptance-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "5abbbbe9d9abfe13d2e91622e75b522e36ccfe22e3ab84c0b8005907d8b4c422"
+    },
+    {
+      "id": "08-user-story-acceptance:Q01",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-Q01",
+        "08-user-story-acceptance-c1-definition",
+        "08-user-story-acceptance-c1-explanation",
+        "08-user-story-acceptance-c1-walkthrough",
+        "08-user-story-acceptance-c1-decision",
+        "08-user-story-acceptance-c2-definition",
+        "08-user-story-acceptance-c2-explanation",
+        "08-user-story-acceptance-c2-walkthrough",
+        "08-user-story-acceptance-c2-decision",
+        "08-user-story-acceptance-Q01-mechanism",
+        "08-user-story-acceptance-Q01-input",
+        "08-user-story-acceptance-Q01-worked",
+        "08-user-story-acceptance-Q01-boundary",
+        "08-user-story-acceptance-Q01-practice",
+        "08-user-story-acceptance-Q01-T01",
+        "08-user-story-acceptance-Q01-T02",
+        "08-user-story-acceptance-Q01-T03",
+        "08-user-story-acceptance-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/08-user-story-acceptance-c1-walkthrough.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
+        "public/artifacts/08-user-story-acceptance-c2-walkthrough.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
+        "public/artifacts/08-user-story-acceptance-Q01-worked.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+      },
+      "fingerprint": "d858292a9c579aa1f5af8cace29728155174ca9d674e02bf9e8b87be9705d94f"
+    },
+    {
+      "id": "08-user-story-acceptance:Q02",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-Q02",
+        "08-user-story-acceptance-c3-definition",
+        "08-user-story-acceptance-c3-explanation",
+        "08-user-story-acceptance-c3-walkthrough",
+        "08-user-story-acceptance-c3-decision",
+        "08-user-story-acceptance-c4-definition",
+        "08-user-story-acceptance-c4-explanation",
+        "08-user-story-acceptance-c4-walkthrough",
+        "08-user-story-acceptance-c4-decision",
+        "08-user-story-acceptance-Q02-mechanism",
+        "08-user-story-acceptance-Q02-input",
+        "08-user-story-acceptance-Q02-worked",
+        "08-user-story-acceptance-Q02-boundary",
+        "08-user-story-acceptance-Q02-practice",
+        "08-user-story-acceptance-Q02-T01",
+        "08-user-story-acceptance-Q02-T02",
+        "08-user-story-acceptance-Q02-T03",
+        "08-user-story-acceptance-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/08-user-story-acceptance-c3-walkthrough.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca",
+        "public/artifacts/08-user-story-acceptance-c4-walkthrough.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca",
+        "public/artifacts/08-user-story-acceptance-Q02-worked.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+      },
+      "fingerprint": "d7e0f9bef7b5a99c3f78c52ffcf8e558e6668148204322a11b2d259c3d14d868"
+    },
+    {
+      "id": "08-user-story-acceptance:Q03",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-Q03",
+        "08-user-story-acceptance-c5-definition",
+        "08-user-story-acceptance-c5-explanation",
+        "08-user-story-acceptance-c5-walkthrough",
+        "08-user-story-acceptance-c5-decision",
+        "08-user-story-acceptance-c6-definition",
+        "08-user-story-acceptance-c6-explanation",
+        "08-user-story-acceptance-c6-walkthrough",
+        "08-user-story-acceptance-c6-decision",
+        "08-user-story-acceptance-Q03-mechanism",
+        "08-user-story-acceptance-Q03-input",
+        "08-user-story-acceptance-Q03-worked",
+        "08-user-story-acceptance-Q03-boundary",
+        "08-user-story-acceptance-Q03-practice",
+        "08-user-story-acceptance-Q03-T01",
+        "08-user-story-acceptance-Q03-T02",
+        "08-user-story-acceptance-Q03-T03",
+        "08-user-story-acceptance-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/08-user-story-acceptance-c5-walkthrough.svg": "800013b4ca40755c3ad04e22626327f63721ef702f394d944188259c1e260103",
+        "public/artifacts/08-user-story-acceptance-c6-walkthrough.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca",
+        "public/artifacts/08-user-story-acceptance-Q03-worked.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
+      },
+      "fingerprint": "35b75bec07d39439e83f93f2a16dec414e6de2e02850093f29b705623fefaf6a"
+    },
+    {
+      "id": "08-user-story-acceptance:Q04",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-Q04",
+        "08-user-story-acceptance-c7-definition",
+        "08-user-story-acceptance-c7-explanation",
+        "08-user-story-acceptance-c7-walkthrough",
+        "08-user-story-acceptance-c7-decision",
+        "08-user-story-acceptance-c8-definition",
+        "08-user-story-acceptance-c8-explanation",
+        "08-user-story-acceptance-c8-walkthrough",
+        "08-user-story-acceptance-c8-decision",
+        "08-user-story-acceptance-Q04-mechanism",
+        "08-user-story-acceptance-Q04-input",
+        "08-user-story-acceptance-Q04-worked",
+        "08-user-story-acceptance-Q04-boundary",
+        "08-user-story-acceptance-Q04-practice",
+        "08-user-story-acceptance-Q04-T01",
+        "08-user-story-acceptance-Q04-T02",
+        "08-user-story-acceptance-Q04-T03",
+        "08-user-story-acceptance-Q04-T04",
+        "08-user-story-acceptance-additional-case-input",
+        "08-user-story-acceptance-additional-case-solution",
+        "08-user-story-acceptance-additional-case-boundary",
+        "08-user-story-acceptance-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/08-user-story-acceptance-c7-walkthrough.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
+        "public/artifacts/08-user-story-acceptance-c8-walkthrough.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
+        "public/artifacts/08-user-story-acceptance-Q04-worked.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
+        "public/artifacts/08-user-story-acceptance-additional-case-solution.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
+      },
+      "fingerprint": "d7b38bb4aeeb366a41a375435fd91bd1246cc97df84fa7343b79a4aa1280420f"
+    },
+    {
+      "id": "08-user-story-acceptance:closing",
+      "lectureId": "08-user-story-acceptance",
+      "slideIds": [
+        "08-user-story-acceptance-experiment",
+        "08-user-story-acceptance-experiment-review",
+        "08-user-story-acceptance-summary",
+        "08-user-story-acceptance-sources",
+        "08-user-story-acceptance-final",
+        "08-user-story-acceptance-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "6a011d98a6deb0ac3384aaf0612619eec40ff58321d79304efb8dedcd123fc91"
+    },
+    {
+      "id": "09-assumptions-traceability:intro",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-start",
+        "09-assumptions-traceability-route",
+        "09-assumptions-traceability-why",
+        "09-assumptions-traceability-case",
+        "09-assumptions-traceability-prerequisites",
+        "09-assumptions-traceability-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "ebb95679b4306f1bf02fc58a780c9dc13839e22a4e57673447ba2ac96248508d"
+    },
+    {
+      "id": "09-assumptions-traceability:Q01",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-Q01",
+        "09-assumptions-traceability-c1-definition",
+        "09-assumptions-traceability-c1-explanation",
+        "09-assumptions-traceability-c1-walkthrough",
+        "09-assumptions-traceability-c1-decision",
+        "09-assumptions-traceability-c2-definition",
+        "09-assumptions-traceability-c2-explanation",
+        "09-assumptions-traceability-c2-walkthrough",
+        "09-assumptions-traceability-c2-decision",
+        "09-assumptions-traceability-Q01-mechanism",
+        "09-assumptions-traceability-Q01-input",
+        "09-assumptions-traceability-Q01-worked",
+        "09-assumptions-traceability-Q01-boundary",
+        "09-assumptions-traceability-Q01-practice",
+        "09-assumptions-traceability-Q01-T01",
+        "09-assumptions-traceability-Q01-T02",
+        "09-assumptions-traceability-Q01-T03",
+        "09-assumptions-traceability-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "9a475729e321372b6cdb6b04d3151b91f04e6e394427c8f418ea900fb3bc824f"
+    },
+    {
+      "id": "09-assumptions-traceability:Q02",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-Q02",
+        "09-assumptions-traceability-c3-definition",
+        "09-assumptions-traceability-c3-explanation",
+        "09-assumptions-traceability-c3-walkthrough",
+        "09-assumptions-traceability-c3-decision",
+        "09-assumptions-traceability-c4-definition",
+        "09-assumptions-traceability-c4-explanation",
+        "09-assumptions-traceability-c4-walkthrough",
+        "09-assumptions-traceability-c4-decision",
+        "09-assumptions-traceability-Q02-mechanism",
+        "09-assumptions-traceability-Q02-input",
+        "09-assumptions-traceability-Q02-worked",
+        "09-assumptions-traceability-Q02-boundary",
+        "09-assumptions-traceability-Q02-practice",
+        "09-assumptions-traceability-Q02-T01",
+        "09-assumptions-traceability-Q02-T02",
+        "09-assumptions-traceability-Q02-T03",
+        "09-assumptions-traceability-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "3257d2739d87e5093a9dec6341a3d637c11a4e4a609c3d3b4284b479cfe93431"
+    },
+    {
+      "id": "09-assumptions-traceability:Q03",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-Q03",
+        "09-assumptions-traceability-c5-definition",
+        "09-assumptions-traceability-c5-explanation",
+        "09-assumptions-traceability-c5-walkthrough",
+        "09-assumptions-traceability-c5-decision",
+        "09-assumptions-traceability-c6-definition",
+        "09-assumptions-traceability-c6-explanation",
+        "09-assumptions-traceability-c6-walkthrough",
+        "09-assumptions-traceability-c6-decision",
+        "09-assumptions-traceability-Q03-mechanism",
+        "09-assumptions-traceability-Q03-input",
+        "09-assumptions-traceability-Q03-worked",
+        "09-assumptions-traceability-Q03-boundary",
+        "09-assumptions-traceability-Q03-practice",
+        "09-assumptions-traceability-Q03-T01",
+        "09-assumptions-traceability-Q03-T02",
+        "09-assumptions-traceability-Q03-T03",
+        "09-assumptions-traceability-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "96401c93360728926fc720110fafdb83beb793381dcd7a8b96f8c64e52ed2779"
+    },
+    {
+      "id": "09-assumptions-traceability:Q04",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-Q04",
+        "09-assumptions-traceability-c7-definition",
+        "09-assumptions-traceability-c7-explanation",
+        "09-assumptions-traceability-c7-walkthrough",
+        "09-assumptions-traceability-c7-decision",
+        "09-assumptions-traceability-c8-definition",
+        "09-assumptions-traceability-c8-explanation",
+        "09-assumptions-traceability-c8-walkthrough",
+        "09-assumptions-traceability-c8-decision",
+        "09-assumptions-traceability-Q04-mechanism",
+        "09-assumptions-traceability-Q04-input",
+        "09-assumptions-traceability-Q04-worked",
+        "09-assumptions-traceability-Q04-boundary",
+        "09-assumptions-traceability-Q04-practice",
+        "09-assumptions-traceability-Q04-T01",
+        "09-assumptions-traceability-Q04-T02",
+        "09-assumptions-traceability-Q04-T03",
+        "09-assumptions-traceability-Q04-T04",
+        "09-assumptions-traceability-additional-case-input",
+        "09-assumptions-traceability-additional-case-solution",
+        "09-assumptions-traceability-additional-case-boundary",
+        "09-assumptions-traceability-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "09c7b0a76030982cb3e734cc09dc6fe5e1efba181065980a864ef398735d84fd"
+    },
+    {
+      "id": "09-assumptions-traceability:closing",
+      "lectureId": "09-assumptions-traceability",
+      "slideIds": [
+        "09-assumptions-traceability-experiment",
+        "09-assumptions-traceability-experiment-review",
+        "09-assumptions-traceability-summary",
+        "09-assumptions-traceability-sources",
+        "09-assumptions-traceability-final",
+        "09-assumptions-traceability-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2a4e6af2678e28c6fcb6cd0db4ba193a19803dc4bac9b5886031585e654fb045"
+    },
+    {
+      "id": "10-entity-candidates:intro",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-start",
+        "10-entity-candidates-route",
+        "10-entity-candidates-why",
+        "10-entity-candidates-case",
+        "10-entity-candidates-prerequisites",
+        "10-entity-candidates-explanation",
+        "10-entity-candidates-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "707552d64ee8a11426987dd8c0b59b124affeb3562730125554ab2ed8a2a58c4"
+    },
+    {
+      "id": "10-entity-candidates:Q01",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-Q01",
+        "10-entity-candidates-c1-definition",
+        "10-entity-candidates-c1-explanation",
+        "10-entity-candidates-c1-walkthrough",
+        "10-entity-candidates-c1-decision",
+        "10-entity-candidates-c2-definition",
+        "10-entity-candidates-c2-explanation",
+        "10-entity-candidates-c2-walkthrough",
+        "10-entity-candidates-c2-decision",
+        "10-entity-candidates-Q01-mechanism",
+        "10-entity-candidates-Q01-input",
+        "10-entity-candidates-Q01-worked",
+        "10-entity-candidates-Q01-boundary",
+        "10-entity-candidates-Q01-practice",
+        "10-entity-candidates-Q01-T01",
+        "10-entity-candidates-Q01-T02",
+        "10-entity-candidates-Q01-T03",
+        "10-entity-candidates-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "f4ae961563bb804445016724913570303a64ef793025a9336974be456d822a79"
+    },
+    {
+      "id": "10-entity-candidates:Q02",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-Q02",
+        "10-entity-candidates-c3-definition",
+        "10-entity-candidates-c3-explanation",
+        "10-entity-candidates-c3-walkthrough",
+        "10-entity-candidates-c3-decision",
+        "10-entity-candidates-c4-definition",
+        "10-entity-candidates-c4-explanation",
+        "10-entity-candidates-c4-walkthrough",
+        "10-entity-candidates-c4-decision",
+        "10-entity-candidates-Q02-mechanism",
+        "10-entity-candidates-Q02-input",
+        "10-entity-candidates-Q02-worked",
+        "10-entity-candidates-Q02-boundary",
+        "10-entity-candidates-Q02-practice",
+        "10-entity-candidates-Q02-T01",
+        "10-entity-candidates-Q02-T02",
+        "10-entity-candidates-Q02-T03",
+        "10-entity-candidates-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d457d3d798e61759531bb7dc8e537b09174037eb5071d15db4e404d31664a79e"
+    },
+    {
+      "id": "10-entity-candidates:Q03",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-Q03",
+        "10-entity-candidates-c5-definition",
+        "10-entity-candidates-c5-explanation",
+        "10-entity-candidates-c5-walkthrough",
+        "10-entity-candidates-c5-decision",
+        "10-entity-candidates-c6-definition",
+        "10-entity-candidates-c6-explanation",
+        "10-entity-candidates-c6-walkthrough",
+        "10-entity-candidates-c6-decision",
+        "10-entity-candidates-Q03-mechanism",
+        "10-entity-candidates-Q03-input",
+        "10-entity-candidates-Q03-worked",
+        "10-entity-candidates-Q03-boundary",
+        "10-entity-candidates-Q03-practice",
+        "10-entity-candidates-Q03-T01",
+        "10-entity-candidates-Q03-T02",
+        "10-entity-candidates-Q03-T03",
+        "10-entity-candidates-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/10-receipt-document.svg": "1da3198b923e16e5b180c5ad84895c8865541945e556a36ded00c3fa0f8da9c4",
+        "public/models/10-placement-er.svg": "db5a65ce08169b1a264d48b9db302c21c6e0a5384e64095c2d0f07c69e18a33a"
+      },
+      "fingerprint": "79cdbff5f88758be0b263957436c536309347228e7b575594d38dc9e4462b363"
+    },
+    {
+      "id": "10-entity-candidates:Q04",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-Q04",
+        "10-entity-candidates-c7-definition",
+        "10-entity-candidates-c7-explanation",
+        "10-entity-candidates-c7-walkthrough",
+        "10-entity-candidates-c7-decision",
+        "10-entity-candidates-c8-definition",
+        "10-entity-candidates-c8-explanation",
+        "10-entity-candidates-c8-walkthrough",
+        "10-entity-candidates-c8-decision",
+        "10-entity-candidates-Q04-mechanism",
+        "10-entity-candidates-Q04-input",
+        "10-entity-candidates-Q04-worked",
+        "10-entity-candidates-Q04-boundary",
+        "10-entity-candidates-Q04-practice",
+        "10-entity-candidates-Q04-T01",
+        "10-entity-candidates-Q04-T02",
+        "10-entity-candidates-Q04-T03",
+        "10-entity-candidates-Q04-T04",
+        "10-entity-candidates-additional-case-input",
+        "10-entity-candidates-additional-case-solution",
+        "10-entity-candidates-additional-case-boundary",
+        "10-entity-candidates-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "c83277ef77952cc34e0cc82cc68110b0aed329497595be180ffd41a18bf314b8"
+    },
+    {
+      "id": "10-entity-candidates:closing",
+      "lectureId": "10-entity-candidates",
+      "slideIds": [
+        "10-entity-candidates-experiment",
+        "10-entity-candidates-experiment-review",
+        "10-entity-candidates-summary",
+        "10-entity-candidates-sources",
+        "10-entity-candidates-final",
+        "10-entity-candidates-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "767d8927e999a9b7472f2331da329d67c7f9c3c2a2ea7776a6748c15638fbc1a"
+    },
+    {
+      "id": "11-project-glossary:intro",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-start",
+        "11-project-glossary-route",
+        "11-project-glossary-why",
+        "11-project-glossary-case",
+        "11-project-glossary-prerequisites",
+        "11-project-glossary-explanation",
+        "11-project-glossary-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "d03fd5c117b7edf1b6b6e7046bcd9aa23d044c06d35de13e273a9236f00c3344"
+    },
+    {
+      "id": "11-project-glossary:Q01",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-Q01",
+        "11-project-glossary-c1-definition",
+        "11-project-glossary-c1-explanation",
+        "11-project-glossary-c1-walkthrough",
+        "11-project-glossary-c1-decision",
+        "11-project-glossary-c2-definition",
+        "11-project-glossary-c2-explanation",
+        "11-project-glossary-c2-walkthrough",
+        "11-project-glossary-c2-decision",
+        "11-project-glossary-Q01-mechanism",
+        "11-project-glossary-Q01-input",
+        "11-project-glossary-Q01-worked",
+        "11-project-glossary-Q01-boundary",
+        "11-project-glossary-Q01-practice",
+        "11-project-glossary-Q01-T01",
+        "11-project-glossary-Q01-T02",
+        "11-project-glossary-Q01-T03",
+        "11-project-glossary-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2791523d0c60792620a1e9b410c0fefe34af17a46f8847c64aecad536977b5aa"
+    },
+    {
+      "id": "11-project-glossary:Q02",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-Q02",
+        "11-project-glossary-c3-definition",
+        "11-project-glossary-c3-explanation",
+        "11-project-glossary-c3-walkthrough",
+        "11-project-glossary-c3-decision",
+        "11-project-glossary-c4-definition",
+        "11-project-glossary-c4-explanation",
+        "11-project-glossary-c4-walkthrough",
+        "11-project-glossary-c4-decision",
+        "11-project-glossary-Q02-mechanism",
+        "11-project-glossary-Q02-input",
+        "11-project-glossary-Q02-worked",
+        "11-project-glossary-Q02-boundary",
+        "11-project-glossary-Q02-practice",
+        "11-project-glossary-Q02-T01",
+        "11-project-glossary-Q02-T02",
+        "11-project-glossary-Q02-T03",
+        "11-project-glossary-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "068a009c022735c15da994d1837b5ce1e21a126e77cafca2119b7d3c67f17d37"
+    },
+    {
+      "id": "11-project-glossary:Q03",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-Q03",
+        "11-project-glossary-c5-definition",
+        "11-project-glossary-c5-explanation",
+        "11-project-glossary-c5-walkthrough",
+        "11-project-glossary-c5-decision",
+        "11-project-glossary-c6-definition",
+        "11-project-glossary-c6-explanation",
+        "11-project-glossary-c6-walkthrough",
+        "11-project-glossary-c6-decision",
+        "11-project-glossary-Q03-mechanism",
+        "11-project-glossary-Q03-input",
+        "11-project-glossary-Q03-worked",
+        "11-project-glossary-Q03-boundary",
+        "11-project-glossary-Q03-practice",
+        "11-project-glossary-Q03-T01",
+        "11-project-glossary-Q03-T02",
+        "11-project-glossary-Q03-T03",
+        "11-project-glossary-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "0d3d81d08d1e007aceff39d85b33795115ea2780779b533b97354b532ec71836"
+    },
+    {
+      "id": "11-project-glossary:Q04",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-Q04",
+        "11-project-glossary-c7-definition",
+        "11-project-glossary-c7-explanation",
+        "11-project-glossary-c7-walkthrough",
+        "11-project-glossary-c7-decision",
+        "11-project-glossary-c8-definition",
+        "11-project-glossary-c8-explanation",
+        "11-project-glossary-c8-walkthrough",
+        "11-project-glossary-c8-decision",
+        "11-project-glossary-Q04-mechanism",
+        "11-project-glossary-Q04-input",
+        "11-project-glossary-Q04-worked",
+        "11-project-glossary-Q04-boundary",
+        "11-project-glossary-Q04-practice",
+        "11-project-glossary-Q04-T01",
+        "11-project-glossary-Q04-T02",
+        "11-project-glossary-Q04-T03",
+        "11-project-glossary-Q04-T04",
+        "11-project-glossary-additional-case-input",
+        "11-project-glossary-additional-case-solution",
+        "11-project-glossary-additional-case-boundary",
+        "11-project-glossary-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/11-glossary-entry.svg": "f99f4771de5adc406d7832d1aebdf5907cfcf4f73c065896554eb480869f993d"
+      },
+      "fingerprint": "765f62e0b5c09c5c790640e3d7284f416f248c9ba0275cf13c5972a806fcd691"
+    },
+    {
+      "id": "11-project-glossary:closing",
+      "lectureId": "11-project-glossary",
+      "slideIds": [
+        "11-project-glossary-experiment",
+        "11-project-glossary-experiment-review",
+        "11-project-glossary-summary",
+        "11-project-glossary-sources",
+        "11-project-glossary-final",
+        "11-project-glossary-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "c75ed8a8049e6f8cf7ec782042b7aa1f63e6edaafcd8cd2a710cf05dd1998354"
+    },
+    {
+      "id": "12-business-rules:intro",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-start",
+        "12-business-rules-route",
+        "12-business-rules-why",
+        "12-business-rules-case",
+        "12-business-rules-prerequisites",
+        "12-business-rules-explanation",
+        "12-business-rules-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "64e75826d0bd3b11d1288e0e1363df7a724c43f731a1aab2d848b4ac006af587"
+    },
+    {
+      "id": "12-business-rules:Q01",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-Q01",
+        "12-business-rules-c1-definition",
+        "12-business-rules-c1-explanation",
+        "12-business-rules-c1-walkthrough",
+        "12-business-rules-c1-decision",
+        "12-business-rules-c2-definition",
+        "12-business-rules-c2-explanation",
+        "12-business-rules-c2-walkthrough",
+        "12-business-rules-c2-decision",
+        "12-business-rules-Q01-mechanism",
+        "12-business-rules-Q01-input",
+        "12-business-rules-Q01-worked",
+        "12-business-rules-Q01-boundary",
+        "12-business-rules-Q01-practice",
+        "12-business-rules-Q01-T01",
+        "12-business-rules-Q01-T02",
+        "12-business-rules-Q01-T03",
+        "12-business-rules-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "cbbb4b9596b5d79f18557000965cc8833f77a2dd6a39ef9c42170f860b991bcf"
+    },
+    {
+      "id": "12-business-rules:Q02",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-Q02",
+        "12-business-rules-c3-definition",
+        "12-business-rules-c3-explanation",
+        "12-business-rules-c3-walkthrough",
+        "12-business-rules-c3-decision",
+        "12-business-rules-c4-definition",
+        "12-business-rules-c4-explanation",
+        "12-business-rules-c4-walkthrough",
+        "12-business-rules-c4-decision",
+        "12-business-rules-Q02-mechanism",
+        "12-business-rules-Q02-input",
+        "12-business-rules-Q02-worked",
+        "12-business-rules-Q02-boundary",
+        "12-business-rules-Q02-practice",
+        "12-business-rules-Q02-T01",
+        "12-business-rules-Q02-T02",
+        "12-business-rules-Q02-T03",
+        "12-business-rules-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "cb80a34f7cf169db4511c2254aa8646b97f7b19cbf48747a4f2eca7fddb00648"
+    },
+    {
+      "id": "12-business-rules:Q03",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-Q03",
+        "12-business-rules-c5-definition",
+        "12-business-rules-c5-explanation",
+        "12-business-rules-c5-walkthrough",
+        "12-business-rules-c5-decision",
+        "12-business-rules-c6-definition",
+        "12-business-rules-c6-explanation",
+        "12-business-rules-c6-walkthrough",
+        "12-business-rules-c6-decision",
+        "12-business-rules-Q03-mechanism",
+        "12-business-rules-Q03-input",
+        "12-business-rules-Q03-worked",
+        "12-business-rules-Q03-boundary",
+        "12-business-rules-Q03-practice",
+        "12-business-rules-Q03-T01",
+        "12-business-rules-Q03-T02",
+        "12-business-rules-Q03-T03",
+        "12-business-rules-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "7fefffdcc9796ea0f046e09ca0a751e8f8a223eb8efb1e3347768286626d2d2a"
+    },
+    {
+      "id": "12-business-rules:Q04",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-Q04",
+        "12-business-rules-c7-definition",
+        "12-business-rules-c7-explanation",
+        "12-business-rules-c7-walkthrough",
+        "12-business-rules-c7-decision",
+        "12-business-rules-c8-definition",
+        "12-business-rules-c8-explanation",
+        "12-business-rules-c8-walkthrough",
+        "12-business-rules-c8-decision",
+        "12-business-rules-Q04-mechanism",
+        "12-business-rules-Q04-input",
+        "12-business-rules-Q04-worked",
+        "12-business-rules-Q04-boundary",
+        "12-business-rules-Q04-practice",
+        "12-business-rules-Q04-T01",
+        "12-business-rules-Q04-T02",
+        "12-business-rules-Q04-T03",
+        "12-business-rules-Q04-T04",
+        "12-business-rules-additional-case-input",
+        "12-business-rules-additional-case-solution",
+        "12-business-rules-additional-case-boundary",
+        "12-business-rules-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "fe57b1aeb28e2edc4dde3c77adc0db313b532b3020d7aeb07aae7e91aeb4a62d"
+    },
+    {
+      "id": "12-business-rules:closing",
+      "lectureId": "12-business-rules",
+      "slideIds": [
+        "12-business-rules-experiment",
+        "12-business-rules-experiment-review",
+        "12-business-rules-summary",
+        "12-business-rules-sources",
+        "12-business-rules-final",
+        "12-business-rules-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4ad8846ced88687778e6920fb5c064df7451025d85c7061d183e6ff662bd7430"
+    },
+    {
+      "id": "13-attribute-composition:intro",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-start",
+        "13-attribute-composition-route",
+        "13-attribute-composition-why",
+        "13-attribute-composition-case",
+        "13-attribute-composition-prerequisites",
+        "13-attribute-composition-explanation",
+        "13-attribute-composition-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "fb0212ac3dfcadc0813225ef9b9bbc40f6c710afb60cde2e0e556613ab3bda04"
+    },
+    {
+      "id": "13-attribute-composition:Q01",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-Q01",
+        "13-attribute-composition-c1-definition",
+        "13-attribute-composition-c1-explanation",
+        "13-attribute-composition-c1-walkthrough",
+        "13-attribute-composition-c1-decision",
+        "13-attribute-composition-c2-definition",
+        "13-attribute-composition-c2-explanation",
+        "13-attribute-composition-c2-walkthrough",
+        "13-attribute-composition-c2-decision",
+        "13-attribute-composition-Q01-mechanism",
+        "13-attribute-composition-Q01-input",
+        "13-attribute-composition-Q01-worked",
+        "13-attribute-composition-Q01-boundary",
+        "13-attribute-composition-Q01-practice",
+        "13-attribute-composition-Q01-T01",
+        "13-attribute-composition-Q01-T02",
+        "13-attribute-composition-Q01-T03",
+        "13-attribute-composition-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "f89115d6c8cf76ec399dae350af7ab22fdf4e54d8fc161a14f47c1221fb7fe81"
+    },
+    {
+      "id": "13-attribute-composition:Q02",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-Q02",
+        "13-attribute-composition-c3-definition",
+        "13-attribute-composition-c3-explanation",
+        "13-attribute-composition-c3-walkthrough",
+        "13-attribute-composition-c3-decision",
+        "13-attribute-composition-c4-definition",
+        "13-attribute-composition-c4-explanation",
+        "13-attribute-composition-c4-walkthrough",
+        "13-attribute-composition-c4-decision",
+        "13-attribute-composition-Q02-mechanism",
+        "13-attribute-composition-Q02-input",
+        "13-attribute-composition-Q02-worked",
+        "13-attribute-composition-Q02-boundary",
+        "13-attribute-composition-Q02-practice",
+        "13-attribute-composition-Q02-T01",
+        "13-attribute-composition-Q02-T02",
+        "13-attribute-composition-Q02-T03",
+        "13-attribute-composition-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5f80c091b450f3b19ab8fbf63d006172b71ce345b0f8b39c35a5e5564b414813"
+    },
+    {
+      "id": "13-attribute-composition:Q03",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-Q03",
+        "13-attribute-composition-c5-definition",
+        "13-attribute-composition-c5-explanation",
+        "13-attribute-composition-c5-walkthrough",
+        "13-attribute-composition-c5-decision",
+        "13-attribute-composition-c6-definition",
+        "13-attribute-composition-c6-explanation",
+        "13-attribute-composition-c6-walkthrough",
+        "13-attribute-composition-c6-decision",
+        "13-attribute-composition-Q03-mechanism",
+        "13-attribute-composition-Q03-input",
+        "13-attribute-composition-Q03-worked",
+        "13-attribute-composition-Q03-boundary",
+        "13-attribute-composition-Q03-practice",
+        "13-attribute-composition-Q03-T01",
+        "13-attribute-composition-Q03-T02",
+        "13-attribute-composition-Q03-T03",
+        "13-attribute-composition-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/02-quality-state.svg": "22985b65a9c115589a3b5637274b2d14a4ba46ef07813f7bcebe5a29f57b8bbe"
+      },
+      "fingerprint": "155e2a2fba757392f9e01223605266f2c8701726615698846ca73aa67df26e3a"
+    },
+    {
+      "id": "13-attribute-composition:Q04",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-Q04",
+        "13-attribute-composition-c7-definition",
+        "13-attribute-composition-c7-explanation",
+        "13-attribute-composition-c7-walkthrough",
+        "13-attribute-composition-c7-decision",
+        "13-attribute-composition-c8-definition",
+        "13-attribute-composition-c8-explanation",
+        "13-attribute-composition-c8-walkthrough",
+        "13-attribute-composition-c8-decision",
+        "13-attribute-composition-Q04-mechanism",
+        "13-attribute-composition-Q04-input",
+        "13-attribute-composition-Q04-worked",
+        "13-attribute-composition-Q04-boundary",
+        "13-attribute-composition-Q04-practice",
+        "13-attribute-composition-Q04-T01",
+        "13-attribute-composition-Q04-T02",
+        "13-attribute-composition-Q04-T03",
+        "13-attribute-composition-Q04-T04",
+        "13-attribute-composition-additional-case-input",
+        "13-attribute-composition-additional-case-solution",
+        "13-attribute-composition-additional-case-boundary",
+        "13-attribute-composition-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "34375b241b88745b219303503f8acb82cd93c22fefe9241dda4974194220bb82"
+    },
+    {
+      "id": "13-attribute-composition:closing",
+      "lectureId": "13-attribute-composition",
+      "slideIds": [
+        "13-attribute-composition-experiment",
+        "13-attribute-composition-experiment-review",
+        "13-attribute-composition-summary",
+        "13-attribute-composition-sources",
+        "13-attribute-composition-final",
+        "13-attribute-composition-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "1df502eed88e97f2491fa779a4ec3054d07733410afd981b29474c58d7f7deb5"
+    },
+    {
+      "id": "14-data-history:intro",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-start",
+        "14-data-history-route",
+        "14-data-history-why",
+        "14-data-history-case",
+        "14-data-history-prerequisites",
+        "14-data-history-explanation",
+        "14-data-history-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "becac91c018b7464a84a7f60a1b723277b24c5c41815806a140e9e6c2c7d076a"
+    },
+    {
+      "id": "14-data-history:Q01",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-Q01",
+        "14-data-history-c1-definition",
+        "14-data-history-c1-explanation",
+        "14-data-history-c1-walkthrough",
+        "14-data-history-c1-decision",
+        "14-data-history-c2-definition",
+        "14-data-history-c2-explanation",
+        "14-data-history-c2-walkthrough",
+        "14-data-history-c2-decision",
+        "14-data-history-Q01-mechanism",
+        "14-data-history-Q01-input",
+        "14-data-history-Q01-worked",
+        "14-data-history-Q01-boundary",
+        "14-data-history-Q01-practice",
+        "14-data-history-Q01-T01",
+        "14-data-history-Q01-T02",
+        "14-data-history-Q01-T03",
+        "14-data-history-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "edf801a14d5c05b852de39bc76846ba71e453b1c95616de26a9c36126f2eac31"
+    },
+    {
+      "id": "14-data-history:Q02",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-Q02",
+        "14-data-history-c3-definition",
+        "14-data-history-c3-explanation",
+        "14-data-history-c3-walkthrough",
+        "14-data-history-c3-decision",
+        "14-data-history-c4-definition",
+        "14-data-history-c4-explanation",
+        "14-data-history-c4-walkthrough",
+        "14-data-history-c4-decision",
+        "14-data-history-Q02-mechanism",
+        "14-data-history-Q02-input",
+        "14-data-history-Q02-worked",
+        "14-data-history-Q02-boundary",
+        "14-data-history-Q02-practice",
+        "14-data-history-Q02-T01",
+        "14-data-history-Q02-T02",
+        "14-data-history-Q02-T03",
+        "14-data-history-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/14-two-times.svg": "b13c402b48015690360d4b34ca6d3f846a1f6cb382efed9f478343967d4432af"
+      },
+      "fingerprint": "61a87901f3c40015867b11b25676d3ba744a3f30a7d0ca66e83f4353c6b149f7"
+    },
+    {
+      "id": "14-data-history:Q03",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-Q03",
+        "14-data-history-c5-definition",
+        "14-data-history-c5-explanation",
+        "14-data-history-c5-walkthrough",
+        "14-data-history-c5-decision",
+        "14-data-history-c6-definition",
+        "14-data-history-c6-explanation",
+        "14-data-history-c6-walkthrough",
+        "14-data-history-c6-decision",
+        "14-data-history-Q03-mechanism",
+        "14-data-history-Q03-input",
+        "14-data-history-Q03-worked",
+        "14-data-history-Q03-boundary",
+        "14-data-history-Q03-practice",
+        "14-data-history-Q03-T01",
+        "14-data-history-Q03-T02",
+        "14-data-history-Q03-T03",
+        "14-data-history-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "029a76089cfbf682bbabaefbc16dad65a63a53c34349eac0b8e2e44717311912"
+    },
+    {
+      "id": "14-data-history:Q04",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-Q04",
+        "14-data-history-c7-definition",
+        "14-data-history-c7-explanation",
+        "14-data-history-c7-walkthrough",
+        "14-data-history-c7-decision",
+        "14-data-history-c8-definition",
+        "14-data-history-c8-explanation",
+        "14-data-history-c8-walkthrough",
+        "14-data-history-c8-decision",
+        "14-data-history-Q04-mechanism",
+        "14-data-history-Q04-input",
+        "14-data-history-Q04-worked",
+        "14-data-history-Q04-boundary",
+        "14-data-history-Q04-practice",
+        "14-data-history-Q04-T01",
+        "14-data-history-Q04-T02",
+        "14-data-history-Q04-T03",
+        "14-data-history-Q04-T04",
+        "14-data-history-additional-case-input",
+        "14-data-history-additional-case-solution",
+        "14-data-history-additional-case-boundary",
+        "14-data-history-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4ba767b591f8319f0fa9d9f9052f5c833201a58e058033ee415dcfd166ff86ed"
+    },
+    {
+      "id": "14-data-history:closing",
+      "lectureId": "14-data-history",
+      "slideIds": [
+        "14-data-history-experiment",
+        "14-data-history-experiment-review",
+        "14-data-history-summary",
+        "14-data-history-sources",
+        "14-data-history-final",
+        "14-data-history-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "436e23e3c88393a1db7b93dbafd8d14d7109bf888298acebc2381d12ca6e194e"
+    },
+    {
+      "id": "15-model-revision:intro",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-start",
+        "15-model-revision-route",
+        "15-model-revision-why",
+        "15-model-revision-case",
+        "15-model-revision-prerequisites",
+        "15-model-revision-explanation",
+        "15-model-revision-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "b8dd3705c9ddab8a1b45a4d7fe2d8f1230f4e405b05359441b663d0739975cbf"
+    },
+    {
+      "id": "15-model-revision:Q01",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-Q01",
+        "15-model-revision-c1-definition",
+        "15-model-revision-c1-explanation",
+        "15-model-revision-c1-walkthrough",
+        "15-model-revision-c1-decision",
+        "15-model-revision-c2-definition",
+        "15-model-revision-c2-explanation",
+        "15-model-revision-c2-walkthrough",
+        "15-model-revision-c2-decision",
+        "15-model-revision-Q01-mechanism",
+        "15-model-revision-Q01-input",
+        "15-model-revision-Q01-worked",
+        "15-model-revision-Q01-boundary",
+        "15-model-revision-Q01-practice",
+        "15-model-revision-Q01-T01",
+        "15-model-revision-Q01-T02",
+        "15-model-revision-Q01-T03",
+        "15-model-revision-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "79734b142d5624b9eb79b9594b48de5053e68fb516b4c352b7d435cb445ff0cc"
+    },
+    {
+      "id": "15-model-revision:Q02",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-Q02",
+        "15-model-revision-c3-definition",
+        "15-model-revision-c3-explanation",
+        "15-model-revision-c3-walkthrough",
+        "15-model-revision-c3-decision",
+        "15-model-revision-c4-definition",
+        "15-model-revision-c4-explanation",
+        "15-model-revision-c4-walkthrough",
+        "15-model-revision-c4-decision",
+        "15-model-revision-Q02-mechanism",
+        "15-model-revision-Q02-input",
+        "15-model-revision-Q02-worked",
+        "15-model-revision-Q02-boundary",
+        "15-model-revision-Q02-practice",
+        "15-model-revision-Q02-T01",
+        "15-model-revision-Q02-T02",
+        "15-model-revision-Q02-T03",
+        "15-model-revision-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/15-review-status.svg": "e9d8e317943cb79f7d326a20bd21fc2befa5cae5a88729be0c653e7d10921419"
+      },
+      "fingerprint": "1019f32c02d6216cfb7c02eae56f460ef67a919ea4576897e69fad2454695d98"
+    },
+    {
+      "id": "15-model-revision:Q03",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-Q03",
+        "15-model-revision-c5-definition",
+        "15-model-revision-c5-explanation",
+        "15-model-revision-c5-walkthrough",
+        "15-model-revision-c5-decision",
+        "15-model-revision-c6-definition",
+        "15-model-revision-c6-explanation",
+        "15-model-revision-c6-walkthrough",
+        "15-model-revision-c6-decision",
+        "15-model-revision-Q03-mechanism",
+        "15-model-revision-Q03-input",
+        "15-model-revision-Q03-worked",
+        "15-model-revision-Q03-boundary",
+        "15-model-revision-Q03-practice",
+        "15-model-revision-Q03-T01",
+        "15-model-revision-Q03-T02",
+        "15-model-revision-Q03-T03",
+        "15-model-revision-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "72733182877c7b3552617c69cb53c9da182fb59f4b10698476c0da8868358d3d"
+    },
+    {
+      "id": "15-model-revision:Q04",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-Q04",
+        "15-model-revision-c7-definition",
+        "15-model-revision-c7-explanation",
+        "15-model-revision-c7-walkthrough",
+        "15-model-revision-c7-decision",
+        "15-model-revision-c8-definition",
+        "15-model-revision-c8-explanation",
+        "15-model-revision-c8-walkthrough",
+        "15-model-revision-c8-decision",
+        "15-model-revision-Q04-mechanism",
+        "15-model-revision-Q04-input",
+        "15-model-revision-Q04-worked",
+        "15-model-revision-Q04-boundary",
+        "15-model-revision-Q04-practice",
+        "15-model-revision-Q04-T01",
+        "15-model-revision-Q04-T02",
+        "15-model-revision-Q04-T03",
+        "15-model-revision-Q04-T04",
+        "15-model-revision-additional-case-input",
+        "15-model-revision-additional-case-solution",
+        "15-model-revision-additional-case-boundary",
+        "15-model-revision-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/15-review-status.svg": "e9d8e317943cb79f7d326a20bd21fc2befa5cae5a88729be0c653e7d10921419",
+        "public/models/15-review-term.svg": "9150d86b0275c02e0abde794d285518c3b6fe53c13f88f0cfc47be70009b3ed0"
+      },
+      "fingerprint": "a6e040aee59cbc1cddf93d53287e6a521afffe424eb3fe485a33b7c390230308"
+    },
+    {
+      "id": "15-model-revision:closing",
+      "lectureId": "15-model-revision",
+      "slideIds": [
+        "15-model-revision-experiment",
+        "15-model-revision-experiment-review",
+        "15-model-revision-summary",
+        "15-model-revision-sources",
+        "15-model-revision-final",
+        "15-model-revision-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "24bf95ecb9a837cc7fbf7462db83df777c522d38868bba102a704f1b472e7dbd"
+    },
+    {
+      "id": "16-decision-matrix:intro",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-start",
+        "16-decision-matrix-route",
+        "16-decision-matrix-why",
+        "16-decision-matrix-case",
+        "16-decision-matrix-prerequisites",
+        "16-decision-matrix-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "8fe29e7d8d950317a26e272f01f30b80e84537e69e8792da72dcf50809211f71"
+    },
+    {
+      "id": "16-decision-matrix:Q01",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-Q01",
+        "16-decision-matrix-c1-definition",
+        "16-decision-matrix-c1-explanation",
+        "16-decision-matrix-c1-walkthrough",
+        "16-decision-matrix-c1-decision",
+        "16-decision-matrix-c2-definition",
+        "16-decision-matrix-c2-explanation",
+        "16-decision-matrix-c2-walkthrough",
+        "16-decision-matrix-c2-decision",
+        "16-decision-matrix-Q01-mechanism",
+        "16-decision-matrix-Q01-input",
+        "16-decision-matrix-Q01-worked",
+        "16-decision-matrix-Q01-boundary",
+        "16-decision-matrix-Q01-practice",
+        "16-decision-matrix-Q01-T01",
+        "16-decision-matrix-Q01-T02",
+        "16-decision-matrix-Q01-T03",
+        "16-decision-matrix-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2bd89c28b0b09c58372f5f3b05a4a6e78293a3b33cef105ef64971a49c114baf"
+    },
+    {
+      "id": "16-decision-matrix:Q02",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-Q02",
+        "16-decision-matrix-c3-definition",
+        "16-decision-matrix-c3-explanation",
+        "16-decision-matrix-c3-walkthrough",
+        "16-decision-matrix-c3-decision",
+        "16-decision-matrix-c4-definition",
+        "16-decision-matrix-c4-explanation",
+        "16-decision-matrix-c4-walkthrough",
+        "16-decision-matrix-c4-decision",
+        "16-decision-matrix-Q02-mechanism",
+        "16-decision-matrix-Q02-input",
+        "16-decision-matrix-Q02-worked",
+        "16-decision-matrix-Q02-boundary",
+        "16-decision-matrix-Q02-practice",
+        "16-decision-matrix-Q02-T01",
+        "16-decision-matrix-Q02-T02",
+        "16-decision-matrix-Q02-T03",
+        "16-decision-matrix-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4e6751d0b628a230ce26c2ed17295c7980ce712567b553da2209b2250eea46af"
+    },
+    {
+      "id": "16-decision-matrix:Q03",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-Q03",
+        "16-decision-matrix-c5-definition",
+        "16-decision-matrix-c5-explanation",
+        "16-decision-matrix-c5-walkthrough",
+        "16-decision-matrix-c5-decision",
+        "16-decision-matrix-c6-definition",
+        "16-decision-matrix-c6-explanation",
+        "16-decision-matrix-c6-walkthrough",
+        "16-decision-matrix-c6-decision",
+        "16-decision-matrix-Q03-mechanism",
+        "16-decision-matrix-Q03-input",
+        "16-decision-matrix-Q03-worked",
+        "16-decision-matrix-Q03-boundary",
+        "16-decision-matrix-Q03-practice",
+        "16-decision-matrix-Q03-T01",
+        "16-decision-matrix-Q03-T02",
+        "16-decision-matrix-Q03-T03",
+        "16-decision-matrix-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b797d5a8c19606a62e4b988285fd3b849bc8c69edbdc1de994367dd957910d90"
+    },
+    {
+      "id": "16-decision-matrix:Q04",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-Q04",
+        "16-decision-matrix-c7-definition",
+        "16-decision-matrix-c7-explanation",
+        "16-decision-matrix-c7-walkthrough",
+        "16-decision-matrix-c7-decision",
+        "16-decision-matrix-c8-definition",
+        "16-decision-matrix-c8-explanation",
+        "16-decision-matrix-c8-walkthrough",
+        "16-decision-matrix-c8-decision",
+        "16-decision-matrix-Q04-mechanism",
+        "16-decision-matrix-Q04-input",
+        "16-decision-matrix-Q04-worked",
+        "16-decision-matrix-Q04-boundary",
+        "16-decision-matrix-Q04-practice",
+        "16-decision-matrix-Q04-T01",
+        "16-decision-matrix-Q04-T02",
+        "16-decision-matrix-Q04-T03",
+        "16-decision-matrix-Q04-T04",
+        "16-decision-matrix-additional-case-input",
+        "16-decision-matrix-additional-case-solution",
+        "16-decision-matrix-additional-case-boundary",
+        "16-decision-matrix-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e8ff65d2150e7cce3e99c81880f9f4d285175c34aa1590394305ed3f0d1a8dc7"
+    },
+    {
+      "id": "16-decision-matrix:closing",
+      "lectureId": "16-decision-matrix",
+      "slideIds": [
+        "16-decision-matrix-experiment",
+        "16-decision-matrix-experiment-review",
+        "16-decision-matrix-summary",
+        "16-decision-matrix-sources",
+        "16-decision-matrix-final",
+        "16-decision-matrix-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "6062efe904c02fd6f97e18128592675b4bd520feac17644fe841c0ac95471034"
+    },
+    {
+      "id": "17-adr:intro",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-start",
+        "17-adr-route",
+        "17-adr-why",
+        "17-adr-case",
+        "17-adr-prerequisites",
+        "17-adr-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "39ec63d57dfa5f920fd96ead3b000b0263525c34d80a94999fdced47ae4f41b7"
+    },
+    {
+      "id": "17-adr:Q01",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-Q01",
+        "17-adr-c1-definition",
+        "17-adr-c1-explanation",
+        "17-adr-c1-walkthrough",
+        "17-adr-c1-decision",
+        "17-adr-c2-definition",
+        "17-adr-c2-explanation",
+        "17-adr-c2-walkthrough",
+        "17-adr-c2-decision",
+        "17-adr-Q01-mechanism",
+        "17-adr-Q01-input",
+        "17-adr-Q01-worked",
+        "17-adr-Q01-boundary",
+        "17-adr-Q01-practice",
+        "17-adr-Q01-T01",
+        "17-adr-Q01-T02",
+        "17-adr-Q01-T03",
+        "17-adr-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
+      },
+      "fingerprint": "fc8256489662329267190b44afc5fa01ba92994006ff9eebd4037be476b1f045"
+    },
+    {
+      "id": "17-adr:Q02",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-Q02",
+        "17-adr-c3-definition",
+        "17-adr-c3-explanation",
+        "17-adr-c3-walkthrough",
+        "17-adr-c3-decision",
+        "17-adr-c4-definition",
+        "17-adr-c4-explanation",
+        "17-adr-c4-walkthrough",
+        "17-adr-c4-decision",
+        "17-adr-Q02-mechanism",
+        "17-adr-Q02-input",
+        "17-adr-Q02-worked",
+        "17-adr-Q02-boundary",
+        "17-adr-Q02-practice",
+        "17-adr-Q02-T01",
+        "17-adr-Q02-T02",
+        "17-adr-Q02-T03",
+        "17-adr-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
+      },
+      "fingerprint": "296a03a24f1c4ad6f07b2c6e36a325a7ac03643aae2520c5dabe478997d47f9f"
+    },
+    {
+      "id": "17-adr:Q03",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-Q03",
+        "17-adr-c5-definition",
+        "17-adr-c5-explanation",
+        "17-adr-c5-walkthrough",
+        "17-adr-c5-decision",
+        "17-adr-c6-definition",
+        "17-adr-c6-explanation",
+        "17-adr-c6-walkthrough",
+        "17-adr-c6-decision",
+        "17-adr-Q03-mechanism",
+        "17-adr-Q03-input",
+        "17-adr-Q03-worked",
+        "17-adr-Q03-boundary",
+        "17-adr-Q03-practice",
+        "17-adr-Q03-T01",
+        "17-adr-Q03-T02",
+        "17-adr-Q03-T03",
+        "17-adr-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
+      },
+      "fingerprint": "c1f1a6e6de7dffacd4eed7034222ff9dd0e9884d92b584f0186b77d6e3130fa9"
+    },
+    {
+      "id": "17-adr:Q04",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-Q04",
+        "17-adr-c7-definition",
+        "17-adr-c7-explanation",
+        "17-adr-c7-walkthrough",
+        "17-adr-c7-decision",
+        "17-adr-c8-definition",
+        "17-adr-c8-explanation",
+        "17-adr-c8-walkthrough",
+        "17-adr-c8-decision",
+        "17-adr-Q04-mechanism",
+        "17-adr-Q04-input",
+        "17-adr-Q04-worked",
+        "17-adr-Q04-boundary",
+        "17-adr-Q04-practice",
+        "17-adr-Q04-T01",
+        "17-adr-Q04-T02",
+        "17-adr-Q04-T03",
+        "17-adr-Q04-T04",
+        "17-adr-additional-case-input",
+        "17-adr-additional-case-solution",
+        "17-adr-additional-case-boundary",
+        "17-adr-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "81f1d85c1c72852b1ac2c759128354b1fc036d339ab46be9198fdc4dadd50fd8"
+    },
+    {
+      "id": "17-adr:closing",
+      "lectureId": "17-adr",
+      "slideIds": [
+        "17-adr-experiment",
+        "17-adr-experiment-review",
+        "17-adr-summary",
+        "17-adr-sources",
+        "17-adr-final",
+        "17-adr-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "7b2b4ec2e36c13978d675756199287edd3f08d51246eafddf35fe3675990150a"
+    },
+    {
+      "id": "18-nfr-impact:intro",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-start",
+        "18-nfr-impact-route",
+        "18-nfr-impact-why",
+        "18-nfr-impact-case",
+        "18-nfr-impact-prerequisites",
+        "18-nfr-impact-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "0e09caa59ca0feb121a26bf67d4f72082a438b268f2b631919fec45919d5a229"
+    },
+    {
+      "id": "18-nfr-impact:Q01",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-Q01",
+        "18-nfr-impact-c1-definition",
+        "18-nfr-impact-c1-explanation",
+        "18-nfr-impact-c1-walkthrough",
+        "18-nfr-impact-c1-decision",
+        "18-nfr-impact-c2-definition",
+        "18-nfr-impact-c2-explanation",
+        "18-nfr-impact-c2-walkthrough",
+        "18-nfr-impact-c2-decision",
+        "18-nfr-impact-Q01-mechanism",
+        "18-nfr-impact-Q01-input",
+        "18-nfr-impact-Q01-worked",
+        "18-nfr-impact-Q01-boundary",
+        "18-nfr-impact-Q01-practice",
+        "18-nfr-impact-Q01-T01",
+        "18-nfr-impact-Q01-T02",
+        "18-nfr-impact-Q01-T03",
+        "18-nfr-impact-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/18-concurrent-confirmation.svg": "dd257fb1c419ed6473de0f0704548dfe8d9e191558bbfd6b376e8cc41d3120a1"
+      },
+      "fingerprint": "03a9842cdb19197e343fe8ae112fe164bae94aff79dcd7f7f7394d33a898e2fe"
+    },
+    {
+      "id": "18-nfr-impact:Q02",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-Q02",
+        "18-nfr-impact-c3-definition",
+        "18-nfr-impact-c3-explanation",
+        "18-nfr-impact-c3-walkthrough",
+        "18-nfr-impact-c3-decision",
+        "18-nfr-impact-c4-definition",
+        "18-nfr-impact-c4-explanation",
+        "18-nfr-impact-c4-walkthrough",
+        "18-nfr-impact-c4-decision",
+        "18-nfr-impact-Q02-mechanism",
+        "18-nfr-impact-Q02-input",
+        "18-nfr-impact-Q02-worked",
+        "18-nfr-impact-Q02-boundary",
+        "18-nfr-impact-Q02-practice",
+        "18-nfr-impact-Q02-T01",
+        "18-nfr-impact-Q02-T02",
+        "18-nfr-impact-Q02-T03",
+        "18-nfr-impact-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "da6d3674b00ee622198794f1f289e0278de733e30f89624214c99109540fdf74"
+    },
+    {
+      "id": "18-nfr-impact:Q03",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-Q03",
+        "18-nfr-impact-c5-definition",
+        "18-nfr-impact-c5-explanation",
+        "18-nfr-impact-c5-walkthrough",
+        "18-nfr-impact-c5-decision",
+        "18-nfr-impact-c6-definition",
+        "18-nfr-impact-c6-explanation",
+        "18-nfr-impact-c6-walkthrough",
+        "18-nfr-impact-c6-decision",
+        "18-nfr-impact-Q03-mechanism",
+        "18-nfr-impact-Q03-input",
+        "18-nfr-impact-Q03-worked",
+        "18-nfr-impact-Q03-boundary",
+        "18-nfr-impact-Q03-practice",
+        "18-nfr-impact-Q03-T01",
+        "18-nfr-impact-Q03-T02",
+        "18-nfr-impact-Q03-T03",
+        "18-nfr-impact-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "6fe7aecda592b00aec9589069be415e834fb6e949bd1dc3dd5fa0910a6e7cd10"
+    },
+    {
+      "id": "18-nfr-impact:Q04",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-Q04",
+        "18-nfr-impact-c7-definition",
+        "18-nfr-impact-c7-explanation",
+        "18-nfr-impact-c7-walkthrough",
+        "18-nfr-impact-c7-decision",
+        "18-nfr-impact-c8-definition",
+        "18-nfr-impact-c8-explanation",
+        "18-nfr-impact-c8-walkthrough",
+        "18-nfr-impact-c8-decision",
+        "18-nfr-impact-Q04-mechanism",
+        "18-nfr-impact-Q04-input",
+        "18-nfr-impact-Q04-worked",
+        "18-nfr-impact-Q04-boundary",
+        "18-nfr-impact-Q04-practice",
+        "18-nfr-impact-Q04-T01",
+        "18-nfr-impact-Q04-T02",
+        "18-nfr-impact-Q04-T03",
+        "18-nfr-impact-Q04-T04",
+        "18-nfr-impact-additional-case-input",
+        "18-nfr-impact-additional-case-solution",
+        "18-nfr-impact-additional-case-boundary",
+        "18-nfr-impact-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "87a6b9d6de818109d21b58de7bd9f9b4e9fcb947b5f62cbfaf70aea1be8604b9"
+    },
+    {
+      "id": "18-nfr-impact:closing",
+      "lectureId": "18-nfr-impact",
+      "slideIds": [
+        "18-nfr-impact-experiment",
+        "18-nfr-impact-experiment-review",
+        "18-nfr-impact-summary",
+        "18-nfr-impact-sources",
+        "18-nfr-impact-final",
+        "18-nfr-impact-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "34076e5849bfe05a3c20650d94b2b8f923ed4f051cd7c9bd828cbc49a950cc74"
+    },
+    {
+      "id": "19-defense:intro",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-start",
+        "19-defense-route",
+        "19-defense-why",
+        "19-defense-case",
+        "19-defense-prerequisites",
+        "19-defense-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "722344070cd9176904cb8bbb7266947ba88ef91049d0e7798d59af8407a37fc6"
+    },
+    {
+      "id": "19-defense:Q01",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-Q01",
+        "19-defense-c1-definition",
+        "19-defense-c1-explanation",
+        "19-defense-c1-walkthrough",
+        "19-defense-c1-decision",
+        "19-defense-c2-definition",
+        "19-defense-c2-explanation",
+        "19-defense-c2-walkthrough",
+        "19-defense-c2-decision",
+        "19-defense-Q01-mechanism",
+        "19-defense-Q01-input",
+        "19-defense-Q01-worked",
+        "19-defense-Q01-boundary",
+        "19-defense-Q01-practice",
+        "19-defense-Q01-T01",
+        "19-defense-Q01-T02",
+        "19-defense-Q01-T03",
+        "19-defense-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a84135e44f3cc9ff0be651405f22d48198e64e3be10689fd0501c6848bc08b8d"
+    },
+    {
+      "id": "19-defense:Q02",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-Q02",
+        "19-defense-c3-definition",
+        "19-defense-c3-explanation",
+        "19-defense-c3-walkthrough",
+        "19-defense-c3-decision",
+        "19-defense-c4-definition",
+        "19-defense-c4-explanation",
+        "19-defense-c4-walkthrough",
+        "19-defense-c4-decision",
+        "19-defense-Q02-mechanism",
+        "19-defense-Q02-input",
+        "19-defense-Q02-worked",
+        "19-defense-Q02-boundary",
+        "19-defense-Q02-practice",
+        "19-defense-Q02-T01",
+        "19-defense-Q02-T02",
+        "19-defense-Q02-T03",
+        "19-defense-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d5e5379554993e05f15ca44783e5f2c67640785c269925e5810e67aba2bf76b9"
+    },
+    {
+      "id": "19-defense:Q03",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-Q03",
+        "19-defense-c5-definition",
+        "19-defense-c5-explanation",
+        "19-defense-c5-walkthrough",
+        "19-defense-c5-decision",
+        "19-defense-c6-definition",
+        "19-defense-c6-explanation",
+        "19-defense-c6-walkthrough",
+        "19-defense-c6-decision",
+        "19-defense-Q03-mechanism",
+        "19-defense-Q03-input",
+        "19-defense-Q03-worked",
+        "19-defense-Q03-boundary",
+        "19-defense-Q03-practice",
+        "19-defense-Q03-T01",
+        "19-defense-Q03-T02",
+        "19-defense-Q03-T03",
+        "19-defense-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "bd97a0ba77be7de44968dd1afc63143ca34f3b8a0b6220e1d11072a436ce96a6"
+    },
+    {
+      "id": "19-defense:Q04",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-Q04",
+        "19-defense-c7-definition",
+        "19-defense-c7-explanation",
+        "19-defense-c7-walkthrough",
+        "19-defense-c7-decision",
+        "19-defense-c8-definition",
+        "19-defense-c8-explanation",
+        "19-defense-c8-walkthrough",
+        "19-defense-c8-decision",
+        "19-defense-Q04-mechanism",
+        "19-defense-Q04-input",
+        "19-defense-Q04-worked",
+        "19-defense-Q04-boundary",
+        "19-defense-Q04-practice",
+        "19-defense-Q04-T01",
+        "19-defense-Q04-T02",
+        "19-defense-Q04-T03",
+        "19-defense-Q04-T04",
+        "19-defense-additional-case-input",
+        "19-defense-additional-case-solution",
+        "19-defense-additional-case-boundary",
+        "19-defense-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5fafc12ee136fd267b3c34855ad73379a1ad9739012eba86cd8c7582f897161c"
+    },
+    {
+      "id": "19-defense:closing",
+      "lectureId": "19-defense",
+      "slideIds": [
+        "19-defense-experiment",
+        "19-defense-experiment-review",
+        "19-defense-summary",
+        "19-defense-sources",
+        "19-defense-final",
+        "19-defense-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "652ffa938a9d71683823e99d66ee285edafb5a87d0a2606cfd01e95201052b63"
+    },
+    {
+      "id": "20-ux-goals:intro",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-start",
+        "20-ux-goals-route",
+        "20-ux-goals-why",
+        "20-ux-goals-case",
+        "20-ux-goals-prerequisites",
+        "20-ux-goals-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "eb3aac035cff62fd76e183a8c13721ecc9777495d8cd9c7d19878639489bce27"
+    },
+    {
+      "id": "20-ux-goals:Q01",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-Q01",
+        "20-ux-goals-c1-definition",
+        "20-ux-goals-c1-explanation",
+        "20-ux-goals-c1-walkthrough",
+        "20-ux-goals-c1-decision",
+        "20-ux-goals-c2-definition",
+        "20-ux-goals-c2-explanation",
+        "20-ux-goals-c2-walkthrough",
+        "20-ux-goals-c2-decision",
+        "20-ux-goals-Q01-mechanism",
+        "20-ux-goals-Q01-input",
+        "20-ux-goals-Q01-worked",
+        "20-ux-goals-Q01-boundary",
+        "20-ux-goals-Q01-practice",
+        "20-ux-goals-Q01-T01",
+        "20-ux-goals-Q01-T02",
+        "20-ux-goals-Q01-T03",
+        "20-ux-goals-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "c12104ca737dc97b17a3e4e589ef9ff45ac1fb2aa0d297fa016b1d5e4c648018"
+    },
+    {
+      "id": "20-ux-goals:Q02",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-Q02",
+        "20-ux-goals-c3-definition",
+        "20-ux-goals-c3-explanation",
+        "20-ux-goals-c3-walkthrough",
+        "20-ux-goals-c3-decision",
+        "20-ux-goals-c4-definition",
+        "20-ux-goals-c4-explanation",
+        "20-ux-goals-c4-walkthrough",
+        "20-ux-goals-c4-decision",
+        "20-ux-goals-Q02-mechanism",
+        "20-ux-goals-Q02-input",
+        "20-ux-goals-Q02-worked",
+        "20-ux-goals-Q02-boundary",
+        "20-ux-goals-Q02-practice",
+        "20-ux-goals-Q02-T01",
+        "20-ux-goals-Q02-T02",
+        "20-ux-goals-Q02-T03",
+        "20-ux-goals-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/20-placement-error.svg": "d7d9848ccf1ccacb895cef77019f13bce167d45b14864274277e3a6d06347c03"
+      },
+      "fingerprint": "3c331e1fa9f2afeb30dc71daa953d8771188b41eadacc10874ac1a39e55f7f35"
+    },
+    {
+      "id": "20-ux-goals:Q03",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-Q03",
+        "20-ux-goals-c5-definition",
+        "20-ux-goals-c5-explanation",
+        "20-ux-goals-c5-walkthrough",
+        "20-ux-goals-c5-decision",
+        "20-ux-goals-c6-definition",
+        "20-ux-goals-c6-explanation",
+        "20-ux-goals-c6-walkthrough",
+        "20-ux-goals-c6-decision",
+        "20-ux-goals-Q03-mechanism",
+        "20-ux-goals-Q03-input",
+        "20-ux-goals-Q03-worked",
+        "20-ux-goals-Q03-boundary",
+        "20-ux-goals-Q03-practice",
+        "20-ux-goals-Q03-T01",
+        "20-ux-goals-Q03-T02",
+        "20-ux-goals-Q03-T03",
+        "20-ux-goals-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "39aa74ba309172b9cfbed614e8e4eba4ef11ebacf46350a67d615e61523ddaed"
+    },
+    {
+      "id": "20-ux-goals:Q04",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-Q04",
+        "20-ux-goals-c7-definition",
+        "20-ux-goals-c7-explanation",
+        "20-ux-goals-c7-walkthrough",
+        "20-ux-goals-c7-decision",
+        "20-ux-goals-c8-definition",
+        "20-ux-goals-c8-explanation",
+        "20-ux-goals-c8-walkthrough",
+        "20-ux-goals-c8-decision",
+        "20-ux-goals-Q04-mechanism",
+        "20-ux-goals-Q04-input",
+        "20-ux-goals-Q04-worked",
+        "20-ux-goals-Q04-boundary",
+        "20-ux-goals-Q04-practice",
+        "20-ux-goals-Q04-T01",
+        "20-ux-goals-Q04-T02",
+        "20-ux-goals-Q04-T03",
+        "20-ux-goals-Q04-T04",
+        "20-ux-goals-additional-case-input",
+        "20-ux-goals-additional-case-solution",
+        "20-ux-goals-additional-case-boundary",
+        "20-ux-goals-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/20-placement-result.svg": "b7576348e85a22c0c294a3199e658bea8666b4159367e0494cfcb02c9416319b"
+      },
+      "fingerprint": "3c28c4e5fe28d9f0ec73f6e9ad7215505a71e1191fc2c0b61a020ff1f43b42d9"
+    },
+    {
+      "id": "20-ux-goals:closing",
+      "lectureId": "20-ux-goals",
+      "slideIds": [
+        "20-ux-goals-experiment",
+        "20-ux-goals-experiment-review",
+        "20-ux-goals-summary",
+        "20-ux-goals-sources",
+        "20-ux-goals-final",
+        "20-ux-goals-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "8fc6913e65aad6d405ac6544bc86339f57e7db3bf1eb6a7020f97b6417e76388"
+    },
+    {
+      "id": "21-information-architecture:intro",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-start",
+        "21-information-architecture-route",
+        "21-information-architecture-why",
+        "21-information-architecture-case",
+        "21-information-architecture-prerequisites",
+        "21-information-architecture-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "eaa38fb754c49d15d912e3ad00ded84e452850e5196446a04c570e214b925ce4"
+    },
+    {
+      "id": "21-information-architecture:Q01",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-Q01",
+        "21-information-architecture-c1-definition",
+        "21-information-architecture-c1-explanation",
+        "21-information-architecture-c1-walkthrough",
+        "21-information-architecture-c1-decision",
+        "21-information-architecture-c2-definition",
+        "21-information-architecture-c2-explanation",
+        "21-information-architecture-c2-walkthrough",
+        "21-information-architecture-c2-decision",
+        "21-information-architecture-Q01-mechanism",
+        "21-information-architecture-Q01-input",
+        "21-information-architecture-Q01-worked",
+        "21-information-architecture-Q01-boundary",
+        "21-information-architecture-Q01-practice",
+        "21-information-architecture-Q01-T01",
+        "21-information-architecture-Q01-T02",
+        "21-information-architecture-Q01-T03",
+        "21-information-architecture-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5ce0cbd6d89c1b4baf11ab7cbfcdebccb6e63d4b467f44cd6ac890e4a605faff"
+    },
+    {
+      "id": "21-information-architecture:Q02",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-Q02",
+        "21-information-architecture-c3-definition",
+        "21-information-architecture-c3-explanation",
+        "21-information-architecture-c3-walkthrough",
+        "21-information-architecture-c3-decision",
+        "21-information-architecture-c4-definition",
+        "21-information-architecture-c4-explanation",
+        "21-information-architecture-c4-walkthrough",
+        "21-information-architecture-c4-decision",
+        "21-information-architecture-Q02-mechanism",
+        "21-information-architecture-Q02-input",
+        "21-information-architecture-Q02-worked",
+        "21-information-architecture-Q02-boundary",
+        "21-information-architecture-Q02-practice",
+        "21-information-architecture-Q02-T01",
+        "21-information-architecture-Q02-T02",
+        "21-information-architecture-Q02-T03",
+        "21-information-architecture-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/21-home.svg": "22edc4ff2c81e9a568d6f594f68c2307746598248d7e91c56acecc6d641aab5c"
+      },
+      "fingerprint": "67cf582edee2810347932764d4e36fc9ac1ee709432807fd98c93558fe27878c"
+    },
+    {
+      "id": "21-information-architecture:Q03",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-Q03",
+        "21-information-architecture-c5-definition",
+        "21-information-architecture-c5-explanation",
+        "21-information-architecture-c5-walkthrough",
+        "21-information-architecture-c5-decision",
+        "21-information-architecture-c6-definition",
+        "21-information-architecture-c6-explanation",
+        "21-information-architecture-c6-walkthrough",
+        "21-information-architecture-c6-decision",
+        "21-information-architecture-Q03-mechanism",
+        "21-information-architecture-Q03-input",
+        "21-information-architecture-Q03-worked",
+        "21-information-architecture-Q03-boundary",
+        "21-information-architecture-Q03-practice",
+        "21-information-architecture-Q03-T01",
+        "21-information-architecture-Q03-T02",
+        "21-information-architecture-Q03-T03",
+        "21-information-architecture-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/21-context.svg": "7a26263c6c2e02db79db140fce6599309a3463d0dde5268b483d70383dd2b212"
+      },
+      "fingerprint": "a44854a0f3b5a39ca388c760f6a6c9a26dd35b346a7ad258b2144ce7ed725952"
+    },
+    {
+      "id": "21-information-architecture:Q04",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-Q04",
+        "21-information-architecture-c7-definition",
+        "21-information-architecture-c7-explanation",
+        "21-information-architecture-c7-walkthrough",
+        "21-information-architecture-c7-decision",
+        "21-information-architecture-c8-definition",
+        "21-information-architecture-c8-explanation",
+        "21-information-architecture-c8-walkthrough",
+        "21-information-architecture-c8-decision",
+        "21-information-architecture-Q04-mechanism",
+        "21-information-architecture-Q04-input",
+        "21-information-architecture-Q04-worked",
+        "21-information-architecture-Q04-boundary",
+        "21-information-architecture-Q04-practice",
+        "21-information-architecture-Q04-T01",
+        "21-information-architecture-Q04-T02",
+        "21-information-architecture-Q04-T03",
+        "21-information-architecture-Q04-T04",
+        "21-information-architecture-additional-case-input",
+        "21-information-architecture-additional-case-solution",
+        "21-information-architecture-additional-case-boundary",
+        "21-information-architecture-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "f3cec3afa567dc3d8773ef54a5c429cc348bc73af8da4181984b67a1c9798518"
+    },
+    {
+      "id": "21-information-architecture:closing",
+      "lectureId": "21-information-architecture",
+      "slideIds": [
+        "21-information-architecture-experiment",
+        "21-information-architecture-experiment-review",
+        "21-information-architecture-summary",
+        "21-information-architecture-sources",
+        "21-information-architecture-final",
+        "21-information-architecture-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "8776d7b93fe0c9b27f41726356dedbaa8db160a2e10f6bda6cd6ef5931d559ef"
+    },
+    {
+      "id": "22-wireframe-prototype:intro",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-start",
+        "22-wireframe-prototype-route",
+        "22-wireframe-prototype-why",
+        "22-wireframe-prototype-case",
+        "22-wireframe-prototype-prerequisites",
+        "22-wireframe-prototype-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "2ee72970d562d837c9b842d4a8ddadbdeae7fb63170ae894b877f6580014a114"
+    },
+    {
+      "id": "22-wireframe-prototype:Q01",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-Q01",
+        "22-wireframe-prototype-c1-definition",
+        "22-wireframe-prototype-c1-explanation",
+        "22-wireframe-prototype-c1-walkthrough",
+        "22-wireframe-prototype-c1-decision",
+        "22-wireframe-prototype-c2-definition",
+        "22-wireframe-prototype-c2-explanation",
+        "22-wireframe-prototype-c2-walkthrough",
+        "22-wireframe-prototype-c2-decision",
+        "22-wireframe-prototype-Q01-mechanism",
+        "22-wireframe-prototype-Q01-input",
+        "22-wireframe-prototype-Q01-worked",
+        "22-wireframe-prototype-Q01-boundary",
+        "22-wireframe-prototype-Q01-practice",
+        "22-wireframe-prototype-Q01-T01",
+        "22-wireframe-prototype-Q01-T02",
+        "22-wireframe-prototype-Q01-T03",
+        "22-wireframe-prototype-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/22-wireframe-prototype-c1-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-c2-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-Q01-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+      },
+      "fingerprint": "6699e4de6b9319fa1e6b0a334b482e966deb49112bcdd94df8d9452992ffda92"
+    },
+    {
+      "id": "22-wireframe-prototype:Q02",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-Q02",
+        "22-wireframe-prototype-c3-definition",
+        "22-wireframe-prototype-c3-explanation",
+        "22-wireframe-prototype-c3-walkthrough",
+        "22-wireframe-prototype-c3-decision",
+        "22-wireframe-prototype-c4-definition",
+        "22-wireframe-prototype-c4-explanation",
+        "22-wireframe-prototype-c4-walkthrough",
+        "22-wireframe-prototype-c4-decision",
+        "22-wireframe-prototype-Q02-mechanism",
+        "22-wireframe-prototype-Q02-input",
+        "22-wireframe-prototype-Q02-worked",
+        "22-wireframe-prototype-Q02-boundary",
+        "22-wireframe-prototype-Q02-practice",
+        "22-wireframe-prototype-Q02-T01",
+        "22-wireframe-prototype-Q02-T02",
+        "22-wireframe-prototype-Q02-T03",
+        "22-wireframe-prototype-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/22-wireframe-prototype-c3-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-c4-walkthrough.svg": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63",
+        "public/artifacts/22-wireframe-prototype-Q02-worked.svg": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63"
+      },
+      "fingerprint": "43b00c0bef6a25f5c9f7fae5214387795d55003207a837c2f943f905401ae1fb"
+    },
+    {
+      "id": "22-wireframe-prototype:Q03",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-Q03",
+        "22-wireframe-prototype-c5-definition",
+        "22-wireframe-prototype-c5-explanation",
+        "22-wireframe-prototype-c5-walkthrough",
+        "22-wireframe-prototype-c5-decision",
+        "22-wireframe-prototype-c6-definition",
+        "22-wireframe-prototype-c6-explanation",
+        "22-wireframe-prototype-c6-walkthrough",
+        "22-wireframe-prototype-c6-decision",
+        "22-wireframe-prototype-Q03-mechanism",
+        "22-wireframe-prototype-Q03-input",
+        "22-wireframe-prototype-Q03-worked",
+        "22-wireframe-prototype-Q03-boundary",
+        "22-wireframe-prototype-Q03-practice",
+        "22-wireframe-prototype-Q03-T01",
+        "22-wireframe-prototype-Q03-T02",
+        "22-wireframe-prototype-Q03-T03",
+        "22-wireframe-prototype-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/22-wireframe-prototype-c5-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-c6-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-Q03-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+      },
+      "fingerprint": "9b9407091d35423f28518dfbc42b8507ce8cb05586d531f0621110d6fa10fab0"
+    },
+    {
+      "id": "22-wireframe-prototype:Q04",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-Q04",
+        "22-wireframe-prototype-c7-definition",
+        "22-wireframe-prototype-c7-explanation",
+        "22-wireframe-prototype-c7-walkthrough",
+        "22-wireframe-prototype-c7-decision",
+        "22-wireframe-prototype-c8-definition",
+        "22-wireframe-prototype-c8-explanation",
+        "22-wireframe-prototype-c8-walkthrough",
+        "22-wireframe-prototype-c8-decision",
+        "22-wireframe-prototype-Q04-mechanism",
+        "22-wireframe-prototype-Q04-input",
+        "22-wireframe-prototype-Q04-worked",
+        "22-wireframe-prototype-Q04-boundary",
+        "22-wireframe-prototype-Q04-practice",
+        "22-wireframe-prototype-Q04-T01",
+        "22-wireframe-prototype-Q04-T02",
+        "22-wireframe-prototype-Q04-T03",
+        "22-wireframe-prototype-Q04-T04",
+        "22-wireframe-prototype-additional-case-input",
+        "22-wireframe-prototype-additional-case-solution",
+        "22-wireframe-prototype-additional-case-boundary",
+        "22-wireframe-prototype-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/artifacts/22-wireframe-prototype-c7-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-c8-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-Q04-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
+        "public/artifacts/22-wireframe-prototype-additional-case-solution.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
+      },
+      "fingerprint": "6c57cb371717465feaded0d983b5ebc2020010b8de9f956bb33e4d895f1d41ef"
+    },
+    {
+      "id": "22-wireframe-prototype:closing",
+      "lectureId": "22-wireframe-prototype",
+      "slideIds": [
+        "22-wireframe-prototype-experiment",
+        "22-wireframe-prototype-experiment-review",
+        "22-wireframe-prototype-summary",
+        "22-wireframe-prototype-sources",
+        "22-wireframe-prototype-final",
+        "22-wireframe-prototype-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "73dc13464adf7ad3fa20f683af2895f848e9fbec3b3b3d4dcf4f1834a6e59f3b"
+    },
+    {
+      "id": "23-forms-validation-states:intro",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-start",
+        "23-forms-validation-states-route",
+        "23-forms-validation-states-why",
+        "23-forms-validation-states-case",
+        "23-forms-validation-states-prerequisites",
+        "23-forms-validation-states-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "40d907240f3824013885cd1b0de41ada2a3d0e4edb2e7a78ada0d7e6fb532ec0"
+    },
+    {
+      "id": "23-forms-validation-states:Q01",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-Q01",
+        "23-forms-validation-states-c1-definition",
+        "23-forms-validation-states-c1-explanation",
+        "23-forms-validation-states-c1-walkthrough",
+        "23-forms-validation-states-c1-decision",
+        "23-forms-validation-states-c2-definition",
+        "23-forms-validation-states-c2-explanation",
+        "23-forms-validation-states-c2-walkthrough",
+        "23-forms-validation-states-c2-decision",
+        "23-forms-validation-states-Q01-mechanism",
+        "23-forms-validation-states-Q01-input",
+        "23-forms-validation-states-Q01-worked",
+        "23-forms-validation-states-Q01-boundary",
+        "23-forms-validation-states-Q01-practice",
+        "23-forms-validation-states-Q01-T01",
+        "23-forms-validation-states-Q01-T02",
+        "23-forms-validation-states-Q01-T03",
+        "23-forms-validation-states-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/23-forms-validation-states-c1-walkthrough.svg": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a",
+        "public/models/23-forms-validation-states-c2-walkthrough.svg": "ab2c825ad1611a4279d529f6f861db94cb889111bb47cfe8e5063afd345471d8",
+        "public/models/23-forms-validation-states-Q01-worked.svg": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a"
+      },
+      "fingerprint": "2317323af43974c9f6991edb2a4978b2bef2a05261ba44a7294106dcfc95c2ca"
+    },
+    {
+      "id": "23-forms-validation-states:Q02",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-Q02",
+        "23-forms-validation-states-c3-definition",
+        "23-forms-validation-states-c3-explanation",
+        "23-forms-validation-states-c3-walkthrough",
+        "23-forms-validation-states-c3-decision",
+        "23-forms-validation-states-c4-definition",
+        "23-forms-validation-states-c4-explanation",
+        "23-forms-validation-states-c4-walkthrough",
+        "23-forms-validation-states-c4-decision",
+        "23-forms-validation-states-Q02-mechanism",
+        "23-forms-validation-states-Q02-input",
+        "23-forms-validation-states-Q02-worked",
+        "23-forms-validation-states-Q02-boundary",
+        "23-forms-validation-states-Q02-practice",
+        "23-forms-validation-states-Q02-T01",
+        "23-forms-validation-states-Q02-T02",
+        "23-forms-validation-states-Q02-T03",
+        "23-forms-validation-states-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/23-forms-validation-states-c3-walkthrough.svg": "9f73e1f4b3b40be186d8a1c76bc93256ba468b02aaccf21102a6772b0412b23a",
+        "public/models/23-forms-validation-states-c4-walkthrough.svg": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a",
+        "public/models/23-forms-validation-states-Q02-worked.svg": "9f73e1f4b3b40be186d8a1c76bc93256ba468b02aaccf21102a6772b0412b23a"
+      },
+      "fingerprint": "406dc425f331c2a381d287b88eacb0f4af79632eed614d5332a0d86b5437d229"
+    },
+    {
+      "id": "23-forms-validation-states:Q03",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-Q03",
+        "23-forms-validation-states-c5-definition",
+        "23-forms-validation-states-c5-explanation",
+        "23-forms-validation-states-c5-walkthrough",
+        "23-forms-validation-states-c5-decision",
+        "23-forms-validation-states-c6-definition",
+        "23-forms-validation-states-c6-explanation",
+        "23-forms-validation-states-c6-walkthrough",
+        "23-forms-validation-states-c6-decision",
+        "23-forms-validation-states-Q03-mechanism",
+        "23-forms-validation-states-Q03-input",
+        "23-forms-validation-states-Q03-worked",
+        "23-forms-validation-states-Q03-boundary",
+        "23-forms-validation-states-Q03-practice",
+        "23-forms-validation-states-Q03-T01",
+        "23-forms-validation-states-Q03-T02",
+        "23-forms-validation-states-Q03-T03",
+        "23-forms-validation-states-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/23-forms-validation-states-c5-walkthrough.svg": "7482eec7038be7f75e74b4094f4d45345a35faf5f34d490d3852044d8b5e45a3",
+        "public/models/23-forms-validation-states-c6-walkthrough.svg": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e",
+        "public/models/23-forms-validation-states-Q03-worked.svg": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e"
+      },
+      "fingerprint": "3ab6851610627419aca45d7749344a19e9113bb7e9d550faa4069ebf9a617bb9"
+    },
+    {
+      "id": "23-forms-validation-states:Q04",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-Q04",
+        "23-forms-validation-states-c7-definition",
+        "23-forms-validation-states-c7-explanation",
+        "23-forms-validation-states-c7-walkthrough",
+        "23-forms-validation-states-c7-decision",
+        "23-forms-validation-states-c8-definition",
+        "23-forms-validation-states-c8-explanation",
+        "23-forms-validation-states-c8-walkthrough",
+        "23-forms-validation-states-c8-decision",
+        "23-forms-validation-states-Q04-mechanism",
+        "23-forms-validation-states-Q04-input",
+        "23-forms-validation-states-Q04-worked",
+        "23-forms-validation-states-Q04-boundary",
+        "23-forms-validation-states-Q04-practice",
+        "23-forms-validation-states-Q04-T01",
+        "23-forms-validation-states-Q04-T02",
+        "23-forms-validation-states-Q04-T03",
+        "23-forms-validation-states-Q04-T04",
+        "23-forms-validation-states-additional-case-input",
+        "23-forms-validation-states-additional-case-solution",
+        "23-forms-validation-states-additional-case-boundary",
+        "23-forms-validation-states-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/23-forms-validation-states-c7-walkthrough.svg": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff",
+        "public/models/23-forms-validation-states-c8-walkthrough.svg": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff",
+        "public/models/23-forms-validation-states-Q04-worked.svg": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff",
+        "public/models/23-forms-validation-states-additional-case-solution.svg": "d9455af995ef754214606c6614866cf9049e94c14d7942e1c583d0c10fb3a697"
+      },
+      "fingerprint": "76c8551210eba3466aa2a6cc934ee813e7d75572825a7fb92f0a6ca4495ebc11"
+    },
+    {
+      "id": "23-forms-validation-states:closing",
+      "lectureId": "23-forms-validation-states",
+      "slideIds": [
+        "23-forms-validation-states-experiment",
+        "23-forms-validation-states-experiment-review",
+        "23-forms-validation-states-summary",
+        "23-forms-validation-states-sources",
+        "23-forms-validation-states-final",
+        "23-forms-validation-states-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "55eabe816962df33e7c265d12f289893b378b01148b00f2e2e0d97ee21f82483"
+    },
+    {
+      "id": "24-design-system-accessibility:intro",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-start",
+        "24-design-system-accessibility-route",
+        "24-design-system-accessibility-why",
+        "24-design-system-accessibility-case",
+        "24-design-system-accessibility-prerequisites",
+        "24-design-system-accessibility-explanation"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "a3e2cf39c7fa59774ca09544023dccd09cc2605ca76c318d71d6dc0791c61d1d"
+    },
+    {
+      "id": "24-design-system-accessibility:Q01",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-Q01",
+        "24-design-system-accessibility-c1-definition",
+        "24-design-system-accessibility-c1-explanation",
+        "24-design-system-accessibility-c1-walkthrough",
+        "24-design-system-accessibility-c1-decision",
+        "24-design-system-accessibility-c2-definition",
+        "24-design-system-accessibility-c2-explanation",
+        "24-design-system-accessibility-c2-walkthrough",
+        "24-design-system-accessibility-c2-decision",
+        "24-design-system-accessibility-Q01-mechanism",
+        "24-design-system-accessibility-Q01-input",
+        "24-design-system-accessibility-Q01-worked",
+        "24-design-system-accessibility-Q01-boundary",
+        "24-design-system-accessibility-Q01-practice",
+        "24-design-system-accessibility-Q01-T01",
+        "24-design-system-accessibility-Q01-T02",
+        "24-design-system-accessibility-Q01-T03",
+        "24-design-system-accessibility-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/24-grid.svg": "b7f802e1a767998d9c7bed04748f6d8dad03d2c52991046f1c6c5e168c1b5af5"
+      },
+      "fingerprint": "17d154d7f24b4681940315663a5cabbc818ffa69ae4b28b68a410e41fb32e069"
+    },
+    {
+      "id": "24-design-system-accessibility:Q02",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-Q02",
+        "24-design-system-accessibility-c3-definition",
+        "24-design-system-accessibility-c3-explanation",
+        "24-design-system-accessibility-c3-walkthrough",
+        "24-design-system-accessibility-c3-decision",
+        "24-design-system-accessibility-c4-definition",
+        "24-design-system-accessibility-c4-explanation",
+        "24-design-system-accessibility-c4-walkthrough",
+        "24-design-system-accessibility-c4-decision",
+        "24-design-system-accessibility-Q02-mechanism",
+        "24-design-system-accessibility-Q02-input",
+        "24-design-system-accessibility-Q02-worked",
+        "24-design-system-accessibility-Q02-boundary",
+        "24-design-system-accessibility-Q02-practice",
+        "24-design-system-accessibility-Q02-T01",
+        "24-design-system-accessibility-Q02-T02",
+        "24-design-system-accessibility-Q02-T03",
+        "24-design-system-accessibility-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/24-tokens.svg": "1311579a9da6fb390bdab22ecb75e497474f56f490bafa0d5c7a4c7842dd5866"
+      },
+      "fingerprint": "5b06bee14bec9d310f067662d8f317cbff963c13039fa25c56b3a1117f4782cb"
+    },
+    {
+      "id": "24-design-system-accessibility:Q03",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-Q03",
+        "24-design-system-accessibility-c5-definition",
+        "24-design-system-accessibility-c5-explanation",
+        "24-design-system-accessibility-c5-walkthrough",
+        "24-design-system-accessibility-c5-decision",
+        "24-design-system-accessibility-c6-definition",
+        "24-design-system-accessibility-c6-explanation",
+        "24-design-system-accessibility-c6-walkthrough",
+        "24-design-system-accessibility-c6-decision",
+        "24-design-system-accessibility-Q03-mechanism",
+        "24-design-system-accessibility-Q03-input",
+        "24-design-system-accessibility-Q03-worked",
+        "24-design-system-accessibility-Q03-boundary",
+        "24-design-system-accessibility-Q03-practice",
+        "24-design-system-accessibility-Q03-T01",
+        "24-design-system-accessibility-Q03-T02",
+        "24-design-system-accessibility-Q03-T03",
+        "24-design-system-accessibility-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/24-component-states.svg": "7282e18557040fc44d898109019b55956c61fb09f379c28e19b540bb4e9624e4",
+        "public/models/24-contrast-samples.svg": "b9408cacbf7dbe8cf2b6e9c445c98a9ece314c63c70c8a663a77ca7cd4a82ffd"
+      },
+      "fingerprint": "5934af1c04f3b443a64fae204484fca564ea737315e41e6c8e8c9eb5ef1150bb"
+    },
+    {
+      "id": "24-design-system-accessibility:Q04",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-Q04",
+        "24-design-system-accessibility-c7-definition",
+        "24-design-system-accessibility-c7-explanation",
+        "24-design-system-accessibility-c7-walkthrough",
+        "24-design-system-accessibility-c7-decision",
+        "24-design-system-accessibility-c8-definition",
+        "24-design-system-accessibility-c8-explanation",
+        "24-design-system-accessibility-c8-walkthrough",
+        "24-design-system-accessibility-c8-decision",
+        "24-design-system-accessibility-Q04-mechanism",
+        "24-design-system-accessibility-Q04-input",
+        "24-design-system-accessibility-Q04-worked",
+        "24-design-system-accessibility-Q04-boundary",
+        "24-design-system-accessibility-Q04-practice",
+        "24-design-system-accessibility-Q04-T01",
+        "24-design-system-accessibility-Q04-T02",
+        "24-design-system-accessibility-Q04-T03",
+        "24-design-system-accessibility-Q04-T04",
+        "24-design-system-accessibility-additional-case-input",
+        "24-design-system-accessibility-additional-case-solution",
+        "24-design-system-accessibility-additional-case-boundary",
+        "24-design-system-accessibility-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {
+        "public/models/24-keyboard.svg": "3b532723cc4288eddbcf811274b120f5c0eb98f9b4ccaf76b8071e66e5fa01be",
+        "public/models/24-contrast-samples.svg": "b9408cacbf7dbe8cf2b6e9c445c98a9ece314c63c70c8a663a77ca7cd4a82ffd"
+      },
+      "fingerprint": "2789d7782c3881e9ecf773a944758453ea82aaa58d4fc32f44fe94a0d4ef3a0a"
+    },
+    {
+      "id": "24-design-system-accessibility:closing",
+      "lectureId": "24-design-system-accessibility",
+      "slideIds": [
+        "24-design-system-accessibility-experiment",
+        "24-design-system-accessibility-experiment-review",
+        "24-design-system-accessibility-summary",
+        "24-design-system-accessibility-sources",
+        "24-design-system-accessibility-final",
+        "24-design-system-accessibility-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "0ae43da2adab9e0e21acb09d314bdad8ed340cdbe8f3a0425d77160861c761ef"
+    },
+    {
+      "id": "25-rbac:intro",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-start",
+        "25-rbac-route",
+        "25-rbac-why",
+        "25-rbac-case",
+        "25-rbac-prerequisites",
+        "25-rbac-explanation",
+        "25-rbac-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "bf73784ebc808ca78d53a93ee42b29a22036ea0c8aadd4b8150be949c5b00357"
+    },
+    {
+      "id": "25-rbac:Q01",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-Q01",
+        "25-rbac-c1-definition",
+        "25-rbac-c1-explanation",
+        "25-rbac-c1-walkthrough",
+        "25-rbac-c1-decision",
+        "25-rbac-c2-definition",
+        "25-rbac-c2-explanation",
+        "25-rbac-c2-walkthrough",
+        "25-rbac-c2-decision",
+        "25-rbac-Q01-mechanism",
+        "25-rbac-Q01-input",
+        "25-rbac-Q01-worked",
+        "25-rbac-Q01-boundary",
+        "25-rbac-Q01-practice",
+        "25-rbac-Q01-T01",
+        "25-rbac-Q01-T02",
+        "25-rbac-Q01-T03",
+        "25-rbac-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "2531c510e4d91ed0d873db58c6d0c24bfe1e513eee75b1663fb8f92fa028dbd6"
+    },
+    {
+      "id": "25-rbac:Q02",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-Q02",
+        "25-rbac-c3-definition",
+        "25-rbac-c3-explanation",
+        "25-rbac-c3-walkthrough",
+        "25-rbac-c3-decision",
+        "25-rbac-c4-definition",
+        "25-rbac-c4-explanation",
+        "25-rbac-c4-walkthrough",
+        "25-rbac-c4-decision",
+        "25-rbac-Q02-mechanism",
+        "25-rbac-Q02-input",
+        "25-rbac-Q02-worked",
+        "25-rbac-Q02-boundary",
+        "25-rbac-Q02-practice",
+        "25-rbac-Q02-T01",
+        "25-rbac-Q02-T02",
+        "25-rbac-Q02-T03",
+        "25-rbac-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a13affa01dd21c68b9f07e004e790805fdddd8c0d0dc419ffd4f3357b572d0f3"
+    },
+    {
+      "id": "25-rbac:Q03",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-Q03",
+        "25-rbac-c5-definition",
+        "25-rbac-c5-explanation",
+        "25-rbac-c5-walkthrough",
+        "25-rbac-c5-decision",
+        "25-rbac-c6-definition",
+        "25-rbac-c6-explanation",
+        "25-rbac-c6-walkthrough",
+        "25-rbac-c6-decision",
+        "25-rbac-Q03-mechanism",
+        "25-rbac-Q03-input",
+        "25-rbac-Q03-worked",
+        "25-rbac-Q03-boundary",
+        "25-rbac-Q03-practice",
+        "25-rbac-Q03-T01",
+        "25-rbac-Q03-T02",
+        "25-rbac-Q03-T03",
+        "25-rbac-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "ff2388eef3493405632de4e3a99cb2af013cc87151a6f29883633396a26dd63b"
+    },
+    {
+      "id": "25-rbac:Q04",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-Q04",
+        "25-rbac-c7-definition",
+        "25-rbac-c7-explanation",
+        "25-rbac-c7-walkthrough",
+        "25-rbac-c7-decision",
+        "25-rbac-c8-definition",
+        "25-rbac-c8-explanation",
+        "25-rbac-c8-walkthrough",
+        "25-rbac-c8-decision",
+        "25-rbac-Q04-mechanism",
+        "25-rbac-Q04-input",
+        "25-rbac-Q04-worked",
+        "25-rbac-Q04-boundary",
+        "25-rbac-Q04-practice",
+        "25-rbac-Q04-T01",
+        "25-rbac-Q04-T02",
+        "25-rbac-Q04-T03",
+        "25-rbac-Q04-T04",
+        "25-rbac-additional-case-input",
+        "25-rbac-additional-case-solution",
+        "25-rbac-additional-case-boundary",
+        "25-rbac-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "dde58da221088e0d9a40cda7582eeac4578c9ff58edfa74a6e1c65bcea9300a3"
+    },
+    {
+      "id": "25-rbac:closing",
+      "lectureId": "25-rbac",
+      "slideIds": [
+        "25-rbac-experiment",
+        "25-rbac-experiment-review",
+        "25-rbac-summary",
+        "25-rbac-sources",
+        "25-rbac-final",
+        "25-rbac-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "1e22546f7b815ba94a9852fed4c2892afdd5c329bc989d36ce3d2dbb24e2aae9"
+    },
+    {
+      "id": "26-auth-lockout:intro",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-start",
+        "26-auth-lockout-route",
+        "26-auth-lockout-why",
+        "26-auth-lockout-case",
+        "26-auth-lockout-prerequisites",
+        "26-auth-lockout-explanation",
+        "26-auth-lockout-exam-context"
+      ],
+      "needs": [
+        "student",
+        "teacher"
+      ],
+      "artifacts": {},
+      "fingerprint": "cb531b2e35dcb93a1fd783dc0b629bfa71020a92423e7e1439ce4c45850b3f54"
+    },
+    {
+      "id": "26-auth-lockout:Q01",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-Q01",
+        "26-auth-lockout-c1-definition",
+        "26-auth-lockout-c1-explanation",
+        "26-auth-lockout-c1-walkthrough",
+        "26-auth-lockout-c1-decision",
+        "26-auth-lockout-c2-definition",
+        "26-auth-lockout-c2-explanation",
+        "26-auth-lockout-c2-walkthrough",
+        "26-auth-lockout-c2-decision",
+        "26-auth-lockout-Q01-mechanism",
+        "26-auth-lockout-Q01-input",
+        "26-auth-lockout-Q01-worked",
+        "26-auth-lockout-Q01-boundary",
+        "26-auth-lockout-Q01-practice",
+        "26-auth-lockout-Q01-T01",
+        "26-auth-lockout-Q01-T02",
+        "26-auth-lockout-Q01-T03",
+        "26-auth-lockout-Q01-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "aa864f33a01a32379ad00d814ad5c6126dc38e5a2d13ec8708d57ea80d136b0f"
+    },
+    {
+      "id": "26-auth-lockout:Q02",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-Q02",
+        "26-auth-lockout-c3-definition",
+        "26-auth-lockout-c3-explanation",
+        "26-auth-lockout-c3-walkthrough",
+        "26-auth-lockout-c3-decision",
+        "26-auth-lockout-c4-definition",
+        "26-auth-lockout-c4-explanation",
+        "26-auth-lockout-c4-walkthrough",
+        "26-auth-lockout-c4-decision",
+        "26-auth-lockout-Q02-mechanism",
+        "26-auth-lockout-Q02-input",
+        "26-auth-lockout-Q02-worked",
+        "26-auth-lockout-Q02-boundary",
+        "26-auth-lockout-Q02-practice",
+        "26-auth-lockout-Q02-T01",
+        "26-auth-lockout-Q02-T02",
+        "26-auth-lockout-Q02-T03",
+        "26-auth-lockout-Q02-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e05a59d3c6476bc4391b06001a7447bc07b69b2f4caee1c87b6baf7b15fb44d6"
+    },
+    {
+      "id": "26-auth-lockout:Q03",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-Q03",
+        "26-auth-lockout-c5-definition",
+        "26-auth-lockout-c5-explanation",
+        "26-auth-lockout-c5-walkthrough",
+        "26-auth-lockout-c5-decision",
+        "26-auth-lockout-c6-definition",
+        "26-auth-lockout-c6-explanation",
+        "26-auth-lockout-c6-walkthrough",
+        "26-auth-lockout-c6-decision",
+        "26-auth-lockout-Q03-mechanism",
+        "26-auth-lockout-Q03-input",
+        "26-auth-lockout-Q03-worked",
+        "26-auth-lockout-Q03-boundary",
+        "26-auth-lockout-Q03-practice",
+        "26-auth-lockout-Q03-T01",
+        "26-auth-lockout-Q03-T02",
+        "26-auth-lockout-Q03-T03",
+        "26-auth-lockout-Q03-T04"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "ed9c06b00062c3315eda6aa6654fa7f22fd214ede6bf5ae4051547e0699556dd"
+    },
+    {
+      "id": "26-auth-lockout:Q04",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-Q04",
+        "26-auth-lockout-c7-definition",
+        "26-auth-lockout-c7-explanation",
+        "26-auth-lockout-c7-walkthrough",
+        "26-auth-lockout-c7-decision",
+        "26-auth-lockout-c8-definition",
+        "26-auth-lockout-c8-explanation",
+        "26-auth-lockout-c8-walkthrough",
+        "26-auth-lockout-c8-decision",
+        "26-auth-lockout-Q04-mechanism",
+        "26-auth-lockout-Q04-input",
+        "26-auth-lockout-Q04-worked",
+        "26-auth-lockout-Q04-boundary",
+        "26-auth-lockout-Q04-practice",
+        "26-auth-lockout-Q04-T01",
+        "26-auth-lockout-Q04-T02",
+        "26-auth-lockout-Q04-T03",
+        "26-auth-lockout-Q04-T04",
+        "26-auth-lockout-additional-case-input",
+        "26-auth-lockout-additional-case-solution",
+        "26-auth-lockout-additional-case-boundary",
+        "26-auth-lockout-experiment-start"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "fd5a87625c7d2fb6917cdcd2f5f730be421d67017a61e824f59d0f56b703f5c5"
+    },
+    {
+      "id": "26-auth-lockout:closing",
+      "lectureId": "26-auth-lockout",
+      "slideIds": [
+        "26-auth-lockout-experiment",
+        "26-auth-lockout-experiment-review",
+        "26-auth-lockout-summary",
+        "26-auth-lockout-sources",
+        "26-auth-lockout-final",
+        "26-auth-lockout-questions"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "412b462383433883907890d5d368bdb3d86b8922434bfc7aa3e82cdc53b6d4b2"
+    }
+  ],
+  "counts": {
+    "lectures": 26,
+    "slides": 2299,
+    "units": 156
+  }
+}

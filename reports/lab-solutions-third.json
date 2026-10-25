@@ -1,7 +1,7 @@
 {
   "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
-  "version": "pisid3-2026.10.25-third",
-  "startedAt": "2026-10-25T16:19:00.874Z",
+  "version": "pisid3-2026.10.25-blocks",
+  "startedAt": "2026-10-25T20:26:30.078Z",
   "labs": [
     {
       "id": "01-project-decisions",
@@ -223,7 +223,7 @@
       "id": "25-rbac",
       "kind": "access",
       "checks": [
-        "Same role and operation; own allowed, foreign denied"
+        "Own independent confirmation 10→8 once; foreign denied without effect"
       ],
       "audience": true,
       "focusRestored": true
@@ -240,5 +240,5 @@
   ],
   "errors": [],
   "status": "passed",
-  "finishedAt": "2026-10-25T16:21:19.337Z"
+  "finishedAt": "2026-10-25T20:28:00.605Z"
 }

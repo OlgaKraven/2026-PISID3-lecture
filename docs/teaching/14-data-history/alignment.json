@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-artifacts",
+  "contentVersion": "pisid3-2026.10.25-blocks",
   "sourceKind": "local",
-  "sourceSha256": "543ee279ea1c57049cb62e75db8576cc5b3d92ab5db053059ae8012c9e0cd0ba",
+  "sourceSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
   "lectureIds": [
     "14-data-history"
   ],

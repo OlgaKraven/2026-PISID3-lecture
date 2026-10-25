@@ -28,7 +28,16 @@
     "test:interactions": "node scripts/review-release.mjs cases && node scripts/review-release.mjs tasks",
     "export:teaching": "node scripts/export-teaching.mjs",
     "test:experiments": "node scripts/check-question-experiments.mjs",
-    "test:design": "node scripts/check-infographic-style.mjs"
+    "test:design": "node scripts/check-infographic-style.mjs",
+    "generate:review": "npm run generate:content && npm run audit:inventory",
+    "audit:inventory": "node scripts/quality.mjs inventory",
+    "check:audit": "node scripts/quality.mjs check",
+    "test:forms": "node scripts/check-form-artifacts.mjs",
+    "test:components": "node scripts/check-components.mjs",
+    "test:access": "node scripts/check-access-policy.mjs",
+    "test:artifacts": "node scripts/check-working-artifacts.mjs",
+    "test:models": "node scripts/check-course-models.mjs",
+    "check:teaching": "node scripts/check-third-content.mjs"
   },
   "dependencies": {
     "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",

@@ -1,5 +1,5 @@
 /* Shared visual roles for authored SVGs, diagrams, tables and laboratories. */
-:root{--dg-paper:#fff;--dg-ink:#171719;--dg-muted:#65656d;--dg-line:#dedee2;--dg-fill:#eeeeef;--dg-strong:#707078;--dg-accent:#d31626;--dg-tint:#fff1f2;--dg-header:#232326;--dg-on-header:#fff}
+:root{--dg-paper:#fff;--dg-ink:#171719;--dg-muted:#65656d;--dg-line:#dedee2;--dg-fill:#eeeeef;--dg-strong:#707078;--dg-accent:#d31626;--dg-tint:#fff1f2;--dg-header:#eeeeef;--dg-on-header:#171719}
 :root[data-theme=dark]{--dg-paper:#232326;--dg-ink:#f4f4f5;--dg-muted:#b4b4bd;--dg-line:#3b3b42;--dg-fill:#303035;--dg-strong:#a1a1aa;--dg-accent:#ff5360;--dg-tint:#3c2429;--dg-header:#303035;--dg-on-header:#f4f4f5}
 .infographic,.diagram-dialog-content,.diagram-dialog-actions,.laboratory,.laboratory-dialog,.experiment,.matching-board{--blue:var(--dg-accent);font-family:Raleway,Arial,sans-serif;color:var(--dg-ink);font-weight:400}
 .infographic{background:var(--dg-paper);border:1px solid var(--dg-line);border-radius:12px;box-shadow:none;padding:.8cqw;gap:.5cqw}

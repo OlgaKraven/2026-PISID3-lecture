@@ -20,7 +20,7 @@
 .wireframe-screen>header{display:flex;flex-direction:column;gap:.2em;border-bottom:1px solid var(--dg-line);padding-bottom:.5em;margin-bottom:.7em}
 .wireframe-screen>header>span,.wireframe-screen>footer{font-size:.7em;color:var(--dg-muted)}
 .wireframe-screen label{display:block;font-size:.85em;margin:.65em 0}
-.wireframe-screen input{display:block;box-sizing:border-box;width:100%;min-width:0;border:1px solid var(--dg-strong);border-radius:2px;padding:.45em;font:400 1em/1.4 monospace;color:var(--dg-ink);background:var(--dg-paper);margin-top:.25em}
+.wireframe-screen input{display:block;box-sizing:border-box;width:100%;min-width:0;min-height:44px;border:1px solid var(--dg-strong);border-radius:2px;padding:.45em;font:400 1em/1.4 monospace;color:var(--dg-ink);background:var(--dg-paper);margin-top:.25em}
 .wireframe-screen button{display:block;width:100%;margin-top:.6em;border-radius:2px;border-color:var(--dg-strong);background:var(--dg-fill)}
 .wireframe-screen p{font-size:.9em;margin:.6em 0}.wireframe-screen h4{font-size:1em;margin:.3em 0}
 .wireframe-screen footer{border-top:1px solid var(--dg-line);margin-top:1em;padding-top:.5em}
@@ -44,3 +44,5 @@
 .artifact-dialog>header{flex:none}
 .artifact-dialog>.teaching-artifact{height:auto;max-height:none;flex:1;min-height:0}
 .artifact-dialog .teaching-artifact button:disabled{opacity:1}
+
+.form-search{display:grid;gap:12px;margin-top:24px}.form-search h4{margin:0}.form-search label{display:grid;gap:6px}.form-search input{min-height:44px;padding:10px;box-sizing:border-box;width:100%;font:inherit;background:var(--dg-paper);color:var(--dg-ink);border:1px solid var(--dg-line);border-radius:6px}.form-search [role=status],.form-search [role=alert]{padding:12px;border:1px solid var(--dg-line);border-radius:6px}

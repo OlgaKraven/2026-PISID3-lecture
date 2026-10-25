@@ -5,6 +5,7 @@ import experiments from '../public/question-experiments.json';
 import {useDemoState} from './experiment-state';
 import {PublicControlScope,PublicSelect} from './public-select';
 import './question-experiment.css';
+import {ComponentWorkbench} from './component-workbench';
 
 export function QuestionExperiment({id,writable,version,children}:{id:string;writable:boolean;version:string;children?:ReactNode}){
  const e=experiments.find(e=>e.id===id)!;
@@ -18,6 +19,7 @@ export function QuestionExperiment({id,writable,version,children}:{id:string;wri
   <div className="qe-condition"><span>Условия примера</span><PublicSelect aria-label="Условия примера" value={String(s.scenario)} disabled={!writable} onChange={event=>update({scenario:Number(event.target.value),step:0,diagram:false})}>{e.scenarios.map((v,i)=><option key={v.label} value={String(i)}>{v.label}</option>)}</PublicSelect></div>
   <p className="qe-input">{scenario.condition}</p>
   <label className="case-field">Прогноз для выбранного условия<textarea maxLength={500} readOnly={!writable} value={String(s['prediction'+s.scenario])} onChange={event=>update({['prediction'+s.scenario]:event.target.value})}/></label>
+  {id.startsWith('24-')&&<ComponentWorkbench key={id+':'+s.scenario} id={id} writable={writable} version={version} scenario={Number(s.scenario)}/>}
   {writable&&<div className="qe-actions"><button className="button secondary" disabled={step===0} onClick={()=>update({step:step-1})}>Назад по решению</button><button className="button primary" disabled={step===2} onClick={()=>update({step:step+1})}>Следующий шаг решения</button><button className="button secondary" onClick={()=>update({step:0,diagram:false})}>Начать разбор заново</button><button className="button secondary" disabled={step!==2||(s.trials as string[]).length>=8} onClick={record}>Зафиксировать результат запуска</button></div>}
   <ol className="qe-model" aria-label="Ход решения">{['Исходные данные','Действие по правилу','Проверяемый результат'].map((label,i)=><li key={label} aria-current={step===i?'step':undefined} data-complete={step>=i}><h2>{i+1}. {label}</h2><p>{step>=i?values[i]:'Откройте этот шаг после своего прогноза.'}</p></li>)}</ol>
   <p className="qe-step" role="status">Шаг {step+1} из 3: {['проверьте исходные данные','проследите основание действия','сравните результат с прогнозом'][step]}.</p>

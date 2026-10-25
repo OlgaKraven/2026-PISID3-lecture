@@ -19,15 +19,16 @@ try{
   }
   report.themes.push({theme,figures});console.log(theme+': '+figures+' static diagrams checked');
  }
- const types=new Map();for(const l of course.lectures)for(const s of l.slides)if(s.id.endsWith('-worked')&&!types.has(s.visual.type))types.set(s.visual.type,{l,s});
- for(const [type,{l,s}] of types){
-  await page.goto(siteUrl+`?lecture=${l.id}&slide=${s.id}`);await page.getByRole('button',{name:s.visual.type==='callouts'?'Развернуть пример':'Развернуть схему',exact:true}).waitFor();
+ const forms=new Set(JSON.parse(await fs.readFile('public/form-artifacts.json','utf8')).map(e=>e.id));
+ const types=new Map();for(const l of course.lectures)for(const s of l.slides)if(s.id.endsWith('-worked')){const native=s.visual?.image?.startsWith('artifacts/')?'story':forms.has(s.id)?'form':null,key=s.visual.type+(native?':'+native:'');if(!types.has(key))types.set(key,{l,s,native});}
+ for(const [type,{l,s,native}] of types){
+  await page.goto(siteUrl+`?lecture=${l.id}&slide=${s.id}`);await page.getByRole('button',{name:native?'Развернуть пример':'Развернуть схему',exact:true}).waitFor();
   const popup=context.waitForEvent('page');await page.getByRole('button',{name:'Режим показа',exact:true}).click();const audience=await popup;
   await audience.locator('.infographic').waitFor();
-  if(type==='callouts'){
+  if(native){
    await page.getByRole('button',{name:'Развернуть пример',exact:true}).click();await audience.locator('.artifact-dialog[open]').waitFor();
    for(const p of [page,audience])await p.evaluate(()=>document.documentElement.dataset.theme='dark');
-   await audience.screenshot({path:'output/playwright/infographic-story-artifact-dark.png'});
+   await audience.screenshot({path:'output/playwright/infographic-'+native+'-artifact-dark.png'});
    await page.getByRole('button',{name:'Вернуться к слайду',exact:true}).click();await audience.locator('.artifact-dialog').waitFor({state:'hidden'});
    report.expanded.push(type);await page.getByRole('button',{name:'Завершить показ',exact:true}).click();await audience.close();continue;
   }

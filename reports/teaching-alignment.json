@@ -1,0 +1,10 @@
+{
+  "version": "pisid3-2026.10.25-blocks",
+  "courseSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "models": 234,
+  "tasks": 416,
+  "notes": 2299,
+  "exportedLectures": 26,
+  "status": "passed",
+  "scope": "Alignment and data regression; does not establish pedagogical sufficiency by itself"
+}

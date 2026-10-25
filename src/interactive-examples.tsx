@@ -9,6 +9,8 @@ import {LaboratoryStudio,studioResult,type LaboratoryField} from './laboratory-s
 import {LaboratoryScene} from './laboratory-scenes';
 import './lecture.css';
 import {TeachingArtifact,hasTeachingArtifact} from './teaching-artifact';
+import {FormArtifact,hasFormArtifact} from './form-artifact';
+import {ComponentWorkbench} from './component-workbench';
 
 type Lab = {kind: string; title: string; prompt: string; lesson: string; choices?: string[][]; correct?: number;setup?:string;procedure?:string[];expected?:string;boundary?:string;fields?:LaboratoryField[];teacherGuide?:string};
 type Props = {slide: Slide; interactive: boolean; course: {contentVersion: string}; fallback: ReactNode};
@@ -17,6 +19,7 @@ export function InteractiveExample({slide, interactive, course, fallback}: Props
   const audience = new URLSearchParams(location.search).get('mode') === 'audience';
   if (!interactive && !audience) return fallback;
   if(hasTeachingArtifact(slide.id))return <TeachingArtifact key={slide.id} id={slide.id} writable={interactive&&!audience} version={course.contentVersion} fallback={fallback}/>;
+  if(hasFormArtifact(slide.id))return <FormArtifact key={slide.id} id={slide.id} writable={interactive&&!audience} version={course.contentVersion} fallback={fallback}/>;
   if (slide.id.endsWith('-experiment')) {
     const index = Number(slide.id.slice(0, 2)) - 1;
     const lab = experiments[index] as Lab;
@@ -33,7 +36,7 @@ export function InteractiveExample({slide, interactive, course, fallback}: Props
 function Experiment(props:{lab:Lab;id:string;writable:boolean;version:string}){return <PublicControlScope id={props.id} writable={props.writable} version={props.version}><ExperimentContent {...props}/></PublicControlScope>}
 function ExperimentContent({lab, id, writable, version}: {lab: Lab; id: string; writable: boolean; version: string}) {
   const laboratory=id.endsWith('-experiment');
-  const [s, setDemo] = useDemoState(id, {choice: -1, stock: 10, amount: 10, quarantine: false, quantity: 10, reason: '', history: [] as string[], coverage: [] as string[], weight: 50, allowed: true, deduplicate: true, delivered: 0, operation: 1, registered: [] as string[], count: 100, seconds: 3, query: '', filter: 'Все', step: 0, batch: '', formQuantity: '', submitted: false, pending: false, result: '', gray: 119, role: 'Кладовщик', action: 'Просмотр', zone: 'Своя', failures: 0, locked: false, loggedIn: false,expanded:false,guideOpen:false,preset:'Исходные условия',observation:'',trials:[] as string[],animationAt:0,...Object.fromEntries((lab.fields||[]).map(field=>['studio_'+field.id,field.value]))}, writable, version);
+  const [s, setDemo] = useDemoState(id, {choice: -1, stock: 10, amount: 10, quarantine: false, quantity: 10, reason: '', history: [] as string[], coverage: [] as string[], weight: 50, allowed: true, deduplicate: true, delivered: 0, operation: 1, registered: [] as string[], count: 100, seconds: 3, query: '', filter: 'Все', step: 0, batch: '', formQuantity: '', submitted: false, pending: false, result: '', gray: 119, role: 'Кладовщик', action: 'Просмотр', zone: 'Своя', sameAuthor:false, accessStock:10,accessMovements:0,accessApplied:false,accessAttempts:0,accessResult:'',accessRequest:'', failures: 0, locked: false, loggedIn: false,expanded:false,guideOpen:false,preset:'Исходные условия',observation:'',trials:[] as string[],animationAt:0,...Object.fromEntries((lab.fields||[]).map(field=>['studio_'+field.id,field.value]))}, writable, version);
   const update=(patch:Parameters<typeof setDemo>[0])=>setDemo({...patch,...(laboratory?{animationAt:Date.now(),...(!('preset' in patch)?{preset:'Свои условия'}:{})}: {})});
   const number = (field: string) => s[field] as number;
   const str = (field: string) => s[field] as string;
@@ -115,12 +118,13 @@ function ExperimentContent({lab, id, writable, version}: {lab: Lab; id: string; 
     }
     case 'contrast': {
       const ratio = grayContrast(number('gray')), hex = number('gray').toString(16).padStart(2, '0').repeat(3);
-      content = <>{range('gray', 'Яркость текста', 0, 255)}<div className="contrast-sample" style={{color: '#' + hex}}>Партия P-18 готова к приёмке.<br/><small>#{hex} на #ffffff</small></div>{output(<><strong>{ratio.toFixed(4)}:1 — {ratio >= 4.5 ? 'AA для обычного текста выполнен' : 'AA для обычного текста не выполнен'}</strong><span>Сравнивается исходное значение, а не округлённое отображение.</span></>, ratio >= 4.5)}</>;
+      content = <>{range('gray', 'Яркость текста', 0, 255)}<div className="contrast-sample" style={{color: '#' + hex}}>Партия P-18 готова к приёмке.<br/><small>#{hex} на #ffffff</small></div>{output(<><strong>{ratio.toFixed(4)}:1 — {ratio >= 4.5 ? 'AA для обычного текста выполнен' : 'AA для обычного текста не выполнен'}</strong><span>Сравнивается исходное значение, а не округлённое отображение.</span></>, ratio >= 4.5)}<ComponentWorkbench id={id} writable={writable} version={version}/></>;
       break;
     }
     case 'access': {
-      const allowed = accessAllowed(str('role'), str('action'), str('zone'));
-      content = <><div className="experiment-inputs">{select('role', 'Роль', ['Кладовщик', 'Руководитель', 'Администратор'])}{select('action', 'Операция', ['Просмотр', 'Коррекция'])}{select('zone', 'Зона партии', ['Своя', 'Чужая'])}</div>{output(<><strong>{allowed ? 'Сервер разрешает запрос' : 'Сервер отклоняет запрос'}</strong><span>{str('role')} · {str('action')} · партия в зоне «{str('zone')}». Матрица учебная; роль администратора не универсальное разрешение в реальном проекте.</span></>, allowed)}</>;
+      const allowed = accessAllowed(str('role'), str('action'), str('zone'),bool('sameAuthor'));
+      const perform=()=>{const request=`${str('role')} · ${str('action')} · ${str('zone')} · инициатор: ${bool('sameAuthor')?'тот же':'другой'}`;const applies=allowed&&str('action')==='Подтверждение корректировки';update({accessAttempts:number('accessAttempts')+1,accessRequest:request,accessStock:applies?8:number('accessStock'),accessMovements:applies?1:number('accessMovements'),accessApplied:bool('accessApplied')||applies,accessResult:!allowed?'Отказ; учёт не изменён.':applies?bool('accessApplied')?'Прежнее подтверждение C25; второе движение не создано.':'C25 подтверждена; количество исправлено с 10 на 8.':'Запрос разрешён; просмотр или черновик не изменяет остаток.'});};
+      content = <><div className="experiment-inputs">{select('role', 'Роль', ['Кладовщик', 'Руководитель', 'Администратор'])}{select('action', 'Операция', ['Просмотр', 'Создание корректировки','Подтверждение корректировки'])}{select('zone', 'Зона партии', ['Своя', 'Чужая'])}{check('sameAuthor','Инициатор корректировки — тот же пользователь')}</div>{output(<><strong>{allowed ? 'Учебная проверка разрешает запрос' : 'Учебная проверка отклоняет запрос'}</strong><span>Администратор аккаунтов не получает эти складские операции по своей роли. Для подтверждения нужны руководитель, своя зона и другой инициатор.</span></>, allowed)}<p>Независимый прогон: исходно 10 шт., C25 исправляет до 8. Сбрасывайте состояние между сравниваемыми прогонами.</p><button type="button" disabled={!writable} onClick={perform}>Выполнить учебный запрос</button><button type="button" disabled={!writable} onClick={()=>update({accessStock:10,accessMovements:0,accessApplied:false,accessAttempts:0,accessResult:'',accessRequest:''})}>Сбросить состояние запроса</button><div className="access-evidence" role="status"><p>Остаток: {number('accessStock')} шт.; учётных движений: {number('accessMovements')}; попыток: {number('accessAttempts')}.</p>{str('accessResult')&&<><p>Последний запрос: {str('accessRequest')}</p><p>{str('accessResult')}</p></>}</div></>;
       break;
     }
     case 'auth': {
@@ -139,7 +143,7 @@ function ExperimentContent({lab, id, writable, version}: {lab: Lab; id: string; 
       case 'contrast':return `Контраст ${grayContrast(number('gray')).toFixed(4)}:1; ${grayContrast(number('gray'))>=4.5?'порог выполнен':'ниже порога'}`;
       case 'cost':return `${number('count')} × ${number('seconds')} с = ${number('count')*number('seconds')} с = ${(number('count')*number('seconds')/60).toFixed(1)} мин в день`;
       case 'offline':return `OP-${number('operation')}; защита по ID: ${bool('deduplicate')}; доставок ${number('delivered')}; остаток ${number('stock')}. ${str('result')}`;
-      case 'access':return `${str('role')}; ${str('action')}; зона «${str('zone')}»: ${accessAllowed(str('role'),str('action'),str('zone'))?'разрешено':'отказ'}`;
+      case 'access':return `${str('role')}; ${str('action')}; зона «${str('zone')}»: ${accessAllowed(str('role'),str('action'),str('zone'),bool('sameAuthor'))?'разрешено':'отказ'}; ${str('accessResult')||'Запрос ещё не выполнялся.'}; остаток ${number('accessStock')}, движений ${number('accessMovements')}`;
       case 'search':return `Поиск «${str('query')}»; фильтр «${str('filter')}». Результат — пересечение условий.`;
       case 'prototype':return `Шаг ${number('step')+1}; P-18: ${number('quantity')} ед.; ${number('step')===2?'приёмка подтверждена':'до подтверждения'}`;
       case 'form':return `${str('batch')}; ${str('formQuantity')} ед. ${str('result')||'Ожидание проверки.'}`;
@@ -155,7 +159,7 @@ function ExperimentContent({lab, id, writable, version}: {lab: Lab; id: string; 
     if(lab.kind==='weights')Object.assign(patch,{weight:[50,80,60][mode],allowed:mode!==2});
     if(lab.kind==='rules')Object.assign(patch,{stock:10,amount:[10,11,10][mode],quarantine:mode===2});
     if(lab.kind==='contrast')patch.gray=[119,118,255][mode];
-    if(lab.kind==='access')Object.assign(patch,{role:'Руководитель',action:'Коррекция',zone:mode===1?'Чужая':'Своя'});
+    if(lab.kind==='access')Object.assign(patch,{role:'Руководитель',action:'Подтверждение корректировки',zone:mode===1?'Чужая':'Своя',sameAuthor:mode===2,accessStock:10,accessMovements:0,accessApplied:false,accessAttempts:0,accessResult:'',accessRequest:''});
     if(lab.kind==='offline')Object.assign(patch,{deduplicate:mode!==1,stock:10,delivered:0,registered:[],operation:1,result:''});
     if(lab.kind==='auth')Object.assign(patch,{failures:mode===2?3:0,locked:mode===2,loggedIn:false});
     if(lab.kind==='form')Object.assign(patch,{batch:mode===1?'P-17':'P-18',formQuantity:mode===2?'0':'5',submitted:false,pending:false,result:''});

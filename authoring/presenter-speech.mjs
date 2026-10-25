@@ -1,10 +1,13 @@
+import {componentSpeech} from './component-artifacts.mjs';
 import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
 import artifacts from './concept-artifacts.mjs';
 import additional from './additional-artifacts.mjs';
 import {artifactFor,artifactSpeech} from './visible-artifacts.mjs';
+import {formFor,formSpeech,formLead} from './form-artifacts.mjs';
 
 const reading={
+ callouts:'Перед нами сам предметный артефакт. Читайте его подписи и значения; это структура результата, а не обязательный порядок исполнения.',
  matrix:'Каждая строка — отдельный случай или часть артефакта; заголовки задают смысл значений. Сравниваем данные в одной строке, затем различие строк.',
  network:'Узлы — объекты или артефакты, подписи стрелок — отношения между ними. Это не поток товара и не порядок исполнения программы.',
  decision:'В центре проверяем условие по данным случая. Ветка «да» и ветка «нет» — альтернативные исходы; одновременно они не выполняются.',
@@ -18,6 +21,12 @@ function modelText(v){
 }
 
 export function refineNote({slide:s,topic:t,index,cases, guidance:g,note,practiceCases,laboratory,assessment}){
+ const form=formFor(s.id);
+ if(form){
+  const ci=Number(s.id.match(/-c(\d+)-/)?.[1]||0)-1,qi=Number(s.id.match(/-Q0(\d)-/)?.[1]||0)-1;
+  const intro=ci>=0?t.concepts[ci].definition+' '+t.concepts[ci].check:qi>=0?cases[qi][0]:'Дополнительный случай: партия 0017 в карантине, отбор 5 шт. запрещён.';
+  return {...note,script:intro+'\n\n'+formSpeech(form),preparation:formLead(form),answer:form.why,notebook:''};
+ }
  const visible=artifactFor(s.id);
  if(visible){
   const c=Number(s.id.match(/-c(\d+)-/)?.[1]||0)-1,q=Number(s.id.match(/-Q0(\d)-/)?.[1]||0)-1;
@@ -82,5 +91,7 @@ export function refineNote({slide:s,topic:t,index,cases, guidance:g,note,practic
   else if(suffix==='experiment-review')speech=`${s.body}\n\n${(s.bullets||[]).join('\n\n')}`;
   else speech=note.script;
  }
+ if(index===24&&suffix==='experiment')speech+='\n\nВ лаборатории администратор аккаунтов не имеет складских разрешений по этой роли. Выберем руководителя и свою зону, действие «Подтверждение корректировки». При отметке «Инициатор корректировки — тот же пользователь» получаем отказ. Снимем отметку для независимого согласующего. Перед каждым сравнением нажмём «Сбросить состояние запроса», затем «Выполнить учебный запрос»: отказ сохраняет 10 и ноль движений; разрешённое подтверждение C25 даёт 8 и одно движение. Повтор того же подтверждения не создаёт второе движение. Предварительный расчёт допуска и фактически выполненный учебный запрос показаны отдельно.';
+ if(index===23&&(suffix.endsWith('-practice')||suffix==='experiment'))speech+='\n\n'+componentSpeech(qi);
  return {...note,script:speech,notebook:s.notebook||''};
 }

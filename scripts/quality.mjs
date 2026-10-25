@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const source=JSON.parse(fs.readFileSync('scripts/audit-gate-source.json','utf8'));
+if(createHash('sha256').update(fs.readFileSync('scripts/audit_gate.py')).digest('hex')!==source.sha256)throw Error('Помощник аудита изменился относительно просмотренного источника');
+const command=process.argv[2];if(!['inventory','check'].includes(command))throw Error('Используйте inventory или check');
+const runtime=['src','public/fonts','scripts/diagram-layout-plugin.ts','scripts/presentation-plugin.ts','scripts/interface-plugin.ts','scripts/notes-storage-plugin.ts','vite.config.ts','package-lock.json','vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz','public/assessment.json','public/question-experiments.json','public/practice-cases.json','public/laboratories.json','public/form-artifacts.json','public/teaching-artifacts.json'];
+const args=command==='inventory'?['--course','public/course.json','--pack','public/teacher-pack.json','--runtime',...runtime,'--out','reports/audit-inventory.json']:['--inventory','reports/audit-inventory.json','--reviews','authoring/audit-reviews.json','--out','reports/audit-gate.json'];
+const windows=process.platform==='win32',result=spawnSync(process.env.PYTHON||(windows?'py':'python3'),[...(windows?['-3']:[]),'-B','-X','utf8','scripts/audit_gate.py',command,'--root',process.cwd(),...args],{stdio:'inherit'});
+if(result.error)throw result.error;process.exit(result.status??1);

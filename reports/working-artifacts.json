@@ -1,7 +1,7 @@
 {
   "mode": "full",
   "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
-  "version": "pisid3-2026.10.25-artifacts",
+  "version": "pisid3-2026.10.25-blocks",
   "examples": [
     {
       "id": "08-user-story-acceptance-c1-walkthrough",

@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+const base=process.env.SITE_URL||'https://olgakraven.github.io/2026-PISID3-lecture/';
+const course=JSON.parse(await fs.readFile('public/course.json','utf8'));
+const files=new Set(['course.json','teacher-pack.json','assessment.json','question-experiments.json','practice-cases.json','laboratories.json','form-artifacts.json','teaching-artifacts.json','fonts/raleway-cyrillic.woff2']);
+for(const l of course.lectures)for(const s of l.slides)if(s.visual?.image)files.add(s.visual.image);
+for(const file of await fs.readdir('dist/assets'))files.add('assets/'+file);
+const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
+const report={url:base,version:course.contentVersion,courseSha256:hash(await fs.readFile('public/course.json')),files:[],errors:[]};
+const queue=[...files];
+await Promise.all(Array.from({length:4},async()=>{for(;;){const file=queue.shift();if(!file)return;try{const local=await fs.readFile('dist/'+file),response=await fetch(base+file+'?verify='+report.courseSha256.slice(0,12),{signal:AbortSignal.timeout(25000)});assert(response.ok,file+': HTTP '+response.status);const remote=Buffer.from(await response.arrayBuffer());assert.equal(hash(remote),hash(local),file+': public bytes differ');report.files.push({path:file,sha256:hash(local)});}catch(e){report.errors.push({path:file,error:String(e)});}}}));
+report.files.sort((a,b)=>a.path.localeCompare(b.path));report.status=report.errors.length?'failed':'passed';await fs.writeFile(process.env.SOURCE_REPORT||'reports/public-block-source.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:report.status,files:report.files.length,errors:report.errors}));assert.deepEqual(report.errors,[]);

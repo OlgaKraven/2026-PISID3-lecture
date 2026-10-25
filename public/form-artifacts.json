@@ -1,0 +1,106 @@
+[
+  {
+    "id": "23-forms-validation-states-c1-walkthrough",
+    "focus": "labels",
+    "why": "Код 0012 и 8 шт. Подписи и единица остаются видимыми после ввода.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-c2-walkthrough",
+    "focus": "required",
+    "why": "Количество обязательно для подтверждения. Черновик можно сохранить с пустым количеством.",
+    "code": "0012",
+    "quantity": "",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-c3-walkthrough",
+    "focus": "format",
+    "why": "Код — строка из четырёх цифр: 0012 допустим, 12 и AB12 — нет. Формат не доказывает существование.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-c4-walkthrough",
+    "focus": "client",
+    "why": "Клиент проверяет формат и положительное целое количество. Актуальный остаток проверяет сервер.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-c5-walkthrough",
+    "focus": "server",
+    "why": "Пользователь видел 10 шт. и ввёл 8; серверный остаток изменился на 5. Отказ сохраняет ввод.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "stale"
+  },
+  {
+    "id": "23-forms-validation-states-c6-walkthrough",
+    "focus": "empty",
+    "why": "Корректный поиск без строк и невыполненный запрос требуют разных сообщений и действий.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "empty"
+  },
+  {
+    "id": "23-forms-validation-states-c7-walkthrough",
+    "focus": "pending",
+    "why": "Пока нет ответа, повторное подтверждение недоступно. Отправленный запрос имеет постоянный ID.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-c8-walkthrough",
+    "focus": "recovery",
+    "why": "При потере ответа данные сохраняются. Исход выясняется по тому же ID, без второй операции.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "lost"
+  },
+  {
+    "id": "23-forms-validation-states-Q01-worked",
+    "focus": "labels",
+    "why": "Код 0012 и 8 шт. Подписи и единица остаются видимыми после ввода.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-Q02-worked",
+    "focus": "format",
+    "why": "Код — строка из четырёх цифр: 0012 допустим, 12 и AB12 — нет. Формат не доказывает существование.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "normal"
+  },
+  {
+    "id": "23-forms-validation-states-Q03-worked",
+    "focus": "empty",
+    "why": "Корректный поиск без строк и невыполненный запрос требуют разных сообщений и действий.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "empty"
+  },
+  {
+    "id": "23-forms-validation-states-Q04-worked",
+    "focus": "recovery",
+    "why": "При потере ответа данные сохраняются. Исход выясняется по тому же ID, без второй операции.",
+    "code": "0012",
+    "quantity": "8",
+    "scenario": "lost"
+  },
+  {
+    "id": "23-forms-validation-states-additional-case-solution",
+    "focus": "quarantine",
+    "why": "Партия 0017 в карантине. Отбор 5 шт. запрещён; ввод сохранён, движение не создано.",
+    "code": "0017",
+    "quantity": "5",
+    "scenario": "quarantine"
+  }
+]

@@ -7,6 +7,6 @@ export function diagramLayoutPlugin():Plugin {
     if(!id.split('?')[0].replaceAll('\\','/').endsWith('/@olgakraven/lecture-engine/lib/SlideView-CKuVrZ7x.js'))return;
     const signature='function Ze(e, t, n) {';
     if(code.split(signature).length!==2)throw Error('Engine diagram layout changed; review diagram-layout-plugin.ts.');
-    return {code:`import {networkLayout as courseNetworkLayout} from ${JSON.stringify(adapter)};\nimport {artifactLayout as courseArtifactLayout} from ${JSON.stringify(artifact)};\n`+code.replace(signature,signature+'\n if(e.type === "callouts" && e.image.startsWith("artifacts/")) return courseArtifactLayout(e, n);\n if(e.type === "network") return courseNetworkLayout(e, t);'),map:null};
+    return {code:`import {networkLayout as courseNetworkLayout} from ${JSON.stringify(adapter)};\nimport {artifactLayout as courseArtifactLayout} from ${JSON.stringify(artifact)};\n`+code.replace(signature,signature+'\n if(e.type === "callouts" && (e.image.startsWith("artifacts/") || e.image.startsWith("models/"))) return courseArtifactLayout(e, n);\n if(e.type === "network") return courseNetworkLayout(e, t);'),map:null};
   }};
 }

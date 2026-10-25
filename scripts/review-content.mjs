@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {validateTeacherPack} from '@olgakraven/lecture-engine';
 import {describeVisual} from '../authoring/case-visuals.mjs';
 import {artifactFor,artifactVisual,artifactSpeech} from '../authoring/visible-artifacts.mjs';
+import {formFor,formVisual,formSpeech} from '../authoring/form-artifacts.mjs';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const course=read('public/course.json'), pack=read('public/teacher-pack.json');
 const questions=read('authoring/questions.json'), bank=read('public/assessment.json');
@@ -26,8 +27,9 @@ for(const q of questions){
 for(const s of slides){
   const n=pack.notes[s.id];
   assert.ok(n.script.trim() && n.estimatedSeconds>0,s.id);
-  const artifact=artifactFor(s.id);
-  if(artifact){
+  const artifact=artifactFor(s.id),form=formFor(s.id);
+  if(form){assert.deepEqual(s.visual,formVisual(form),s.id+': форма расходится с источником');assert.ok(n.script.includes(formSpeech(form)),s.id+': речь не объясняет форму');}
+  else if(artifact){
     assert.deepEqual(s.visual,artifactVisual(artifact),s.id+': видимый артефакт расходится с источником');
     assert.ok(n.script.includes(artifactSpeech(artifact)),s.id+': речь не объясняет артефакт и его действия');
   }else if(s.id.endsWith('-worked'))assert.ok(n.script.includes(describeVisual(s.visual)),s.id+': заметка расходится с данными схемы');

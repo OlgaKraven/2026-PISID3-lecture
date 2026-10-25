@@ -1,8 +1,11 @@
+import {componentModels} from './component-artifacts.mjs';
 import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
 import artifacts from './concept-artifacts.mjs';
 import additional from './additional-artifacts.mjs';
 import {artifactFor,artifactVisual,artifactLead} from './visible-artifacts.mjs';
+import {courseModels} from './course-models.mjs';
+import {formFor,formVisual,formLead} from './form-artifacts.mjs';
 
 const vocabulary=[
  'Партия — товар одного выпуска; ячейка — место хранения. Карантин запрещает отгрузку до разрешения качества.',
@@ -59,11 +62,18 @@ export function studentSlide(slide,topic,index,worked){
   if(slide.task?.type==='multiple')slide.task.prompt='Вопрос: '+topic.concepts.slice(qi*2,qi*2+2).map(x=>x.name.toLowerCase()).join(' и ')+'. '+slide.task.prompt.replace('для текущей ситуации','по изученным правилам');
  }
  const artifact=artifactFor(slide.id);
+ if(slide.visual?.type==='callouts'&&slide.visual.image.startsWith('models/')){
+  const model=Object.values({...courseModels,...componentModels}).find(m=>m.visual.image===slide.visual.image);
+  if(model){slide.body=model.input;slide.visual.caption=model.why;delete slide.notebook;}
+ }
+ const form=formFor(slide.id);
+ if(form){delete slide.steps;delete slide.bullets;delete slide.notebook;Object.assign(slide,{body:formLead(form),visual:formVisual(form)});}
  if(artifact){delete slide.steps;delete slide.bullets;delete slide.notebook;Object.assign(slide,{body:artifactLead(artifact),visual:artifactVisual(artifact)});}
  return slide;
 }
 
 const reading={
+ callouts:'Перед нами сам предметный артефакт. Читайте его подписи и значения; это структура результата, а не обязательный порядок исполнения.',
  network:'Узлы обозначают объекты или артефакты, подписи стрелок — смысл связей. Это отношения, а не движение товара или исполнение программы.',
  matrix:'Читайте одну строку целиком, сопоставляя её ячейки с заголовками. Разные строки показывают варианты или проверяемые случаи.',
  decision:'Прочитайте условие в центре; выберите «Да» или «Нет» по данным задачи. Выполняется соответствующая ветвь; другая остаётся альтернативой.',

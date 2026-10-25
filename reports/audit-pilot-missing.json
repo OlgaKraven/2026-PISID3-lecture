@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "courseId": "pisid3",
+  "contentVersion": "pisid3-2026.10.25-blocks",
+  "scope": "full",
+  "inventorySha256": "a5562526f9a63c1a21700aee6272a8f8517e65998858d72b5a2f52d2089cab88",
+  "counts": {
+    "lectures": 26,
+    "slides": 2299,
+    "units": 156
+  },
+  "checked": [],
+  "failures": [
+    {
+      "id": "01-project-decisions:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "01-project-decisions:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "01-project-decisions:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "01-project-decisions:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "01-project-decisions:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "01-project-decisions:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "02-roles-views:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "03-artifact-map:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "04-requirement-sources:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "05-interview-technique:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "06-requirement-classes:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "07-requirement-quality:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "08-user-story-acceptance:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "09-assumptions-traceability:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "10-entity-candidates:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "11-project-glossary:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "12-business-rules:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "13-attribute-composition:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "14-data-history:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "15-model-revision:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "16-decision-matrix:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "17-adr:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "18-nfr-impact:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "19-defense:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "20-ux-goals:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "21-information-architecture:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "22-wireframe-prototype:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "23-forms-validation-states:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "24-design-system-accessibility:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "25-rbac:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:intro",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:Q01",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:Q02",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:Q03",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:Q04",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "26-auth-lockout:closing",
+      "reason": "Блок не проверен"
+    }
+  ],
+  "status": "incomplete"
+}

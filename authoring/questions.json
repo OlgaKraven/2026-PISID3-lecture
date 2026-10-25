@@ -2751,7 +2751,7 @@
       "13-attribute-composition-Q04-boundary",
       "13-attribute-composition-Q04-practice"
     ],
-    "outcome": "Вычисление воспроизводится из известных исходных значений.",
+    "outcome": "Стоимость документа: 4 × 25 = 100 руб.; текущие 4 × 30 = 120 руб. описывают другой момент.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -2857,7 +2857,7 @@
       "14-data-history-Q02-boundary",
       "14-data-history-Q02-practice"
     ],
-    "outcome": "История поддерживает объяснение решения на нужную дату.",
+    "outcome": "Аудит ответа 3 марта использует известные тогда данные; актуальное восстановление нормы на 3 марта — новую редакцию с 10.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -2963,7 +2963,7 @@
       "14-data-history-Q04-boundary",
       "14-data-history-Q04-practice"
     ],
-    "outcome": "Сохраняются исходный факт, причина и результат корректировки.",
+    "outcome": "15 − 3 = 12; сохраняются исходная запись, причина и результат корректировки.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -3811,7 +3811,7 @@
       "18-nfr-impact-Q04-boundary",
       "18-nfr-impact-Q04-practice"
     ],
-    "outcome": "Компромисс зафиксирован вместе с целью аудита.",
+    "outcome": "A даёт 100 МБ сырых данных/сутки, B — 30 МБ; выбор B ограничен достаточностью обязательного следа и условиями замера.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -4235,7 +4235,7 @@
       "20-ux-goals-Q04-boundary",
       "20-ux-goals-Q04-practice"
     ],
-    "outcome": "Критерий успеха относится к бизнес-результату и понятному статусу.",
+    "outcome": "Успех — пользователь видит подтверждённый M20 с правильными партией, ячейкой и количеством.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -4447,7 +4447,7 @@
       "21-information-architecture-Q04-boundary",
       "21-information-architecture-Q04-practice"
     ],
-    "outcome": "Рабочее место ускоряет поиск нужных данных в разрешённых границах.",
+    "outcome": "Логист видит Z1 и Z3, U21 — Z1: свои задания из разрешённой зоны A.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },
@@ -5295,7 +5295,7 @@
       "25-rbac-Q04-boundary",
       "25-rbac-Q04-practice"
     ],
-    "outcome": "Негативный тест отклоняет действие без изменения данных.",
+    "outcome": "Негативный тест не меняет данные; положительный создаёт одно движение в рамках заданной политики.",
     "source": "authoring/original-course.json; authoring/worked-cases.mjs",
     "officialHours": null
   },

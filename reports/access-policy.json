@@ -1,0 +1,339 @@
+{
+  "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-blocks",
+  "requests": [
+    {
+      "role": "Кладовщик",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": false,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": true,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Кладовщик",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": false,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": true,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": true,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": true,
+      "stock": 8,
+      "moves": 1
+    },
+    {
+      "role": "Руководитель",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Руководитель",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Просмотр",
+      "zone": "Своя",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Просмотр",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Создание корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Создание корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Подтверждение корректировки",
+      "zone": "Своя",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": false,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    },
+    {
+      "role": "Администратор",
+      "action": "Подтверждение корректировки",
+      "zone": "Чужая",
+      "author": true,
+      "allowed": false,
+      "stock": 10,
+      "moves": 0
+    }
+  ],
+  "auth": [
+    "3 failures lock",
+    "valid password cannot bypass lock",
+    "unlock does not create session",
+    "separate login",
+    "logout"
+  ],
+  "errors": [],
+  "status": "passed"
+}

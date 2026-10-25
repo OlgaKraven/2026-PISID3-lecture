@@ -31,14 +31,14 @@ let audience;
 try{
  if(!mobileOnly){
  for(const e of experiments){
-  await page.goto(siteUrl+`?lecture=${e.lectureId}&slide=${e.returnSlide}&experiment=${e.id}`);
+  await page.goto(siteUrl+`?lecture=${e.lectureId}&slide=${e.returnSlide}`);await page.locator('.active-slide .case-passport').getByRole('button',{name:'Начать эксперимент',exact:true}).click();
   await panel().waitFor();await branch(e,0);
   await select().focus();await select().press('ArrowDown');await select().press('Enter');
   await branch(e,1);assert.equal(await panel().locator('.qe-comparison>ol>li').count(),2);
   await panel().getByRole('button',{name:'Подсказки для работы',exact:true}).click();await panel().locator('.qe-hints').waitFor();
   await panel().getByRole('button',{name:'Схема исходного случая',exact:true}).click();await panel().locator('.qe-reference .infographic').waitFor();
   assert.ok((await panel().locator('.qe-reference').innerText()).includes(e.reading));
-  await page.reload();await panel().waitFor();assert.equal(await panel().locator('.qe-comparison>ol>li').count(),2);
+  await page.reload();await page.locator('.active-slide .case-passport').getByRole('button',{name:'Начать эксперимент',exact:true}).click();await panel().waitFor();assert.equal(await panel().locator('.qe-comparison>ol>li').count(),2);
   assert.equal(await panel().locator('.case-activity-tabs').count(),0);
   await panel().getByRole('button',{name:'Проверить шаг 1',exact:true}).waitFor();
   await panel().getByRole('button',{name:'Вернуться к слайду',exact:true}).click();await panel().waitFor({state:'hidden'});
@@ -48,10 +48,12 @@ try{
  // A clean context supplies a fresh public presentation session.
  const show=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'}),presenter=await show.newPage();
  await presenter.goto(siteUrl+`?lecture=${experiments[0].lectureId}&slide=${experiments[0].returnSlide}`);
- const popup=show.waitForEvent('page');await presenter.getByRole('button',{name:'Режим показа',exact:true}).click();audience=await popup;
- audience.on('request',r=>{if(r.url().includes('teacher-pack.json'))report.errors.push('Audience requested teacher notes')});
+ let activeLecture='';
  for(const e of experiments){
-  await presenter.evaluate(id=>document.dispatchEvent(new CustomEvent('pisid-experiment',{detail:id})),e.id);
+  if(activeLecture!==e.lectureId){if(audience){await presenter.getByRole('button',{name:'Завершить показ',exact:true}).click();await audience.close();}await presenter.goto(siteUrl+`?lecture=${e.lectureId}&slide=${e.returnSlide}`);const popup=show.waitForEvent('page');await presenter.getByRole('button',{name:'Режим показа',exact:true}).click();audience=await popup;audience.on('request',r=>{if(r.url().includes('teacher-pack.json'))report.errors.push('Audience requested teacher notes')});activeLecture=e.lectureId;}
+  const lecture=course.lectures.find(l=>l.id===e.lectureId),slide=lecture.slides.find(s=>s.id===e.returnSlide),index=lecture.slides.indexOf(slide)+1;
+  await presenter.getByRole('button',{name:'Содержание',exact:true}).click();await presenter.getByRole('button',{name:String(index).padStart(2,'0')+' '+slide.title,exact:true}).click();
+  const launch=presenter.locator('.mini-stage:not(.next-stage) .case-passport').getByRole('button',{name:'Начать эксперимент',exact:true});await launch.focus();await presenter.keyboard.press('Enter');
   const p=presenter.locator('.case-dialog[open]'),a=audience.locator('.case-dialog[open]');await a.waitFor();
   await p.getByRole('combobox',{name:'Условия примера',exact:true}).click();
   await a.getByRole('listbox',{name:'Условия примера — варианты',exact:true}).waitFor();
@@ -64,7 +66,7 @@ try{
   await p.getByRole('button',{name:'Подсказки для работы',exact:true}).click();await a.locator('.qe-hints').waitFor();
   await p.getByRole('button',{name:'Зафиксировать результат запуска',exact:true}).click();await a.locator('.qe-comparison>ol>li').waitFor();
   if(e.question===4){await audience.reload();await a.waitFor();assert.equal(await a.getByRole('textbox',{name:'Прогноз для выбранного условия',exact:true}).inputValue(),'Новый прогноз');}
-  await p.getByRole('button',{name:'Вернуться к слайду',exact:true}).click();await a.waitFor({state:'hidden'});report.audience.push(e.id);
+  await p.getByRole('button',{name:'Вернуться к слайду',exact:true}).click();await a.waitFor({state:'hidden'});assert(await launch.evaluate(n=>n===document.activeElement));await launch.click();await a.waitFor();await presenter.keyboard.press('Escape');await a.waitFor({state:'hidden'});assert(await launch.evaluate(n=>n===document.activeElement));report.audience.push(e.id);
  }
  await presenter.getByRole('button',{name:'Завершить показ',exact:true}).click();await show.close();audience=undefined;
  }

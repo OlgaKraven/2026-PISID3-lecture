@@ -7,8 +7,10 @@ export function grayContrast(gray: number) {
   const luminance = channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4;
   return 1.05 / (luminance + 0.05);
 }
-export function accessAllowed(role: string, operation: string, zone: string) {
-  return role === 'Администратор' || (zone === 'Своя' && (operation === 'Просмотр' || role === 'Руководитель'));
+export function accessAllowed(role: string, operation: string, zone: string, isAuthor=false) {
+  if(!['Кладовщик','Руководитель'].includes(role)||zone!=='Своя')return false;
+  if(operation==='Просмотр'||operation==='Создание корректировки')return true;
+  return operation==='Подтверждение корректировки'&&role==='Руководитель'&&!isAuthor;
 }
 export function loginTransition(state: {failures: number; locked: boolean; loggedIn: boolean}, event: 'fail' | 'success' | 'unlock') {
   if (event === 'unlock') return {failures: 0, locked: false, loggedIn: false};
