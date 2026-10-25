@@ -98,6 +98,12 @@
 .slide-frame[data-slide-id] .slide-copy>.lv-compact{flex:0 0 auto}
 }
 /* Approved working-window composition. */
+@media(min-width:821px),print{
+.slide-frame[data-slide-id]:has([data-artifact-image])>.slide-header{padding-top:1.6cqw;padding-bottom:.3cqw;align-items:center}
+.slide-frame[data-slide-id]:has([data-artifact-image])>.slide-content{padding-block:.5cqw}
+.slide-frame[data-slide-id]:has([data-artifact-image])>.slide-footer{padding-top:.3cqw;padding-bottom:1cqw}
+.slide-frame[data-slide-id]:has([data-artifact-image]) .presentation-mark{width:2.6cqw;height:2.6cqw}
+}
 .deck-shell{grid-template-rows:auto .25rem auto minmax(0,1fr) auto}
 .pd-toolbar{display:flex;align-items:center;gap:16px;padding:18px 20px;background:var(--surface);border-bottom:1px solid var(--border);margin:0}
 .pd-brand{flex:1;min-width:0;border-left:4px solid #cb2823;padding-left:12px;text-align:left}.pd-brand small{display:block;font-size:10px;color:var(--muted);letter-spacing:.06em;font-weight:600;line-height:1.4}.pd-brand strong{display:block;font-size:14px;font-weight:750;line-height:1.4;margin-top:3px;white-space:normal}

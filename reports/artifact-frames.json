@@ -1,0 +1,449 @@
+{
+  "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
+  "frames": [
+    {
+      "id": "08-user-story-acceptance-c1-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c2-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c3-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c4-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c5-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c6-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c7-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c8-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c1-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c2-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c3-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c4-walkthrough",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c5-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c6-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c7-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c8-walkthrough",
+      "width": 1280,
+      "ratio": 0.9180474337794965,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-worked",
+      "width": 1280,
+      "ratio": 0.9769231384080048,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-worked",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-additional-case-solution",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-additional-case-solution",
+      "width": 1280,
+      "ratio": 0.976923140100246,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c1-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c2-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c3-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c4-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c5-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c6-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c7-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c8-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c1-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c2-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c3-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c4-walkthrough",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c5-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c6-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c7-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-c8-walkthrough",
+      "width": 1440,
+      "ratio": 0.9566785167929908,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-worked",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-additional-case-solution",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "22-wireframe-prototype-additional-case-solution",
+      "width": 1440,
+      "ratio": 0.9769231103539392,
+      "overflow": false
+    },
+    {
+      "id": "08-user-story-acceptance-c1-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c2-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c3-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c4-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c5-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c6-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c7-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-c8-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c1-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c2-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c3-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c4-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c5-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c6-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c7-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-c8-walkthrough",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-worked",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "08-user-story-acceptance-additional-case-solution",
+      "width": 390,
+      "fullText": true
+    },
+    {
+      "id": "22-wireframe-prototype-additional-case-solution",
+      "width": 390,
+      "fullText": true
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

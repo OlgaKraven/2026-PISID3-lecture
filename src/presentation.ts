@@ -17,6 +17,7 @@ export function installPresentation(course:Course,base:string){
    if(slide.kind!=='title'){const mark=create('img','presentation-mark presentation-added') as HTMLImageElement;mark.src=base+'brand/synergy-mark.png';mark.alt='';actions?.append(mark)}
    if(frame.querySelector('.infographic')&&!frame.closest('.audience-slide,.print-page,.next-stage')){
     const artifact=slide.visual?.type==='callouts'&&slide.visual.image.startsWith('artifacts/');
+    if(artifact){const graphic=frame.querySelector('.infographic');graphic?.setAttribute('aria-label',slide.visual?.type==='callouts'?slide.visual.alt:'');graphic?.removeAttribute('aria-describedby');}
     const button=create('button','pd-diagram-open presentation-added',artifact?'Развернуть пример':'Развернуть схему') as HTMLButtonElement;button.type='button';button.setAttribute('aria-haspopup','dialog');button.addEventListener('click',()=>{if(artifact){frame.dataset.artifactRequest='open';document.dispatchEvent(new CustomEvent('pisid-artifact-open',{detail:slide.id}));}else frame.querySelector<HTMLButtonElement>('.diagram-open-button')?.click()});actions?.prepend(button)
    }
    const circle=create('div','presentation-circles presentation-added');frame.prepend(circle)

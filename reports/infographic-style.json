@@ -1,5 +1,5 @@
 {
-  "version": "pisid3-2026.10.25-third",
+  "version": "pisid3-2026.10.25-artifacts",
   "themes": [
     {
       "theme": "light",
@@ -15,7 +15,8 @@
     "decision",
     "matrix",
     "process",
-    "tree"
+    "tree",
+    "callouts"
   ],
   "laboratories": [],
   "problems": [],
