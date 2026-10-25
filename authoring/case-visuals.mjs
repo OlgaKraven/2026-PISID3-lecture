@@ -1,3 +1,4 @@
+import {artifactFor,artifactVisual} from './visible-artifacts.mjs';
 // Схема показывает отношения в учебном случае; ход рассуждения доступен на слайде и в эксперименте.
 // Порядок: 26 лекций × 4 вопроса. Числа взяты из worked-cases.mjs.
 const matrix=(columns,rows,caption)=>({type:'matrix',columns,rows,caption});
@@ -6,6 +7,7 @@ const chain=(pairs,caption,type='process')=>({type,items:pairs.map(([title,text]
 const network=(labels,links,caption)=>({type:'network',nodes:labels.map(([title,text],i)=>({id:String(i),title,text})),edges:links.map(([from,to,label])=>({from:String(from),to:String(to),label})),caption});
 const tree=(root,branches,caption)=>({type:'tree',root,branches:branches.map(([title,...items])=>({title,items})),caption});
 export function describeVisual(v){
+ if(v.type==='callouts')return v.alt+' '+v.items.map(x=>x.title+': '+x.text).join(' ');
  if(v.type==='bars')return v.items.map(item=>`${item.label}: ${item.value} ${v.unit}.`).join(' ')+(v.threshold!==undefined?` Порог: ${v.threshold} ${v.unit}.`:'');
  if(v.type==='states')return `Состояния: ${v.states.join(' → ')}. Допустимость перехода зависит от события; последовательность названий не разрешает обход блокировки.`;
  if(v.type==='matrix')return v.rows.map(row=>row.map((value,i)=>`${v.columns[i]}: ${value}`).join('; ')+'.').join(' ');
@@ -14,7 +16,7 @@ export function describeVisual(v){
  if(v.type==='tree')return `${v.root}. `+v.branches.map(b=>`${b.title}: ${b.items.join('; ')}.`).join(' ');
  return v.items.map((item,i)=>`${i+1}. ${item.title}: ${item.text}.`).join(' ');
 }
-export default [
+const visuals = [
 // 01. Проектные решения
 [
  network([['P-17','Партия'],['A-01','Первое размещение'],['A-02','Второе размещение'] ],[[0,1,'строка выгрузки'],[0,2,'строка выгрузки']], 'Две связи подтверждают размещения P-17, но не универсальное правило склада.'),
@@ -198,3 +200,6 @@ export default [
  decision('Дополнительная проверка человека','Пользователь может выполнить проверку?','Проверить результат и продолжить вход','Дать согласованный путь восстановления','Для экзамена отдельно соблюдают выданное ТЗ; схема относится к учебной WMS.'),
 ],
 ];
+
+for(const [i,lecture] of [[7,"08-user-story-acceptance"],[21,"22-wireframe-prototype"]])for(let q=0;q<4;q++){visuals[i][q]=artifactVisual(artifactFor(lecture+"-Q0"+(q+1)+"-worked"));}
+export default visuals;

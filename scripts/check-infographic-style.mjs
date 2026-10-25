@@ -21,9 +21,17 @@ try{
  }
  const types=new Map();for(const l of course.lectures)for(const s of l.slides)if(s.id.endsWith('-worked')&&!types.has(s.visual.type))types.set(s.visual.type,{l,s});
  for(const [type,{l,s}] of types){
-  await page.goto(siteUrl+`?lecture=${l.id}&slide=${s.id}`);await page.getByRole('button',{name:'Развернуть схему',exact:true}).waitFor();
+  await page.goto(siteUrl+`?lecture=${l.id}&slide=${s.id}`);await page.getByRole('button',{name:s.visual.type==='callouts'?'Развернуть пример':'Развернуть схему',exact:true}).waitFor();
   const popup=context.waitForEvent('page');await page.getByRole('button',{name:'Режим показа',exact:true}).click();const audience=await popup;
-  await audience.locator('.infographic').waitFor();await page.getByRole('button',{name:'Развернуть схему',exact:true}).click();
+  await audience.locator('.infographic').waitFor();
+  if(type==='callouts'){
+   await page.getByRole('button',{name:'Развернуть пример',exact:true}).click();await audience.locator('.artifact-dialog[open]').waitFor();
+   for(const p of [page,audience])await p.evaluate(()=>document.documentElement.dataset.theme='dark');
+   await audience.screenshot({path:'output/playwright/infographic-story-artifact-dark.png'});
+   await page.getByRole('button',{name:'Вернуться к слайду',exact:true}).click();await audience.locator('.artifact-dialog').waitFor({state:'hidden'});
+   report.expanded.push(type);await page.getByRole('button',{name:'Завершить показ',exact:true}).click();await audience.close();continue;
+  }
+  await page.getByRole('button',{name:'Развернуть схему',exact:true}).click();
   await audience.getByRole('dialog',{name:'Подробная схема',exact:true}).waitFor();
   for(const p of [page,audience])await p.evaluate(()=>document.documentElement.dataset.theme='dark');
   if(type==='network'||type==='matrix')await audience.screenshot({path:`output/playwright/infographic-${type}-dark.png`});

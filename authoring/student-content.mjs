@@ -2,6 +2,7 @@ import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
 import artifacts from './concept-artifacts.mjs';
 import additional from './additional-artifacts.mjs';
+import {artifactFor,artifactVisual} from './visible-artifacts.mjs';
 
 const vocabulary=[
  'Партия — товар одного выпуска; ячейка — место хранения. Карантин запрещает отгрузку до разрешения качества.',
@@ -57,6 +58,8 @@ export function studentSlide(slide,topic,index,worked){
   if(suffix.endsWith('-practice'))Object.assign(slide,{kicker:'Эксперимент перед самопроверкой',body:'Сравните исходное и изменённое условия. Проверьте решение на новых данных в этом же эксперименте.'});
   if(slide.task?.type==='multiple')slide.task.prompt='Вопрос: '+topic.concepts.slice(qi*2,qi*2+2).map(x=>x.name.toLowerCase()).join(' и ')+'. '+slide.task.prompt.replace('для текущей ситуации','по изученным правилам');
  }
+ const artifact=artifactFor(slide.id);
+ if(artifact){delete slide.steps;delete slide.bullets;Object.assign(slide,{body:artifact.input,visual:artifactVisual(artifact)});}
  return slide;
 }
 
@@ -72,8 +75,9 @@ const reading={
 export function buildQuestionExperiments(topics,worked,visuals){
  return topics.flatMap((t,i)=>worked[i].map((w,q)=>{
   const v=variants[i][q],id=t.id+'-Q0'+(q+1);
+  const artifact=artifactFor(id+'-worked');
   return {id,lectureId:t.id,question:q+1,title:t.concepts.slice(q*2,q*2+2).map(x=>x.name).join(' и '),returnSlide:id+'-practice',
-   reading:reading[visuals[i][q].type]||reading.process,visual:visuals[i][q],
+   reading:artifact?(artifact.kind==='story'?'Читайте полную историю: роль, цель и ценность. Критерий Given–When–Then расположен отдельно и проверяет её на конкретных данных; карточка не является алгоритмом исполнения.':'Каждый каркас показывает экран с полями и действиями. Стрелки связывают экраны по действиям пользователя; возврат сохраняет введённые данные.'):reading[visuals[i][q].type]||reading.process,visual:visuals[i][q],
    scenarios:[{label:'Исходный случай',condition:w[0],action:w[1],result:w[2]},
     {label:'Изменённое условие',condition:w[0]+' Изменение: '+v.condition,action:v.action,result:v.result}],
    boundary:w[3],transcript:describeVisual(visuals[i][q]),

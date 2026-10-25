@@ -8,6 +8,7 @@ import {useDemoState} from './experiment-state';
 import {LaboratoryStudio,studioResult,type LaboratoryField} from './laboratory-studio';
 import {LaboratoryScene} from './laboratory-scenes';
 import './lecture.css';
+import {TeachingArtifact,hasTeachingArtifact} from './teaching-artifact';
 
 type Lab = {kind: string; title: string; prompt: string; lesson: string; choices?: string[][]; correct?: number;setup?:string;procedure?:string[];expected?:string;boundary?:string;fields?:LaboratoryField[];teacherGuide?:string};
 type Props = {slide: Slide; interactive: boolean; course: {contentVersion: string}; fallback: ReactNode};
@@ -15,6 +16,7 @@ type Props = {slide: Slide; interactive: boolean; course: {contentVersion: strin
 export function InteractiveExample({slide, interactive, course, fallback}: Props) {
   const audience = new URLSearchParams(location.search).get('mode') === 'audience';
   if (!interactive && !audience) return fallback;
+  if(hasTeachingArtifact(slide.id))return <TeachingArtifact key={slide.id} id={slide.id} writable={interactive&&!audience} version={course.contentVersion} fallback={fallback}/>;
   if (slide.id.endsWith('-experiment')) {
     const index = Number(slide.id.slice(0, 2)) - 1;
     const lab = experiments[index] as Lab;

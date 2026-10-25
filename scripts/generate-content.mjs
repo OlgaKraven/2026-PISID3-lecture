@@ -1,3 +1,4 @@
+import {writeArtifacts} from '../authoring/visible-artifacts.mjs';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import cases from '../authoring/worked-cases.mjs';
@@ -11,7 +12,8 @@ import {buildLaboratories} from '../authoring/laboratory-config.mjs';
 import {addTeachingIntroduction,addConceptExplanation,addQuestionExplanation,addBoundaryExample,addAdditionalCase} from '../authoring/expanded-blocks.mjs';
 const experiments=JSON.parse(fs.readFileSync('authoring/experiments.json','utf8'));
 const original=JSON.parse(fs.readFileSync('authoring/original-course.json','utf8'));
-const version='pisid3-2026.10.25-third';
+const version='pisid3-2026.10.25-artifacts';
+writeArtifacts(fs);
 const practiceCases=buildPracticeCases(original.topics);
 const laboratories=buildLaboratories(experiments,guidance);
 const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'Проектирование и дизайн',heroAccent:'информационных систем',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-pisid-design.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};

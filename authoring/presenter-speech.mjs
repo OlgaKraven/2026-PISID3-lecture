@@ -2,6 +2,7 @@ import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
 import artifacts from './concept-artifacts.mjs';
 import additional from './additional-artifacts.mjs';
+import {artifactFor,artifactSpeech} from './visible-artifacts.mjs';
 
 const reading={
  matrix:'Каждая строка — отдельный случай или часть артефакта; заголовки задают смысл значений. Сравниваем данные в одной строке, затем различие строк.',
@@ -17,6 +18,12 @@ function modelText(v){
 }
 
 export function refineNote({slide:s,topic:t,index,cases, guidance:g,note,practiceCases,laboratory,assessment}){
+ const visible=artifactFor(s.id);
+ if(visible){
+  const c=Number(s.id.match(/-c(\d+)-/)?.[1]||0)-1,q=Number(s.id.match(/-Q0(\d)-/)?.[1]||0)-1;
+  const intro=c>=0?`${t.concepts[c].definition}\n\nПроверим этот признак на полном артефакте, сохраняя остальные части примера: ${t.concepts[c].check}.`:q>=0?`Исходный случай вопроса: ${cases[q][0]}\n\nВ отличие от отдельного понятия теперь связываем условие, весь артефакт и наблюдаемый результат. На экране добавлены конкретные учебные данные для воспроизведения.`:`Дополнительный случай: ${g.extra.input}\n\nСопоставим состояние до подтверждения с завершённой операцией и проверим сохранение данных при возврате.`;
+  return {...note,script:intro+'\n\n'+artifactSpeech(visible),preparation:visible.input,answer:visible.why,notebook:s.notebook||''};
+ }
  const suffix=s.id.slice(t.id.length+1),ci=Number(suffix.match(/^c(\d+)-/)?.[1]||0)-1;
  const qi=suffix.startsWith('Q')?Number(suffix[2])-1:ci>=0?Math.floor(ci/2):-1;
  const w=cases[qi],x=t.concepts[ci];
