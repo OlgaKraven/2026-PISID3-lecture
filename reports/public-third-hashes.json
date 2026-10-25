@@ -1,0 +1,13 @@
+{
+  "commit": "f9468f595980259b8f778bb2469c1c4c6f921da8",
+  "version": "pisid3-2026.10.25-third",
+  "status": "passed",
+  "sha256": {
+    "course.json": "930b2fa33fc7aebc935165a6a675dc87aa8c3197383e356967e33006b195e94b",
+    "teacher-pack.json": "13e07db30a326e6a5a3083bcda991bcd8a13dff5e074621ede70bc6355b91177",
+    "practice-cases.json": "85a07f564c3b09130b0a1ba28ec206a3e1e3e51ce6d14a2e99ee5693e4231ce8",
+    "question-experiments.json": "d46dd9db1ea2c339b0746f3ca4c681cfee909d86357a6e2943fe93112b919b69",
+    "laboratories.json": "cc7febacc9c93e58a3cf4fc915e393b031c9387649be470f6b40d52e48ebad2f",
+    "assessment.json": "23f3dd778804b6fcd9a698970cebf29de0837cc6d3c583df2ad36dc4b8784675"
+  }
+}

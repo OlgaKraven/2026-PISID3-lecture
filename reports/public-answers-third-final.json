@@ -1,0 +1,3338 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-third",
+  "startedAt": "2026-10-25T16:40:10.618Z",
+  "answers": [
+    {
+      "id": "01-project-decisions-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "01-project-decisions-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q01-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q01-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q01-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q01-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q02-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q02-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q02-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q02-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q03-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q03-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q03-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q03-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q04-T01",
+      "type": "single",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q04-T02",
+      "type": "multiple",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q04-T03",
+      "type": "short",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout-Q04-T04",
+      "type": "matching",
+      "wrongAndCorrect": true,
+      "sameModalAndTextInBothWindows": true,
+      "closedByButtonAndEscape": true,
+      "focusRestored": true
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "finishedAt": "2026-10-25T16:52:50.932Z"
+}

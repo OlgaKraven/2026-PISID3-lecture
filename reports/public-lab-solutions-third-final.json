@@ -1,0 +1,244 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "version": "pisid3-2026.10.25-third",
+  "startedAt": "2026-10-25T16:40:09.573Z",
+  "labs": [
+    {
+      "id": "01-project-decisions",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "02-roles-views",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "03-artifact-map",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "04-requirement-sources",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "05-interview-technique",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "06-requirement-classes",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "07-requirement-quality",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "08-user-story-acceptance",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "09-assumptions-traceability",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "10-entity-candidates",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "11-project-glossary",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "12-business-rules",
+      "kind": "rules",
+      "checks": [
+        "10 allowed; 11 refused; quarantine refused"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "13-attribute-composition",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "14-data-history",
+      "kind": "history",
+      "checks": [
+        "10 → 8 → 9; both events retained"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "15-model-revision",
+      "kind": "coverage",
+      "checks": [
+        "Four layers required"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "16-decision-matrix",
+      "kind": "weights",
+      "checks": [
+        "50% B; 80% A; 60% tie; mandatory exclusion"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "17-adr",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "18-nfr-impact",
+      "kind": "offline",
+      "checks": [
+        "Two independent runs: protected 20; unprotected 30"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "19-defense",
+      "kind": "studio",
+      "checks": [
+        "All specified decisions resolve the case"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "20-ux-goals",
+      "kind": "cost",
+      "checks": [
+        "100 × 3 = 300 s; 100 × 5 = 500 s"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "21-information-architecture",
+      "kind": "search",
+      "checks": [
+        "Intersection empty; reset restores P-17"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "22-wireframe-prototype",
+      "kind": "prototype",
+      "checks": [
+        "Back retains input; revised 8 confirmed once"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "23-forms-validation-states",
+      "kind": "form",
+      "checks": [
+        "Invalid input; quarantine rejected; 5 preserved; valid party accepted"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "24-design-system-accessibility",
+      "kind": "contrast",
+      "checks": [
+        "Unrounded threshold distinguishes #777 and #767"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "25-rbac",
+      "kind": "access",
+      "checks": [
+        "Same role and operation; own allowed, foreign denied"
+      ],
+      "audience": true,
+      "focusRestored": true
+    },
+    {
+      "id": "26-auth-lockout",
+      "kind": "auth",
+      "checks": [
+        "Three failures; valid password blocked; authorized reset then login"
+      ],
+      "audience": true,
+      "focusRestored": true
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "finishedAt": "2026-10-25T16:42:02.933Z"
+}

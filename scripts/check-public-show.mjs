@@ -5,9 +5,17 @@ import {launchBrowser} from './runtime.mjs';
 const base=process.env.SITE_URL||'https://olgakraven.github.io/2026-PISID3-lecture/';
 const browser=await launchBrowser(),context=await browser.newContext({viewport:{width:1600,height:1000},reducedMotion:'reduce'});
 const page=await context.newPage();page.setDefaultTimeout(12000);
-const report={url:base,startedAt:new Date().toISOString(),lectures:[],cases:[],matching:[],labs:[],errors:[]};
+const reportPath=process.env.SHOW_REPORT||'reports/public-show-third-pass.json';
+const report=process.argv.includes('--resume')?JSON.parse(await fs.readFile(reportPath,'utf8')):{url:base,startedAt:new Date().toISOString(),lectures:[],cases:[],matching:[],labs:[],errors:[]};
+assert.equal(report.url,base);
+if(process.argv.includes('--resume')){
+ const done=new Set(report.lectures);report.cases=report.cases.filter(x=>[...done].some(id=>x.id.startsWith(id+'-')));report.matching=report.matching.filter(x=>[...done].some(id=>x.id.startsWith(id+'-')));report.labs=report.labs.filter(id=>done.has(id));
+ report.attempts=[...(report.attempts||[]),{failure:report.failure,failedUrl:report.failedUrl,finishedAt:report.finishedAt}];
+ for(const key of ['status','failure','failedUrl','failedSlide','finishedAt'])delete report[key];
+}
+
 const courseBytes=await (await context.request.get(base+'course.json?review=third')).body();
-const course=JSON.parse(courseBytes);report.version=course.contentVersion;report.courseSha256=createHash('sha256').update(courseBytes).digest('hex');
+const course=JSON.parse(courseBytes);if(report.version)assert.equal(report.version,course.contentVersion);if(report.courseSha256)assert.equal(report.courseSha256,createHash('sha256').update(courseBytes).digest('hex'));report.version=course.contentVersion;report.courseSha256=createHash('sha256').update(courseBytes).digest('hex');
 const cases=await (await context.request.get(base+'practice-cases.json?review=third')).json();
 const bank=await (await context.request.get(base+'assessment.json?review=third')).json();
 report.inventory={lectures:course.lectures.length,cases:cases.length,matching:course.lectures.flatMap(l=>l.slides).filter(s=>s.task?.type==='matching').length};
@@ -16,7 +24,7 @@ let audience;
 const active=()=>page.locator('.mini-stage:not(.next-stage)');
 const panel=()=>page.locator('.case-dialog[open]');
 const screen=()=>audience.locator('.case-dialog[open]');
-const save=()=>fs.writeFile(process.env.SHOW_REPORT||'reports/public-show-third-pass.json',JSON.stringify(report,null,2)+'\n');
+const save=()=>fs.writeFile(reportPath,JSON.stringify(report,null,2)+'\n');
 async function go(l,id){
  if(await active().locator(`[data-slide-id="${id}"]`).count())return;
  const s=l.slides.find(s=>s.id===id),n=l.slides.indexOf(s)+1;
@@ -30,7 +38,7 @@ async function keyboard(button,key='Enter'){
  await page.keyboard.press(key);
 }
 try{
- for(const l of course.lectures){
+ for(const l of course.lectures.slice(report.lectures.length)){
   const own=cases.filter(c=>c.lectureId===l.id);
   await page.goto(base+`?lecture=${l.id}&slide=${own[0].returnSlide}`);
   const popup=context.waitForEvent('page');await page.getByRole('button',{name:'Режим показа',exact:true}).click();audience=await popup;
@@ -95,5 +103,5 @@ try{
   await page.getByRole('button',{name:'Завершить показ',exact:true}).click();await audience.close();audience=undefined;
  }
  assert.deepEqual(report.errors,[]);report.status='passed';
-}catch(error){report.status='failed';report.failure=String(error);report.failedUrl=page.url();report.failedSlide=await active().locator('[data-slide-id]').first().getAttribute('data-slide-id').catch(()=>null);await page.screenshot({path:'output/playwright/public-show-third-failure.png'});throw error}
+}catch(error){report.status='failed';report.failure=String(error);report.failedUrl=page.url();report.failedSlide=await active().locator('[data-slide-id]').first().getAttribute('data-slide-id').catch(()=>null);await page.screenshot({path:'output/playwright/public-show-third-failure.png'});if(audience){report.audienceFailure={url:audience.url(),text:await audience.locator('body').innerText().catch(()=>null)};await audience.screenshot({path:'output/playwright/public-show-third-audience-failure.png'}).catch(()=>{});}throw error}
 finally{report.finishedAt=new Date().toISOString();await save();await browser.close()}
