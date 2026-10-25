@@ -1,0 +1,31 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID3-lecture/",
+  "checks": [
+    {
+      "file": "course.json",
+      "sha256": "543ee279ea1c57049cb62e75db8576cc5b3d92ab5db053059ae8012c9e0cd0ba",
+      "matches": true
+    },
+    {
+      "file": "teacher-pack.json",
+      "sha256": "6430c54939f192e3c8b77ce6681ee2c638df07fb42cd13f4dab024e5573e4b2c",
+      "matches": true
+    },
+    {
+      "file": "question-experiments.json",
+      "sha256": "827a35a1e6ce9ffcfa56cadfec926c2b8edee3fb136d775bc64486da2837cd9d",
+      "matches": true
+    },
+    {
+      "file": "assessment.json",
+      "sha256": "db3e97cd989218d4450d66b93b84f7c59e726a12b65a090f7727230c3f6bc6f6",
+      "matches": true
+    },
+    {
+      "file": "teaching-artifacts.json",
+      "sha256": "097b8c85a141621bcd7245d9db32f2bfbbf47aff1454a91f2ca5c9de6c804881",
+      "matches": true
+    }
+  ],
+  "status": "passed"
+}
