@@ -16,7 +16,7 @@ let audience;
 const active=()=>page.locator('.mini-stage:not(.next-stage)');
 const panel=()=>page.locator('.case-dialog[open]');
 const screen=()=>audience.locator('.case-dialog[open]');
-const save=()=>fs.writeFile('reports/public-show-third-pass.json',JSON.stringify(report,null,2)+'\n');
+const save=()=>fs.writeFile(process.env.SHOW_REPORT||'reports/public-show-third-pass.json',JSON.stringify(report,null,2)+'\n');
 async function go(l,id){
  if(await active().locator(`[data-slide-id="${id}"]`).count())return;
  const s=l.slides.find(s=>s.id===id),n=l.slides.indexOf(s)+1;
@@ -81,6 +81,7 @@ try{
    const first=b.locator('[data-match-id]').first();await first.getByRole('button',{name:/^Опустить понятие /}).click();
    const moved=await b.locator('[data-match-id]').evaluateAll(nodes=>nodes.map(n=>n.dataset.matchId));
    await audience.waitForFunction(order=>JSON.stringify([...document.querySelectorAll('.matching-board [data-match-id]')].map(n=>n.dataset.matchId))===JSON.stringify(order),moved);
+   if(c.question===1&&['01-project-decisions','25-rbac'].includes(l.id)){await page.screenshot({path:`output/playwright/third-matching-${l.id}-presenter.png`});await audience.screenshot({path:`output/playwright/third-matching-${l.id}-audience.png`});}
    await active().getByRole('button',{name:'Проверить',exact:true}).click();await audience.locator('.task-status').waitFor();
    const result=await audience.locator('.task-status').innerText();assert.ok(!/неверно|ошибка/i.test(result.split('\n')[0]));
    report.matching.push({id:s.id,pairs:t.items.length,mouse:true,keyboard:true,tabReachability:true,shuffleMirrored:true,reorderMirrored:true,answerMirrored:true,previousOrder:order});
@@ -94,5 +95,5 @@ try{
   await page.getByRole('button',{name:'Завершить показ',exact:true}).click();await audience.close();audience=undefined;
  }
  assert.deepEqual(report.errors,[]);report.status='passed';
-}catch(error){report.status='failed';report.failure=String(error);report.failedUrl=page.url();await page.screenshot({path:'output/playwright/public-show-third-failure.png'});throw error}
+}catch(error){report.status='failed';report.failure=String(error);report.failedUrl=page.url();report.failedSlide=await active().locator('[data-slide-id]').first().getAttribute('data-slide-id').catch(()=>null);await page.screenshot({path:'output/playwright/public-show-third-failure.png'});throw error}
 finally{report.finishedAt=new Date().toISOString();await save();await browser.close()}

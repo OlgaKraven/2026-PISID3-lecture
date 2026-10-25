@@ -6,6 +6,7 @@ export function presentationPlugin():Plugin {
  const catalog=fileURLToPath(new URL('../src/CourseCatalog.tsx',import.meta.url));
  const cases=fileURLToPath(new URL('../src/case-workshop.tsx',import.meta.url));
  const overview=fileURLToPath(new URL('../src/assessment-overview.tsx',import.meta.url));
+ const answers=fileURLToPath(new URL('../src/answer-dialog.tsx',import.meta.url));
  return {name:'pisid-presentation',enforce:'pre',transform(source,id){
   const file=id.split('?')[0].replaceAll('\\','/');
   if(!file.includes('/@olgakraven/lecture-engine/lib/'))return;
@@ -58,6 +59,11 @@ export function presentationPlugin():Plugin {
 
   }
   if(file.endsWith('/SlideView-CKuVrZ7x.js')){
+   const answerStart=code.indexOf('!t && s && i?.result && n.readonly && /* @__PURE__ */ f("aside", {');
+   const answerEnd=code.indexOf('\n\t\t]\n\t});\n}',answerStart);
+   if(answerStart<0||answerEnd<0)throw Error('Answer dialog signature changed');
+   code=code.slice(0,answerStart)+'!t && s && i?.result && d(CourseAnswerDialog,{id:e.id,result:i.result,readonly:n.readonly,onClose:()=>n.reveal(e,!1),options:e.options,optionExplanations:n.keys[e.id]?.optionExplanations})'+code.slice(answerEnd);
+   code=`import {AnswerDialog as CourseAnswerDialog} from ${JSON.stringify(answers)};\n`+code;
    const start=code.indexOf('function at({ lecture: e, onGo: t }) {'),end=code.indexOf('function st({ task: e, onChange: t }) {',start);
    if(start<0||end<0)throw Error('Assessment overview signature changed');
    code=code.slice(0,start)+'function at({lecture:e,onGo:t}){let n=V(),i=r(Q);return n?null:d(CourseAssessmentOverview,{lecture:e,attempts:i.attempts,onGo:t,onReset:i.reset});}\n'+code.slice(end);
