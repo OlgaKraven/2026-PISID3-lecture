@@ -1,3 +1,4 @@
+import variants from './question-variants.mjs';
 import {describeVisual} from './case-visuals.mjs';
 
 export function refineNote({slide:s,topic:t,cases, guidance:g,note,practiceCases,laboratory}){
@@ -13,12 +14,12 @@ export function refineNote({slide:s,topic:t,cases, guidance:g,note,practiceCases
  }
  if(qi>=0&&!x){
   if(s.task){speech=`${s.task.prompt}\n\nСначала выполните задание самостоятельно. Для обоснования используйте различие понятий «${t.concepts[qi*2].name}» и «${t.concepts[qi*2+1].name}» и данные разобранного случая. После ответа сопоставим решение с критерием; правильный вариант пока не раскрываем.`;}
-  else if(suffix.endsWith('-practice')){const c=practiceCases.find(c=>c.returnSlide===s.id);speech=`${c.input}\n\nОткроем «Интерактивную схему». Сначала запишите прогноз, затем заполните два результата артефакта: ${c.fields.map(f=>f.label.toLowerCase()).join('; ')}. Первый результат проверяется до второго. После попытки разбор можно раскрыть отдельной кнопкой; обоснование обсудим по указанным критериям.`;note.answer=c.fields.map((f,i)=>`Шаг ${i+1}: ${f.answer}. ${f.hint}`).join('\n')+'\n\n'+c.explanation+'\n\n'+c.boundary;}
+  else if(suffix.endsWith('-practice')){const c=practiceCases.find(c=>c.returnSlide===s.id);speech=`${c.input}\n\nПеред самопроверкой откроем эксперимент этого вопроса: сравним два условия и сохраним оба результата. В том же эксперименте применим способ к новым данным. Сначала запишите прогноз, затем заполните два результата артефакта: ${c.fields.map(f=>f.label.toLowerCase()).join('; ')}. Первый результат проверяется до второго. После попытки разбор можно раскрыть отдельной кнопкой; обоснование обсудим по указанным критериям.`;note.answer=c.fields.map((f,i)=>`Шаг ${i+1}: ${f.answer}. ${f.hint}`).join('\n')+'\n\n'+c.explanation+'\n\n'+c.boundary;}
   else if(s.kind==='section')speech=`${w[0]}\n\nВ этой ситуации нужно различить «${t.concepts[qi*2].name}» и «${t.concepts[qi*2+1].name}». Первое понятие задаёт один ракурс решения, второе помогает проверить его основание. Начнём с точного смысла каждого термина.`;
   else if(suffix.endsWith('-mechanism'))speech=`${g.mechanisms[qi]}\n\n${w[0]} ${w[1]}\n\nИз этих действий следует результат: ${w[2]} Он справедлив при условиях исходного случая, которые сейчас сохраняем.`;
   else if(suffix.endsWith('-input')){speech=`${w[0]}\n\nНазовите исходные факты и предложите действие. Пока не переносим сюда правило из другой ситуации; следующий экран позволит сравнить собственное рассуждение с полным разбором.`;note.answer=w.slice(1).join('\n\n');}
   else if(suffix.endsWith('-worked'))speech=`${w[0]}\n\n${describeVisual(s.visual)}\n\n${w[1]} Поэтому ${w[2]}\n\nСвязи схемы описывают именно эту задачу: ${s.visual.caption} Отдельно проверим изменение условия, чтобы не принять успешный пример за универсальное правило.`;
-  else if(suffix.endsWith('-boundary'))speech=`Ранее получен результат: ${w[2]}\n\n${w[3]} Изменилось основание вывода, поэтому прежнее действие нельзя переносить автоматически. Для сравнения критерии двух понятий остаются различными: ${t.concepts[qi*2].check} ${t.concepts[qi*2+1].check}`;
+  else if(suffix.endsWith('-boundary')){const v=variants[t.number-1][qi];speech=`Исходный результат: ${w[2]}\n\nИзменилось условие: ${v.condition}\n\n${v.action}\n\nПолучаем: ${v.result}\n\nГраница: ${w[3]}`;note.answer=v.result;}
  }
  if(!speech){
   const extra=g.extra;

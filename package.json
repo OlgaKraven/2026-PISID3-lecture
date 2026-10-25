@@ -27,6 +27,7 @@
     "test:visuals": "node scripts/check-visuals.mjs",
     "test:interactions": "node scripts/review-release.mjs cases && node scripts/review-release.mjs tasks",
     "export:teaching": "node scripts/export-teaching.mjs",
+    "test:experiments": "node scripts/check-question-experiments.mjs",
     "test:design": "node scripts/check-infographic-style.mjs"
   },
   "dependencies": {

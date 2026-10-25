@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25",
+  "contentVersion": "pisid3-2026.10.25-student",
   "sourceKind": "local",
-  "sourceSha256": "3874de3025abb41096a30f4cae9aa3c54ef052abc1f811e6ada75fa8d5e5af9a",
+  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
   "lectureIds": [
     "24-design-system-accessibility"
   ],
@@ -196,7 +196,7 @@
       "lectureId": "24-design-system-accessibility",
       "slideId": "24-design-system-accessibility-Q01-boundary",
       "displayNumber": 19,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-019",
         "presenter": "screen-019"
@@ -376,7 +376,7 @@
       "lectureId": "24-design-system-accessibility",
       "slideId": "24-design-system-accessibility-Q02-boundary",
       "displayNumber": 37,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-037",
         "presenter": "screen-037"
@@ -556,7 +556,7 @@
       "lectureId": "24-design-system-accessibility",
       "slideId": "24-design-system-accessibility-Q03-boundary",
       "displayNumber": 55,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-055",
         "presenter": "screen-055"
@@ -736,7 +736,7 @@
       "lectureId": "24-design-system-accessibility",
       "slideId": "24-design-system-accessibility-Q04-boundary",
       "displayNumber": 73,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-073",
         "presenter": "screen-073"

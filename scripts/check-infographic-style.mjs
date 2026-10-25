@@ -13,7 +13,7 @@ try{
    await page.evaluate(theme=>document.documentElement.dataset.theme=theme,theme);await page.evaluate(()=>document.fonts.ready);
    const records=await page.evaluate(legacy=>{const nodes=[...document.querySelectorAll('.print-page .infographic')];
     const rgb=hex=>{const n=parseInt(hex.slice(1),16);return `rgb(${n>>16}, ${n>>8&255}, ${n&255})`};const forbidden=new Set(legacy.map(rgb));
-    return nodes.map(n=>{const old=[];for(const el of n.querySelectorAll('svg *,figcaption')){const s=getComputedStyle(el);for(const prop of ['fill','stroke','color','backgroundColor','borderLeftColor','borderTopColor','borderRightColor','borderBottomColor'])if(forbidden.has(s[prop]))old.push({tag:el.tagName,prop,value:s[prop]})}const c=n.querySelector('figcaption');return {id:n.closest('[data-slide-id]')?.dataset.slideId,type:n.className,old,captionFont:c&&getComputedStyle(c).fontFamily}})
+    return nodes.map(n=>{const old=[];for(const el of n.querySelectorAll('svg *,figcaption,.infographic-mobile *')){const s=getComputedStyle(el);for(const prop of ['fill','stroke','color','backgroundColor','borderLeftColor','borderTopColor','borderRightColor','borderBottomColor'])if(forbidden.has(s[prop]))old.push({tag:el.tagName,prop,value:s[prop]})}const c=n.querySelector('figcaption');return {id:n.closest('[data-slide-id]')?.dataset.slideId,type:n.className,old,captionFont:c&&getComputedStyle(c).fontFamily}})
    },legacy);
    figures+=records.length;report.problems.push(...records.filter(x=>x.old.length||!x.captionFont.includes('Raleway')).map(x=>({theme,...x})));
   }

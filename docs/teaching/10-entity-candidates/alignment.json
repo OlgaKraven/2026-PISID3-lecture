@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25",
+  "contentVersion": "pisid3-2026.10.25-student",
   "sourceKind": "local",
-  "sourceSha256": "3874de3025abb41096a30f4cae9aa3c54ef052abc1f811e6ada75fa8d5e5af9a",
+  "sourceSha256": "62288bbe3637e4ad1adb693fd2c4e48d59fdc48a76f3536b60ec9554d86d072a",
   "lectureIds": [
     "10-entity-candidates"
   ],
@@ -206,7 +206,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-Q01-boundary",
       "displayNumber": 20,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-020",
         "presenter": "screen-020"
@@ -386,7 +386,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-Q02-boundary",
       "displayNumber": 38,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-038",
         "presenter": "screen-038"
@@ -566,7 +566,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-Q03-boundary",
       "displayNumber": 56,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-056",
         "presenter": "screen-056"
@@ -746,7 +746,7 @@
       "lectureId": "10-entity-candidates",
       "slideId": "10-entity-candidates-Q04-boundary",
       "displayNumber": 74,
-      "title": "Если условие изменится",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-074",
         "presenter": "screen-074"

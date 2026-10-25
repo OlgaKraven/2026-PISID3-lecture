@@ -48,3 +48,15 @@
 .template-dialog:has(.diagram-dialog-content) :is(.button,.icon-button){border-radius:7px;font-weight:600}
 .template-dialog:has(.diagram-dialog-content) .button.primary,.experiment .experiment-action{background:var(--dg-accent);color:var(--dg-on-accent);border-color:var(--dg-accent)}
 .infographic svg path[data-relation]{stroke-width:1.5}
+/* HTML representations must use the same roles as their SVG counterparts. */
+.infographic-mobile,.diagram-dialog-content{color:var(--dg-ink)!important;background:var(--dg-paper)!important;border-color:var(--dg-line)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-cards>li{color:var(--dg-ink)!important;background:var(--dg-paper)!important;border:1px solid var(--dg-line)!important;border-left:3px solid var(--dg-line)!important;border-radius:7px;box-shadow:none!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-cards>li:first-child{border-left-color:var(--dg-accent)!important}
+:is(.infographic-mobile,.diagram-dialog-content) :is(strong,h3,h4,.diagram-start){color:var(--dg-ink)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-cards p{color:var(--dg-muted)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-table-scroll :is(th,td){border:1px solid var(--dg-line)!important;background:var(--dg-paper)!important;color:var(--dg-ink)!important;border-radius:0!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-table-scroll thead th{background:var(--dg-header)!important;color:var(--dg-on-header)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-table-scroll tbody tr:nth-child(even) td{background:var(--dg-fill)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-bar-track{background:var(--dg-fill)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-bar-track>span{background:var(--dg-accent)!important}
+:is(.infographic-mobile,.diagram-dialog-content) .diagram-loop{background:var(--dg-fill)!important;color:var(--dg-ink)!important;border-color:var(--dg-line)!important}

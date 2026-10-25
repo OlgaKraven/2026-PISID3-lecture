@@ -6,14 +6,15 @@ import {experimentVisual} from '../authoring/experiment-visuals.mjs';
 import guidance from '../authoring/teaching-guidance.mjs';
 import {buildPracticeCases} from '../authoring/practice-cases.mjs';
 import {refineNote} from '../authoring/presenter-speech.mjs';
+import {studentSlide,buildQuestionExperiments} from '../authoring/student-content.mjs';
 import {buildLaboratories} from '../authoring/laboratory-config.mjs';
 import {addTeachingIntroduction,addConceptExplanation,addQuestionExplanation,addBoundaryExample,addAdditionalCase} from '../authoring/expanded-blocks.mjs';
 const experiments=JSON.parse(fs.readFileSync('authoring/experiments.json','utf8'));
 const original=JSON.parse(fs.readFileSync('authoring/original-course.json','utf8'));
-const version='pisid3-2026.10.25';
+const version='pisid3-2026.10.25-student';
 const practiceCases=buildPracticeCases(original.topics);
 const laboratories=buildLaboratories(experiments,guidance);
-const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'От требований склада',heroAccent:'к модели и интерфейсу',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-pisid-design.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
+const c={schemaVersion:1,contentVersion:version,id:'pisid3',code:'МДК.05.01',discipline:original.title,year:'2026–2027',heroTitle:'Проектирование и дизайн',heroAccent:'информационных систем',slogan:'3 курс · Проектируем WMS: решения, данные, взаимодействие.',mascot:'brand/rhino-pisid-design.png',mascotAlt:'Носорог и проектирование складской системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:original.materialsUrl,demo:false,semesters:[5,6],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
 let group='';for(const line of fs.readFileSync('SOURCES.md','utf8').split('\n')){if(line.startsWith('## Основная'))group='primary';else if(line.startsWith('## Дополнительная'))group='additional';else if(line.startsWith('## '))group='';if(group&&line.startsWith('- ')){const url=line.match(/\]\((https[^)]+)\)/)?.[1];c.literature[group].push({citation:line.slice(2).replaceAll('*','').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace('ISBN 978-5-93026-166-10','ISBN требует уточнения').trim(),...(url?{url}:{})});}}
 const bank={schemaVersion:1,courseId:c.id,contentVersion:version,mode:'autonomous-educational',notice:'Ключи учебной автономной самопроверки доступны технически.',keys:{}};
 const teacher={schemaVersion:1,courseId:c.id,contentVersion:version,notes:{}};
@@ -26,11 +27,11 @@ const cleanText=value=>JSON.parse(JSON.stringify(value,(_key,item)=>typeof item=
 const digest=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const explanationOf=x=>x.definition.replace(/^[^—]+—\s*(это\s+)?/,'').replace(/\.$/,'');
 const examUrl='https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ';
-const examContext=n=>n<=3?'КИМ 09.02.07-5-2027, задание 1: анализ документов производственного предприятия и ER-диаграмма в PDF. WMS здесь — отдельный учебный кейс; часы и темы курса не выводятся из 20 минут экзаменационного задания.':n>=10&&n<=15?'КИМ 2027, задание 1 требует 3НФ, ссылочную целостность, осмысленное именование, первичные и внешние ключи; типы данных на этапе ER-диаграммы необязательны. Эта лекция разбирает отдельную часть подготовки модели.':n>=25?'В ТЗ задания 4 КИМ 2027 заданы роли администратора и пользователя, CAPTCHA-пазл и блокировка после трёх подряд неудач пароля или пазла. Условия экзамена реализуют по ТЗ; альтернативы WMS в этой лекции не отменяют их.':null;
+const examContext=n=>n<=3?'КИМ 09.02.07-5-2027, задание 1: анализ документов производственного предприятия и ER-диаграмма в PDF. WMS здесь — отдельный учебный кейс: переносится способ анализа документов и построения модели.':n>=10&&n<=15?'КИМ 2027, задание 1 требует 3НФ, ссылочную целостность, осмысленное именование, первичные и внешние ключи; типы данных на этапе ER-диаграммы необязательны. Эта лекция разбирает отдельную часть подготовки модели.':n>=25?'В ТЗ задания 4 КИМ 2027 заданы роли администратора и пользователя, CAPTCHA-пазл и блокировка после трёх подряд неудач пароля или пазла. Условия экзамена реализуют по ТЗ; альтернативы WMS в этой лекции не отменяют их.':null;
 for(const [li,t] of original.topics.entries()){
  const l={id:t.id,title:t.title,sourceTitle:t.section,semester:t.semester,question:t.shortTitle,slides:[]};
  const add=(suffix,slide,comment={})=>{
-  const s=cleanText({id:t.id+'-'+suffix,kicker:'ПиДИС · 3 курс',...slide});l.slides.push(s);
+   const s=cleanText(studentSlide({id:t.id+'-'+suffix,kicker:'ПиДИС · 3 курс',...slide},t,li,cases[li]));l.slides.push(s);
   if(withTeacher){
    let note=comment.note||{script:comment.script,preparation:comment.preparation||'Учебный пример WMS; значения условные. '+t.caseContext,notebook:s.notebook||'Отдельная запись не требуется.',questions:comment.questions||'',answer:comment.answer||'',estimatedSeconds:comment.seconds||75};
    if(!note.script)throw Error('Не написана заметка '+s.id);
@@ -106,9 +107,11 @@ for(const d of ['public','reports','private','private/lectures'])fs.mkdirSync(d,
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(cleanText(v),null,2)+'\n');
 write('public/laboratories.json',laboratories);
 write('public/practice-cases.json',practiceCases);
+write('public/question-experiments.json',buildQuestionExperiments(original.topics,cases,caseVisuals));
 write('reports/visual-plan.json',practiceCases.map(c=>({lectureId:c.lectureId,question:c.question,slideId:c.returnSlide,goal:c.title,notation:c.notation,shows:c.fields.map(f=>f.label)})));
 write('public/course.json',c);write('public/assessment.json',bank);write('authoring/questions.json',questions);write('reports/registry.json',registry);
 const previousNotes=JSON.parse(fs.readFileSync('authoring/previous-note-hashes.json','utf8'));
+teacher.previousNoteRevisions=[{contentVersion:previousNotes.contentVersion,hashes:previousNotes.hashes},previousNotes.recent];
 teacher.previousContentVersion=previousNotes.contentVersion;teacher.previousNoteHashes=previousNotes.hashes;
 write('public/teacher-pack.json',teacher);
 if(process.argv.includes('--teacher')){write('private/teacher-pack.json',teacher);write('private/teacher-source.json',source);for(const l of c.lectures){const notes=Object.fromEntries(l.slides.map(s=>[s.id,teacher.notes[s.id]]));write('private/lectures/'+l.id+'.json',{...teacher,notes});fs.writeFileSync('private/lectures/'+l.id+'.md','# '+l.title+'\n\n'+l.slides.map(s=>{const n=notes[s.id];return `## ${s.id} · ${s.title}\n\n${n.script}\n\nПодготовка: ${n.preparation}\n\nКонспект: ${n.notebook}\n\n${n.questions}\n\n${n.answer}\n\nОценка: ${n.estimatedSeconds} с.\n`;}).join('\n'));}write('private/preparation-cards.json',c.lectures.map((l,i)=>({lectureId:l.id,logic:questions.filter(q=>q.lectureId===l.id).map(q=>q.title),prerequisites:i?'Предшествующие темы курса; факт, решение, проверка.':'Понятие ИС и описание рабочей задачи.',uncertainties:['РПД и официальные часы не предоставлены.','Учебные данные WMS условны.'],estimatedMinutes:registry[i].estimatedMinutes})));}

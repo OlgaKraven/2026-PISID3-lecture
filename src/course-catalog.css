@@ -1106,3 +1106,8 @@
   font-size:13px;
   line-height:1.5;
 }
+@media(max-width:640px){
+  .ok-page .ok-hero{display:grid;grid-template-columns:minmax(0,1fr);min-height:0;gap:0}
+  .ok-page .ok-hero-copy{width:100%;max-width:100%}
+  .ok-page .ok-rhino{position:static;justify-self:end;align-self:end;flex-basis:auto;margin:-10px 0 -12px}
+}

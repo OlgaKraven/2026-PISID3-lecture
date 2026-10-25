@@ -27,6 +27,6 @@ export function buildLaboratories(experiments,guidance){
   expected:guidance[i].extra.result,boundary:guidance[i].extra.boundary,
   ...(configs[i+1]?{fields:configs[i+1]}:{}),
   presets:['Исходные условия','Изменённое условие','Проверка границы'],
-  teacherGuide:`Начните с вопроса «Что должно измениться в результате операции?». ${guidance[i].extra.steps.map((step,j)=>`Шаг ${j+1}: ${step}`).join(' ')} Объяснение результата: ${guidance[i].extra.result} Отдельно проверьте: ${guidance[i].extra.boundary}`
+  teacherGuide:`Определите, что должно измениться в результате операции. ${guidance[i].extra.steps.map((step,j)=>`Шаг ${j+1}: ${step}`).join(' ')} Объяснение результата: ${guidance[i].extra.result} Проверьте границу: ${guidance[i].extra.boundary}`
  }));
 }

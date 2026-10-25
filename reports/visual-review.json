@@ -1,13 +1,12 @@
 {
-  "version": "pisid3-2026.10.25",
+  "version": "pisid3-2026.10.25-student",
   "caseDiagrams": 104,
   "types": [
     "network",
     "decision",
     "matrix",
     "process",
-    "tree",
-    "timeline"
+    "tree"
   ],
   "viewports": [
     {

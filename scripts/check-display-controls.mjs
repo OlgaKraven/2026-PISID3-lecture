@@ -31,6 +31,7 @@ try{
   }
   await lab.getByRole('button',{name:'Развернуть эксперимент'}).click();await audience.locator('dialog[open] .laboratory').waitFor();
   if(l===course.lectures[0])await audience.screenshot({path:'output/playwright/laboratory-new-style.png'});
+  await page.getByRole('button',{name:'Подсказки для работы',exact:true}).click();await audience.locator('.laboratory-teacher>p').waitFor();
   await page.getByRole('button',{name:'Зафиксировать результат запуска'}).click();await audience.locator('dialog[open] .laboratory-comparison>ol>li').waitFor();
   await page.keyboard.press('Escape');await audience.locator('dialog[open]').waitFor({state:'hidden'});
   if(l===course.lectures[0]){
