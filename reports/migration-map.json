@@ -22,27 +22,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "01-project-decisions-sources"
+      "01-project-decisions-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "01-project-decisions",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "01-project-decisions-sources"
+      "01-project-decisions-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "01-project-decisions",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "01-project-decisions-sources"
+      "01-project-decisions-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "01-project-decisions",
@@ -841,27 +841,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "02-roles-views-sources"
+      "02-roles-views-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "02-roles-views",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "02-roles-views-sources"
+      "02-roles-views-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "02-roles-views",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "02-roles-views-sources"
+      "02-roles-views-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "02-roles-views",
@@ -1660,27 +1660,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "03-artifact-map-sources"
+      "03-artifact-map-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "03-artifact-map",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "03-artifact-map-sources"
+      "03-artifact-map-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "03-artifact-map",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "03-artifact-map-sources"
+      "03-artifact-map-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "03-artifact-map",
@@ -2479,27 +2479,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "04-requirement-sources-sources"
+      "04-requirement-sources-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "04-requirement-sources",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "04-requirement-sources-sources"
+      "04-requirement-sources-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "04-requirement-sources",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "04-requirement-sources-sources"
+      "04-requirement-sources-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "04-requirement-sources",
@@ -3298,27 +3298,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "05-interview-technique-sources"
+      "05-interview-technique-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "05-interview-technique",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "05-interview-technique-sources"
+      "05-interview-technique-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "05-interview-technique",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "05-interview-technique-sources"
+      "05-interview-technique-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "05-interview-technique",
@@ -4117,27 +4117,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "06-requirement-classes-sources"
+      "06-requirement-classes-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "06-requirement-classes",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "06-requirement-classes-sources"
+      "06-requirement-classes-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "06-requirement-classes",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "06-requirement-classes-sources"
+      "06-requirement-classes-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "06-requirement-classes",
@@ -4936,27 +4936,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "07-requirement-quality-sources"
+      "07-requirement-quality-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "07-requirement-quality",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "07-requirement-quality-sources"
+      "07-requirement-quality-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "07-requirement-quality",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "07-requirement-quality-sources"
+      "07-requirement-quality-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "07-requirement-quality",
@@ -5755,27 +5755,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "08-user-story-acceptance-sources"
+      "08-user-story-acceptance-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "08-user-story-acceptance",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "08-user-story-acceptance-sources"
+      "08-user-story-acceptance-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "08-user-story-acceptance",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "08-user-story-acceptance-sources"
+      "08-user-story-acceptance-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "08-user-story-acceptance",
@@ -6574,27 +6574,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "09-assumptions-traceability-sources"
+      "09-assumptions-traceability-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "09-assumptions-traceability",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "09-assumptions-traceability-sources"
+      "09-assumptions-traceability-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "09-assumptions-traceability",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "09-assumptions-traceability-sources"
+      "09-assumptions-traceability-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "09-assumptions-traceability",
@@ -7393,27 +7393,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "10-entity-candidates-sources"
+      "10-entity-candidates-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "10-entity-candidates",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "10-entity-candidates-sources"
+      "10-entity-candidates-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "10-entity-candidates",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "10-entity-candidates-sources"
+      "10-entity-candidates-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "10-entity-candidates",
@@ -8212,27 +8212,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "11-project-glossary-sources"
+      "11-project-glossary-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "11-project-glossary",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "11-project-glossary-sources"
+      "11-project-glossary-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "11-project-glossary",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "11-project-glossary-sources"
+      "11-project-glossary-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "11-project-glossary",
@@ -9031,27 +9031,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "12-business-rules-sources"
+      "12-business-rules-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "12-business-rules",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "12-business-rules-sources"
+      "12-business-rules-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "12-business-rules",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "12-business-rules-sources"
+      "12-business-rules-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "12-business-rules",
@@ -9850,27 +9850,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "13-attribute-composition-sources"
+      "13-attribute-composition-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "13-attribute-composition",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "13-attribute-composition-sources"
+      "13-attribute-composition-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "13-attribute-composition",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "13-attribute-composition-sources"
+      "13-attribute-composition-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "13-attribute-composition",
@@ -10669,27 +10669,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "14-data-history-sources"
+      "14-data-history-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "14-data-history",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "14-data-history-sources"
+      "14-data-history-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "14-data-history",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "14-data-history-sources"
+      "14-data-history-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "14-data-history",
@@ -11488,27 +11488,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "15-model-revision-sources"
+      "15-model-revision-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "15-model-revision",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "15-model-revision-sources"
+      "15-model-revision-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "15-model-revision",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "15-model-revision-sources"
+      "15-model-revision-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "15-model-revision",
@@ -12307,27 +12307,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "16-decision-matrix-sources"
+      "16-decision-matrix-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "16-decision-matrix",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "16-decision-matrix-sources"
+      "16-decision-matrix-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "16-decision-matrix",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "16-decision-matrix-sources"
+      "16-decision-matrix-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "16-decision-matrix",
@@ -13126,27 +13126,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "17-adr-sources"
+      "17-adr-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "17-adr",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "17-adr-sources"
+      "17-adr-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "17-adr",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "17-adr-sources"
+      "17-adr-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "17-adr",
@@ -13945,27 +13945,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "18-nfr-impact-sources"
+      "18-nfr-impact-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "18-nfr-impact",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "18-nfr-impact-sources"
+      "18-nfr-impact-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "18-nfr-impact",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "18-nfr-impact-sources"
+      "18-nfr-impact-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "18-nfr-impact",
@@ -14764,27 +14764,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "19-defense-sources"
+      "19-defense-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "19-defense",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "19-defense-sources"
+      "19-defense-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "19-defense",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "19-defense-sources"
+      "19-defense-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "19-defense",
@@ -15583,27 +15583,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "20-ux-goals-sources"
+      "20-ux-goals-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "20-ux-goals",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "20-ux-goals-sources"
+      "20-ux-goals-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "20-ux-goals",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "20-ux-goals-sources"
+      "20-ux-goals-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "20-ux-goals",
@@ -16402,27 +16402,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "21-information-architecture-sources"
+      "21-information-architecture-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "21-information-architecture",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "21-information-architecture-sources"
+      "21-information-architecture-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "21-information-architecture",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "21-information-architecture-sources"
+      "21-information-architecture-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "21-information-architecture",
@@ -17221,27 +17221,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "22-wireframe-prototype-sources"
+      "22-wireframe-prototype-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "22-wireframe-prototype",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "22-wireframe-prototype-sources"
+      "22-wireframe-prototype-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "22-wireframe-prototype",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "22-wireframe-prototype-sources"
+      "22-wireframe-prototype-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "22-wireframe-prototype",
@@ -18040,27 +18040,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "23-forms-validation-states-sources"
+      "23-forms-validation-states-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "23-forms-validation-states",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "23-forms-validation-states-sources"
+      "23-forms-validation-states-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "23-forms-validation-states",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "23-forms-validation-states-sources"
+      "23-forms-validation-states-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "23-forms-validation-states",
@@ -18859,27 +18859,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "24-design-system-accessibility-sources"
+      "24-design-system-accessibility-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "24-design-system-accessibility",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "24-design-system-accessibility-sources"
+      "24-design-system-accessibility-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "24-design-system-accessibility",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "24-design-system-accessibility-sources"
+      "24-design-system-accessibility-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "24-design-system-accessibility",
@@ -19678,27 +19678,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "25-rbac-sources"
+      "25-rbac-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "25-rbac",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "25-rbac-sources"
+      "25-rbac-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "25-rbac",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "25-rbac-sources"
+      "25-rbac-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "25-rbac",
@@ -20497,27 +20497,27 @@
     "oldSlideId": "main-literature",
     "oldTitle": "Основная литература",
     "newSlideIds": [
-      "26-auth-lockout-sources"
+      "26-auth-lockout-main-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "26-auth-lockout",
     "oldSlideId": "additional-literature",
     "oldTitle": "Дополнительная литература",
     "newSlideIds": [
-      "26-auth-lockout-sources"
+      "26-auth-lockout-additional-literature"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "26-auth-lockout",
     "oldSlideId": "materials",
     "oldTitle": "Презентации, задания и исходные файлы",
     "newSlideIds": [
-      "26-auth-lockout-sources"
+      "26-auth-lockout-materials"
     ],
-    "change": "Сохранён предметный смысл; адаптирован общий макет."
+    "change": "Восстановлен после титула; прежний ID и предметные источники сохранены."
   },
   {
     "lectureId": "26-auth-lockout",

@@ -45,6 +45,6 @@ for(const [i,l] of c.lectures.entries()){
  }
 }
 assert.equal(models,234);assert.equal(tasks,416);
-assert.equal(pack.previousNoteRevisions.at(-1).contentVersion,'pisid3-2026.10.25-artifacts');
+assert.equal(pack.previousNoteRevisions.at(-1).contentVersion,'pisid3-2026.10.25-blocks');
 const report={version:c.contentVersion,courseSha256:createHash('sha256').update(bytes).digest('hex'),models,tasks,notes,exportedLectures:c.lectures.length,status:'passed',scope:'Alignment and data regression; does not establish pedagogical sufficiency by itself'};
 await fs.writeFile('reports/teaching-alignment.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

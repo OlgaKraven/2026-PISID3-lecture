@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "id": "pisid3",
   "code": "МДК.05.01",
   "discipline": "Проектирование и дизайн информационных систем",
@@ -4226,6 +4226,66 @@
           "body": "Стадии создания ИС, артефакты и ответственность проектировщика за обоснованный выбор."
         },
         {
+          "id": "01-project-decisions-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "01-project-decisions-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "01-project-decisions-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "ГОСТ Р 59793-2021 · стадии создания автоматизированных систем",
+              "url": "https://protect.gost.ru/gost/details/2899faee-25e2-4cd1-9f30-e7e01a4b9b8d"
+            },
+            {
+              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
+              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "01-project-decisions-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
+        },
+        {
           "id": "01-project-decisions-route",
           "kicker": "Маршрут занятия",
           "kind": "agenda",
@@ -5929,26 +5989,6 @@
           ]
         },
         {
-          "id": "01-project-decisions-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "ГОСТ Р 59793-2021 · стадии создания автоматизированных систем",
-              "url": "https://protect.gost.ru/gost/details/2899faee-25e2-4cd1-9f30-e7e01a4b9b8d"
-            },
-            {
-              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
-              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "01-project-decisions-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -5986,6 +6026,66 @@
           "kind": "title",
           "title": "Роли, интересы и решения",
           "body": "Заказчик, пользователь, аналитик, проектировщик и разработчик: интересы, конфликты и право решения."
+        },
+        {
+          "id": "02-roles-views-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "02-roles-views-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "02-roles-views-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "ГОСТ Р 59793-2021 · стадии создания автоматизированных систем",
+              "url": "https://protect.gost.ru/document.aspx?control=7&id=240532"
+            },
+            {
+              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
+              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "02-roles-views-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "02-roles-views-route",
@@ -7625,26 +7725,6 @@
           ]
         },
         {
-          "id": "02-roles-views-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "ГОСТ Р 59793-2021 · стадии создания автоматизированных систем",
-              "url": "https://protect.gost.ru/document.aspx?control=7&id=240532"
-            },
-            {
-              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
-              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "02-roles-views-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -7682,6 +7762,66 @@
           "kind": "title",
           "title": "Карта артефактов",
           "body": "Брифинг, реестр требований, глоссарий, концептуальная модель, макет и проектная спецификация как единая цепочка."
+        },
+        {
+          "id": "03-artifact-map-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "03-artifact-map-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "03-artifact-map-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
+              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "03-artifact-map-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "03-artifact-map-route",
@@ -9440,26 +9580,6 @@
           ]
         },
         {
-          "id": "03-artifact-map-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
-              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "03-artifact-map-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -9497,6 +9617,62 @@
           "kind": "title",
           "title": "Источники требований",
           "body": "Брифинг, интервью, документы, формы, отчёты, наблюдение и Excel как свидетельства реального процесса."
+        },
+        {
+          "id": "04-requirement-sources-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "04-requirement-sources-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "04-requirement-sources-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            }
+          ]
+        },
+        {
+          "id": "04-requirement-sources-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "04-requirement-sources-route",
@@ -11151,22 +11327,6 @@
           ]
         },
         {
-          "id": "04-requirement-sources-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            }
-          ]
-        },
-        {
           "id": "04-requirement-sources-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -11204,6 +11364,62 @@
           "kind": "title",
           "title": "Интервью с заказчиком",
           "body": "Открытые, закрытые и уточняющие вопросы; работа с неопределённостью и фиксация договорённостей."
+        },
+        {
+          "id": "05-interview-technique-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "05-interview-technique-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "05-interview-technique-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            }
+          ]
+        },
+        {
+          "id": "05-interview-technique-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "05-interview-technique-route",
@@ -12809,22 +13025,6 @@
           ]
         },
         {
-          "id": "05-interview-technique-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            }
-          ]
-        },
-        {
           "id": "05-interview-technique-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -12862,6 +13062,62 @@
           "kind": "title",
           "title": "Классы требований",
           "body": "Почему разные типы требований требуют разных формулировок, владельцев и способов проверки."
+        },
+        {
+          "id": "06-requirement-classes-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "06-requirement-classes-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "06-requirement-classes-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            }
+          ]
+        },
+        {
+          "id": "06-requirement-classes-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "06-requirement-classes-route",
@@ -14517,22 +14773,6 @@
           ]
         },
         {
-          "id": "06-requirement-classes-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            }
-          ]
-        },
-        {
           "id": "06-requirement-classes-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -14570,6 +14810,62 @@
           "kind": "title",
           "title": "Качество требований",
           "body": "Как переписать «удобно», «быстро» и «и так далее» в конкретные проверяемые формулировки."
+        },
+        {
+          "id": "07-requirement-quality-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "07-requirement-quality-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "07-requirement-quality-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            }
+          ]
+        },
+        {
+          "id": "07-requirement-quality-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "07-requirement-quality-route",
@@ -16217,22 +16513,6 @@
           ]
         },
         {
-          "id": "07-requirement-quality-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            }
-          ]
-        },
-        {
           "id": "07-requirement-quality-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -16270,6 +16550,62 @@
           "kind": "title",
           "title": "User story",
           "body": "Роль, цель, ценность и проверяемые критерии; когда история действительно готова к реализации."
+        },
+        {
+          "id": "08-user-story-acceptance-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "08-user-story-acceptance-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "08-user-story-acceptance-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "GOV.UK Service Manual · Writing user stories",
+              "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            }
+          ]
+        },
+        {
+          "id": "08-user-story-acceptance-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "08-user-story-acceptance-route",
@@ -17882,22 +18218,6 @@
           ]
         },
         {
-          "id": "08-user-story-acceptance-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "GOV.UK Service Manual · Writing user stories",
-              "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            }
-          ]
-        },
-        {
           "id": "08-user-story-acceptance-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -17935,6 +18255,62 @@
           "kind": "title",
           "title": "Допущения и трассировка",
           "body": "Как управлять неизвестным и связывать требование с решением и способом проверки."
+        },
+        {
+          "id": "09-assumptions-traceability-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "09-assumptions-traceability-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "09-assumptions-traceability-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            }
+          ]
+        },
+        {
+          "id": "09-assumptions-traceability-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "09-assumptions-traceability-route",
@@ -19677,22 +20053,6 @@
           ]
         },
         {
-          "id": "09-assumptions-traceability-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            }
-          ]
-        },
-        {
           "id": "09-assumptions-traceability-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -19730,6 +20090,66 @@
           "kind": "title",
           "title": "Сущности-кандидаты",
           "body": "Кандидаты, отсев, справочники, операции, события и скрытые сущности, без которых система не работает."
+        },
+        {
+          "id": "10-entity-candidates-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "10-entity-candidates-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "10-entity-candidates-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "Microsoft Learn · Database normalization",
+              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "10-entity-candidates-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "10-entity-candidates-route",
@@ -21423,26 +21843,6 @@
           ]
         },
         {
-          "id": "10-entity-candidates-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "Microsoft Learn · Database normalization",
-              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "10-entity-candidates-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -21480,6 +21880,66 @@
           "kind": "title",
           "title": "Глоссарий проекта",
           "body": "Термины, определения, синонимы заказчика и запрещённые формулировки между отделами."
+        },
+        {
+          "id": "11-project-glossary-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "11-project-glossary-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "11-project-glossary-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "11-project-glossary-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "11-project-glossary-route",
@@ -23131,26 +23591,6 @@
           ]
         },
         {
-          "id": "11-project-glossary-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "11-project-glossary-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -23188,6 +23628,66 @@
           "kind": "title",
           "title": "Бизнес-правила",
           "body": "Где правила спрятаны в документах и формах, чем они отличаются от структуры данных и как проверяются."
+        },
+        {
+          "id": "12-business-rules-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "12-business-rules-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "12-business-rules-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "12-business-rules-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "12-business-rules-route",
@@ -24807,26 +25307,6 @@
           ]
         },
         {
-          "id": "12-business-rules-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "12-business-rules-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -24864,6 +25344,66 @@
           "kind": "title",
           "title": "Атрибуты сущностей",
           "body": "Данные из документов, добавленные проектировщиком атрибуты, вычисляемые значения и решение «хранить или считать»."
+        },
+        {
+          "id": "13-attribute-composition-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "13-attribute-composition-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "13-attribute-composition-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "Microsoft Learn · Database normalization",
+              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "13-attribute-composition-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "13-attribute-composition-route",
@@ -26506,26 +27046,6 @@
           ]
         },
         {
-          "id": "13-attribute-composition-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "Microsoft Learn · Database normalization",
-              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "13-attribute-composition-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -26563,6 +27083,66 @@
           "kind": "title",
           "title": "Историчность данных",
           "body": "Цена, тариф, норма и состав меняются: как сохранить смысл прошлых документов и архивных записей."
+        },
+        {
+          "id": "14-data-history-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "14-data-history-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "14-data-history-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "Microsoft Learn · Database normalization",
+              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
+            },
+            {
+              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
+              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "14-data-history-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "14-data-history-route",
@@ -28208,26 +28788,6 @@
           ]
         },
         {
-          "id": "14-data-history-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "Microsoft Learn · Database normalization",
-              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
-            },
-            {
-              "citation": "ГОСТ 34.201-2020 · виды и комплектность документов",
-              "url": "https://protect.gost.ru/document.aspx?control=7&id=241562"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "14-data-history-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -28265,6 +28825,66 @@
           "kind": "title",
           "title": "Ревизия модели",
           "body": "Полнота, трассировка «требование — сущность — атрибут», непокрытые требования и лишние сущности."
+        },
+        {
+          "id": "15-model-revision-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "15-model-revision-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "15-model-revision-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "Microsoft Learn · Database normalization",
+              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "15-model-revision-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "15-model-revision-route",
@@ -29985,26 +30605,6 @@
           ]
         },
         {
-          "id": "15-model-revision-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "Microsoft Learn · Database normalization",
-              "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "15-model-revision-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -30042,6 +30642,62 @@
           "kind": "title",
           "title": "Матрица решений",
           "body": "Критерии, веса, шкала, чувствительность и честное сравнение допустимых вариантов."
+        },
+        {
+          "id": "16-decision-matrix-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "16-decision-matrix-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "16-decision-matrix-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            },
+            {
+              "citation": "Michael Nygard · Documenting Architecture Decisions",
+              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+            }
+          ]
+        },
+        {
+          "id": "16-decision-matrix-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "16-decision-matrix-route",
@@ -31724,22 +32380,6 @@
           ]
         },
         {
-          "id": "16-decision-matrix-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            },
-            {
-              "citation": "Michael Nygard · Documenting Architecture Decisions",
-              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
-            }
-          ]
-        },
-        {
           "id": "16-decision-matrix-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -31777,6 +32417,62 @@
           "kind": "title",
           "title": "ADR",
           "body": "Контекст, рассмотренные варианты, решение, последствия и ценность сохранённых отвергнутых вариантов."
+        },
+        {
+          "id": "17-adr-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "17-adr-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "17-adr-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "Michael Nygard · Documenting Architecture Decisions",
+              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            }
+          ]
+        },
+        {
+          "id": "17-adr-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "17-adr-route",
@@ -33539,22 +34235,6 @@
           ]
         },
         {
-          "id": "17-adr-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "Michael Nygard · Documenting Architecture Decisions",
-              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            }
-          ]
-        },
-        {
           "id": "17-adr-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -33592,6 +34272,62 @@
           "kind": "title",
           "title": "Влияние NFR",
           "body": "Объём данных, конкуренция пользователей, режим работы и разграничение доступа как архитектурные силы."
+        },
+        {
+          "id": "18-nfr-impact-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "18-nfr-impact-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "18-nfr-impact-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
+              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
+            },
+            {
+              "citation": "OWASP · Authentication Cheat Sheet",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+            }
+          ]
+        },
+        {
+          "id": "18-nfr-impact-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "18-nfr-impact-route",
@@ -35208,22 +35944,6 @@
           ]
         },
         {
-          "id": "18-nfr-impact-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "ISO/IEC/IEEE 29148 · Requirements engineering",
-              "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en"
-            },
-            {
-              "citation": "OWASP · Authentication Cheat Sheet",
-              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
-            }
-          ]
-        },
-        {
           "id": "18-nfr-impact-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -35261,6 +35981,62 @@
           "kind": "title",
           "title": "Защита решения",
           "body": "Как объяснить сложный выбор нетехническому человеку и разобрать слабую защиту."
+        },
+        {
+          "id": "19-defense-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "19-defense-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "19-defense-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "Michael Nygard · Documenting Architecture Decisions",
+              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+            },
+            {
+              "citation": "IREB · материалы CPRE Foundation Level",
+              "url": "https://ireb.org/en/downloads"
+            }
+          ]
+        },
+        {
+          "id": "19-defense-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "19-defense-route",
@@ -36897,22 +37673,6 @@
           ]
         },
         {
-          "id": "19-defense-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "Michael Nygard · Documenting Architecture Decisions",
-              "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
-            },
-            {
-              "citation": "IREB · материалы CPRE Foundation Level",
-              "url": "https://ireb.org/en/downloads"
-            }
-          ]
-        },
-        {
           "id": "19-defense-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -36950,6 +37710,62 @@
           "kind": "title",
           "title": "UX сценарии",
           "body": "Дизайн как понятная и безопасная работа, а не декоративное оформление."
+        },
+        {
+          "id": "20-ux-goals-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "20-ux-goals-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "20-ux-goals-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "W3C WAI · Forms tutorial",
+              "url": "https://www.w3.org/WAI/tutorials/forms/"
+            },
+            {
+              "citation": "W3C WCAG 2.2 · Error Identification",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+            }
+          ]
+        },
+        {
+          "id": "20-ux-goals-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "20-ux-goals-route",
@@ -38554,22 +39370,6 @@
           ]
         },
         {
-          "id": "20-ux-goals-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "W3C WAI · Forms tutorial",
-              "url": "https://www.w3.org/WAI/tutorials/forms/"
-            },
-            {
-              "citation": "W3C WCAG 2.2 · Error Identification",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
-            }
-          ]
-        },
-        {
           "id": "20-ux-goals-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -38607,6 +39407,62 @@
           "kind": "title",
           "title": "Информационная архитектура",
           "body": "Структура разделов, группировка, приоритет, поиск и рабочее место под конкретную роль."
+        },
+        {
+          "id": "21-information-architecture-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "21-information-architecture-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "21-information-architecture-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "W3C WAI · Forms tutorial",
+              "url": "https://www.w3.org/WAI/tutorials/forms/"
+            },
+            {
+              "citation": "W3C WCAG 2.2 · Labels or Instructions",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
+            }
+          ]
+        },
+        {
+          "id": "21-information-architecture-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "21-information-architecture-route",
@@ -40271,22 +41127,6 @@
           ]
         },
         {
-          "id": "21-information-architecture-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "W3C WAI · Forms tutorial",
-              "url": "https://www.w3.org/WAI/tutorials/forms/"
-            },
-            {
-              "citation": "W3C WCAG 2.2 · Labels or Instructions",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
-            }
-          ]
-        },
-        {
           "id": "21-information-architecture-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -40324,6 +41164,62 @@
           "kind": "title",
           "title": "Wireframe и прототип",
           "body": "Что показывать заказчику, что передавать разработчику и когда детализация мешает проверке."
+        },
+        {
+          "id": "22-wireframe-prototype-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "22-wireframe-prototype-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "22-wireframe-prototype-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "W3C WAI · Forms tutorial",
+              "url": "https://www.w3.org/WAI/tutorials/forms/"
+            },
+            {
+              "citation": "W3C WCAG 2.2 · Labels or Instructions",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
+            }
+          ]
+        },
+        {
+          "id": "22-wireframe-prototype-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "22-wireframe-prototype-route",
@@ -42006,22 +42902,6 @@
           ]
         },
         {
-          "id": "22-wireframe-prototype-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "W3C WAI · Forms tutorial",
-              "url": "https://www.w3.org/WAI/tutorials/forms/"
-            },
-            {
-              "citation": "W3C WCAG 2.2 · Labels or Instructions",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
-            }
-          ]
-        },
-        {
           "id": "22-wireframe-prototype-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -42059,6 +42939,62 @@
           "kind": "title",
           "title": "Формы и состояния",
           "body": "Обязательность, подсказки, тексты ошибок, пустое состояние, загрузка, ошибка и успех."
+        },
+        {
+          "id": "23-forms-validation-states-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "23-forms-validation-states-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "23-forms-validation-states-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "W3C WAI · Forms tutorial",
+              "url": "https://www.w3.org/WAI/tutorials/forms/"
+            },
+            {
+              "citation": "W3C WCAG 2.2 · Error Identification",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+            }
+          ]
+        },
+        {
+          "id": "23-forms-validation-states-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "23-forms-validation-states-route",
@@ -43723,22 +44659,6 @@
           ]
         },
         {
-          "id": "23-forms-validation-states-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "W3C WAI · Forms tutorial",
-              "url": "https://www.w3.org/WAI/tutorials/forms/"
-            },
-            {
-              "citation": "W3C WCAG 2.2 · Error Identification",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
-            }
-          ]
-        },
-        {
           "id": "23-forms-validation-states-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -43776,6 +44696,62 @@
           "kind": "title",
           "title": "Дизайн-система",
           "body": "Сетка, типографика, компоненты, состояния, токены и доступность как единый контракт."
+        },
+        {
+          "id": "24-design-system-accessibility-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "24-design-system-accessibility-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "24-design-system-accessibility-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "W3C WCAG 2.2 · Labels or Instructions",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
+            },
+            {
+              "citation": "W3C WCAG 2.2 · Error Identification",
+              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+            }
+          ]
+        },
+        {
+          "id": "24-design-system-accessibility-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "24-design-system-accessibility-route",
@@ -45435,22 +46411,6 @@
           ]
         },
         {
-          "id": "24-design-system-accessibility-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "W3C WCAG 2.2 · Labels or Instructions",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
-            },
-            {
-              "citation": "W3C WCAG 2.2 · Error Identification",
-              "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
-            }
-          ]
-        },
-        {
           "id": "24-design-system-accessibility-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -45488,6 +46448,66 @@
           "kind": "title",
           "title": "RBAC и матрица доступа",
           "body": "Роли, права, объекты, операции и проверка того, что каждая роль видит и может изменить."
+        },
+        {
+          "id": "25-rbac-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "25-rbac-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "25-rbac-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "NIST · Role Based Access Control",
+              "url": "https://csrc.nist.gov/glossary/term/role_based_access_control"
+            },
+            {
+              "citation": "OWASP · Authentication Cheat Sheet",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "25-rbac-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "25-rbac-route",
@@ -47125,26 +48145,6 @@
           ]
         },
         {
-          "id": "25-rbac-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "NIST · Role Based Access Control",
-              "url": "https://csrc.nist.gov/glossary/term/role_based_access_control"
-            },
-            {
-              "citation": "OWASP · Authentication Cheat Sheet",
-              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
-          ]
-        },
-        {
           "id": "25-rbac-final",
           "kicker": "ПиДИС · 3 курс",
           "kind": "summary",
@@ -47182,6 +48182,66 @@
           "kind": "title",
           "title": "Аутентификация и блокировка",
           "body": "Неуспешные попытки, защита от перебора, рабочее место администратора и дополнительная проверка человека."
+        },
+        {
+          "id": "26-auth-lockout-main-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Основная литература",
+          "readingGroup": "primary",
+          "references": [
+            {
+              "citation": "Гринченко, Н. Н., Громов, А. Ю., Хизриева, Н. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 176 с. — ISBN 978-5-907352-30-8. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144813.html"
+            },
+            {
+              "citation": "Белов, В. В., Чистякова, В. И. Проектирование информационных систем. — Москва : КУРС, 2024. — 400 с. — ISBN 978-5-906923-53-0. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/144814.html"
+            }
+          ]
+        },
+        {
+          "id": "26-auth-lockout-additional-literature",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Дополнительная литература",
+          "readingGroup": "additional",
+          "references": [
+            {
+              "citation": "Золотов, С. Ю. Проектирование информационных систем. — Томск : ТУСУР, 2023. — 61 с. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/152882.html"
+            },
+            {
+              "citation": "Проектирование информационных систем : учебно-методическое пособие. — Астрахань : АГАСУ, 2022. — 70 с. — ISBN требует уточнения. — IPR SMART.",
+              "url": "https://www.iprbookshop.ru/123442.html"
+            }
+          ]
+        },
+        {
+          "id": "26-auth-lockout-sources",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "literature",
+          "title": "Предметные источники",
+          "references": [
+            {
+              "citation": "OWASP · Authentication Cheat Sheet",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+            },
+            {
+              "citation": "NIST · Role Based Access Control",
+              "url": "https://csrc.nist.gov/glossary/term/role_based_access_control"
+            },
+            {
+              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
+              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
+            }
+          ]
+        },
+        {
+          "id": "26-auth-lockout-materials",
+          "kicker": "ПиДИС · 3 курс",
+          "kind": "materials",
+          "title": "Материалы курса"
         },
         {
           "id": "26-auth-lockout-route",
@@ -48784,26 +49844,6 @@
             "Смена устройства не обнуляет учёт событий.",
             "Возвращение доступа имеет автора, время и причину.",
             "Дополнительная мера не оставляет законного пользователя без следующего шага."
-          ]
-        },
-        {
-          "id": "26-auth-lockout-sources",
-          "kicker": "ПиДИС · 3 курс",
-          "kind": "literature",
-          "title": "Предметные источники",
-          "references": [
-            {
-              "citation": "OWASP · Authentication Cheat Sheet",
-              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
-            },
-            {
-              "citation": "NIST · Role Based Access Control",
-              "url": "https://csrc.nist.gov/glossary/term/role_based_access_control"
-            },
-            {
-              "citation": "КИМ 09.02.07-5-2027 · комплект преподавателя",
-              "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ"
-            }
           ]
         },
         {

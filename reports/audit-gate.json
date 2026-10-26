@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "scope": "full",
-  "inventorySha256": "7978a0cd133d5849f0edf17ef60abed3bf4742b7c56f0c0ccf8f25481321128b",
+  "inventorySha256": "efa3d16fbb2c21721241f29c6e18205ddd7628e1d537cb4e65691e5d928798a5",
   "counts": {
     "lectures": 26,
-    "slides": 2299,
+    "slides": 2377,
     "units": 156
   },
   "checked": [

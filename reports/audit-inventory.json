@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "inputs": {
     "course": "public/course.json",
     "pack": "public/teacher-pack.json",
@@ -48,7 +48,7 @@
     "src/navigation.tsx": "ad494012ee03bf73dcab823df401dc7ad9730c015cf768efd5af382a430e78a5",
     "src/network-layout.tsx": "9081ec527fcbdd67479f02984784ab5595f2105a231831b8afafb826c14c4b49",
     "src/notes-storage.ts": "b368a45497eecae0d4ad7610a34ad0143e95fc7b14a09ce2539cc08557a44748",
-    "src/presentation-design.css": "35b2a008e8861dd3eedee2823613d019cc795b91d1fa97c556cd50862c117f1b",
+    "src/presentation-design.css": "afa197fcaa412116ec8a129b4286012c9ef68f03cfd2d8ae5bb6f8dd992978e8",
     "src/presentation.ts": "c4034d08dfe7475dfc583b8a63f796b1c494407e30cf62ae2ce29c333f8ccb54",
     "src/public-select.tsx": "bf56e09fd37547dd5cabdd6571add1d1d8ba8fd006a7cec7444171896b9a9e51",
     "src/public-viewport.tsx": "c69b15631eba65d9c0932412988e058c5672a91948bf9a744947a168b854099a",
@@ -65,7 +65,7 @@
     "vite.config.ts": "9d84040beff622de004ec83d0dfad528b7af1ce56e58e4a371949085fca4e3a3",
     "package-lock.json": "cfa80ca0ae45ae0ee2262372c037aa745ae4fa15238392619f8615bcb6fce0c4",
     "vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz": "df583118807bcc2a319a97c82bd31e0235980f0a6d71febd01cdfa573cabb96a",
-    "public/assessment.json": "67614695705b132a2dffd7bdeae3bee8bd1a12b065ee0825473bdbda5e3a190a",
+    "public/assessment.json": "f83133e1e88b2e247e1b5a5a7c49e00c5dab064609839e05da089e3f086385c3",
     "public/question-experiments.json": "42bd102c7fae91b2f77ccc2a58cfef9c59a954a4f5412766eddb7352a144efdb",
     "public/practice-cases.json": "85a07f564c3b09130b0a1ba28ec206a3e1e3e51ce6d14a2e99ee5693e4231ce8",
     "public/laboratories.json": "38e2bcbf8084a9840ae3bbc09874401dde586b47b1f3b224b0a76d0a777a8dc7",
@@ -78,6 +78,10 @@
       "lectureId": "01-project-decisions",
       "slideIds": [
         "01-project-decisions-start",
+        "01-project-decisions-main-literature",
+        "01-project-decisions-additional-literature",
+        "01-project-decisions-sources",
+        "01-project-decisions-materials",
         "01-project-decisions-route",
         "01-project-decisions-why",
         "01-project-decisions-case",
@@ -90,7 +94,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "e6a60a7f2089a571999572a90dd9fb0c512a6d1ca870ec98796a2aaddfe42388"
+      "fingerprint": "ad493d7804aaa24ced43d48b6c40046908a16ea0c21cc4b9af572cf6f6e85c1e"
     },
     {
       "id": "01-project-decisions:Q01",
@@ -122,7 +126,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4411fc1500a28ffd4afd7c6e3b754fc290017eddfb3bf0c73af813d06ab1ca1d"
+      "fingerprint": "dc0885ef81873984fa72e85e53a823bc1c932b4bd4239787e68722ca789205d0"
     },
     {
       "id": "01-project-decisions:Q02",
@@ -156,7 +160,7 @@
       "artifacts": {
         "public/models/01-lifecycle.svg": "9ffb13dedc3f69057b3063aec67def9cca75f0a1e63d233340cf9de83be0c23d"
       },
-      "fingerprint": "a52792e7052895ce1d51c1d0ee00bac0fc0318bd17f94fd8ec4c9e4f4fa73fba"
+      "fingerprint": "6a7788f3ed625432e484fd3f98c4532eabb3ca3ef609c5d278dd3d9b9318648a"
     },
     {
       "id": "01-project-decisions:Q03",
@@ -188,7 +192,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5cd0b1925eb3d28230b3488360b14fbb0067fba44bba4837b15dc8f2fafdc4f6"
+      "fingerprint": "0d8e5e079a7c1b1707e85bb8f7a87adf3f62172e0122917921103c30f4b61124"
     },
     {
       "id": "01-project-decisions:Q04",
@@ -224,7 +228,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5bf9f4361305e059da4703d528480818f6cb0eab137726d13bd3d70b7c7e83c0"
+      "fingerprint": "c96301a789ab58784b755763e27f8e480878d2d606a7beee3fb3ad36eb41c451"
     },
     {
       "id": "01-project-decisions:closing",
@@ -233,7 +237,6 @@
         "01-project-decisions-experiment",
         "01-project-decisions-experiment-review",
         "01-project-decisions-summary",
-        "01-project-decisions-sources",
         "01-project-decisions-final",
         "01-project-decisions-questions"
       ],
@@ -244,13 +247,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e1a3127ccaa7c7c086a0f03bb6f62bdb79a871cb556135ff2ae80dcf5ec39afb"
+      "fingerprint": "f51fcc254477e29efe20cce808f46abba66b3fdf6d127a6bf0c89a2d1cdde915"
     },
     {
       "id": "02-roles-views:intro",
       "lectureId": "02-roles-views",
       "slideIds": [
         "02-roles-views-start",
+        "02-roles-views-main-literature",
+        "02-roles-views-additional-literature",
+        "02-roles-views-sources",
+        "02-roles-views-materials",
         "02-roles-views-route",
         "02-roles-views-why",
         "02-roles-views-case",
@@ -263,7 +270,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "c337798146e44e4f34fbbe830574d5f522108461daa41220aebb91bb987760c5"
+      "fingerprint": "4d9fd084f108cde23c904901c79130457a3445e12e5c2b7aca6cd515d973b6e1"
     },
     {
       "id": "02-roles-views:Q01",
@@ -295,7 +302,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4b48120694df3f23dc9f1a5d6ec3641d9fa73a19303ffe3dc5bf93e631718587"
+      "fingerprint": "993894b892c134540d96e2b4d4f09a01bf529b15bc2c4e5c95c47ebb04277390"
     },
     {
       "id": "02-roles-views:Q02",
@@ -329,7 +336,7 @@
       "artifacts": {
         "public/models/02-quality-state.svg": "22985b65a9c115589a3b5637274b2d14a4ba46ef07813f7bcebe5a29f57b8bbe"
       },
-      "fingerprint": "cff1b7ea9abf423501f8b93ab0d7e6edd23e27127d2a85f072c9683b85dfb660"
+      "fingerprint": "29df181ba9849e305e3403daf90292449c8ac45023ed7364c6513d89a49706ea"
     },
     {
       "id": "02-roles-views:Q03",
@@ -361,7 +368,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e566fcb0abc0d71f35abd0046e9c363f0475cd65ffdd8d28d1257af6db051ae4"
+      "fingerprint": "78d48ba454f457e1f60a5dce98ef04a91108fc136f24ca927d8736b1c1661e31"
     },
     {
       "id": "02-roles-views:Q04",
@@ -397,7 +404,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "00ad28e7d10cf14b3cedee955d75190b448c7c580d189fdffc7d44e261cb619b"
+      "fingerprint": "3232b7918dea6c213389675646b87a38e5645c688160ca6e7fd1e760f8d95794"
     },
     {
       "id": "02-roles-views:closing",
@@ -406,7 +413,6 @@
         "02-roles-views-experiment",
         "02-roles-views-experiment-review",
         "02-roles-views-summary",
-        "02-roles-views-sources",
         "02-roles-views-final",
         "02-roles-views-questions"
       ],
@@ -417,13 +423,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "567e7edd55d768d91e72c9e2b4986ff3583c7c4975573ca21693ff0aa7d06887"
+      "fingerprint": "056ba1a0a215e4f8cd6f8a17c97394d70b3d9ff6297e0c1cc740b93df4178fb3"
     },
     {
       "id": "03-artifact-map:intro",
       "lectureId": "03-artifact-map",
       "slideIds": [
         "03-artifact-map-start",
+        "03-artifact-map-main-literature",
+        "03-artifact-map-additional-literature",
+        "03-artifact-map-sources",
+        "03-artifact-map-materials",
         "03-artifact-map-route",
         "03-artifact-map-why",
         "03-artifact-map-case",
@@ -436,7 +446,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "27dfeddaf5e2ef8068429fb36738b1a8f5406aacd8dce352abfe83db567b792f"
+      "fingerprint": "b034a9e2030492ab932aa2469b9c5edd555738bd8a8318d868bf9e599db3edb4"
     },
     {
       "id": "03-artifact-map:Q01",
@@ -468,7 +478,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2313d694e25288be8a9835caa78cc4f8c7b618592da12079b169a222650ace0a"
+      "fingerprint": "454b74b4aa8bdb3ebe1f44b0dd1e38ad0214d2d64457190ac4dd917466c2c3ac"
     },
     {
       "id": "03-artifact-map:Q02",
@@ -500,7 +510,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "92bc6bae9ccf02007e9342ee0e5154ed61fc3ca7b569be229cd5d221792c84e2"
+      "fingerprint": "b30ea7ab2706ce58f88d783b82680000a3aabb842c36d4179a4996953cad5879"
     },
     {
       "id": "03-artifact-map:Q03",
@@ -534,7 +544,7 @@
       "artifacts": {
         "public/models/03-form-states.svg": "d29942d09519c710486f2a739bfecc5055f22350873691ba23c8721900bdeca2"
       },
-      "fingerprint": "0116e82c75bb4c20f1e001628cd52302dcf3d9ae3d57087f782be79684e65286"
+      "fingerprint": "e9a51846e569a86f7323e0039de3c2fd097e5633a473246e2545fc50dd7f85c7"
     },
     {
       "id": "03-artifact-map:Q04",
@@ -570,7 +580,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0cee3ca4f591dd8a0cfbb009cc5e8761f35e5ab5204b596f1beca89e548a6662"
+      "fingerprint": "9e3dfe71b214bd270a1711b22645a225e3b247e90c029944aa50395ba0a0be9e"
     },
     {
       "id": "03-artifact-map:closing",
@@ -579,7 +589,6 @@
         "03-artifact-map-experiment",
         "03-artifact-map-experiment-review",
         "03-artifact-map-summary",
-        "03-artifact-map-sources",
         "03-artifact-map-final",
         "03-artifact-map-questions"
       ],
@@ -590,13 +599,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6216d0c66a429cdaeb69424b6a0dd0e575576ca016374a29f2cd133e7aba894c"
+      "fingerprint": "56a6ebc82eea6e0a278cef1e02116319b611369666409d1c54c8e19f8cee6230"
     },
     {
       "id": "04-requirement-sources:intro",
       "lectureId": "04-requirement-sources",
       "slideIds": [
         "04-requirement-sources-start",
+        "04-requirement-sources-main-literature",
+        "04-requirement-sources-additional-literature",
+        "04-requirement-sources-sources",
+        "04-requirement-sources-materials",
         "04-requirement-sources-route",
         "04-requirement-sources-why",
         "04-requirement-sources-case",
@@ -608,7 +621,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "1bc587d00df0157ac026132bcf3afe7b309e44aae784af81d2dc33332e173aa8"
+      "fingerprint": "007e0a0fc0e0151c3a3dc248f0d0a50406a1aa680394d4b1b9a8449e7a57273f"
     },
     {
       "id": "04-requirement-sources:Q01",
@@ -640,7 +653,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9d0c2c041bb470b7543c494843a882bb4a6a672250c8d9862a44f7214647fea8"
+      "fingerprint": "f96e143d521c912fb2aa2cc86d6657fc8672a7bc93b104972f461c7a9371fbcb"
     },
     {
       "id": "04-requirement-sources:Q02",
@@ -672,7 +685,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "62422182c07ce063d9f2af110f2d8dee72d58ca13fc3ba7ddddf197fce48167b"
+      "fingerprint": "c534fe7ce07f873e6daa3efdcfa46ac998fa3091ecf2b8837dfa5c2ffa3b6791"
     },
     {
       "id": "04-requirement-sources:Q03",
@@ -704,7 +717,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fabaf6abead04ca0f1a0588cb56aca0d06e73f7bf84d5f66cc92c32aa2de2a7f"
+      "fingerprint": "e7d1f85957f310edad8d7844e842f34706abb215a2c003a66bed20d0bb6825e2"
     },
     {
       "id": "04-requirement-sources:Q04",
@@ -740,7 +753,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0461ab67d7f0aac46be52afb7dc66bd252132fc0040f9f3b49f0e7d255006382"
+      "fingerprint": "a161d33b1627a0bd1f9b7c20ca30397af1b0c7ed75dac6f07532c77de140e429"
     },
     {
       "id": "04-requirement-sources:closing",
@@ -749,7 +762,6 @@
         "04-requirement-sources-experiment",
         "04-requirement-sources-experiment-review",
         "04-requirement-sources-summary",
-        "04-requirement-sources-sources",
         "04-requirement-sources-final",
         "04-requirement-sources-questions"
       ],
@@ -760,13 +772,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fcf20fb6bb3c89f72f9ddb77d2e3c5260ca7c72658061017325939154ca6249e"
+      "fingerprint": "25ed649ac551d5039a33da7bab8ddce18473161accece57b04bb0f04377bd130"
     },
     {
       "id": "05-interview-technique:intro",
       "lectureId": "05-interview-technique",
       "slideIds": [
         "05-interview-technique-start",
+        "05-interview-technique-main-literature",
+        "05-interview-technique-additional-literature",
+        "05-interview-technique-sources",
+        "05-interview-technique-materials",
         "05-interview-technique-route",
         "05-interview-technique-why",
         "05-interview-technique-case",
@@ -778,7 +794,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "cf5b81b9ce6337a95ff6c01b3df5c48f395060b8b95502f313f322ea0f192f1e"
+      "fingerprint": "a505cd8e166f5583799d72402a371909954d19500324b767f85c9c49735c4a19"
     },
     {
       "id": "05-interview-technique:Q01",
@@ -810,7 +826,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9497217744bcb91046486e2ecb62fa50854119e0bfd6d88e9366e8577b0598c1"
+      "fingerprint": "782935878b636e05c758c71c63f14c9099df526c2217a55178b51a636aeb97a8"
     },
     {
       "id": "05-interview-technique:Q02",
@@ -842,7 +858,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8444f3662155787ceef5babbb1458878b9cd808f38f69c47380705b9bd472d1b"
+      "fingerprint": "80629e2529b00368e0e08553088ca9b923260154da0b3e4cf38c18a46cb4f64f"
     },
     {
       "id": "05-interview-technique:Q03",
@@ -874,7 +890,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ead7945bb4c18aea1be80925a396756171944c37e188ac96708f484006ee95ff"
+      "fingerprint": "d5cb799613689734da6546ce511454b41dd81945da61b16262d4f762a3736a6e"
     },
     {
       "id": "05-interview-technique:Q04",
@@ -910,7 +926,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ff7d22a78e507495191e49a18e7274c73f65d7cfa6fa54785316406ebe186fbf"
+      "fingerprint": "6071555781aa72bc2170235b22ef94118433a9987a776832e4993d0de9f6a293"
     },
     {
       "id": "05-interview-technique:closing",
@@ -919,7 +935,6 @@
         "05-interview-technique-experiment",
         "05-interview-technique-experiment-review",
         "05-interview-technique-summary",
-        "05-interview-technique-sources",
         "05-interview-technique-final",
         "05-interview-technique-questions"
       ],
@@ -930,13 +945,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "69380ae1159c6d5cf8254294def1c4edade7fe62c0fa22eef995dac23c4b7e55"
+      "fingerprint": "9d4c9f0c18457645336448e1aba12f79ad380a4f7049f5b03b35b49da29f0278"
     },
     {
       "id": "06-requirement-classes:intro",
       "lectureId": "06-requirement-classes",
       "slideIds": [
         "06-requirement-classes-start",
+        "06-requirement-classes-main-literature",
+        "06-requirement-classes-additional-literature",
+        "06-requirement-classes-sources",
+        "06-requirement-classes-materials",
         "06-requirement-classes-route",
         "06-requirement-classes-why",
         "06-requirement-classes-case",
@@ -948,7 +967,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "68fdcaa4ba92795963b7a3d8c35a387d86824286bcd7e092dbcd71073634aa1b"
+      "fingerprint": "5d850cc78d35876f9f20c3c616a27745dfd557ab8156d229490949c95d07e61d"
     },
     {
       "id": "06-requirement-classes:Q01",
@@ -980,7 +999,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "70c49de8b37ca036eb21bd69dde1ff325dc04fa32667a6e79ed1c0bb2a7d4230"
+      "fingerprint": "bcde4b6ac3d810b13e74862a31b634b4e3f57ab9c49f222c8be03c4045241245"
     },
     {
       "id": "06-requirement-classes:Q02",
@@ -1012,7 +1031,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d68183538fd0cfc5b70da95e1324b6a6cb529402232e453f3e841922075c7a8a"
+      "fingerprint": "cf18f97540f6ca9a8d694bf96ad65ed36fa03f2e29521d03200b7b1059419951"
     },
     {
       "id": "06-requirement-classes:Q03",
@@ -1044,7 +1063,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2f93c89d031d36cb0acf2139dcd1a1e67fa40f8cb9524293e8d6bfcb6e338a87"
+      "fingerprint": "0ba145b0d113190b73dd31d1290a6a9424dde63050654b7fc721b6d99f0b487b"
     },
     {
       "id": "06-requirement-classes:Q04",
@@ -1080,7 +1099,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "61c067639ed28a445a25251551662bb1d17e0de0ea456a691bfd8928216b7a90"
+      "fingerprint": "a68a21712f339a7fd162884f62226d1eb5b79d5fd47945993b68dfcd71eb645e"
     },
     {
       "id": "06-requirement-classes:closing",
@@ -1089,7 +1108,6 @@
         "06-requirement-classes-experiment",
         "06-requirement-classes-experiment-review",
         "06-requirement-classes-summary",
-        "06-requirement-classes-sources",
         "06-requirement-classes-final",
         "06-requirement-classes-questions"
       ],
@@ -1100,13 +1118,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a026f1de2e1fa5bc42a4547ec12829cae370b994c6a27148fd9bb0c3595a6ba6"
+      "fingerprint": "97dcc8be1c59dea727bfb7004663fb5d9c5a8c8237840a8ffc3ea78a1ed7b2a0"
     },
     {
       "id": "07-requirement-quality:intro",
       "lectureId": "07-requirement-quality",
       "slideIds": [
         "07-requirement-quality-start",
+        "07-requirement-quality-main-literature",
+        "07-requirement-quality-additional-literature",
+        "07-requirement-quality-sources",
+        "07-requirement-quality-materials",
         "07-requirement-quality-route",
         "07-requirement-quality-why",
         "07-requirement-quality-case",
@@ -1118,7 +1140,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "4d3b04ce1e8b0ac9d21b3182af700c3707b9499f91efaa6c7b56c3902b9a8c69"
+      "fingerprint": "9cd155046884d742abdb72f0c9cb3255e3e7824510844aea1896a7b1784f0132"
     },
     {
       "id": "07-requirement-quality:Q01",
@@ -1150,7 +1172,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b6a44ee9af0fe987d6930bebc633db6797e6125e8e2662cc24768251f3f76c25"
+      "fingerprint": "52c5dece35d908c96b4d08aa069b8ca8f85597adb7899889ce28c70234095515"
     },
     {
       "id": "07-requirement-quality:Q02",
@@ -1182,7 +1204,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ad2e12868e87632169fd84a4ae99df52caebde5f41f18083bc51f397845a8831"
+      "fingerprint": "9bef4a04646ea484f9a4545ca5cfdcd5188b2fb81fb82155914d2bb4de2aa7e1"
     },
     {
       "id": "07-requirement-quality:Q03",
@@ -1214,7 +1236,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b97e6b883b27d091a1a2ad21f0c684c211edd41a2bd3951ae12e3dab506d2b13"
+      "fingerprint": "46ca4d498f704fc58b0e09d477e1c84c514e6ca4bf133ec18732f8811200ba57"
     },
     {
       "id": "07-requirement-quality:Q04",
@@ -1250,7 +1272,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d5e7cbde4df990c563886108f35b9f024a6254cf1e84333579b2bfcebd007bfe"
+      "fingerprint": "18267448645365c1121dcd90eae25f9d2cd71c2c97eea3464495b9792c6babe9"
     },
     {
       "id": "07-requirement-quality:closing",
@@ -1259,7 +1281,6 @@
         "07-requirement-quality-experiment",
         "07-requirement-quality-experiment-review",
         "07-requirement-quality-summary",
-        "07-requirement-quality-sources",
         "07-requirement-quality-final",
         "07-requirement-quality-questions"
       ],
@@ -1270,13 +1291,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "61c3eabd5ac9926b1d4c6b446490b3dc64578954d480575656ce917bcb69685f"
+      "fingerprint": "2377cc2f4e1d7f428400206e1a0b33ece74dcc0681a0b2b225fa446c49e7538e"
     },
     {
       "id": "08-user-story-acceptance:intro",
       "lectureId": "08-user-story-acceptance",
       "slideIds": [
         "08-user-story-acceptance-start",
+        "08-user-story-acceptance-main-literature",
+        "08-user-story-acceptance-additional-literature",
+        "08-user-story-acceptance-sources",
+        "08-user-story-acceptance-materials",
         "08-user-story-acceptance-route",
         "08-user-story-acceptance-why",
         "08-user-story-acceptance-case",
@@ -1288,7 +1313,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "5abbbbe9d9abfe13d2e91622e75b522e36ccfe22e3ab84c0b8005907d8b4c422"
+      "fingerprint": "12a5c1b82c2b2cbef3f6261fe5ac513369a098608647ae6fcc11430d0d7cc285"
     },
     {
       "id": "08-user-story-acceptance:Q01",
@@ -1324,7 +1349,7 @@
         "public/artifacts/08-user-story-acceptance-c2-walkthrough.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
         "public/artifacts/08-user-story-acceptance-Q01-worked.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
       },
-      "fingerprint": "d858292a9c579aa1f5af8cace29728155174ca9d674e02bf9e8b87be9705d94f"
+      "fingerprint": "63ee64b630787d1de2543d6bdfe442ffee4463c9f65e4e14889198645cc1fdf7"
     },
     {
       "id": "08-user-story-acceptance:Q02",
@@ -1360,7 +1385,7 @@
         "public/artifacts/08-user-story-acceptance-c4-walkthrough.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca",
         "public/artifacts/08-user-story-acceptance-Q02-worked.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
       },
-      "fingerprint": "d7e0f9bef7b5a99c3f78c52ffcf8e558e6668148204322a11b2d259c3d14d868"
+      "fingerprint": "58195ccddd8ec800e80f1681c9a1d21d77692ba37e2a5557483a15e43395c858"
     },
     {
       "id": "08-user-story-acceptance:Q03",
@@ -1396,7 +1421,7 @@
         "public/artifacts/08-user-story-acceptance-c6-walkthrough.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca",
         "public/artifacts/08-user-story-acceptance-Q03-worked.svg": "dce309fbac116d5857c9ac9c4c32f6000334299d8bec67c31378bcfa2274d1ca"
       },
-      "fingerprint": "35b75bec07d39439e83f93f2a16dec414e6de2e02850093f29b705623fefaf6a"
+      "fingerprint": "b41270054a62eacd25faa584e04382d9e32d021976336f7688a7319607dcf084"
     },
     {
       "id": "08-user-story-acceptance:Q04",
@@ -1437,7 +1462,7 @@
         "public/artifacts/08-user-story-acceptance-Q04-worked.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f",
         "public/artifacts/08-user-story-acceptance-additional-case-solution.svg": "27bef2e089bb5923cef5f1244b491a4ef98c7d83a9c9072166b18b286736e32f"
       },
-      "fingerprint": "d7b38bb4aeeb366a41a375435fd91bd1246cc97df84fa7343b79a4aa1280420f"
+      "fingerprint": "06c3df30953dc330b5d3863817f82f87504c9cc033eae022f77379bc63fe23ab"
     },
     {
       "id": "08-user-story-acceptance:closing",
@@ -1446,7 +1471,6 @@
         "08-user-story-acceptance-experiment",
         "08-user-story-acceptance-experiment-review",
         "08-user-story-acceptance-summary",
-        "08-user-story-acceptance-sources",
         "08-user-story-acceptance-final",
         "08-user-story-acceptance-questions"
       ],
@@ -1457,13 +1481,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6a011d98a6deb0ac3384aaf0612619eec40ff58321d79304efb8dedcd123fc91"
+      "fingerprint": "bfd057ebdd3e95f861af0dd237fe38e6570071d49aee7a05287628767bde6fc6"
     },
     {
       "id": "09-assumptions-traceability:intro",
       "lectureId": "09-assumptions-traceability",
       "slideIds": [
         "09-assumptions-traceability-start",
+        "09-assumptions-traceability-main-literature",
+        "09-assumptions-traceability-additional-literature",
+        "09-assumptions-traceability-sources",
+        "09-assumptions-traceability-materials",
         "09-assumptions-traceability-route",
         "09-assumptions-traceability-why",
         "09-assumptions-traceability-case",
@@ -1475,7 +1503,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "ebb95679b4306f1bf02fc58a780c9dc13839e22a4e57673447ba2ac96248508d"
+      "fingerprint": "a03d013f5c534c691fd97a39243d83aa76c855789053885f101dd517e5ea51a1"
     },
     {
       "id": "09-assumptions-traceability:Q01",
@@ -1507,7 +1535,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9a475729e321372b6cdb6b04d3151b91f04e6e394427c8f418ea900fb3bc824f"
+      "fingerprint": "cc0523213429def9b067dfdca48c12235ab00ede9187231bb1408c1ff45eb311"
     },
     {
       "id": "09-assumptions-traceability:Q02",
@@ -1539,7 +1567,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "3257d2739d87e5093a9dec6341a3d637c11a4e4a609c3d3b4284b479cfe93431"
+      "fingerprint": "70832b823e41a7057f0fa941a2d5e374d9c873e3d1d3a285b77afb3f6f246dbb"
     },
     {
       "id": "09-assumptions-traceability:Q03",
@@ -1571,7 +1599,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "96401c93360728926fc720110fafdb83beb793381dcd7a8b96f8c64e52ed2779"
+      "fingerprint": "c17c95d190a25bb6135de8a32cff734332e2144fc97b0201eb13723d0ad38c4c"
     },
     {
       "id": "09-assumptions-traceability:Q04",
@@ -1607,7 +1635,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "09c7b0a76030982cb3e734cc09dc6fe5e1efba181065980a864ef398735d84fd"
+      "fingerprint": "45607a3f2e74f10c59dcf58c68d9977be3a7a8bc6e08189f60c7ef995fd3ac14"
     },
     {
       "id": "09-assumptions-traceability:closing",
@@ -1616,7 +1644,6 @@
         "09-assumptions-traceability-experiment",
         "09-assumptions-traceability-experiment-review",
         "09-assumptions-traceability-summary",
-        "09-assumptions-traceability-sources",
         "09-assumptions-traceability-final",
         "09-assumptions-traceability-questions"
       ],
@@ -1627,13 +1654,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2a4e6af2678e28c6fcb6cd0db4ba193a19803dc4bac9b5886031585e654fb045"
+      "fingerprint": "ee5831559a1e399ae787c6046fadc38b60790f872c4d340e16ef00bebf7600a2"
     },
     {
       "id": "10-entity-candidates:intro",
       "lectureId": "10-entity-candidates",
       "slideIds": [
         "10-entity-candidates-start",
+        "10-entity-candidates-main-literature",
+        "10-entity-candidates-additional-literature",
+        "10-entity-candidates-sources",
+        "10-entity-candidates-materials",
         "10-entity-candidates-route",
         "10-entity-candidates-why",
         "10-entity-candidates-case",
@@ -1646,7 +1677,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "707552d64ee8a11426987dd8c0b59b124affeb3562730125554ab2ed8a2a58c4"
+      "fingerprint": "538619240bd813a90ba686ce7636f481a98df0ca7438caa4b03f85296c6a8a67"
     },
     {
       "id": "10-entity-candidates:Q01",
@@ -1678,7 +1709,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f4ae961563bb804445016724913570303a64ef793025a9336974be456d822a79"
+      "fingerprint": "a9dbdaf2c6548d2deeaa16b1f4a7d5c90c086344bade7bac496148ff64a61471"
     },
     {
       "id": "10-entity-candidates:Q02",
@@ -1710,7 +1741,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d457d3d798e61759531bb7dc8e537b09174037eb5071d15db4e404d31664a79e"
+      "fingerprint": "99460e9c14d7246018f708d8b9115b1445f27ccb2b6348ebccfeaca2d3865221"
     },
     {
       "id": "10-entity-candidates:Q03",
@@ -1745,7 +1776,7 @@
         "public/models/10-receipt-document.svg": "1da3198b923e16e5b180c5ad84895c8865541945e556a36ded00c3fa0f8da9c4",
         "public/models/10-placement-er.svg": "db5a65ce08169b1a264d48b9db302c21c6e0a5384e64095c2d0f07c69e18a33a"
       },
-      "fingerprint": "79cdbff5f88758be0b263957436c536309347228e7b575594d38dc9e4462b363"
+      "fingerprint": "1b17c25503de009e45edd73c8cdcbd0fb3cfa1325cfc9bf59b09b3942b60f790"
     },
     {
       "id": "10-entity-candidates:Q04",
@@ -1781,7 +1812,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c83277ef77952cc34e0cc82cc68110b0aed329497595be180ffd41a18bf314b8"
+      "fingerprint": "f74bbf68a739f609d6d34e76010f62105e5beb397b0446bd8609628cb96d2270"
     },
     {
       "id": "10-entity-candidates:closing",
@@ -1790,7 +1821,6 @@
         "10-entity-candidates-experiment",
         "10-entity-candidates-experiment-review",
         "10-entity-candidates-summary",
-        "10-entity-candidates-sources",
         "10-entity-candidates-final",
         "10-entity-candidates-questions"
       ],
@@ -1801,13 +1831,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "767d8927e999a9b7472f2331da329d67c7f9c3c2a2ea7776a6748c15638fbc1a"
+      "fingerprint": "37920ac86ec06ef216e2e540ce1f94bce2b79ec9c79e4ce9036779abd9201a0b"
     },
     {
       "id": "11-project-glossary:intro",
       "lectureId": "11-project-glossary",
       "slideIds": [
         "11-project-glossary-start",
+        "11-project-glossary-main-literature",
+        "11-project-glossary-additional-literature",
+        "11-project-glossary-sources",
+        "11-project-glossary-materials",
         "11-project-glossary-route",
         "11-project-glossary-why",
         "11-project-glossary-case",
@@ -1820,7 +1854,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "d03fd5c117b7edf1b6b6e7046bcd9aa23d044c06d35de13e273a9236f00c3344"
+      "fingerprint": "6e1d09038fa2fa7939fa9fb61f44552d6752cf7bae5c8250c56d002178224916"
     },
     {
       "id": "11-project-glossary:Q01",
@@ -1852,7 +1886,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2791523d0c60792620a1e9b410c0fefe34af17a46f8847c64aecad536977b5aa"
+      "fingerprint": "8d07bfe93807ed555042a52b873e6fdf8e933b1def5be08c47eafcb3051040f3"
     },
     {
       "id": "11-project-glossary:Q02",
@@ -1884,7 +1918,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "068a009c022735c15da994d1837b5ce1e21a126e77cafca2119b7d3c67f17d37"
+      "fingerprint": "6a66cd2a9c9c3b7a77838127b0bb77a3d62c0492832973dff97b9daa6367572c"
     },
     {
       "id": "11-project-glossary:Q03",
@@ -1916,7 +1950,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0d3d81d08d1e007aceff39d85b33795115ea2780779b533b97354b532ec71836"
+      "fingerprint": "9fd27d0eed15f237ba165f4949b00e2c03d0cb0775eca8aa7def60110e205d78"
     },
     {
       "id": "11-project-glossary:Q04",
@@ -1954,7 +1988,7 @@
       "artifacts": {
         "public/models/11-glossary-entry.svg": "f99f4771de5adc406d7832d1aebdf5907cfcf4f73c065896554eb480869f993d"
       },
-      "fingerprint": "765f62e0b5c09c5c790640e3d7284f416f248c9ba0275cf13c5972a806fcd691"
+      "fingerprint": "2c0b38a6b004519245ce5d2db947eff4edd617315d9bec7570edb4ecf3dd32ab"
     },
     {
       "id": "11-project-glossary:closing",
@@ -1963,7 +1997,6 @@
         "11-project-glossary-experiment",
         "11-project-glossary-experiment-review",
         "11-project-glossary-summary",
-        "11-project-glossary-sources",
         "11-project-glossary-final",
         "11-project-glossary-questions"
       ],
@@ -1974,13 +2007,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c75ed8a8049e6f8cf7ec782042b7aa1f63e6edaafcd8cd2a710cf05dd1998354"
+      "fingerprint": "084ead362042b46876541ce1c550949f93732c3ea44e49cee4323bfb2b27b11c"
     },
     {
       "id": "12-business-rules:intro",
       "lectureId": "12-business-rules",
       "slideIds": [
         "12-business-rules-start",
+        "12-business-rules-main-literature",
+        "12-business-rules-additional-literature",
+        "12-business-rules-sources",
+        "12-business-rules-materials",
         "12-business-rules-route",
         "12-business-rules-why",
         "12-business-rules-case",
@@ -1993,7 +2030,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "64e75826d0bd3b11d1288e0e1363df7a724c43f731a1aab2d848b4ac006af587"
+      "fingerprint": "47040c1e18d391dc78311a1fc1ed65c54f998dbbd224459cc68ea37df9916ff3"
     },
     {
       "id": "12-business-rules:Q01",
@@ -2025,7 +2062,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "cbbb4b9596b5d79f18557000965cc8833f77a2dd6a39ef9c42170f860b991bcf"
+      "fingerprint": "61eefb7aec140604ee3b5a182b3615566eb1be73c725a05ceee256eb297c1ef6"
     },
     {
       "id": "12-business-rules:Q02",
@@ -2057,7 +2094,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "cb80a34f7cf169db4511c2254aa8646b97f7b19cbf48747a4f2eca7fddb00648"
+      "fingerprint": "839af93a8c0f331f6108c0def49588f97dbbb2b97f4396b2cf5ddf886ef4a6bb"
     },
     {
       "id": "12-business-rules:Q03",
@@ -2089,7 +2126,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7fefffdcc9796ea0f046e09ca0a751e8f8a223eb8efb1e3347768286626d2d2a"
+      "fingerprint": "79ff6f16bc915a3fa3473e5ab5331e678728b0c5053ffac0fb91779f518feb93"
     },
     {
       "id": "12-business-rules:Q04",
@@ -2125,7 +2162,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fe57b1aeb28e2edc4dde3c77adc0db313b532b3020d7aeb07aae7e91aeb4a62d"
+      "fingerprint": "c3a6ec32ab351d3c891df93d0e28fd43bd0d4ff2cb2aea2f7cc25eb556da95eb"
     },
     {
       "id": "12-business-rules:closing",
@@ -2134,7 +2171,6 @@
         "12-business-rules-experiment",
         "12-business-rules-experiment-review",
         "12-business-rules-summary",
-        "12-business-rules-sources",
         "12-business-rules-final",
         "12-business-rules-questions"
       ],
@@ -2145,13 +2181,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4ad8846ced88687778e6920fb5c064df7451025d85c7061d183e6ff662bd7430"
+      "fingerprint": "ed5395aeb1cde2216d5c20dafa51902d138ebdfa0a57a20ec463cf85c4639549"
     },
     {
       "id": "13-attribute-composition:intro",
       "lectureId": "13-attribute-composition",
       "slideIds": [
         "13-attribute-composition-start",
+        "13-attribute-composition-main-literature",
+        "13-attribute-composition-additional-literature",
+        "13-attribute-composition-sources",
+        "13-attribute-composition-materials",
         "13-attribute-composition-route",
         "13-attribute-composition-why",
         "13-attribute-composition-case",
@@ -2164,7 +2204,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "fb0212ac3dfcadc0813225ef9b9bbc40f6c710afb60cde2e0e556613ab3bda04"
+      "fingerprint": "9126ee2d80f57c10438352dff7b41908e5b305e1a28248f757d31c473948e2cb"
     },
     {
       "id": "13-attribute-composition:Q01",
@@ -2196,7 +2236,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f89115d6c8cf76ec399dae350af7ab22fdf4e54d8fc161a14f47c1221fb7fe81"
+      "fingerprint": "0f65f636d4853c0c2378b5ff3f108050d870269b0e869dbf3bb29b4c88318301"
     },
     {
       "id": "13-attribute-composition:Q02",
@@ -2228,7 +2268,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5f80c091b450f3b19ab8fbf63d006172b71ce345b0f8b39c35a5e5564b414813"
+      "fingerprint": "21b06d9afd872af1636670c9b7dc72f27fbef5652d36968631dc235cb2344f63"
     },
     {
       "id": "13-attribute-composition:Q03",
@@ -2262,7 +2302,7 @@
       "artifacts": {
         "public/models/02-quality-state.svg": "22985b65a9c115589a3b5637274b2d14a4ba46ef07813f7bcebe5a29f57b8bbe"
       },
-      "fingerprint": "155e2a2fba757392f9e01223605266f2c8701726615698846ca73aa67df26e3a"
+      "fingerprint": "6d56e7544f299e7f0f600934e633e99a93d989fc45a77851b312110e76fe3f8f"
     },
     {
       "id": "13-attribute-composition:Q04",
@@ -2298,7 +2338,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "34375b241b88745b219303503f8acb82cd93c22fefe9241dda4974194220bb82"
+      "fingerprint": "c5f35920731e5d25f54b0b474cceb5bfb5d3de6eb7647785c0176650f0ebe414"
     },
     {
       "id": "13-attribute-composition:closing",
@@ -2307,7 +2347,6 @@
         "13-attribute-composition-experiment",
         "13-attribute-composition-experiment-review",
         "13-attribute-composition-summary",
-        "13-attribute-composition-sources",
         "13-attribute-composition-final",
         "13-attribute-composition-questions"
       ],
@@ -2318,13 +2357,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1df502eed88e97f2491fa779a4ec3054d07733410afd981b29474c58d7f7deb5"
+      "fingerprint": "045c51f908f2797ed556e2e6ca861cd7daf4d4f635d38308e8130f0a645451d7"
     },
     {
       "id": "14-data-history:intro",
       "lectureId": "14-data-history",
       "slideIds": [
         "14-data-history-start",
+        "14-data-history-main-literature",
+        "14-data-history-additional-literature",
+        "14-data-history-sources",
+        "14-data-history-materials",
         "14-data-history-route",
         "14-data-history-why",
         "14-data-history-case",
@@ -2337,7 +2380,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "becac91c018b7464a84a7f60a1b723277b24c5c41815806a140e9e6c2c7d076a"
+      "fingerprint": "0c91492a52bcc9742dc4d21cfced104d7006d91d3fc02774d5b3f2ad343dc54a"
     },
     {
       "id": "14-data-history:Q01",
@@ -2369,7 +2412,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "edf801a14d5c05b852de39bc76846ba71e453b1c95616de26a9c36126f2eac31"
+      "fingerprint": "84952ed5a3400412a9943d65a39c6b8b70f15344fc6512f84567b54cfc061a34"
     },
     {
       "id": "14-data-history:Q02",
@@ -2403,7 +2446,7 @@
       "artifacts": {
         "public/models/14-two-times.svg": "b13c402b48015690360d4b34ca6d3f846a1f6cb382efed9f478343967d4432af"
       },
-      "fingerprint": "61a87901f3c40015867b11b25676d3ba744a3f30a7d0ca66e83f4353c6b149f7"
+      "fingerprint": "025d118565505c780d37d0e0a5ead650d3f1749b87639fa521eb1b1d9f916ae5"
     },
     {
       "id": "14-data-history:Q03",
@@ -2435,7 +2478,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "029a76089cfbf682bbabaefbc16dad65a63a53c34349eac0b8e2e44717311912"
+      "fingerprint": "d514027c10f19e68c56af4a9edc0a44847cd6ec7fe7ca0fdcc1c239d3d099d48"
     },
     {
       "id": "14-data-history:Q04",
@@ -2471,7 +2514,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4ba767b591f8319f0fa9d9f9052f5c833201a58e058033ee415dcfd166ff86ed"
+      "fingerprint": "2709c8240c44e899090512089c6afae94f561aea53ac845096516d50bebe845f"
     },
     {
       "id": "14-data-history:closing",
@@ -2480,7 +2523,6 @@
         "14-data-history-experiment",
         "14-data-history-experiment-review",
         "14-data-history-summary",
-        "14-data-history-sources",
         "14-data-history-final",
         "14-data-history-questions"
       ],
@@ -2491,13 +2533,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "436e23e3c88393a1db7b93dbafd8d14d7109bf888298acebc2381d12ca6e194e"
+      "fingerprint": "c24aad26c5501801098e7dab4d8f016fb76a9bce0534f5f2290c6cbca9e08419"
     },
     {
       "id": "15-model-revision:intro",
       "lectureId": "15-model-revision",
       "slideIds": [
         "15-model-revision-start",
+        "15-model-revision-main-literature",
+        "15-model-revision-additional-literature",
+        "15-model-revision-sources",
+        "15-model-revision-materials",
         "15-model-revision-route",
         "15-model-revision-why",
         "15-model-revision-case",
@@ -2510,7 +2556,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "b8dd3705c9ddab8a1b45a4d7fe2d8f1230f4e405b05359441b663d0739975cbf"
+      "fingerprint": "51fb1b2c64b6ea5564ea1888e204065f35b0ab700c45be3566779449b858b62c"
     },
     {
       "id": "15-model-revision:Q01",
@@ -2542,7 +2588,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "79734b142d5624b9eb79b9594b48de5053e68fb516b4c352b7d435cb445ff0cc"
+      "fingerprint": "36006767308d12d6a7a8ea47c178515694cbaa0115904c638133ee1882629465"
     },
     {
       "id": "15-model-revision:Q02",
@@ -2576,7 +2622,7 @@
       "artifacts": {
         "public/models/15-review-status.svg": "e9d8e317943cb79f7d326a20bd21fc2befa5cae5a88729be0c653e7d10921419"
       },
-      "fingerprint": "1019f32c02d6216cfb7c02eae56f460ef67a919ea4576897e69fad2454695d98"
+      "fingerprint": "4956caaf4d0bdd5a32f3b2ff82c29170b308328fd211c9efdbff5aadf074fdb6"
     },
     {
       "id": "15-model-revision:Q03",
@@ -2608,7 +2654,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "72733182877c7b3552617c69cb53c9da182fb59f4b10698476c0da8868358d3d"
+      "fingerprint": "16e06568053673704f99e47baedd88f95a0ac0a1d528f4bca7ca69adc352a4d5"
     },
     {
       "id": "15-model-revision:Q04",
@@ -2647,7 +2693,7 @@
         "public/models/15-review-status.svg": "e9d8e317943cb79f7d326a20bd21fc2befa5cae5a88729be0c653e7d10921419",
         "public/models/15-review-term.svg": "9150d86b0275c02e0abde794d285518c3b6fe53c13f88f0cfc47be70009b3ed0"
       },
-      "fingerprint": "a6e040aee59cbc1cddf93d53287e6a521afffe424eb3fe485a33b7c390230308"
+      "fingerprint": "0037900efc2286e236bdbc65e7c1dd26d133852d0a7fdcfdcd00cdcb9ac582f4"
     },
     {
       "id": "15-model-revision:closing",
@@ -2656,7 +2702,6 @@
         "15-model-revision-experiment",
         "15-model-revision-experiment-review",
         "15-model-revision-summary",
-        "15-model-revision-sources",
         "15-model-revision-final",
         "15-model-revision-questions"
       ],
@@ -2667,13 +2712,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "24bf95ecb9a837cc7fbf7462db83df777c522d38868bba102a704f1b472e7dbd"
+      "fingerprint": "9fa5d481ceb932de39da24dbb18097c4771af21f135bcc29288868e5804284d3"
     },
     {
       "id": "16-decision-matrix:intro",
       "lectureId": "16-decision-matrix",
       "slideIds": [
         "16-decision-matrix-start",
+        "16-decision-matrix-main-literature",
+        "16-decision-matrix-additional-literature",
+        "16-decision-matrix-sources",
+        "16-decision-matrix-materials",
         "16-decision-matrix-route",
         "16-decision-matrix-why",
         "16-decision-matrix-case",
@@ -2685,7 +2734,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "8fe29e7d8d950317a26e272f01f30b80e84537e69e8792da72dcf50809211f71"
+      "fingerprint": "4ecc04dab776379ad094ccc2dad5da4fc657de18647e06bcfbe748474531a762"
     },
     {
       "id": "16-decision-matrix:Q01",
@@ -2717,7 +2766,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2bd89c28b0b09c58372f5f3b05a4a6e78293a3b33cef105ef64971a49c114baf"
+      "fingerprint": "75a347e1102b410e6e4470d1de3281cfc2c21116895c7ca637cbe1fd77470175"
     },
     {
       "id": "16-decision-matrix:Q02",
@@ -2749,7 +2798,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4e6751d0b628a230ce26c2ed17295c7980ce712567b553da2209b2250eea46af"
+      "fingerprint": "3bc04c596bdebd9332a60e9242498a3fb304dbc06cac0e037a3500dae540b112"
     },
     {
       "id": "16-decision-matrix:Q03",
@@ -2781,7 +2830,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b797d5a8c19606a62e4b988285fd3b849bc8c69edbdc1de994367dd957910d90"
+      "fingerprint": "a77dfbecd6d743b34371424131446aa6d2c75f53b72a9a7f0ae66cf4e171f21c"
     },
     {
       "id": "16-decision-matrix:Q04",
@@ -2817,7 +2866,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e8ff65d2150e7cce3e99c81880f9f4d285175c34aa1590394305ed3f0d1a8dc7"
+      "fingerprint": "f2c6e174830c45797667f4428c7c0ef4206aa16401b387a7299a18ce2a21edfb"
     },
     {
       "id": "16-decision-matrix:closing",
@@ -2826,7 +2875,6 @@
         "16-decision-matrix-experiment",
         "16-decision-matrix-experiment-review",
         "16-decision-matrix-summary",
-        "16-decision-matrix-sources",
         "16-decision-matrix-final",
         "16-decision-matrix-questions"
       ],
@@ -2837,13 +2885,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6062efe904c02fd6f97e18128592675b4bd520feac17644fe841c0ac95471034"
+      "fingerprint": "a30898cacf67540e03f9becd6bb3af05c4b583346179a3943f895bacc1196e91"
     },
     {
       "id": "17-adr:intro",
       "lectureId": "17-adr",
       "slideIds": [
         "17-adr-start",
+        "17-adr-main-literature",
+        "17-adr-additional-literature",
+        "17-adr-sources",
+        "17-adr-materials",
         "17-adr-route",
         "17-adr-why",
         "17-adr-case",
@@ -2855,7 +2907,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "39ec63d57dfa5f920fd96ead3b000b0263525c34d80a94999fdced47ae4f41b7"
+      "fingerprint": "5e5543f281648ebc33dc8c469e96ab200aea2d7cb29d66dabc1a71b3682328c6"
     },
     {
       "id": "17-adr:Q01",
@@ -2889,7 +2941,7 @@
       "artifacts": {
         "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
       },
-      "fingerprint": "fc8256489662329267190b44afc5fa01ba92994006ff9eebd4037be476b1f045"
+      "fingerprint": "c88d079695d7a12063f39d85523ad1ad3dc04e6d168ddbf9ca8853c18596c462"
     },
     {
       "id": "17-adr:Q02",
@@ -2923,7 +2975,7 @@
       "artifacts": {
         "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
       },
-      "fingerprint": "296a03a24f1c4ad6f07b2c6e36a325a7ac03643aae2520c5dabe478997d47f9f"
+      "fingerprint": "04d51a46c18baed15af31c77adb4c662602313967e0f6564acd7ae6ea0ba91e2"
     },
     {
       "id": "17-adr:Q03",
@@ -2957,7 +3009,7 @@
       "artifacts": {
         "public/models/17-adr07.svg": "fd328f5718747774270effea7db3d94075af3351d6366e68f9a8e643612a6a8f"
       },
-      "fingerprint": "c1f1a6e6de7dffacd4eed7034222ff9dd0e9884d92b584f0186b77d6e3130fa9"
+      "fingerprint": "e83b977d15b849c7a9caa778c51403b5f87f89bb8e26eca8f559f4600ff0c982"
     },
     {
       "id": "17-adr:Q04",
@@ -2993,7 +3045,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "81f1d85c1c72852b1ac2c759128354b1fc036d339ab46be9198fdc4dadd50fd8"
+      "fingerprint": "155ea72c92b9201c2be1ffcc31429941a08f98b9db9dd87815ae19a1b8f1fe9e"
     },
     {
       "id": "17-adr:closing",
@@ -3002,7 +3054,6 @@
         "17-adr-experiment",
         "17-adr-experiment-review",
         "17-adr-summary",
-        "17-adr-sources",
         "17-adr-final",
         "17-adr-questions"
       ],
@@ -3013,13 +3064,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7b2b4ec2e36c13978d675756199287edd3f08d51246eafddf35fe3675990150a"
+      "fingerprint": "47209a0d32b3e93956a5f54b8148972618a442debd82886dbe47ebba05b97f6d"
     },
     {
       "id": "18-nfr-impact:intro",
       "lectureId": "18-nfr-impact",
       "slideIds": [
         "18-nfr-impact-start",
+        "18-nfr-impact-main-literature",
+        "18-nfr-impact-additional-literature",
+        "18-nfr-impact-sources",
+        "18-nfr-impact-materials",
         "18-nfr-impact-route",
         "18-nfr-impact-why",
         "18-nfr-impact-case",
@@ -3031,7 +3086,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "0e09caa59ca0feb121a26bf67d4f72082a438b268f2b631919fec45919d5a229"
+      "fingerprint": "d3032b007804802e721409c343b80ff76730e50c57f1aab4db71f9d256efe699"
     },
     {
       "id": "18-nfr-impact:Q01",
@@ -3065,7 +3120,7 @@
       "artifacts": {
         "public/models/18-concurrent-confirmation.svg": "dd257fb1c419ed6473de0f0704548dfe8d9e191558bbfd6b376e8cc41d3120a1"
       },
-      "fingerprint": "03a9842cdb19197e343fe8ae112fe164bae94aff79dcd7f7f7394d33a898e2fe"
+      "fingerprint": "e587473c38cc50995cb87f54e388535ce6ef3b57f03de74fa12f7165695859aa"
     },
     {
       "id": "18-nfr-impact:Q02",
@@ -3097,7 +3152,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "da6d3674b00ee622198794f1f289e0278de733e30f89624214c99109540fdf74"
+      "fingerprint": "12e8d0b5ee852844a083d5c54620cc444b5c402d0f8657a1e7be7ea5dbcf27cb"
     },
     {
       "id": "18-nfr-impact:Q03",
@@ -3129,7 +3184,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6fe7aecda592b00aec9589069be415e834fb6e949bd1dc3dd5fa0910a6e7cd10"
+      "fingerprint": "1b0244ad05794ac602285b87085a8002b7083207e67dd1f011db842398f63b69"
     },
     {
       "id": "18-nfr-impact:Q04",
@@ -3165,7 +3220,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "87a6b9d6de818109d21b58de7bd9f9b4e9fcb947b5f62cbfaf70aea1be8604b9"
+      "fingerprint": "f70f452332b1ba8999bc7d54c9e58ed2ce19d49b974d872f46df1bd06ba07d53"
     },
     {
       "id": "18-nfr-impact:closing",
@@ -3174,7 +3229,6 @@
         "18-nfr-impact-experiment",
         "18-nfr-impact-experiment-review",
         "18-nfr-impact-summary",
-        "18-nfr-impact-sources",
         "18-nfr-impact-final",
         "18-nfr-impact-questions"
       ],
@@ -3185,13 +3239,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "34076e5849bfe05a3c20650d94b2b8f923ed4f051cd7c9bd828cbc49a950cc74"
+      "fingerprint": "3af1455c292bb73da92de97f3a8ef018b63188b8e13180ae3509cf9818bf0212"
     },
     {
       "id": "19-defense:intro",
       "lectureId": "19-defense",
       "slideIds": [
         "19-defense-start",
+        "19-defense-main-literature",
+        "19-defense-additional-literature",
+        "19-defense-sources",
+        "19-defense-materials",
         "19-defense-route",
         "19-defense-why",
         "19-defense-case",
@@ -3203,7 +3261,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "722344070cd9176904cb8bbb7266947ba88ef91049d0e7798d59af8407a37fc6"
+      "fingerprint": "932d90886d1c8695e997a750cd862894fada76c4374f81025894d8c703c3e598"
     },
     {
       "id": "19-defense:Q01",
@@ -3235,7 +3293,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a84135e44f3cc9ff0be651405f22d48198e64e3be10689fd0501c6848bc08b8d"
+      "fingerprint": "33d11763861ec719ca871e35e8ceabe41a197902ea19336209ac1798f2a4f93a"
     },
     {
       "id": "19-defense:Q02",
@@ -3267,7 +3325,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d5e5379554993e05f15ca44783e5f2c67640785c269925e5810e67aba2bf76b9"
+      "fingerprint": "9a2b86fee148f97921ab202115264f848565586fd9cca01e4da5c9b1ae1a7691"
     },
     {
       "id": "19-defense:Q03",
@@ -3299,7 +3357,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "bd97a0ba77be7de44968dd1afc63143ca34f3b8a0b6220e1d11072a436ce96a6"
+      "fingerprint": "3dbb28d7c6eb57d3e6b5e6d53b7a59ed073f4b05c0ee202bb0c5b665a29d62f8"
     },
     {
       "id": "19-defense:Q04",
@@ -3335,7 +3393,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5fafc12ee136fd267b3c34855ad73379a1ad9739012eba86cd8c7582f897161c"
+      "fingerprint": "07be7a40ae6d7747864396ca71168e7ea8ccf69aed91bafc815b7df05a44dac7"
     },
     {
       "id": "19-defense:closing",
@@ -3344,7 +3402,6 @@
         "19-defense-experiment",
         "19-defense-experiment-review",
         "19-defense-summary",
-        "19-defense-sources",
         "19-defense-final",
         "19-defense-questions"
       ],
@@ -3355,13 +3412,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "652ffa938a9d71683823e99d66ee285edafb5a87d0a2606cfd01e95201052b63"
+      "fingerprint": "90012cb8f31b0ccdd59e37054c94ec5c6538d5c2cf56c4759083bc773ee57dc6"
     },
     {
       "id": "20-ux-goals:intro",
       "lectureId": "20-ux-goals",
       "slideIds": [
         "20-ux-goals-start",
+        "20-ux-goals-main-literature",
+        "20-ux-goals-additional-literature",
+        "20-ux-goals-sources",
+        "20-ux-goals-materials",
         "20-ux-goals-route",
         "20-ux-goals-why",
         "20-ux-goals-case",
@@ -3373,7 +3434,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "eb3aac035cff62fd76e183a8c13721ecc9777495d8cd9c7d19878639489bce27"
+      "fingerprint": "aaa6dca5fe2417611c4ab24e8fc7de6369caad41cd7c8e4d7603985a715e6944"
     },
     {
       "id": "20-ux-goals:Q01",
@@ -3405,7 +3466,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c12104ca737dc97b17a3e4e589ef9ff45ac1fb2aa0d297fa016b1d5e4c648018"
+      "fingerprint": "cd7ad476728ac9af5523b8dcd2f972112c151b4deff47089214647150a382ef9"
     },
     {
       "id": "20-ux-goals:Q02",
@@ -3439,7 +3500,7 @@
       "artifacts": {
         "public/models/20-placement-error.svg": "d7d9848ccf1ccacb895cef77019f13bce167d45b14864274277e3a6d06347c03"
       },
-      "fingerprint": "3c331e1fa9f2afeb30dc71daa953d8771188b41eadacc10874ac1a39e55f7f35"
+      "fingerprint": "96a232c5b86bcdcc3c12c4cc89d0ca298865ebfae0c37fdeafae0b3e9d567792"
     },
     {
       "id": "20-ux-goals:Q03",
@@ -3471,7 +3532,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "39aa74ba309172b9cfbed614e8e4eba4ef11ebacf46350a67d615e61523ddaed"
+      "fingerprint": "ee7640a6277d043e98fe126d1cd4dab6240643c236526842474944ff3c285099"
     },
     {
       "id": "20-ux-goals:Q04",
@@ -3509,7 +3570,7 @@
       "artifacts": {
         "public/models/20-placement-result.svg": "b7576348e85a22c0c294a3199e658bea8666b4159367e0494cfcb02c9416319b"
       },
-      "fingerprint": "3c28c4e5fe28d9f0ec73f6e9ad7215505a71e1191fc2c0b61a020ff1f43b42d9"
+      "fingerprint": "74f02e00649fe2e3fd73f2af4ed85d6e079392365899a022390ffd92a30864ed"
     },
     {
       "id": "20-ux-goals:closing",
@@ -3518,7 +3579,6 @@
         "20-ux-goals-experiment",
         "20-ux-goals-experiment-review",
         "20-ux-goals-summary",
-        "20-ux-goals-sources",
         "20-ux-goals-final",
         "20-ux-goals-questions"
       ],
@@ -3529,13 +3589,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8fc6913e65aad6d405ac6544bc86339f57e7db3bf1eb6a7020f97b6417e76388"
+      "fingerprint": "84487838b082ba8e06008dfafaf77f49eaacad3da274058a0eee90dc9a36f94c"
     },
     {
       "id": "21-information-architecture:intro",
       "lectureId": "21-information-architecture",
       "slideIds": [
         "21-information-architecture-start",
+        "21-information-architecture-main-literature",
+        "21-information-architecture-additional-literature",
+        "21-information-architecture-sources",
+        "21-information-architecture-materials",
         "21-information-architecture-route",
         "21-information-architecture-why",
         "21-information-architecture-case",
@@ -3547,7 +3611,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "eaa38fb754c49d15d912e3ad00ded84e452850e5196446a04c570e214b925ce4"
+      "fingerprint": "6f5fd86d239616d15990eee22f8728549c2bba98942d37c2f4003fa70d99a4cf"
     },
     {
       "id": "21-information-architecture:Q01",
@@ -3579,7 +3643,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5ce0cbd6d89c1b4baf11ab7cbfcdebccb6e63d4b467f44cd6ac890e4a605faff"
+      "fingerprint": "467d668c0ff5d50e75b68490c6137b275f7d1336c845f3ee92b28c66760f0fb9"
     },
     {
       "id": "21-information-architecture:Q02",
@@ -3613,7 +3677,7 @@
       "artifacts": {
         "public/models/21-home.svg": "22edc4ff2c81e9a568d6f594f68c2307746598248d7e91c56acecc6d641aab5c"
       },
-      "fingerprint": "67cf582edee2810347932764d4e36fc9ac1ee709432807fd98c93558fe27878c"
+      "fingerprint": "e5d519415c62ca27fc246270883755047da7be9e035e40829760b8d24e681fea"
     },
     {
       "id": "21-information-architecture:Q03",
@@ -3647,7 +3711,7 @@
       "artifacts": {
         "public/models/21-context.svg": "7a26263c6c2e02db79db140fce6599309a3463d0dde5268b483d70383dd2b212"
       },
-      "fingerprint": "a44854a0f3b5a39ca388c760f6a6c9a26dd35b346a7ad258b2144ce7ed725952"
+      "fingerprint": "cc4dd454767b8a5793bdd18cc1c3d8e7e84f260d9cd217b8f82cd85b2f290d1d"
     },
     {
       "id": "21-information-architecture:Q04",
@@ -3683,7 +3747,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f3cec3afa567dc3d8773ef54a5c429cc348bc73af8da4181984b67a1c9798518"
+      "fingerprint": "64f608f0ec809fbd4797cf585443f564a3705993e81a210095b1fb72f1cde772"
     },
     {
       "id": "21-information-architecture:closing",
@@ -3692,7 +3756,6 @@
         "21-information-architecture-experiment",
         "21-information-architecture-experiment-review",
         "21-information-architecture-summary",
-        "21-information-architecture-sources",
         "21-information-architecture-final",
         "21-information-architecture-questions"
       ],
@@ -3703,13 +3766,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8776d7b93fe0c9b27f41726356dedbaa8db160a2e10f6bda6cd6ef5931d559ef"
+      "fingerprint": "4b8b60c651249909b563b6e70697450965cdf6c9b8869cb30bf6171ab27e197d"
     },
     {
       "id": "22-wireframe-prototype:intro",
       "lectureId": "22-wireframe-prototype",
       "slideIds": [
         "22-wireframe-prototype-start",
+        "22-wireframe-prototype-main-literature",
+        "22-wireframe-prototype-additional-literature",
+        "22-wireframe-prototype-sources",
+        "22-wireframe-prototype-materials",
         "22-wireframe-prototype-route",
         "22-wireframe-prototype-why",
         "22-wireframe-prototype-case",
@@ -3721,7 +3788,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "2ee72970d562d837c9b842d4a8ddadbdeae7fb63170ae894b877f6580014a114"
+      "fingerprint": "39088bb4c29772e957d75819c7554921d198287a5b76d1f520d810c5121af9e7"
     },
     {
       "id": "22-wireframe-prototype:Q01",
@@ -3757,7 +3824,7 @@
         "public/artifacts/22-wireframe-prototype-c2-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
         "public/artifacts/22-wireframe-prototype-Q01-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
       },
-      "fingerprint": "6699e4de6b9319fa1e6b0a334b482e966deb49112bcdd94df8d9452992ffda92"
+      "fingerprint": "8dcbcb838d6a51d0f14b7d0e5255db58e1141419e73860c315cd08952f939700"
     },
     {
       "id": "22-wireframe-prototype:Q02",
@@ -3793,7 +3860,7 @@
         "public/artifacts/22-wireframe-prototype-c4-walkthrough.svg": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63",
         "public/artifacts/22-wireframe-prototype-Q02-worked.svg": "0d5a9198984c4af4d03c99cf577b32509db55c835a9ab64e978292863160fa63"
       },
-      "fingerprint": "43b00c0bef6a25f5c9f7fae5214387795d55003207a837c2f943f905401ae1fb"
+      "fingerprint": "609c20e2b3b355f9ec46b380305fad3dff77a18d3b78120b478a55355af26272"
     },
     {
       "id": "22-wireframe-prototype:Q03",
@@ -3829,7 +3896,7 @@
         "public/artifacts/22-wireframe-prototype-c6-walkthrough.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
         "public/artifacts/22-wireframe-prototype-Q03-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
       },
-      "fingerprint": "9b9407091d35423f28518dfbc42b8507ce8cb05586d531f0621110d6fa10fab0"
+      "fingerprint": "f942e5eba087bb98e109610be2c109dc758f8a8544e15ebee4d0c57138c69bf4"
     },
     {
       "id": "22-wireframe-prototype:Q04",
@@ -3870,7 +3937,7 @@
         "public/artifacts/22-wireframe-prototype-Q04-worked.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011",
         "public/artifacts/22-wireframe-prototype-additional-case-solution.svg": "b6e74f6f0eda4f826992379c9b45f2dfc2be6ae1eedb6fadcd058513e372f011"
       },
-      "fingerprint": "6c57cb371717465feaded0d983b5ebc2020010b8de9f956bb33e4d895f1d41ef"
+      "fingerprint": "bbf495e1afa19fac95d3f25449a63b05516019aa233cb20600ee632eb3c8d7ef"
     },
     {
       "id": "22-wireframe-prototype:closing",
@@ -3879,7 +3946,6 @@
         "22-wireframe-prototype-experiment",
         "22-wireframe-prototype-experiment-review",
         "22-wireframe-prototype-summary",
-        "22-wireframe-prototype-sources",
         "22-wireframe-prototype-final",
         "22-wireframe-prototype-questions"
       ],
@@ -3890,13 +3956,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "73dc13464adf7ad3fa20f683af2895f848e9fbec3b3b3d4dcf4f1834a6e59f3b"
+      "fingerprint": "f46d53e78dd83e5fe2412cadac8d406cba64d787aab140a6a2076d478a0a7a25"
     },
     {
       "id": "23-forms-validation-states:intro",
       "lectureId": "23-forms-validation-states",
       "slideIds": [
         "23-forms-validation-states-start",
+        "23-forms-validation-states-main-literature",
+        "23-forms-validation-states-additional-literature",
+        "23-forms-validation-states-sources",
+        "23-forms-validation-states-materials",
         "23-forms-validation-states-route",
         "23-forms-validation-states-why",
         "23-forms-validation-states-case",
@@ -3908,7 +3978,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "40d907240f3824013885cd1b0de41ada2a3d0e4edb2e7a78ada0d7e6fb532ec0"
+      "fingerprint": "9024062ab7bdc40bbbcd64b031fe65492b5dab8cf5136102a22fbad93294f521"
     },
     {
       "id": "23-forms-validation-states:Q01",
@@ -3944,7 +4014,7 @@
         "public/models/23-forms-validation-states-c2-walkthrough.svg": "ab2c825ad1611a4279d529f6f861db94cb889111bb47cfe8e5063afd345471d8",
         "public/models/23-forms-validation-states-Q01-worked.svg": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a"
       },
-      "fingerprint": "2317323af43974c9f6991edb2a4978b2bef2a05261ba44a7294106dcfc95c2ca"
+      "fingerprint": "7a40135b0211565df9b8b35d6dd9a961af8be0fa85dab5fdbb9a24b7e50ad158"
     },
     {
       "id": "23-forms-validation-states:Q02",
@@ -3980,7 +4050,7 @@
         "public/models/23-forms-validation-states-c4-walkthrough.svg": "a982d099758986ee329f46d9894cee63eba4a4834c41ee22e0dd1e7c3706a14a",
         "public/models/23-forms-validation-states-Q02-worked.svg": "9f73e1f4b3b40be186d8a1c76bc93256ba468b02aaccf21102a6772b0412b23a"
       },
-      "fingerprint": "406dc425f331c2a381d287b88eacb0f4af79632eed614d5332a0d86b5437d229"
+      "fingerprint": "9989173fc759239be494a37fb53bde2996ecb495d5e41d1893a5ebcbf99047c7"
     },
     {
       "id": "23-forms-validation-states:Q03",
@@ -4016,7 +4086,7 @@
         "public/models/23-forms-validation-states-c6-walkthrough.svg": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e",
         "public/models/23-forms-validation-states-Q03-worked.svg": "ff6b64fd865af7fc39e3827780c7af9976f0d3e7d885e25675d2a336a04f954e"
       },
-      "fingerprint": "3ab6851610627419aca45d7749344a19e9113bb7e9d550faa4069ebf9a617bb9"
+      "fingerprint": "f53c7bf15f0a08d1b5717c2b9589775a1528e3e5c989ee1f57a6688801320045"
     },
     {
       "id": "23-forms-validation-states:Q04",
@@ -4057,7 +4127,7 @@
         "public/models/23-forms-validation-states-Q04-worked.svg": "6f87d3cfb9ea75628dbec697904085601465a885001d35b584b9cabe731bb0ff",
         "public/models/23-forms-validation-states-additional-case-solution.svg": "d9455af995ef754214606c6614866cf9049e94c14d7942e1c583d0c10fb3a697"
       },
-      "fingerprint": "76c8551210eba3466aa2a6cc934ee813e7d75572825a7fb92f0a6ca4495ebc11"
+      "fingerprint": "0a742df6d6c50db3d70d8e7489a7b37666dda85956b6f1db94b7cbb3ab5f8f4f"
     },
     {
       "id": "23-forms-validation-states:closing",
@@ -4066,7 +4136,6 @@
         "23-forms-validation-states-experiment",
         "23-forms-validation-states-experiment-review",
         "23-forms-validation-states-summary",
-        "23-forms-validation-states-sources",
         "23-forms-validation-states-final",
         "23-forms-validation-states-questions"
       ],
@@ -4077,13 +4146,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "55eabe816962df33e7c265d12f289893b378b01148b00f2e2e0d97ee21f82483"
+      "fingerprint": "e4f6c69aa01de39c576ed7c0bdd37402e884fd18f3a9c5a7a3c34484dd884e58"
     },
     {
       "id": "24-design-system-accessibility:intro",
       "lectureId": "24-design-system-accessibility",
       "slideIds": [
         "24-design-system-accessibility-start",
+        "24-design-system-accessibility-main-literature",
+        "24-design-system-accessibility-additional-literature",
+        "24-design-system-accessibility-sources",
+        "24-design-system-accessibility-materials",
         "24-design-system-accessibility-route",
         "24-design-system-accessibility-why",
         "24-design-system-accessibility-case",
@@ -4095,7 +4168,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "a3e2cf39c7fa59774ca09544023dccd09cc2605ca76c318d71d6dc0791c61d1d"
+      "fingerprint": "e6905fae096ff7f1b90e4d43edd3365d4ad6db75334d9e443a869c510a978ae5"
     },
     {
       "id": "24-design-system-accessibility:Q01",
@@ -4129,7 +4202,7 @@
       "artifacts": {
         "public/models/24-grid.svg": "b7f802e1a767998d9c7bed04748f6d8dad03d2c52991046f1c6c5e168c1b5af5"
       },
-      "fingerprint": "17d154d7f24b4681940315663a5cabbc818ffa69ae4b28b68a410e41fb32e069"
+      "fingerprint": "54c8ff90427f05f7a7d3e8df22256b73ecc6b353ab7d3410b0ce22813edba511"
     },
     {
       "id": "24-design-system-accessibility:Q02",
@@ -4163,7 +4236,7 @@
       "artifacts": {
         "public/models/24-tokens.svg": "1311579a9da6fb390bdab22ecb75e497474f56f490bafa0d5c7a4c7842dd5866"
       },
-      "fingerprint": "5b06bee14bec9d310f067662d8f317cbff963c13039fa25c56b3a1117f4782cb"
+      "fingerprint": "bbba295fe27e67ccde5e2a40e9f8073736c2784ac58114bc5844846f6a0ed598"
     },
     {
       "id": "24-design-system-accessibility:Q03",
@@ -4198,7 +4271,7 @@
         "public/models/24-component-states.svg": "7282e18557040fc44d898109019b55956c61fb09f379c28e19b540bb4e9624e4",
         "public/models/24-contrast-samples.svg": "b9408cacbf7dbe8cf2b6e9c445c98a9ece314c63c70c8a663a77ca7cd4a82ffd"
       },
-      "fingerprint": "5934af1c04f3b443a64fae204484fca564ea737315e41e6c8e8c9eb5ef1150bb"
+      "fingerprint": "648fc01e588f14d3c3755be3a4f8005ad02aeff24db1756ef6e45456be9863de"
     },
     {
       "id": "24-design-system-accessibility:Q04",
@@ -4237,7 +4310,7 @@
         "public/models/24-keyboard.svg": "3b532723cc4288eddbcf811274b120f5c0eb98f9b4ccaf76b8071e66e5fa01be",
         "public/models/24-contrast-samples.svg": "b9408cacbf7dbe8cf2b6e9c445c98a9ece314c63c70c8a663a77ca7cd4a82ffd"
       },
-      "fingerprint": "2789d7782c3881e9ecf773a944758453ea82aaa58d4fc32f44fe94a0d4ef3a0a"
+      "fingerprint": "dc0d320d41ac533c0b9ecd618523aca601ddc42af7e86cb9f181507b8c612ac5"
     },
     {
       "id": "24-design-system-accessibility:closing",
@@ -4246,7 +4319,6 @@
         "24-design-system-accessibility-experiment",
         "24-design-system-accessibility-experiment-review",
         "24-design-system-accessibility-summary",
-        "24-design-system-accessibility-sources",
         "24-design-system-accessibility-final",
         "24-design-system-accessibility-questions"
       ],
@@ -4257,13 +4329,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0ae43da2adab9e0e21acb09d314bdad8ed340cdbe8f3a0425d77160861c761ef"
+      "fingerprint": "0c28abe4280398dfb33bdf6889af0ee242f1f55358b5a0e82d82d3ac682d6646"
     },
     {
       "id": "25-rbac:intro",
       "lectureId": "25-rbac",
       "slideIds": [
         "25-rbac-start",
+        "25-rbac-main-literature",
+        "25-rbac-additional-literature",
+        "25-rbac-sources",
+        "25-rbac-materials",
         "25-rbac-route",
         "25-rbac-why",
         "25-rbac-case",
@@ -4276,7 +4352,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "bf73784ebc808ca78d53a93ee42b29a22036ea0c8aadd4b8150be949c5b00357"
+      "fingerprint": "d7335fc54c45c3f126f39d6167b0a61a8ebf7bfadf83a06d4391c851e96c70eb"
     },
     {
       "id": "25-rbac:Q01",
@@ -4308,7 +4384,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2531c510e4d91ed0d873db58c6d0c24bfe1e513eee75b1663fb8f92fa028dbd6"
+      "fingerprint": "dc69fd7aebf3a46f194b296443adfd738ef0536ddce1c22b5880eb402d60d71b"
     },
     {
       "id": "25-rbac:Q02",
@@ -4340,7 +4416,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a13affa01dd21c68b9f07e004e790805fdddd8c0d0dc419ffd4f3357b572d0f3"
+      "fingerprint": "e906a69c91a1976bb74b3877ea53d3442d5a719212dd7814404cf4c1f1eb8bfd"
     },
     {
       "id": "25-rbac:Q03",
@@ -4372,7 +4448,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ff2388eef3493405632de4e3a99cb2af013cc87151a6f29883633396a26dd63b"
+      "fingerprint": "7bb0d71334e8536ba6a70b5145382f042516fcb5e3eb66308bc90c7a3adce0ca"
     },
     {
       "id": "25-rbac:Q04",
@@ -4408,7 +4484,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "dde58da221088e0d9a40cda7582eeac4578c9ff58edfa74a6e1c65bcea9300a3"
+      "fingerprint": "d5f0af0dd44a865dc6f8555472016304e8f1b6f4cb7f1361b4c00236524ca291"
     },
     {
       "id": "25-rbac:closing",
@@ -4417,7 +4493,6 @@
         "25-rbac-experiment",
         "25-rbac-experiment-review",
         "25-rbac-summary",
-        "25-rbac-sources",
         "25-rbac-final",
         "25-rbac-questions"
       ],
@@ -4428,13 +4503,17 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1e22546f7b815ba94a9852fed4c2892afdd5c329bc989d36ce3d2dbb24e2aae9"
+      "fingerprint": "b6a6904948189473b28d2feef541314a0f00ecbbf84aa414b6647917773963cb"
     },
     {
       "id": "26-auth-lockout:intro",
       "lectureId": "26-auth-lockout",
       "slideIds": [
         "26-auth-lockout-start",
+        "26-auth-lockout-main-literature",
+        "26-auth-lockout-additional-literature",
+        "26-auth-lockout-sources",
+        "26-auth-lockout-materials",
         "26-auth-lockout-route",
         "26-auth-lockout-why",
         "26-auth-lockout-case",
@@ -4447,7 +4526,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "cb531b2e35dcb93a1fd783dc0b629bfa71020a92423e7e1439ce4c45850b3f54"
+      "fingerprint": "b026564395568c21966e1104cf2380ad3d081cb17491dfd5f55c7ea5e9cc48a4"
     },
     {
       "id": "26-auth-lockout:Q01",
@@ -4479,7 +4558,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "aa864f33a01a32379ad00d814ad5c6126dc38e5a2d13ec8708d57ea80d136b0f"
+      "fingerprint": "0abebebb8e7ce8819e25252baaa38492a4b21a29b4aa2caec55187301e58b2a6"
     },
     {
       "id": "26-auth-lockout:Q02",
@@ -4511,7 +4590,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e05a59d3c6476bc4391b06001a7447bc07b69b2f4caee1c87b6baf7b15fb44d6"
+      "fingerprint": "46dc035c539a5da7d785e4b229b89df469b256c15c23ef58dcf01fabd88f9d15"
     },
     {
       "id": "26-auth-lockout:Q03",
@@ -4543,7 +4622,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ed9c06b00062c3315eda6aa6654fa7f22fd214ede6bf5ae4051547e0699556dd"
+      "fingerprint": "2d78acfcfb73bc39b1ad82d7da6d033f8825ce5ffb5d486769ebd61efc2c4d7f"
     },
     {
       "id": "26-auth-lockout:Q04",
@@ -4579,7 +4658,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fd5a87625c7d2fb6917cdcd2f5f730be421d67017a61e824f59d0f56b703f5c5"
+      "fingerprint": "48873953bcc34983cce7dc7d50fef54321f7d2702d31413687b0da9180f2bb8f"
     },
     {
       "id": "26-auth-lockout:closing",
@@ -4588,7 +4667,6 @@
         "26-auth-lockout-experiment",
         "26-auth-lockout-experiment-review",
         "26-auth-lockout-summary",
-        "26-auth-lockout-sources",
         "26-auth-lockout-final",
         "26-auth-lockout-questions"
       ],
@@ -4599,12 +4677,12 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "412b462383433883907890d5d368bdb3d86b8922434bfc7aa3e82cdc53b6d4b2"
+      "fingerprint": "08cc9b5b37289137e9a10c3bb30f0246f37250907ffa0a54cff548069bd5fc10"
     }
   ],
   "counts": {
     "lectures": 26,
-    "slides": 2299,
+    "slides": 2377,
     "units": 156
   }
 }

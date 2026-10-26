@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "sourceKind": "local",
-  "sourceSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "sourceSha256": "ebda0df3812435ffd25c981e9beea0f46e6f1d004b82362dfb9930c0be5cb0a2",
   "lectureIds": [
     "18-nfr-impact"
   ],
@@ -24,9 +24,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-route",
+      "slideId": "18-nfr-impact-main-literature",
       "displayNumber": 2,
-      "title": "Вопросы темы",
+      "title": "Основная литература",
       "anchors": {
         "teacher": "screen-002",
         "presenter": "screen-002"
@@ -34,9 +34,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-why",
+      "slideId": "18-nfr-impact-additional-literature",
       "displayNumber": 3,
-      "title": "Результат нашей работы",
+      "title": "Дополнительная литература",
       "anchors": {
         "teacher": "screen-003",
         "presenter": "screen-003"
@@ -44,9 +44,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-case",
+      "slideId": "18-nfr-impact-sources",
       "displayNumber": 4,
-      "title": "Нагрузка и режим работы WMS",
+      "title": "Предметные источники",
       "anchors": {
         "teacher": "screen-004",
         "presenter": "screen-004"
@@ -54,9 +54,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-prerequisites",
+      "slideId": "18-nfr-impact-materials",
       "displayNumber": 5,
-      "title": "Перед началом: что нужно понимать",
+      "title": "Материалы курса",
       "anchors": {
         "teacher": "screen-005",
         "presenter": "screen-005"
@@ -64,9 +64,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-explanation",
+      "slideId": "18-nfr-impact-route",
       "displayNumber": 6,
-      "title": "Как работает основной подход",
+      "title": "Вопросы темы",
       "anchors": {
         "teacher": "screen-006",
         "presenter": "screen-006"
@@ -74,9 +74,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01",
+      "slideId": "18-nfr-impact-why",
       "displayNumber": 7,
-      "title": "Объём данных и Одновременные пользователи",
+      "title": "Результат нашей работы",
       "anchors": {
         "teacher": "screen-007",
         "presenter": "screen-007"
@@ -84,9 +84,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c1-definition",
+      "slideId": "18-nfr-impact-case",
       "displayNumber": 8,
-      "title": "Объём данных",
+      "title": "Нагрузка и режим работы WMS",
       "anchors": {
         "teacher": "screen-008",
         "presenter": "screen-008"
@@ -94,9 +94,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c1-explanation",
+      "slideId": "18-nfr-impact-prerequisites",
       "displayNumber": 9,
-      "title": "Объём данных: смысл и границы",
+      "title": "Перед началом: что нужно понимать",
       "anchors": {
         "teacher": "screen-009",
         "presenter": "screen-009"
@@ -104,9 +104,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c1-walkthrough",
+      "slideId": "18-nfr-impact-explanation",
       "displayNumber": 10,
-      "title": "Объём данных: разбор примера",
+      "title": "Как работает основной подход",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -114,9 +114,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c1-decision",
+      "slideId": "18-nfr-impact-Q01",
       "displayNumber": 11,
-      "title": "Объём данных: выбор действия",
+      "title": "Объём данных и Одновременные пользователи",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -124,9 +124,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c2-definition",
+      "slideId": "18-nfr-impact-c1-definition",
       "displayNumber": 12,
-      "title": "Одновременные пользователи",
+      "title": "Объём данных",
       "anchors": {
         "teacher": "screen-012",
         "presenter": "screen-012"
@@ -134,9 +134,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c2-explanation",
+      "slideId": "18-nfr-impact-c1-explanation",
       "displayNumber": 13,
-      "title": "Одновременные пользователи: смысл и границы",
+      "title": "Объём данных: смысл и границы",
       "anchors": {
         "teacher": "screen-013",
         "presenter": "screen-013"
@@ -144,9 +144,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c2-walkthrough",
+      "slideId": "18-nfr-impact-c1-walkthrough",
       "displayNumber": 14,
-      "title": "Одновременные пользователи: разбор примера",
+      "title": "Объём данных: разбор примера",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -154,9 +154,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c2-decision",
+      "slideId": "18-nfr-impact-c1-decision",
       "displayNumber": 15,
-      "title": "Одновременные пользователи: выбор действия",
+      "title": "Объём данных: выбор действия",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -164,9 +164,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-mechanism",
+      "slideId": "18-nfr-impact-c2-definition",
       "displayNumber": 16,
-      "title": "Почему решение работает",
+      "title": "Одновременные пользователи",
       "anchors": {
         "teacher": "screen-016",
         "presenter": "screen-016"
@@ -174,9 +174,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-input",
+      "slideId": "18-nfr-impact-c2-explanation",
       "displayNumber": 17,
-      "title": "Исходные данные полного примера",
+      "title": "Одновременные пользователи: смысл и границы",
       "anchors": {
         "teacher": "screen-017",
         "presenter": "screen-017"
@@ -184,9 +184,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-worked",
+      "slideId": "18-nfr-impact-c2-walkthrough",
       "displayNumber": 18,
-      "title": "Полный разбор решения",
+      "title": "Одновременные пользователи: разбор примера",
       "anchors": {
         "teacher": "screen-018",
         "presenter": "screen-018"
@@ -194,9 +194,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-boundary",
+      "slideId": "18-nfr-impact-c2-decision",
       "displayNumber": 19,
-      "title": "Изменённый случай: разбор",
+      "title": "Одновременные пользователи: выбор действия",
       "anchors": {
         "teacher": "screen-019",
         "presenter": "screen-019"
@@ -204,9 +204,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-practice",
+      "slideId": "18-nfr-impact-Q01-mechanism",
       "displayNumber": 20,
-      "title": "Рост данных и нагрузки",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-020",
         "presenter": "screen-020"
@@ -214,9 +214,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-T01",
+      "slideId": "18-nfr-impact-Q01-input",
       "displayNumber": 21,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-021",
         "presenter": "screen-021"
@@ -224,9 +224,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-T02",
+      "slideId": "18-nfr-impact-Q01-worked",
       "displayNumber": 22,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-022",
         "presenter": "screen-022"
@@ -234,9 +234,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-T03",
+      "slideId": "18-nfr-impact-Q01-boundary",
       "displayNumber": 23,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-023",
         "presenter": "screen-023"
@@ -244,9 +244,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q01-T04",
+      "slideId": "18-nfr-impact-Q01-practice",
       "displayNumber": 24,
-      "title": "Соответствие",
+      "title": "Рост данных и нагрузки",
       "anchors": {
         "teacher": "screen-024",
         "presenter": "screen-024"
@@ -254,9 +254,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02",
+      "slideId": "18-nfr-impact-Q01-T01",
       "displayNumber": 25,
-      "title": "Режим 24×7 и Офлайн-режим",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-025",
         "presenter": "screen-025"
@@ -264,9 +264,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c3-definition",
+      "slideId": "18-nfr-impact-Q01-T02",
       "displayNumber": 26,
-      "title": "Режим 24×7",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-026",
         "presenter": "screen-026"
@@ -274,9 +274,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c3-explanation",
+      "slideId": "18-nfr-impact-Q01-T03",
       "displayNumber": 27,
-      "title": "Режим 24×7: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-027",
         "presenter": "screen-027"
@@ -284,9 +284,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c3-walkthrough",
+      "slideId": "18-nfr-impact-Q01-T04",
       "displayNumber": 28,
-      "title": "Режим 24×7: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -294,9 +294,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c3-decision",
+      "slideId": "18-nfr-impact-Q02",
       "displayNumber": 29,
-      "title": "Режим 24×7: выбор действия",
+      "title": "Режим 24×7 и Офлайн-режим",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -304,9 +304,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c4-definition",
+      "slideId": "18-nfr-impact-c3-definition",
       "displayNumber": 30,
-      "title": "Офлайн-режим",
+      "title": "Режим 24×7",
       "anchors": {
         "teacher": "screen-030",
         "presenter": "screen-030"
@@ -314,9 +314,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c4-explanation",
+      "slideId": "18-nfr-impact-c3-explanation",
       "displayNumber": 31,
-      "title": "Офлайн-режим: смысл и границы",
+      "title": "Режим 24×7: смысл и границы",
       "anchors": {
         "teacher": "screen-031",
         "presenter": "screen-031"
@@ -324,9 +324,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c4-walkthrough",
+      "slideId": "18-nfr-impact-c3-walkthrough",
       "displayNumber": 32,
-      "title": "Офлайн-режим: разбор примера",
+      "title": "Режим 24×7: разбор примера",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -334,9 +334,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c4-decision",
+      "slideId": "18-nfr-impact-c3-decision",
       "displayNumber": 33,
-      "title": "Офлайн-режим: выбор действия",
+      "title": "Режим 24×7: выбор действия",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -344,9 +344,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-mechanism",
+      "slideId": "18-nfr-impact-c4-definition",
       "displayNumber": 34,
-      "title": "Почему решение работает",
+      "title": "Офлайн-режим",
       "anchors": {
         "teacher": "screen-034",
         "presenter": "screen-034"
@@ -354,9 +354,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-input",
+      "slideId": "18-nfr-impact-c4-explanation",
       "displayNumber": 35,
-      "title": "Исходные данные полного примера",
+      "title": "Офлайн-режим: смысл и границы",
       "anchors": {
         "teacher": "screen-035",
         "presenter": "screen-035"
@@ -364,9 +364,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-worked",
+      "slideId": "18-nfr-impact-c4-walkthrough",
       "displayNumber": 36,
-      "title": "Полный разбор решения",
+      "title": "Офлайн-режим: разбор примера",
       "anchors": {
         "teacher": "screen-036",
         "presenter": "screen-036"
@@ -374,9 +374,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-boundary",
+      "slideId": "18-nfr-impact-c4-decision",
       "displayNumber": 37,
-      "title": "Изменённый случай: разбор",
+      "title": "Офлайн-режим: выбор действия",
       "anchors": {
         "teacher": "screen-037",
         "presenter": "screen-037"
@@ -384,9 +384,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-practice",
+      "slideId": "18-nfr-impact-Q02-mechanism",
       "displayNumber": 38,
-      "title": "Доступность и офлайн",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-038",
         "presenter": "screen-038"
@@ -394,9 +394,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-T01",
+      "slideId": "18-nfr-impact-Q02-input",
       "displayNumber": 39,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-039",
         "presenter": "screen-039"
@@ -404,9 +404,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-T02",
+      "slideId": "18-nfr-impact-Q02-worked",
       "displayNumber": 40,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-040",
         "presenter": "screen-040"
@@ -414,9 +414,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-T03",
+      "slideId": "18-nfr-impact-Q02-boundary",
       "displayNumber": 41,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-041",
         "presenter": "screen-041"
@@ -424,9 +424,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q02-T04",
+      "slideId": "18-nfr-impact-Q02-practice",
       "displayNumber": 42,
-      "title": "Соответствие",
+      "title": "Доступность и офлайн",
       "anchors": {
         "teacher": "screen-042",
         "presenter": "screen-042"
@@ -434,9 +434,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03",
+      "slideId": "18-nfr-impact-Q02-T01",
       "displayNumber": 43,
-      "title": "Время отклика и Разграничение доступа",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-043",
         "presenter": "screen-043"
@@ -444,9 +444,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c5-definition",
+      "slideId": "18-nfr-impact-Q02-T02",
       "displayNumber": 44,
-      "title": "Время отклика",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-044",
         "presenter": "screen-044"
@@ -454,9 +454,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c5-explanation",
+      "slideId": "18-nfr-impact-Q02-T03",
       "displayNumber": 45,
-      "title": "Время отклика: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-045",
         "presenter": "screen-045"
@@ -464,9 +464,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c5-walkthrough",
+      "slideId": "18-nfr-impact-Q02-T04",
       "displayNumber": 46,
-      "title": "Время отклика: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -474,9 +474,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c5-decision",
+      "slideId": "18-nfr-impact-Q03",
       "displayNumber": 47,
-      "title": "Время отклика: выбор действия",
+      "title": "Время отклика и Разграничение доступа",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -484,9 +484,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c6-definition",
+      "slideId": "18-nfr-impact-c5-definition",
       "displayNumber": 48,
-      "title": "Разграничение доступа",
+      "title": "Время отклика",
       "anchors": {
         "teacher": "screen-048",
         "presenter": "screen-048"
@@ -494,9 +494,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c6-explanation",
+      "slideId": "18-nfr-impact-c5-explanation",
       "displayNumber": 49,
-      "title": "Разграничение доступа: смысл и границы",
+      "title": "Время отклика: смысл и границы",
       "anchors": {
         "teacher": "screen-049",
         "presenter": "screen-049"
@@ -504,9 +504,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c6-walkthrough",
+      "slideId": "18-nfr-impact-c5-walkthrough",
       "displayNumber": 50,
-      "title": "Разграничение доступа: разбор примера",
+      "title": "Время отклика: разбор примера",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -514,9 +514,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c6-decision",
+      "slideId": "18-nfr-impact-c5-decision",
       "displayNumber": 51,
-      "title": "Разграничение доступа: выбор действия",
+      "title": "Время отклика: выбор действия",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -524,9 +524,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-mechanism",
+      "slideId": "18-nfr-impact-c6-definition",
       "displayNumber": 52,
-      "title": "Почему решение работает",
+      "title": "Разграничение доступа",
       "anchors": {
         "teacher": "screen-052",
         "presenter": "screen-052"
@@ -534,9 +534,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-input",
+      "slideId": "18-nfr-impact-c6-explanation",
       "displayNumber": 53,
-      "title": "Исходные данные полного примера",
+      "title": "Разграничение доступа: смысл и границы",
       "anchors": {
         "teacher": "screen-053",
         "presenter": "screen-053"
@@ -544,9 +544,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-worked",
+      "slideId": "18-nfr-impact-c6-walkthrough",
       "displayNumber": 54,
-      "title": "Полный разбор решения",
+      "title": "Разграничение доступа: разбор примера",
       "anchors": {
         "teacher": "screen-054",
         "presenter": "screen-054"
@@ -554,9 +554,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-boundary",
+      "slideId": "18-nfr-impact-c6-decision",
       "displayNumber": 55,
-      "title": "Изменённый случай: разбор",
+      "title": "Разграничение доступа: выбор действия",
       "anchors": {
         "teacher": "screen-055",
         "presenter": "screen-055"
@@ -564,9 +564,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-practice",
+      "slideId": "18-nfr-impact-Q03-mechanism",
       "displayNumber": 56,
-      "title": "Отклик и полномочия",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-056",
         "presenter": "screen-056"
@@ -574,9 +574,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-T01",
+      "slideId": "18-nfr-impact-Q03-input",
       "displayNumber": 57,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-057",
         "presenter": "screen-057"
@@ -584,9 +584,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-T02",
+      "slideId": "18-nfr-impact-Q03-worked",
       "displayNumber": 58,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-058",
         "presenter": "screen-058"
@@ -594,9 +594,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-T03",
+      "slideId": "18-nfr-impact-Q03-boundary",
       "displayNumber": 59,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-059",
         "presenter": "screen-059"
@@ -604,9 +604,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q03-T04",
+      "slideId": "18-nfr-impact-Q03-practice",
       "displayNumber": 60,
-      "title": "Соответствие",
+      "title": "Отклик и полномочия",
       "anchors": {
         "teacher": "screen-060",
         "presenter": "screen-060"
@@ -614,9 +614,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04",
+      "slideId": "18-nfr-impact-Q03-T01",
       "displayNumber": 61,
-      "title": "Аудит и Компромисс NFR",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-061",
         "presenter": "screen-061"
@@ -624,9 +624,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c7-definition",
+      "slideId": "18-nfr-impact-Q03-T02",
       "displayNumber": 62,
-      "title": "Аудит",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-062",
         "presenter": "screen-062"
@@ -634,9 +634,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c7-explanation",
+      "slideId": "18-nfr-impact-Q03-T03",
       "displayNumber": 63,
-      "title": "Аудит: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-063",
         "presenter": "screen-063"
@@ -644,9 +644,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c7-walkthrough",
+      "slideId": "18-nfr-impact-Q03-T04",
       "displayNumber": 64,
-      "title": "Аудит: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -654,9 +654,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c7-decision",
+      "slideId": "18-nfr-impact-Q04",
       "displayNumber": 65,
-      "title": "Аудит: выбор действия",
+      "title": "Аудит и Компромисс NFR",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -664,9 +664,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c8-definition",
+      "slideId": "18-nfr-impact-c7-definition",
       "displayNumber": 66,
-      "title": "Компромисс NFR",
+      "title": "Аудит",
       "anchors": {
         "teacher": "screen-066",
         "presenter": "screen-066"
@@ -674,9 +674,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c8-explanation",
+      "slideId": "18-nfr-impact-c7-explanation",
       "displayNumber": 67,
-      "title": "Компромисс NFR: смысл и границы",
+      "title": "Аудит: смысл и границы",
       "anchors": {
         "teacher": "screen-067",
         "presenter": "screen-067"
@@ -684,9 +684,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c8-walkthrough",
+      "slideId": "18-nfr-impact-c7-walkthrough",
       "displayNumber": 68,
-      "title": "Компромисс NFR: разбор примера",
+      "title": "Аудит: разбор примера",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"
@@ -694,9 +694,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-c8-decision",
+      "slideId": "18-nfr-impact-c7-decision",
       "displayNumber": 69,
-      "title": "Компромисс NFR: выбор действия",
+      "title": "Аудит: выбор действия",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"
@@ -704,9 +704,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-mechanism",
+      "slideId": "18-nfr-impact-c8-definition",
       "displayNumber": 70,
-      "title": "Почему решение работает",
+      "title": "Компромисс NFR",
       "anchors": {
         "teacher": "screen-070",
         "presenter": "screen-070"
@@ -714,9 +714,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-input",
+      "slideId": "18-nfr-impact-c8-explanation",
       "displayNumber": 71,
-      "title": "Исходные данные полного примера",
+      "title": "Компромисс NFR: смысл и границы",
       "anchors": {
         "teacher": "screen-071",
         "presenter": "screen-071"
@@ -724,9 +724,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-worked",
+      "slideId": "18-nfr-impact-c8-walkthrough",
       "displayNumber": 72,
-      "title": "Полный разбор решения",
+      "title": "Компромисс NFR: разбор примера",
       "anchors": {
         "teacher": "screen-072",
         "presenter": "screen-072"
@@ -734,9 +734,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-boundary",
+      "slideId": "18-nfr-impact-c8-decision",
       "displayNumber": 73,
-      "title": "Изменённый случай: разбор",
+      "title": "Компромисс NFR: выбор действия",
       "anchors": {
         "teacher": "screen-073",
         "presenter": "screen-073"
@@ -744,9 +744,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-practice",
+      "slideId": "18-nfr-impact-Q04-mechanism",
       "displayNumber": 74,
-      "title": "Полнота аудита",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-074",
         "presenter": "screen-074"
@@ -754,9 +754,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-T01",
+      "slideId": "18-nfr-impact-Q04-input",
       "displayNumber": 75,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-075",
         "presenter": "screen-075"
@@ -764,9 +764,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-T02",
+      "slideId": "18-nfr-impact-Q04-worked",
       "displayNumber": 76,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-076",
         "presenter": "screen-076"
@@ -774,9 +774,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-T03",
+      "slideId": "18-nfr-impact-Q04-boundary",
       "displayNumber": 77,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-077",
         "presenter": "screen-077"
@@ -784,9 +784,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-Q04-T04",
+      "slideId": "18-nfr-impact-Q04-practice",
       "displayNumber": 78,
-      "title": "Соответствие",
+      "title": "Полнота аудита",
       "anchors": {
         "teacher": "screen-078",
         "presenter": "screen-078"
@@ -794,9 +794,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-additional-case-input",
+      "slideId": "18-nfr-impact-Q04-T01",
       "displayNumber": 79,
-      "title": "Дополнительный случай: разберите условия",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-079",
         "presenter": "screen-079"
@@ -804,9 +804,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-additional-case-solution",
+      "slideId": "18-nfr-impact-Q04-T02",
       "displayNumber": 80,
-      "title": "Дополнительный случай: решение",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-080",
         "presenter": "screen-080"
@@ -814,9 +814,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-additional-case-boundary",
+      "slideId": "18-nfr-impact-Q04-T03",
       "displayNumber": 81,
-      "title": "Дополнительный случай: проверка ошибки",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-081",
         "presenter": "screen-081"
@@ -824,9 +824,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-experiment-start",
+      "slideId": "18-nfr-impact-Q04-T04",
       "displayNumber": 82,
-      "title": "Лаборатория: Доставьте операцию дважды",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-082",
         "presenter": "screen-082"
@@ -834,9 +834,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-experiment",
+      "slideId": "18-nfr-impact-additional-case-input",
       "displayNumber": 83,
-      "title": "Доставьте операцию дважды",
+      "title": "Дополнительный случай: разберите условия",
       "anchors": {
         "teacher": "screen-083",
         "presenter": "screen-083"
@@ -844,9 +844,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-experiment-review",
+      "slideId": "18-nfr-impact-additional-case-solution",
       "displayNumber": 84,
-      "title": "Лаборатория: выводы и границы",
+      "title": "Дополнительный случай: решение",
       "anchors": {
         "teacher": "screen-084",
         "presenter": "screen-084"
@@ -854,9 +854,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-summary",
+      "slideId": "18-nfr-impact-additional-case-boundary",
       "displayNumber": 85,
-      "title": "Связи и выводы темы",
+      "title": "Дополнительный случай: проверка ошибки",
       "anchors": {
         "teacher": "screen-085",
         "presenter": "screen-085"
@@ -864,9 +864,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-sources",
+      "slideId": "18-nfr-impact-experiment-start",
       "displayNumber": 86,
-      "title": "Предметные источники",
+      "title": "Лаборатория: Доставьте операцию дважды",
       "anchors": {
         "teacher": "screen-086",
         "presenter": "screen-086"
@@ -874,9 +874,9 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-final",
+      "slideId": "18-nfr-impact-experiment",
       "displayNumber": 87,
-      "title": "Перенос в свой проект",
+      "title": "Доставьте операцию дважды",
       "anchors": {
         "teacher": "screen-087",
         "presenter": "screen-087"
@@ -884,12 +884,42 @@
     },
     {
       "lectureId": "18-nfr-impact",
-      "slideId": "18-nfr-impact-questions",
+      "slideId": "18-nfr-impact-experiment-review",
       "displayNumber": 88,
-      "title": "Вопросы от аудитории",
+      "title": "Лаборатория: выводы и границы",
       "anchors": {
         "teacher": "screen-088",
         "presenter": "screen-088"
+      }
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "slideId": "18-nfr-impact-summary",
+      "displayNumber": 89,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-089",
+        "presenter": "screen-089"
+      }
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "slideId": "18-nfr-impact-final",
+      "displayNumber": 90,
+      "title": "Перенос в свой проект",
+      "anchors": {
+        "teacher": "screen-090",
+        "presenter": "screen-090"
+      }
+    },
+    {
+      "lectureId": "18-nfr-impact",
+      "slideId": "18-nfr-impact-questions",
+      "displayNumber": 91,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-091",
+        "presenter": "screen-091"
       }
     }
   ]

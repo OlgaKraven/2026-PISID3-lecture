@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "pages": 5,
+  "source": "opening-resources.pdf",
+  "checked": [
+    "Основная литература",
+    "Дополнительная литература",
+    "Предметные источники",
+    "Материалы курса"
+  ],
+  "clickableLinks": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "scope": "First lecture title and four opening resource slides, rendered PDF; all26 print layouts checked separately"
+}

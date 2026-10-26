@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "sourceKind": "local",
-  "sourceSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "sourceSha256": "ebda0df3812435ffd25c981e9beea0f46e6f1d004b82362dfb9930c0be5cb0a2",
   "lectureIds": [
     "22-wireframe-prototype"
   ],
@@ -24,9 +24,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-route",
+      "slideId": "22-wireframe-prototype-main-literature",
       "displayNumber": 2,
-      "title": "Вопросы темы",
+      "title": "Основная литература",
       "anchors": {
         "teacher": "screen-002",
         "presenter": "screen-002"
@@ -34,9 +34,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-why",
+      "slideId": "22-wireframe-prototype-additional-literature",
       "displayNumber": 3,
-      "title": "Результат нашей работы",
+      "title": "Дополнительная литература",
       "anchors": {
         "teacher": "screen-003",
         "presenter": "screen-003"
@@ -44,9 +44,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-case",
+      "slideId": "22-wireframe-prototype-sources",
       "displayNumber": 4,
-      "title": "Прототип приёмки партии",
+      "title": "Предметные источники",
       "anchors": {
         "teacher": "screen-004",
         "presenter": "screen-004"
@@ -54,9 +54,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-prerequisites",
+      "slideId": "22-wireframe-prototype-materials",
       "displayNumber": 5,
-      "title": "Перед началом: что нужно понимать",
+      "title": "Материалы курса",
       "anchors": {
         "teacher": "screen-005",
         "presenter": "screen-005"
@@ -64,9 +64,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-explanation",
+      "slideId": "22-wireframe-prototype-route",
       "displayNumber": 6,
-      "title": "Как работает основной подход",
+      "title": "Вопросы темы",
       "anchors": {
         "teacher": "screen-006",
         "presenter": "screen-006"
@@ -74,9 +74,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01",
+      "slideId": "22-wireframe-prototype-why",
       "displayNumber": 7,
-      "title": "Вопрос прототипа и Low-fidelity wireframe",
+      "title": "Результат нашей работы",
       "anchors": {
         "teacher": "screen-007",
         "presenter": "screen-007"
@@ -84,9 +84,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c1-definition",
+      "slideId": "22-wireframe-prototype-case",
       "displayNumber": 8,
-      "title": "Вопрос прототипа",
+      "title": "Прототип приёмки партии",
       "anchors": {
         "teacher": "screen-008",
         "presenter": "screen-008"
@@ -94,9 +94,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c1-explanation",
+      "slideId": "22-wireframe-prototype-prerequisites",
       "displayNumber": 9,
-      "title": "Вопрос прототипа: смысл и границы",
+      "title": "Перед началом: что нужно понимать",
       "anchors": {
         "teacher": "screen-009",
         "presenter": "screen-009"
@@ -104,9 +104,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c1-walkthrough",
+      "slideId": "22-wireframe-prototype-explanation",
       "displayNumber": 10,
-      "title": "Вопрос прототипа: разбор примера",
+      "title": "Как работает основной подход",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -114,9 +114,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c1-decision",
+      "slideId": "22-wireframe-prototype-Q01",
       "displayNumber": 11,
-      "title": "Вопрос прототипа: выбор действия",
+      "title": "Вопрос прототипа и Low-fidelity wireframe",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -124,9 +124,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c2-definition",
+      "slideId": "22-wireframe-prototype-c1-definition",
       "displayNumber": 12,
-      "title": "Low-fidelity wireframe",
+      "title": "Вопрос прототипа",
       "anchors": {
         "teacher": "screen-012",
         "presenter": "screen-012"
@@ -134,9 +134,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c2-explanation",
+      "slideId": "22-wireframe-prototype-c1-explanation",
       "displayNumber": 13,
-      "title": "Low-fidelity wireframe: смысл и границы",
+      "title": "Вопрос прототипа: смысл и границы",
       "anchors": {
         "teacher": "screen-013",
         "presenter": "screen-013"
@@ -144,9 +144,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c2-walkthrough",
+      "slideId": "22-wireframe-prototype-c1-walkthrough",
       "displayNumber": 14,
-      "title": "Low-fidelity wireframe: разбор примера",
+      "title": "Вопрос прототипа: разбор примера",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -154,9 +154,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c2-decision",
+      "slideId": "22-wireframe-prototype-c1-decision",
       "displayNumber": 15,
-      "title": "Low-fidelity wireframe: выбор действия",
+      "title": "Вопрос прототипа: выбор действия",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -164,9 +164,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-mechanism",
+      "slideId": "22-wireframe-prototype-c2-definition",
       "displayNumber": 16,
-      "title": "Почему решение работает",
+      "title": "Low-fidelity wireframe",
       "anchors": {
         "teacher": "screen-016",
         "presenter": "screen-016"
@@ -174,9 +174,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-input",
+      "slideId": "22-wireframe-prototype-c2-explanation",
       "displayNumber": 17,
-      "title": "Исходные данные полного примера",
+      "title": "Low-fidelity wireframe: смысл и границы",
       "anchors": {
         "teacher": "screen-017",
         "presenter": "screen-017"
@@ -184,9 +184,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-worked",
+      "slideId": "22-wireframe-prototype-c2-walkthrough",
       "displayNumber": 18,
-      "title": "Полный разбор решения",
+      "title": "Low-fidelity wireframe: разбор примера",
       "anchors": {
         "teacher": "screen-018",
         "presenter": "screen-018"
@@ -194,9 +194,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-boundary",
+      "slideId": "22-wireframe-prototype-c2-decision",
       "displayNumber": 19,
-      "title": "Изменённый случай: разбор",
+      "title": "Low-fidelity wireframe: выбор действия",
       "anchors": {
         "teacher": "screen-019",
         "presenter": "screen-019"
@@ -204,9 +204,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-practice",
+      "slideId": "22-wireframe-prototype-Q01-mechanism",
       "displayNumber": 20,
-      "title": "Вопрос раннего прототипа",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-020",
         "presenter": "screen-020"
@@ -214,9 +214,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-T01",
+      "slideId": "22-wireframe-prototype-Q01-input",
       "displayNumber": 21,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-021",
         "presenter": "screen-021"
@@ -224,9 +224,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-T02",
+      "slideId": "22-wireframe-prototype-Q01-worked",
       "displayNumber": 22,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-022",
         "presenter": "screen-022"
@@ -234,9 +234,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-T03",
+      "slideId": "22-wireframe-prototype-Q01-boundary",
       "displayNumber": 23,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-023",
         "presenter": "screen-023"
@@ -244,9 +244,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q01-T04",
+      "slideId": "22-wireframe-prototype-Q01-practice",
       "displayNumber": 24,
-      "title": "Соответствие",
+      "title": "Вопрос раннего прототипа",
       "anchors": {
         "teacher": "screen-024",
         "presenter": "screen-024"
@@ -254,9 +254,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02",
+      "slideId": "22-wireframe-prototype-Q01-T01",
       "displayNumber": 25,
-      "title": "Medium-fidelity и High-fidelity",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-025",
         "presenter": "screen-025"
@@ -264,9 +264,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c3-definition",
+      "slideId": "22-wireframe-prototype-Q01-T02",
       "displayNumber": 26,
-      "title": "Medium-fidelity",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-026",
         "presenter": "screen-026"
@@ -274,9 +274,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c3-explanation",
+      "slideId": "22-wireframe-prototype-Q01-T03",
       "displayNumber": 27,
-      "title": "Medium-fidelity: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-027",
         "presenter": "screen-027"
@@ -284,9 +284,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c3-walkthrough",
+      "slideId": "22-wireframe-prototype-Q01-T04",
       "displayNumber": 28,
-      "title": "Medium-fidelity: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -294,9 +294,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c3-decision",
+      "slideId": "22-wireframe-prototype-Q02",
       "displayNumber": 29,
-      "title": "Medium-fidelity: выбор действия",
+      "title": "Medium-fidelity и High-fidelity",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -304,9 +304,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c4-definition",
+      "slideId": "22-wireframe-prototype-c3-definition",
       "displayNumber": 30,
-      "title": "High-fidelity",
+      "title": "Medium-fidelity",
       "anchors": {
         "teacher": "screen-030",
         "presenter": "screen-030"
@@ -314,9 +314,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c4-explanation",
+      "slideId": "22-wireframe-prototype-c3-explanation",
       "displayNumber": 31,
-      "title": "High-fidelity: смысл и границы",
+      "title": "Medium-fidelity: смысл и границы",
       "anchors": {
         "teacher": "screen-031",
         "presenter": "screen-031"
@@ -324,9 +324,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c4-walkthrough",
+      "slideId": "22-wireframe-prototype-c3-walkthrough",
       "displayNumber": 32,
-      "title": "High-fidelity: разбор примера",
+      "title": "Medium-fidelity: разбор примера",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -334,9 +334,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c4-decision",
+      "slideId": "22-wireframe-prototype-c3-decision",
       "displayNumber": 33,
-      "title": "High-fidelity: выбор действия",
+      "title": "Medium-fidelity: выбор действия",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -344,9 +344,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-mechanism",
+      "slideId": "22-wireframe-prototype-c4-definition",
       "displayNumber": 34,
-      "title": "Почему решение работает",
+      "title": "High-fidelity",
       "anchors": {
         "teacher": "screen-034",
         "presenter": "screen-034"
@@ -354,9 +354,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-input",
+      "slideId": "22-wireframe-prototype-c4-explanation",
       "displayNumber": 35,
-      "title": "Исходные данные полного примера",
+      "title": "High-fidelity: смысл и границы",
       "anchors": {
         "teacher": "screen-035",
         "presenter": "screen-035"
@@ -364,9 +364,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-worked",
+      "slideId": "22-wireframe-prototype-c4-walkthrough",
       "displayNumber": 36,
-      "title": "Полный разбор решения",
+      "title": "High-fidelity: разбор примера",
       "anchors": {
         "teacher": "screen-036",
         "presenter": "screen-036"
@@ -374,9 +374,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-boundary",
+      "slideId": "22-wireframe-prototype-c4-decision",
       "displayNumber": 37,
-      "title": "Изменённый случай: разбор",
+      "title": "High-fidelity: выбор действия",
       "anchors": {
         "teacher": "screen-037",
         "presenter": "screen-037"
@@ -384,9 +384,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-practice",
+      "slideId": "22-wireframe-prototype-Q02-mechanism",
       "displayNumber": 38,
-      "title": "Когда нужна точность",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-038",
         "presenter": "screen-038"
@@ -394,9 +394,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-T01",
+      "slideId": "22-wireframe-prototype-Q02-input",
       "displayNumber": 39,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-039",
         "presenter": "screen-039"
@@ -404,9 +404,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-T02",
+      "slideId": "22-wireframe-prototype-Q02-worked",
       "displayNumber": 40,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-040",
         "presenter": "screen-040"
@@ -414,9 +414,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-T03",
+      "slideId": "22-wireframe-prototype-Q02-boundary",
       "displayNumber": 41,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-041",
         "presenter": "screen-041"
@@ -424,9 +424,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q02-T04",
+      "slideId": "22-wireframe-prototype-Q02-practice",
       "displayNumber": 42,
-      "title": "Соответствие",
+      "title": "Когда нужна точность",
       "anchors": {
         "teacher": "screen-042",
         "presenter": "screen-042"
@@ -434,9 +434,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03",
+      "slideId": "22-wireframe-prototype-Q02-T01",
       "displayNumber": 43,
-      "title": "Кликабельный маршрут и Реалистичные данные",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-043",
         "presenter": "screen-043"
@@ -444,9 +444,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c5-definition",
+      "slideId": "22-wireframe-prototype-Q02-T02",
       "displayNumber": 44,
-      "title": "Кликабельный маршрут",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-044",
         "presenter": "screen-044"
@@ -454,9 +454,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c5-explanation",
+      "slideId": "22-wireframe-prototype-Q02-T03",
       "displayNumber": 45,
-      "title": "Кликабельный маршрут: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-045",
         "presenter": "screen-045"
@@ -464,9 +464,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c5-walkthrough",
+      "slideId": "22-wireframe-prototype-Q02-T04",
       "displayNumber": 46,
-      "title": "Кликабельный маршрут: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -474,9 +474,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c5-decision",
+      "slideId": "22-wireframe-prototype-Q03",
       "displayNumber": 47,
-      "title": "Кликабельный маршрут: выбор действия",
+      "title": "Кликабельный маршрут и Реалистичные данные",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -484,9 +484,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c6-definition",
+      "slideId": "22-wireframe-prototype-c5-definition",
       "displayNumber": 48,
-      "title": "Реалистичные данные",
+      "title": "Кликабельный маршрут",
       "anchors": {
         "teacher": "screen-048",
         "presenter": "screen-048"
@@ -494,9 +494,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c6-explanation",
+      "slideId": "22-wireframe-prototype-c5-explanation",
       "displayNumber": 49,
-      "title": "Реалистичные данные: смысл и границы",
+      "title": "Кликабельный маршрут: смысл и границы",
       "anchors": {
         "teacher": "screen-049",
         "presenter": "screen-049"
@@ -504,9 +504,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c6-walkthrough",
+      "slideId": "22-wireframe-prototype-c5-walkthrough",
       "displayNumber": 50,
-      "title": "Реалистичные данные: разбор примера",
+      "title": "Кликабельный маршрут: разбор примера",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -514,9 +514,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c6-decision",
+      "slideId": "22-wireframe-prototype-c5-decision",
       "displayNumber": 51,
-      "title": "Реалистичные данные: выбор действия",
+      "title": "Кликабельный маршрут: выбор действия",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -524,9 +524,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-mechanism",
+      "slideId": "22-wireframe-prototype-c6-definition",
       "displayNumber": 52,
-      "title": "Почему решение работает",
+      "title": "Реалистичные данные",
       "anchors": {
         "teacher": "screen-052",
         "presenter": "screen-052"
@@ -534,9 +534,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-input",
+      "slideId": "22-wireframe-prototype-c6-explanation",
       "displayNumber": 53,
-      "title": "Исходные данные полного примера",
+      "title": "Реалистичные данные: смысл и границы",
       "anchors": {
         "teacher": "screen-053",
         "presenter": "screen-053"
@@ -544,9 +544,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-worked",
+      "slideId": "22-wireframe-prototype-c6-walkthrough",
       "displayNumber": 54,
-      "title": "Полный разбор решения",
+      "title": "Реалистичные данные: разбор примера",
       "anchors": {
         "teacher": "screen-054",
         "presenter": "screen-054"
@@ -554,9 +554,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-boundary",
+      "slideId": "22-wireframe-prototype-c6-decision",
       "displayNumber": 55,
-      "title": "Изменённый случай: разбор",
+      "title": "Реалистичные данные: выбор действия",
       "anchors": {
         "teacher": "screen-055",
         "presenter": "screen-055"
@@ -564,9 +564,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-practice",
+      "slideId": "22-wireframe-prototype-Q03-mechanism",
       "displayNumber": 56,
-      "title": "Маршрут с реалистичными данными",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-056",
         "presenter": "screen-056"
@@ -574,9 +574,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-T01",
+      "slideId": "22-wireframe-prototype-Q03-input",
       "displayNumber": 57,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-057",
         "presenter": "screen-057"
@@ -584,9 +584,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-T02",
+      "slideId": "22-wireframe-prototype-Q03-worked",
       "displayNumber": 58,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-058",
         "presenter": "screen-058"
@@ -594,9 +594,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-T03",
+      "slideId": "22-wireframe-prototype-Q03-boundary",
       "displayNumber": 59,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-059",
         "presenter": "screen-059"
@@ -604,9 +604,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q03-T04",
+      "slideId": "22-wireframe-prototype-Q03-practice",
       "displayNumber": 60,
-      "title": "Соответствие",
+      "title": "Маршрут с реалистичными данными",
       "anchors": {
         "teacher": "screen-060",
         "presenter": "screen-060"
@@ -614,9 +614,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04",
+      "slideId": "22-wireframe-prototype-Q03-T01",
       "displayNumber": 61,
-      "title": "Аннотация поведения и Передача разработчику",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-061",
         "presenter": "screen-061"
@@ -624,9 +624,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c7-definition",
+      "slideId": "22-wireframe-prototype-Q03-T02",
       "displayNumber": 62,
-      "title": "Аннотация поведения",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-062",
         "presenter": "screen-062"
@@ -634,9 +634,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c7-explanation",
+      "slideId": "22-wireframe-prototype-Q03-T03",
       "displayNumber": 63,
-      "title": "Аннотация поведения: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-063",
         "presenter": "screen-063"
@@ -644,9 +644,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c7-walkthrough",
+      "slideId": "22-wireframe-prototype-Q03-T04",
       "displayNumber": 64,
-      "title": "Аннотация поведения: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -654,9 +654,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c7-decision",
+      "slideId": "22-wireframe-prototype-Q04",
       "displayNumber": 65,
-      "title": "Аннотация поведения: выбор действия",
+      "title": "Аннотация поведения и Передача разработчику",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -664,9 +664,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c8-definition",
+      "slideId": "22-wireframe-prototype-c7-definition",
       "displayNumber": 66,
-      "title": "Передача разработчику",
+      "title": "Аннотация поведения",
       "anchors": {
         "teacher": "screen-066",
         "presenter": "screen-066"
@@ -674,9 +674,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c8-explanation",
+      "slideId": "22-wireframe-prototype-c7-explanation",
       "displayNumber": 67,
-      "title": "Передача разработчику: смысл и границы",
+      "title": "Аннотация поведения: смысл и границы",
       "anchors": {
         "teacher": "screen-067",
         "presenter": "screen-067"
@@ -684,9 +684,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c8-walkthrough",
+      "slideId": "22-wireframe-prototype-c7-walkthrough",
       "displayNumber": 68,
-      "title": "Передача разработчику: разбор примера",
+      "title": "Аннотация поведения: разбор примера",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"
@@ -694,9 +694,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-c8-decision",
+      "slideId": "22-wireframe-prototype-c7-decision",
       "displayNumber": 69,
-      "title": "Передача разработчику: выбор действия",
+      "title": "Аннотация поведения: выбор действия",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"
@@ -704,9 +704,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-mechanism",
+      "slideId": "22-wireframe-prototype-c8-definition",
       "displayNumber": 70,
-      "title": "Почему решение работает",
+      "title": "Передача разработчику",
       "anchors": {
         "teacher": "screen-070",
         "presenter": "screen-070"
@@ -714,9 +714,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-input",
+      "slideId": "22-wireframe-prototype-c8-explanation",
       "displayNumber": 71,
-      "title": "Исходные данные полного примера",
+      "title": "Передача разработчику: смысл и границы",
       "anchors": {
         "teacher": "screen-071",
         "presenter": "screen-071"
@@ -724,9 +724,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-worked",
+      "slideId": "22-wireframe-prototype-c8-walkthrough",
       "displayNumber": 72,
-      "title": "Полный разбор решения",
+      "title": "Передача разработчику: разбор примера",
       "anchors": {
         "teacher": "screen-072",
         "presenter": "screen-072"
@@ -734,9 +734,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-boundary",
+      "slideId": "22-wireframe-prototype-c8-decision",
       "displayNumber": 73,
-      "title": "Изменённый случай: разбор",
+      "title": "Передача разработчику: выбор действия",
       "anchors": {
         "teacher": "screen-073",
         "presenter": "screen-073"
@@ -744,9 +744,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-practice",
+      "slideId": "22-wireframe-prototype-Q04-mechanism",
       "displayNumber": 74,
-      "title": "Передача исключения",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-074",
         "presenter": "screen-074"
@@ -754,9 +754,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-T01",
+      "slideId": "22-wireframe-prototype-Q04-input",
       "displayNumber": 75,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-075",
         "presenter": "screen-075"
@@ -764,9 +764,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-T02",
+      "slideId": "22-wireframe-prototype-Q04-worked",
       "displayNumber": 76,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-076",
         "presenter": "screen-076"
@@ -774,9 +774,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-T03",
+      "slideId": "22-wireframe-prototype-Q04-boundary",
       "displayNumber": 77,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-077",
         "presenter": "screen-077"
@@ -784,9 +784,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-Q04-T04",
+      "slideId": "22-wireframe-prototype-Q04-practice",
       "displayNumber": 78,
-      "title": "Соответствие",
+      "title": "Передача исключения",
       "anchors": {
         "teacher": "screen-078",
         "presenter": "screen-078"
@@ -794,9 +794,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-additional-case-input",
+      "slideId": "22-wireframe-prototype-Q04-T01",
       "displayNumber": 79,
-      "title": "Дополнительный случай: разберите условия",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-079",
         "presenter": "screen-079"
@@ -804,9 +804,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-additional-case-solution",
+      "slideId": "22-wireframe-prototype-Q04-T02",
       "displayNumber": 80,
-      "title": "Дополнительный случай: решение",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-080",
         "presenter": "screen-080"
@@ -814,9 +814,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-additional-case-boundary",
+      "slideId": "22-wireframe-prototype-Q04-T03",
       "displayNumber": 81,
-      "title": "Дополнительный случай: проверка ошибки",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-081",
         "presenter": "screen-081"
@@ -824,9 +824,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-experiment-start",
+      "slideId": "22-wireframe-prototype-Q04-T04",
       "displayNumber": 82,
-      "title": "Лаборатория: Пройдите маршрут приёмки",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-082",
         "presenter": "screen-082"
@@ -834,9 +834,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-experiment",
+      "slideId": "22-wireframe-prototype-additional-case-input",
       "displayNumber": 83,
-      "title": "Пройдите маршрут приёмки",
+      "title": "Дополнительный случай: разберите условия",
       "anchors": {
         "teacher": "screen-083",
         "presenter": "screen-083"
@@ -844,9 +844,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-experiment-review",
+      "slideId": "22-wireframe-prototype-additional-case-solution",
       "displayNumber": 84,
-      "title": "Лаборатория: выводы и границы",
+      "title": "Дополнительный случай: решение",
       "anchors": {
         "teacher": "screen-084",
         "presenter": "screen-084"
@@ -854,9 +854,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-summary",
+      "slideId": "22-wireframe-prototype-additional-case-boundary",
       "displayNumber": 85,
-      "title": "Связи и выводы темы",
+      "title": "Дополнительный случай: проверка ошибки",
       "anchors": {
         "teacher": "screen-085",
         "presenter": "screen-085"
@@ -864,9 +864,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-sources",
+      "slideId": "22-wireframe-prototype-experiment-start",
       "displayNumber": 86,
-      "title": "Предметные источники",
+      "title": "Лаборатория: Пройдите маршрут приёмки",
       "anchors": {
         "teacher": "screen-086",
         "presenter": "screen-086"
@@ -874,9 +874,9 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-final",
+      "slideId": "22-wireframe-prototype-experiment",
       "displayNumber": 87,
-      "title": "Перенос в свой проект",
+      "title": "Пройдите маршрут приёмки",
       "anchors": {
         "teacher": "screen-087",
         "presenter": "screen-087"
@@ -884,12 +884,42 @@
     },
     {
       "lectureId": "22-wireframe-prototype",
-      "slideId": "22-wireframe-prototype-questions",
+      "slideId": "22-wireframe-prototype-experiment-review",
       "displayNumber": 88,
-      "title": "Вопросы от аудитории",
+      "title": "Лаборатория: выводы и границы",
       "anchors": {
         "teacher": "screen-088",
         "presenter": "screen-088"
+      }
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "slideId": "22-wireframe-prototype-summary",
+      "displayNumber": 89,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-089",
+        "presenter": "screen-089"
+      }
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "slideId": "22-wireframe-prototype-final",
+      "displayNumber": 90,
+      "title": "Перенос в свой проект",
+      "anchors": {
+        "teacher": "screen-090",
+        "presenter": "screen-090"
+      }
+    },
+    {
+      "lectureId": "22-wireframe-prototype",
+      "slideId": "22-wireframe-prototype-questions",
+      "displayNumber": 91,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-091",
+        "presenter": "screen-091"
       }
     }
   ]

@@ -1,7 +1,9 @@
 import { readFile } from 'node:fs/promises'
 import { validateCourse, validateBank } from '@olgakraven/lecture-engine'
+import {validateOpeningResources} from '../authoring/opening-resources.mjs'
 const c = JSON.parse(await readFile('public/course.json', 'utf8'))
 validateCourse(c)
+validateOpeningResources(c, JSON.parse(await readFile('authoring/original-course.json','utf8')).topics)
 if (c.assessment && !/^https?:/.test(c.assessment.url))
   validateBank(JSON.parse(await readFile('public/' + c.assessment.url, 'utf8')), c)
 if (!c.demo)

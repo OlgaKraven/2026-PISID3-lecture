@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid3",
-  "contentVersion": "pisid3-2026.10.25-blocks",
+  "contentVersion": "pisid3-2026.10.26-resources",
   "sourceKind": "local",
-  "sourceSha256": "da4d4f3fbf9b9958727ebc8052676ba6fd10fe86cc75b30c7d1b2416f9507c0b",
+  "sourceSha256": "ebda0df3812435ffd25c981e9beea0f46e6f1d004b82362dfb9930c0be5cb0a2",
   "lectureIds": [
     "02-roles-views"
   ],
@@ -24,9 +24,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-route",
+      "slideId": "02-roles-views-main-literature",
       "displayNumber": 2,
-      "title": "Вопросы темы",
+      "title": "Основная литература",
       "anchors": {
         "teacher": "screen-002",
         "presenter": "screen-002"
@@ -34,9 +34,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-why",
+      "slideId": "02-roles-views-additional-literature",
       "displayNumber": 3,
-      "title": "Результат нашей работы",
+      "title": "Дополнительная литература",
       "anchors": {
         "teacher": "screen-003",
         "presenter": "screen-003"
@@ -44,9 +44,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-case",
+      "slideId": "02-roles-views-sources",
       "displayNumber": 4,
-      "title": "WMS склада сырья и готовой продукции",
+      "title": "Предметные источники",
       "anchors": {
         "teacher": "screen-004",
         "presenter": "screen-004"
@@ -54,9 +54,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-prerequisites",
+      "slideId": "02-roles-views-materials",
       "displayNumber": 5,
-      "title": "Перед началом: что нужно понимать",
+      "title": "Материалы курса",
       "anchors": {
         "teacher": "screen-005",
         "presenter": "screen-005"
@@ -64,9 +64,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-explanation",
+      "slideId": "02-roles-views-route",
       "displayNumber": 6,
-      "title": "Как работает основной подход",
+      "title": "Вопросы темы",
       "anchors": {
         "teacher": "screen-006",
         "presenter": "screen-006"
@@ -74,9 +74,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-exam-context",
+      "slideId": "02-roles-views-why",
       "displayNumber": 7,
-      "title": "Связь с ДЭ 2027",
+      "title": "Результат нашей работы",
       "anchors": {
         "teacher": "screen-007",
         "presenter": "screen-007"
@@ -84,9 +84,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01",
+      "slideId": "02-roles-views-case",
       "displayNumber": 8,
-      "title": "Заказчик и Пользователь",
+      "title": "WMS склада сырья и готовой продукции",
       "anchors": {
         "teacher": "screen-008",
         "presenter": "screen-008"
@@ -94,9 +94,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c1-definition",
+      "slideId": "02-roles-views-prerequisites",
       "displayNumber": 9,
-      "title": "Заказчик",
+      "title": "Перед началом: что нужно понимать",
       "anchors": {
         "teacher": "screen-009",
         "presenter": "screen-009"
@@ -104,9 +104,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c1-explanation",
+      "slideId": "02-roles-views-explanation",
       "displayNumber": 10,
-      "title": "Заказчик: смысл и границы",
+      "title": "Как работает основной подход",
       "anchors": {
         "teacher": "screen-010",
         "presenter": "screen-010"
@@ -114,9 +114,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c1-walkthrough",
+      "slideId": "02-roles-views-exam-context",
       "displayNumber": 11,
-      "title": "Заказчик: разбор примера",
+      "title": "Связь с ДЭ 2027",
       "anchors": {
         "teacher": "screen-011",
         "presenter": "screen-011"
@@ -124,9 +124,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c1-decision",
+      "slideId": "02-roles-views-Q01",
       "displayNumber": 12,
-      "title": "Заказчик: выбор действия",
+      "title": "Заказчик и Пользователь",
       "anchors": {
         "teacher": "screen-012",
         "presenter": "screen-012"
@@ -134,9 +134,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c2-definition",
+      "slideId": "02-roles-views-c1-definition",
       "displayNumber": 13,
-      "title": "Пользователь",
+      "title": "Заказчик",
       "anchors": {
         "teacher": "screen-013",
         "presenter": "screen-013"
@@ -144,9 +144,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c2-explanation",
+      "slideId": "02-roles-views-c1-explanation",
       "displayNumber": 14,
-      "title": "Пользователь: смысл и границы",
+      "title": "Заказчик: смысл и границы",
       "anchors": {
         "teacher": "screen-014",
         "presenter": "screen-014"
@@ -154,9 +154,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c2-walkthrough",
+      "slideId": "02-roles-views-c1-walkthrough",
       "displayNumber": 15,
-      "title": "Пользователь: разбор примера",
+      "title": "Заказчик: разбор примера",
       "anchors": {
         "teacher": "screen-015",
         "presenter": "screen-015"
@@ -164,9 +164,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c2-decision",
+      "slideId": "02-roles-views-c1-decision",
       "displayNumber": 16,
-      "title": "Пользователь: выбор действия",
+      "title": "Заказчик: выбор действия",
       "anchors": {
         "teacher": "screen-016",
         "presenter": "screen-016"
@@ -174,9 +174,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-mechanism",
+      "slideId": "02-roles-views-c2-definition",
       "displayNumber": 17,
-      "title": "Почему решение работает",
+      "title": "Пользователь",
       "anchors": {
         "teacher": "screen-017",
         "presenter": "screen-017"
@@ -184,9 +184,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-input",
+      "slideId": "02-roles-views-c2-explanation",
       "displayNumber": 18,
-      "title": "Исходные данные полного примера",
+      "title": "Пользователь: смысл и границы",
       "anchors": {
         "teacher": "screen-018",
         "presenter": "screen-018"
@@ -194,9 +194,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-worked",
+      "slideId": "02-roles-views-c2-walkthrough",
       "displayNumber": 19,
-      "title": "Полный разбор решения",
+      "title": "Пользователь: разбор примера",
       "anchors": {
         "teacher": "screen-019",
         "presenter": "screen-019"
@@ -204,9 +204,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-boundary",
+      "slideId": "02-roles-views-c2-decision",
       "displayNumber": 20,
-      "title": "Изменённый случай: разбор",
+      "title": "Пользователь: выбор действия",
       "anchors": {
         "teacher": "screen-020",
         "presenter": "screen-020"
@@ -214,9 +214,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-practice",
+      "slideId": "02-roles-views-Q01-mechanism",
       "displayNumber": 21,
-      "title": "Кто принимает результат",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-021",
         "presenter": "screen-021"
@@ -224,9 +224,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-T01",
+      "slideId": "02-roles-views-Q01-input",
       "displayNumber": 22,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-022",
         "presenter": "screen-022"
@@ -234,9 +234,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-T02",
+      "slideId": "02-roles-views-Q01-worked",
       "displayNumber": 23,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-023",
         "presenter": "screen-023"
@@ -244,9 +244,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-T03",
+      "slideId": "02-roles-views-Q01-boundary",
       "displayNumber": 24,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-024",
         "presenter": "screen-024"
@@ -254,9 +254,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q01-T04",
+      "slideId": "02-roles-views-Q01-practice",
       "displayNumber": 25,
-      "title": "Соответствие",
+      "title": "Кто принимает результат",
       "anchors": {
         "teacher": "screen-025",
         "presenter": "screen-025"
@@ -264,9 +264,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02",
+      "slideId": "02-roles-views-Q01-T01",
       "displayNumber": 26,
-      "title": "Аналитик и Проектировщик",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-026",
         "presenter": "screen-026"
@@ -274,9 +274,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c3-definition",
+      "slideId": "02-roles-views-Q01-T02",
       "displayNumber": 27,
-      "title": "Аналитик",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-027",
         "presenter": "screen-027"
@@ -284,9 +284,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c3-explanation",
+      "slideId": "02-roles-views-Q01-T03",
       "displayNumber": 28,
-      "title": "Аналитик: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-028",
         "presenter": "screen-028"
@@ -294,9 +294,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c3-walkthrough",
+      "slideId": "02-roles-views-Q01-T04",
       "displayNumber": 29,
-      "title": "Аналитик: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-029",
         "presenter": "screen-029"
@@ -304,9 +304,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c3-decision",
+      "slideId": "02-roles-views-Q02",
       "displayNumber": 30,
-      "title": "Аналитик: выбор действия",
+      "title": "Аналитик и Проектировщик",
       "anchors": {
         "teacher": "screen-030",
         "presenter": "screen-030"
@@ -314,9 +314,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c4-definition",
+      "slideId": "02-roles-views-c3-definition",
       "displayNumber": 31,
-      "title": "Проектировщик",
+      "title": "Аналитик",
       "anchors": {
         "teacher": "screen-031",
         "presenter": "screen-031"
@@ -324,9 +324,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c4-explanation",
+      "slideId": "02-roles-views-c3-explanation",
       "displayNumber": 32,
-      "title": "Проектировщик: смысл и границы",
+      "title": "Аналитик: смысл и границы",
       "anchors": {
         "teacher": "screen-032",
         "presenter": "screen-032"
@@ -334,9 +334,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c4-walkthrough",
+      "slideId": "02-roles-views-c3-walkthrough",
       "displayNumber": 33,
-      "title": "Проектировщик: разбор примера",
+      "title": "Аналитик: разбор примера",
       "anchors": {
         "teacher": "screen-033",
         "presenter": "screen-033"
@@ -344,9 +344,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c4-decision",
+      "slideId": "02-roles-views-c3-decision",
       "displayNumber": 34,
-      "title": "Проектировщик: выбор действия",
+      "title": "Аналитик: выбор действия",
       "anchors": {
         "teacher": "screen-034",
         "presenter": "screen-034"
@@ -354,9 +354,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-mechanism",
+      "slideId": "02-roles-views-c4-definition",
       "displayNumber": 35,
-      "title": "Почему решение работает",
+      "title": "Проектировщик",
       "anchors": {
         "teacher": "screen-035",
         "presenter": "screen-035"
@@ -364,9 +364,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-input",
+      "slideId": "02-roles-views-c4-explanation",
       "displayNumber": 36,
-      "title": "Исходные данные полного примера",
+      "title": "Проектировщик: смысл и границы",
       "anchors": {
         "teacher": "screen-036",
         "presenter": "screen-036"
@@ -374,9 +374,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-worked",
+      "slideId": "02-roles-views-c4-walkthrough",
       "displayNumber": 37,
-      "title": "Полный разбор решения",
+      "title": "Проектировщик: разбор примера",
       "anchors": {
         "teacher": "screen-037",
         "presenter": "screen-037"
@@ -384,9 +384,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-boundary",
+      "slideId": "02-roles-views-c4-decision",
       "displayNumber": 38,
-      "title": "Изменённый случай: разбор",
+      "title": "Проектировщик: выбор действия",
       "anchors": {
         "teacher": "screen-038",
         "presenter": "screen-038"
@@ -394,9 +394,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-practice",
+      "slideId": "02-roles-views-Q02-mechanism",
       "displayNumber": 39,
-      "title": "Кто уточняет и проектирует",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-039",
         "presenter": "screen-039"
@@ -404,9 +404,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-T01",
+      "slideId": "02-roles-views-Q02-input",
       "displayNumber": 40,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-040",
         "presenter": "screen-040"
@@ -414,9 +414,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-T02",
+      "slideId": "02-roles-views-Q02-worked",
       "displayNumber": 41,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-041",
         "presenter": "screen-041"
@@ -424,9 +424,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-T03",
+      "slideId": "02-roles-views-Q02-boundary",
       "displayNumber": 42,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-042",
         "presenter": "screen-042"
@@ -434,9 +434,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q02-T04",
+      "slideId": "02-roles-views-Q02-practice",
       "displayNumber": 43,
-      "title": "Соответствие",
+      "title": "Кто уточняет и проектирует",
       "anchors": {
         "teacher": "screen-043",
         "presenter": "screen-043"
@@ -444,9 +444,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03",
+      "slideId": "02-roles-views-Q02-T01",
       "displayNumber": 44,
-      "title": "Разработчик и Точка зрения",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-044",
         "presenter": "screen-044"
@@ -454,9 +454,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c5-definition",
+      "slideId": "02-roles-views-Q02-T02",
       "displayNumber": 45,
-      "title": "Разработчик",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-045",
         "presenter": "screen-045"
@@ -464,9 +464,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c5-explanation",
+      "slideId": "02-roles-views-Q02-T03",
       "displayNumber": 46,
-      "title": "Разработчик: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-046",
         "presenter": "screen-046"
@@ -474,9 +474,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c5-walkthrough",
+      "slideId": "02-roles-views-Q02-T04",
       "displayNumber": 47,
-      "title": "Разработчик: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-047",
         "presenter": "screen-047"
@@ -484,9 +484,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c5-decision",
+      "slideId": "02-roles-views-Q03",
       "displayNumber": 48,
-      "title": "Разработчик: выбор действия",
+      "title": "Разработчик и Точка зрения",
       "anchors": {
         "teacher": "screen-048",
         "presenter": "screen-048"
@@ -494,9 +494,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c6-definition",
+      "slideId": "02-roles-views-c5-definition",
       "displayNumber": 49,
-      "title": "Точка зрения",
+      "title": "Разработчик",
       "anchors": {
         "teacher": "screen-049",
         "presenter": "screen-049"
@@ -504,9 +504,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c6-explanation",
+      "slideId": "02-roles-views-c5-explanation",
       "displayNumber": 50,
-      "title": "Точка зрения: смысл и границы",
+      "title": "Разработчик: смысл и границы",
       "anchors": {
         "teacher": "screen-050",
         "presenter": "screen-050"
@@ -514,9 +514,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c6-walkthrough",
+      "slideId": "02-roles-views-c5-walkthrough",
       "displayNumber": 51,
-      "title": "Точка зрения: разбор примера",
+      "title": "Разработчик: разбор примера",
       "anchors": {
         "teacher": "screen-051",
         "presenter": "screen-051"
@@ -524,9 +524,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c6-decision",
+      "slideId": "02-roles-views-c5-decision",
       "displayNumber": 52,
-      "title": "Точка зрения: выбор действия",
+      "title": "Разработчик: выбор действия",
       "anchors": {
         "teacher": "screen-052",
         "presenter": "screen-052"
@@ -534,9 +534,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-mechanism",
+      "slideId": "02-roles-views-c6-definition",
       "displayNumber": 53,
-      "title": "Почему решение работает",
+      "title": "Точка зрения",
       "anchors": {
         "teacher": "screen-053",
         "presenter": "screen-053"
@@ -544,9 +544,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-input",
+      "slideId": "02-roles-views-c6-explanation",
       "displayNumber": 54,
-      "title": "Исходные данные полного примера",
+      "title": "Точка зрения: смысл и границы",
       "anchors": {
         "teacher": "screen-054",
         "presenter": "screen-054"
@@ -554,9 +554,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-worked",
+      "slideId": "02-roles-views-c6-walkthrough",
       "displayNumber": 55,
-      "title": "Полный разбор решения",
+      "title": "Точка зрения: разбор примера",
       "anchors": {
         "teacher": "screen-055",
         "presenter": "screen-055"
@@ -564,9 +564,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-boundary",
+      "slideId": "02-roles-views-c6-decision",
       "displayNumber": 56,
-      "title": "Изменённый случай: разбор",
+      "title": "Точка зрения: выбор действия",
       "anchors": {
         "teacher": "screen-056",
         "presenter": "screen-056"
@@ -574,9 +574,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-practice",
+      "slideId": "02-roles-views-Q03-mechanism",
       "displayNumber": 57,
-      "title": "Разные свидетельства качества",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-057",
         "presenter": "screen-057"
@@ -584,9 +584,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-T01",
+      "slideId": "02-roles-views-Q03-input",
       "displayNumber": 58,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-058",
         "presenter": "screen-058"
@@ -594,9 +594,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-T02",
+      "slideId": "02-roles-views-Q03-worked",
       "displayNumber": 59,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-059",
         "presenter": "screen-059"
@@ -604,9 +604,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-T03",
+      "slideId": "02-roles-views-Q03-boundary",
       "displayNumber": 60,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-060",
         "presenter": "screen-060"
@@ -614,9 +614,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q03-T04",
+      "slideId": "02-roles-views-Q03-practice",
       "displayNumber": 61,
-      "title": "Соответствие",
+      "title": "Разные свидетельства качества",
       "anchors": {
         "teacher": "screen-061",
         "presenter": "screen-061"
@@ -624,9 +624,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04",
+      "slideId": "02-roles-views-Q03-T01",
       "displayNumber": 62,
-      "title": "Конфликт интересов и Право решения",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-062",
         "presenter": "screen-062"
@@ -634,9 +634,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c7-definition",
+      "slideId": "02-roles-views-Q03-T02",
       "displayNumber": 63,
-      "title": "Конфликт интересов",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-063",
         "presenter": "screen-063"
@@ -644,9 +644,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c7-explanation",
+      "slideId": "02-roles-views-Q03-T03",
       "displayNumber": 64,
-      "title": "Конфликт интересов: смысл и границы",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-064",
         "presenter": "screen-064"
@@ -654,9 +654,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c7-walkthrough",
+      "slideId": "02-roles-views-Q03-T04",
       "displayNumber": 65,
-      "title": "Конфликт интересов: разбор примера",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-065",
         "presenter": "screen-065"
@@ -664,9 +664,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c7-decision",
+      "slideId": "02-roles-views-Q04",
       "displayNumber": 66,
-      "title": "Конфликт интересов: выбор действия",
+      "title": "Конфликт интересов и Право решения",
       "anchors": {
         "teacher": "screen-066",
         "presenter": "screen-066"
@@ -674,9 +674,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c8-definition",
+      "slideId": "02-roles-views-c7-definition",
       "displayNumber": 67,
-      "title": "Право решения",
+      "title": "Конфликт интересов",
       "anchors": {
         "teacher": "screen-067",
         "presenter": "screen-067"
@@ -684,9 +684,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c8-explanation",
+      "slideId": "02-roles-views-c7-explanation",
       "displayNumber": 68,
-      "title": "Право решения: смысл и границы",
+      "title": "Конфликт интересов: смысл и границы",
       "anchors": {
         "teacher": "screen-068",
         "presenter": "screen-068"
@@ -694,9 +694,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c8-walkthrough",
+      "slideId": "02-roles-views-c7-walkthrough",
       "displayNumber": 69,
-      "title": "Право решения: разбор примера",
+      "title": "Конфликт интересов: разбор примера",
       "anchors": {
         "teacher": "screen-069",
         "presenter": "screen-069"
@@ -704,9 +704,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-c8-decision",
+      "slideId": "02-roles-views-c7-decision",
       "displayNumber": 70,
-      "title": "Право решения: выбор действия",
+      "title": "Конфликт интересов: выбор действия",
       "anchors": {
         "teacher": "screen-070",
         "presenter": "screen-070"
@@ -714,9 +714,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-mechanism",
+      "slideId": "02-roles-views-c8-definition",
       "displayNumber": 71,
-      "title": "Почему решение работает",
+      "title": "Право решения",
       "anchors": {
         "teacher": "screen-071",
         "presenter": "screen-071"
@@ -724,9 +724,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-input",
+      "slideId": "02-roles-views-c8-explanation",
       "displayNumber": 72,
-      "title": "Исходные данные полного примера",
+      "title": "Право решения: смысл и границы",
       "anchors": {
         "teacher": "screen-072",
         "presenter": "screen-072"
@@ -734,9 +734,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-worked",
+      "slideId": "02-roles-views-c8-walkthrough",
       "displayNumber": 73,
-      "title": "Полный разбор решения",
+      "title": "Право решения: разбор примера",
       "anchors": {
         "teacher": "screen-073",
         "presenter": "screen-073"
@@ -744,9 +744,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-boundary",
+      "slideId": "02-roles-views-c8-decision",
       "displayNumber": 74,
-      "title": "Изменённый случай: разбор",
+      "title": "Право решения: выбор действия",
       "anchors": {
         "teacher": "screen-074",
         "presenter": "screen-074"
@@ -754,9 +754,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-practice",
+      "slideId": "02-roles-views-Q04-mechanism",
       "displayNumber": 75,
-      "title": "Конфликт полномочий",
+      "title": "Почему решение работает",
       "anchors": {
         "teacher": "screen-075",
         "presenter": "screen-075"
@@ -764,9 +764,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-T01",
+      "slideId": "02-roles-views-Q04-input",
       "displayNumber": 76,
-      "title": "Один ответ",
+      "title": "Исходные данные полного примера",
       "anchors": {
         "teacher": "screen-076",
         "presenter": "screen-076"
@@ -774,9 +774,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-T02",
+      "slideId": "02-roles-views-Q04-worked",
       "displayNumber": 77,
-      "title": "Несколько ответов",
+      "title": "Полный разбор решения",
       "anchors": {
         "teacher": "screen-077",
         "presenter": "screen-077"
@@ -784,9 +784,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-T03",
+      "slideId": "02-roles-views-Q04-boundary",
       "displayNumber": 78,
-      "title": "Краткий ответ",
+      "title": "Изменённый случай: разбор",
       "anchors": {
         "teacher": "screen-078",
         "presenter": "screen-078"
@@ -794,9 +794,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-Q04-T04",
+      "slideId": "02-roles-views-Q04-practice",
       "displayNumber": 79,
-      "title": "Соответствие",
+      "title": "Конфликт полномочий",
       "anchors": {
         "teacher": "screen-079",
         "presenter": "screen-079"
@@ -804,9 +804,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-additional-case-input",
+      "slideId": "02-roles-views-Q04-T01",
       "displayNumber": 80,
-      "title": "Дополнительный случай: разберите условия",
+      "title": "Один ответ",
       "anchors": {
         "teacher": "screen-080",
         "presenter": "screen-080"
@@ -814,9 +814,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-additional-case-solution",
+      "slideId": "02-roles-views-Q04-T02",
       "displayNumber": 81,
-      "title": "Дополнительный случай: решение",
+      "title": "Несколько ответов",
       "anchors": {
         "teacher": "screen-081",
         "presenter": "screen-081"
@@ -824,9 +824,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-additional-case-boundary",
+      "slideId": "02-roles-views-Q04-T03",
       "displayNumber": 82,
-      "title": "Дополнительный случай: проверка ошибки",
+      "title": "Краткий ответ",
       "anchors": {
         "teacher": "screen-082",
         "presenter": "screen-082"
@@ -834,9 +834,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-experiment-start",
+      "slideId": "02-roles-views-Q04-T04",
       "displayNumber": 83,
-      "title": "Лаборатория: Согласование исключения из карантина",
+      "title": "Соответствие",
       "anchors": {
         "teacher": "screen-083",
         "presenter": "screen-083"
@@ -844,9 +844,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-experiment",
+      "slideId": "02-roles-views-additional-case-input",
       "displayNumber": 84,
-      "title": "Согласование исключения из карантина",
+      "title": "Дополнительный случай: разберите условия",
       "anchors": {
         "teacher": "screen-084",
         "presenter": "screen-084"
@@ -854,9 +854,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-experiment-review",
+      "slideId": "02-roles-views-additional-case-solution",
       "displayNumber": 85,
-      "title": "Лаборатория: выводы и границы",
+      "title": "Дополнительный случай: решение",
       "anchors": {
         "teacher": "screen-085",
         "presenter": "screen-085"
@@ -864,9 +864,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-summary",
+      "slideId": "02-roles-views-additional-case-boundary",
       "displayNumber": 86,
-      "title": "Связи и выводы темы",
+      "title": "Дополнительный случай: проверка ошибки",
       "anchors": {
         "teacher": "screen-086",
         "presenter": "screen-086"
@@ -874,9 +874,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-sources",
+      "slideId": "02-roles-views-experiment-start",
       "displayNumber": 87,
-      "title": "Предметные источники",
+      "title": "Лаборатория: Согласование исключения из карантина",
       "anchors": {
         "teacher": "screen-087",
         "presenter": "screen-087"
@@ -884,9 +884,9 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-final",
+      "slideId": "02-roles-views-experiment",
       "displayNumber": 88,
-      "title": "Перенос в свой проект",
+      "title": "Согласование исключения из карантина",
       "anchors": {
         "teacher": "screen-088",
         "presenter": "screen-088"
@@ -894,12 +894,42 @@
     },
     {
       "lectureId": "02-roles-views",
-      "slideId": "02-roles-views-questions",
+      "slideId": "02-roles-views-experiment-review",
       "displayNumber": 89,
-      "title": "Вопросы от аудитории",
+      "title": "Лаборатория: выводы и границы",
       "anchors": {
         "teacher": "screen-089",
         "presenter": "screen-089"
+      }
+    },
+    {
+      "lectureId": "02-roles-views",
+      "slideId": "02-roles-views-summary",
+      "displayNumber": 90,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-090",
+        "presenter": "screen-090"
+      }
+    },
+    {
+      "lectureId": "02-roles-views",
+      "slideId": "02-roles-views-final",
+      "displayNumber": 91,
+      "title": "Перенос в свой проект",
+      "anchors": {
+        "teacher": "screen-091",
+        "presenter": "screen-091"
+      }
+    },
+    {
+      "lectureId": "02-roles-views",
+      "slideId": "02-roles-views-questions",
+      "displayNumber": 92,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-092",
+        "presenter": "screen-092"
       }
     }
   ]

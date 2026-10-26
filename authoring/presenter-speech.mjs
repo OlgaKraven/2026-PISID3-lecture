@@ -78,7 +78,7 @@ export function refineNote({slide:s,topic:t,index,cases, guidance:g,note,practic
   else if(suffix==='additional-case-solution'){speech=`${e.input}\n\n${reading[e.visual.type]}\n\n${modelText(e.visual)}\n\n${e.why}\n\nСледующий экран проверяет ошибочное применение результата: ${extra.boundary}`;note.answer=e.why;note.preparation=e.input;}
   else if(suffix==='additional-case-boundary')speech=`${extra.boundary}\n\nПолученный результат «${extra.result}» относится к прежним условиям. Здесь нужно проверить, сохраняется ли основание каждого шага.`;
   else if(suffix==='summary')speech=cases.map(w=>w[2]).join('\n\n');
-  else if(suffix==='sources')speech=`Источники помогают уточнить понятия и границы решений этой темы. ${t.description} Учебный складской пример не заменяет правила конкретной организации.`;
+  else if(suffix==='sources'||suffix.endsWith('-literature')||suffix==='materials')speech=note.script;
   else if(suffix==='final')speech=`В собственном проекте подготовьте ${t.deliverable}. Зафиксируйте подтверждённые исходные данные, выбранное решение и способ проверки. ${cases[3][3]}`;
   else if(suffix==='questions'){
    const v=variants[index][0],x=t.concepts[6];

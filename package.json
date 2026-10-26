@@ -10,7 +10,7 @@
     "dev": "vite --host 127.0.0.1",
     "preview": "vite preview --host 127.0.0.1",
     "generate:content": "node scripts/generate-content.mjs",
-    "validate:content": "node scripts/validate-content.mjs",
+    "validate:content": "node scripts/validate-content.mjs && node scripts/check-opening-contract.mjs",
     "check:readiness": "node scripts/readiness.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "oxlint src scripts",
@@ -37,6 +37,7 @@
     "test:access": "node scripts/check-access-policy.mjs",
     "test:artifacts": "node scripts/check-working-artifacts.mjs",
     "test:models": "node scripts/check-course-models.mjs",
+    "test:opening": "node scripts/check-opening-resources.mjs",
     "check:teaching": "node scripts/check-third-content.mjs"
   },
   "dependencies": {

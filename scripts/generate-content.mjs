@@ -1,4 +1,5 @@
 import {writeComponentArtifacts} from '../authoring/component-artifacts.mjs';
+import {addOpeningResources,subjectReferences,validateOpeningResources} from '../authoring/opening-resources.mjs';
 import {writeFormArtifacts} from '../authoring/form-artifacts.mjs';
 import {writeCourseModels} from '../authoring/course-models.mjs';
 import {writeArtifacts} from '../authoring/visible-artifacts.mjs';
@@ -15,7 +16,7 @@ import {buildLaboratories} from '../authoring/laboratory-config.mjs';
 import {addTeachingIntroduction,addConceptExplanation,addQuestionExplanation,addBoundaryExample,addAdditionalCase} from '../authoring/expanded-blocks.mjs';
 const experiments=JSON.parse(fs.readFileSync('authoring/experiments.json','utf8'));
 const original=JSON.parse(fs.readFileSync('authoring/original-course.json','utf8'));
-const version='pisid3-2026.10.25-blocks';
+const version='pisid3-2026.10.26-resources';
 writeArtifacts(fs);writeCourseModels(fs);writeFormArtifacts(fs);writeComponentArtifacts(fs);
 const practiceCases=buildPracticeCases(original.topics);
 const laboratories=buildLaboratories(experiments,guidance);
@@ -47,11 +48,13 @@ for(const [li,t] of original.topics.entries()){
   return s.id;
  };
  add('start',{kind:'title',title:t.shortTitle,kicker:`Лекция ${t.number} · 3 курс`,body:t.description},{script:`Сегодня разбираем тему «${t.title}». Наша цель — ${t.objective}. ${t.caseContext} В конце получим ${t.deliverable}. Пройдём четыре вопроса от смысла понятий к проверяемому решению. В каждом вопросе сопоставим корректное действие с ошибкой, разберём конкретные данные и выполним четыре задания. Важен не выбор знакомого слова, а объяснение результата и границы применимости.`,seconds:40});
+ const exam=examContext(t.number);
+ addOpeningResources(add,c,t,subjectReferences(t,exam,examUrl));
  add('route',{kind:'agenda',title:'Вопросы темы',kicker:'Маршрут занятия'},{script:`Маршрут темы «${t.shortTitle}» состоит из четырёх связанных вопросов: ${[0,1,2,3].map(q=>t.concepts[q*2].name+' и '+t.concepts[q*2+1].name).join('; ')}. Для каждого вопроса сначала уточним значения, затем сравним ошибку и действие, выполним законченный пример и самопроверку. ${t.objective} — ориентир всего маршрута. Оглавление строится из реальных разделителей: оно должно оставаться согласованным при изменении структуры.`,seconds:45});
  add('why',{kind:'theory',title:'Результат нашей работы',body:t.objective,bullets:[t.deliverable,'Обоснование решения по данным и ограничениям','Проверка результата и отрицательного случая']},{script:`Здесь результат темы «${t.shortTitle}» раскрывается как ${t.deliverable}. Для качества важны источник, смысл решения и способ проверки. ${cases[li][0][0]} Именно на таких данных нужно объяснить выбор. Документ без решения не выполняет цель, а решение без проверки остаётся утверждением автора. Вопросы на слайдах помогут перейти от описания к наблюдаемому результату; отдельно сохраним то, что зависит от ответа владельца процесса.`});
  add('case',{kind:'example',title:t.caseName,body:t.caseContext,kicker:'Сквозной кейс WMS'},{script:`Контекст темы «${t.shortTitle}»: ${t.caseContext} WMS — система управления складом; ТСД — терминал сбора данных; ERP — система планирования ресурсов предприятия. Идентификаторы, сроки и числа в примерах условны. ${cases[li][0][0]} ${cases[li][0][3]} Не переносим отдельное правило склада на любую организацию: сначала проверяем исходные условия и полномочия владельца решения.`});
  addTeachingIntroduction(add,t,li);
- const exam=examContext(t.number);if(exam)add('exam-context',{kind:'theory',title:'Связь с ДЭ 2027',body:exam,source:'КИМ 09.02.07-5-2027, с. 28–32; приложение 1'},{script:`Свяжем тему «${t.shortTitle}» с предоставленным комплектом. ${exam} На экзамене необходимо читать конкретное выданное задание и приложения. Предметная область образца — производство, а лекции используют WMS. Переносится способ анализа и проверки, а не готовые сущности, числа или макеты. Вариативная часть и вид аттестации группы не указаны.`});
+ if(exam)add('exam-context',{kind:'theory',title:'Связь с ДЭ 2027',body:exam,source:'КИМ 09.02.07-5-2027, с. 28–32; приложение 1'},{script:`Свяжем тему «${t.shortTitle}» с предоставленным комплектом. ${exam} На экзамене необходимо читать конкретное выданное задание и приложения. Предметная область образца — производство, а лекции используют WMS. Переносится способ анализа и проверки, а не готовые сущности, числа или макеты. Вариативная часть и вид аттестации группы не указаны.`});
  for(let qi=0;qi<4;qi++){
   const pair=t.concepts.slice(qi*2,qi*2+2),[a,b]=pair,w=cases[li][qi],prefix=`Q0${qi+1}`,start=l.slides.length,title=a.name+' и '+b.name;
   const qa=`Как обнаружить ошибку при применении понятия «${a.name}»?\nКак проверить результат для понятия «${b.name}»?`;
@@ -101,11 +104,11 @@ for(const [li,t] of original.topics.entries()){
 
 Попросите прочитать два зафиксированных результата. Если изменённое условие не названо, попросите вернуться к параметрам. Если назван только итог, уточните, какое правило его обеспечивает. Для переноса в другой проект проверяются источник условия и полномочие владельца решения.`,answer:laboratory.expected+' '+laboratory.boundary,seconds:180});
  add('summary',{kind:'summary',title:'Связи и выводы темы',bullets:cases[li].map(w=>w[2])},{script:`Подведём итог темы «${t.shortTitle}». ${cases[li].map(w=>w[2]).join(' ')} Эти результаты помогают получить ${t.deliverable}. Различайте исходные факты и принятые решения; условия примеров не являются универсальными правилами. Для собственного проекта проверьте источники и владельцев спорных условий. Вопросы по границам результата: ${cases[li].map(w=>w[3]).join(' ')}`});
- add('sources',{kind:'literature',title:'Предметные источники',references:t.sources.map(s=>({citation:s.label,url:s.url})).slice(0,3).concat(exam?[{citation:'КИМ 09.02.07-5-2027 · комплект преподавателя',url:examUrl}]:[])},{script:`Для углубления темы «${t.shortTitle}» используйте предметные источники. ${t.description} Наличие ссылки не доказывает актуальность нормативного документа: статус и область применения сверяют отдельно. Примеры и числа WMS авторские; они демонстрируют ход решения. Комплект ДЭ 2027 предоставлен преподавателем и используется только для отмеченных связей с экзаменом. РПД и официальные часы не восстановлены по предположению. Ограничения проверки источников перечислены в документации проекта.`,seconds:35});
  add('final',{kind:'summary',title:'Перенос в свой проект',bullets:['Подготовьте: '+t.deliverable,'Укажите исходные факты и допущения.','Покажите успешный и отрицательный случай.','Откройте итоговый файл и проверьте согласованность.']},{script:`Самостоятельный результат темы «${t.shortTitle}» — ${t.deliverable}. Переносим способ анализа и проверки на ваши данные. ${cases[li][3][0]} ${cases[li][3][1]} ${cases[li][3][2]} ${cases[li][3][3]} В собственном проекте сначала замените учебные предположения подтверждёнными условиями, затем проверьте критерии каждого решения. Файл должен позволять другому участнику понять основание результата без устного пересказа всей лекции.`});
  add('questions',{kind:'questions',title:'Вопросы от аудитории',bullets:[`Как проверить результат «${t.deliverable}»?`,`Как исходные данные меняют выбор: ${t.concepts[0].name.toLowerCase()}?`,`Как обнаружить ошибку: ${t.concepts[6].name.toLowerCase()}?`]},{script:`Завершим тему «${t.shortTitle}» обсуждением. ${cases[li].map(w=>w[3]).join(' ')} Вернитесь к любому примеру и назовите факт, действие и проверяемый результат. Если вопрос выходит за подтверждённые условия, фиксируем его вместе с предполагаемым источником ответа. Ключевой итог занятия: ${t.objective}. Сохраняем конспект и список уточнений для следующей темы.`});
  c.lectures.push(l);registry.push({lectureId:l.id,title:l.title,semester:l.semester,hours:null,slides:l.slides.length,questions:4,tasks:16,visuals:l.slides.filter(s=>s.visual||s.steps||s.rows).length,contentVersion:version,estimatedMinutes:withTeacher?Math.round(l.slides.reduce((n,s)=>n+teacher.notes[s.id].estimatedSeconds,0)/60):null});
 }
+validateOpeningResources(c,original.topics);
 const glossary=new Map();for(const g of c.glossary){const key=g.term+'|'+g.definition;if(glossary.has(key))glossary.get(key).slideIds.push(...g.slideIds);else glossary.set(key,g);}c.glossary=[...glossary.values()];
 for(const id of Object.keys(prior.slides))if(!source.slides[id])throw Error('Заметка ссылается на отсутствующий слайд: '+id);
 for(const d of ['public','reports','private','private/lectures'])fs.mkdirSync(d,{recursive:true});

@@ -1,0 +1,2393 @@
+{
+  "url": "http://127.0.0.1:4176/2026-PISID3-lecture/",
+  "startedAt": "2026-10-26T07:35:47.257Z",
+  "frames": [
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-start",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-main-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-additional-literature",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-sources",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-materials",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-route",
+      "theme": "light",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "01-project-decisions",
+      "slide": "01-project-decisions-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "02-roles-views",
+      "slide": "02-roles-views-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "03-artifact-map",
+      "slide": "03-artifact-map-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "04-requirement-sources",
+      "slide": "04-requirement-sources-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "05-interview-technique",
+      "slide": "05-interview-technique-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "06-requirement-classes",
+      "slide": "06-requirement-classes-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "07-requirement-quality",
+      "slide": "07-requirement-quality-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "08-user-story-acceptance",
+      "slide": "08-user-story-acceptance-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "09-assumptions-traceability",
+      "slide": "09-assumptions-traceability-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "10-entity-candidates",
+      "slide": "10-entity-candidates-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "11-project-glossary",
+      "slide": "11-project-glossary-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "12-business-rules",
+      "slide": "12-business-rules-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "13-attribute-composition",
+      "slide": "13-attribute-composition-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "14-data-history",
+      "slide": "14-data-history-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "15-model-revision",
+      "slide": "15-model-revision-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "16-decision-matrix",
+      "slide": "16-decision-matrix-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "17-adr",
+      "slide": "17-adr-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "18-nfr-impact",
+      "slide": "18-nfr-impact-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "19-defense",
+      "slide": "19-defense-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "20-ux-goals",
+      "slide": "20-ux-goals-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "21-information-architecture",
+      "slide": "21-information-architecture-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "22-wireframe-prototype",
+      "slide": "22-wireframe-prototype-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "23-forms-validation-states",
+      "slide": "23-forms-validation-states-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "24-design-system-accessibility",
+      "slide": "24-design-system-accessibility-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "25-rbac",
+      "slide": "25-rbac-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-start",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-main-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-additional-literature",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-sources",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-materials",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    },
+    {
+      "lecture": "26-auth-lockout",
+      "slide": "26-auth-lockout-route",
+      "theme": "dark",
+      "presenter": true,
+      "audience": true
+    }
+  ],
+  "qr": [
+    {
+      "url": "https://www.iprbookshop.ru/144813.html",
+      "decoded": true
+    },
+    {
+      "url": "https://www.iprbookshop.ru/144814.html",
+      "decoded": true
+    },
+    {
+      "url": "https://www.iprbookshop.ru/152882.html",
+      "decoded": true
+    },
+    {
+      "url": "https://www.iprbookshop.ru/123442.html",
+      "decoded": true
+    },
+    {
+      "url": "https://protect.gost.ru/gost/details/2899faee-25e2-4cd1-9f30-e7e01a4b9b8d",
+      "decoded": true
+    },
+    {
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+      "decoded": true
+    },
+    {
+      "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+      "decoded": true
+    },
+    {
+      "url": "https://disk.yandex.ru/d/DZrrswBj5gcUuw",
+      "decoded": true
+    },
+    {
+      "url": "https://protect.gost.ru/document.aspx?control=7&id=240532",
+      "decoded": true
+    },
+    {
+      "url": "https://ireb.org/en/downloads",
+      "decoded": true
+    },
+    {
+      "url": "https://www.iso.org/obp/ui#!iso:std:iso-iec-ieee:29148:ed-2:v1:en",
+      "decoded": true
+    },
+    {
+      "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories",
+      "decoded": true
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "decoded": true
+    },
+    {
+      "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+      "decoded": true
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "decoded": true
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "decoded": true
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification",
+      "decoded": true
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+      "decoded": true
+    },
+    {
+      "url": "https://csrc.nist.gov/glossary/term/role_based_access_control",
+      "decoded": true
+    }
+  ],
+  "mobile": [
+    "01-project-decisions-main-literature",
+    "01-project-decisions-additional-literature",
+    "01-project-decisions-sources",
+    "01-project-decisions-materials",
+    "08-user-story-acceptance-main-literature",
+    "08-user-story-acceptance-additional-literature",
+    "08-user-story-acceptance-sources",
+    "08-user-story-acceptance-materials",
+    "26-auth-lockout-main-literature",
+    "26-auth-lockout-additional-literature",
+    "26-auth-lockout-sources",
+    "26-auth-lockout-materials"
+  ],
+  "print": [
+    "01-project-decisions-main-literature",
+    "01-project-decisions-additional-literature",
+    "01-project-decisions-sources",
+    "01-project-decisions-materials",
+    "02-roles-views-main-literature",
+    "02-roles-views-additional-literature",
+    "02-roles-views-sources",
+    "02-roles-views-materials",
+    "03-artifact-map-main-literature",
+    "03-artifact-map-additional-literature",
+    "03-artifact-map-sources",
+    "03-artifact-map-materials",
+    "04-requirement-sources-main-literature",
+    "04-requirement-sources-additional-literature",
+    "04-requirement-sources-sources",
+    "04-requirement-sources-materials",
+    "05-interview-technique-main-literature",
+    "05-interview-technique-additional-literature",
+    "05-interview-technique-sources",
+    "05-interview-technique-materials",
+    "06-requirement-classes-main-literature",
+    "06-requirement-classes-additional-literature",
+    "06-requirement-classes-sources",
+    "06-requirement-classes-materials",
+    "07-requirement-quality-main-literature",
+    "07-requirement-quality-additional-literature",
+    "07-requirement-quality-sources",
+    "07-requirement-quality-materials",
+    "08-user-story-acceptance-main-literature",
+    "08-user-story-acceptance-additional-literature",
+    "08-user-story-acceptance-sources",
+    "08-user-story-acceptance-materials",
+    "09-assumptions-traceability-main-literature",
+    "09-assumptions-traceability-additional-literature",
+    "09-assumptions-traceability-sources",
+    "09-assumptions-traceability-materials",
+    "10-entity-candidates-main-literature",
+    "10-entity-candidates-additional-literature",
+    "10-entity-candidates-sources",
+    "10-entity-candidates-materials",
+    "11-project-glossary-main-literature",
+    "11-project-glossary-additional-literature",
+    "11-project-glossary-sources",
+    "11-project-glossary-materials",
+    "12-business-rules-main-literature",
+    "12-business-rules-additional-literature",
+    "12-business-rules-sources",
+    "12-business-rules-materials",
+    "13-attribute-composition-main-literature",
+    "13-attribute-composition-additional-literature",
+    "13-attribute-composition-sources",
+    "13-attribute-composition-materials",
+    "14-data-history-main-literature",
+    "14-data-history-additional-literature",
+    "14-data-history-sources",
+    "14-data-history-materials",
+    "15-model-revision-main-literature",
+    "15-model-revision-additional-literature",
+    "15-model-revision-sources",
+    "15-model-revision-materials",
+    "16-decision-matrix-main-literature",
+    "16-decision-matrix-additional-literature",
+    "16-decision-matrix-sources",
+    "16-decision-matrix-materials",
+    "17-adr-main-literature",
+    "17-adr-additional-literature",
+    "17-adr-sources",
+    "17-adr-materials",
+    "18-nfr-impact-main-literature",
+    "18-nfr-impact-additional-literature",
+    "18-nfr-impact-sources",
+    "18-nfr-impact-materials",
+    "19-defense-main-literature",
+    "19-defense-additional-literature",
+    "19-defense-sources",
+    "19-defense-materials",
+    "20-ux-goals-main-literature",
+    "20-ux-goals-additional-literature",
+    "20-ux-goals-sources",
+    "20-ux-goals-materials",
+    "21-information-architecture-main-literature",
+    "21-information-architecture-additional-literature",
+    "21-information-architecture-sources",
+    "21-information-architecture-materials",
+    "22-wireframe-prototype-main-literature",
+    "22-wireframe-prototype-additional-literature",
+    "22-wireframe-prototype-sources",
+    "22-wireframe-prototype-materials",
+    "23-forms-validation-states-main-literature",
+    "23-forms-validation-states-additional-literature",
+    "23-forms-validation-states-sources",
+    "23-forms-validation-states-materials",
+    "24-design-system-accessibility-main-literature",
+    "24-design-system-accessibility-additional-literature",
+    "24-design-system-accessibility-sources",
+    "24-design-system-accessibility-materials",
+    "25-rbac-main-literature",
+    "25-rbac-additional-literature",
+    "25-rbac-sources",
+    "25-rbac-materials",
+    "26-auth-lockout-main-literature",
+    "26-auth-lockout-additional-literature",
+    "26-auth-lockout-sources",
+    "26-auth-lockout-materials"
+  ],
+  "errors": [],
+  "version": "pisid3-2026.10.26-resources",
+  "courseSha256": "ebda0df3812435ffd25c981e9beea0f46e6f1d004b82362dfb9930c0be5cb0a2",
+  "status": "passed",
+  "finishedAt": "2026-10-26T07:38:25.824Z"
+}
