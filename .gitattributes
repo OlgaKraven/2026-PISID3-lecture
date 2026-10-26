@@ -13,4 +13,5 @@ vendor/** -text
 public/course.json -text
 public/teacher-pack.json -text
 docs/teaching/** -text
+docs/OPENING-RESOURCES-2026-10-26.md -text
 reports/*.json -text

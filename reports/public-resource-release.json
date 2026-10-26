@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "contentCommit": "ded0ba3bd6b51925709eefc75d86859af6d5e81a",
+  "workflow": {
+    "id": 40287203205,
+    "conclusion": "success",
+    "url": "https://github.com/OlgaKraven/2026-PISID3-lecture/actions/runs/40287203205"
+  },
+  "version": "pisid3-2026.10.26-resources",
+  "courseSha256": "ebda0df3812435ffd25c981e9beea0f46e6f1d004b82362dfb9930c0be5cb0a2",
+  "publicShowStates": 312,
+  "eachStateInBothWindows": true,
+  "mobile": 24,
+  "printResourceSlides": 104,
+  "decodedUniqueQrLinks": 19,
+  "identicalPublishedFiles": 73,
+  "proofs": {
+    "reports/public-opening-resources.json": "3e30550974e945f235aefb18e5ebf63bb510de13483c0dead27b2b11188b4a1b",
+    "reports/public-resource-source.json": "f9d93a29f01c07d7ab92b1ca48f4bb8fa7eb52e68853fa050ceb16a0fd818298",
+    "reports/resource-delta.json": "2b902defe65eebc96797294c9af0650b268b79b52e523b3205b506461cf12bf7"
+  },
+  "scope": "Opening resources and publication; unchanged subject content retains the preceding review with explicit delta proof."
+}
